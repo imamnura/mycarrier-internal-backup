@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@configs/*": ["src/configs/*"],
+      "@configs": ["src/configs"],
+      "@constants/*": ["src/constants/*"],
+      "@constants": ["src/constants"],
+      "@containers/*": ["src/containers/*"],
+      "@context/*": ["src/context/*"],
+      "@firebaseConfig/*": ["src/firebase/*"],
+      "@fragments/*": ["src/fragments/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@reducers": ["src/reducers"],
+      "@reducers/*": ["src/reducers/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@__old/*": ["src/__old/*"]
+    }
+  }
+}
