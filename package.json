@@ -34,7 +34,7 @@
     "@react-leaflet/universal-leaflet": "^1.0.1",
     "@reduxjs/toolkit": "^1.9.5",
     "analytics": "^0.8.9",
-    "axios": "^0.21.1",
+    "axios": "^0.30.2",
     "clsx": "^1.1.1",
     "cross-env": "^7.0.3",
     "crypsi.js": "^1.0.1",
