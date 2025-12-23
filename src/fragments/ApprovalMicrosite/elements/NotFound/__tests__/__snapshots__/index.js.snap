@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/NotFound/elements/NotFound render 1`] = `
+<Typography
+  className=""
+  color="inherit"
+  inline={false}
+  variant="subtitle1"
+  weight="bold"
+>
+  Data Not Found
+</Typography>
+`;

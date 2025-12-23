@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/ButtonMinimal render 1`] = `
+<WithStyles(ForwardRef(ButtonBase))
+  className="makeStyles-root-1"
+  onClick={[Function]}
+>
+  <Styled(MuiBox)
+    alignItems="center"
+    display="flex"
+    position="absolute"
+    visibility="hidden"
+  >
+    <Loading
+      color="success"
+      size="small"
+    />
+    <Typography
+      className="makeStyles-label-3"
+      color="inherit"
+      inline={false}
+      variant="buttonM"
+      weight="bold"
+    >
+      Please wait...
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+    visibility="inherit"
+  >
+    <CircleAdd
+      className="makeStyles-icon-2"
+    />
+    <Typography
+      className="makeStyles-label-3"
+      color="inherit"
+      inline={false}
+      variant="buttonM"
+      weight="bold"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(ButtonBase))>
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Checkbox render 1`] = `
+<ForwardRef
+  checkedIcon={
+    <CheckboxChecked
+      className="makeStyles-icon-2"
+    />
+  }
+  classes={
+    Object {
+      "checked": "makeStyles-main-3",
+      "disabled": "makeStyles-disabled-1",
+      "indeterminate": "makeStyles-main-3",
+      "root": "makeStyles-root-4",
+    }
+  }
+  disableRipple={true}
+  icon={
+    <CheckboxIdle
+      className="makeStyles-icon-2"
+    />
+  }
+  indeterminateIcon={
+    <CheckboxIndeterminate
+      className="makeStyles-icon-2"
+    />
+  }
+/>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Select render/Desktop 1`] = `
+<SelectPrimary
+  error={false}
+  helperText=""
+  hideNullHelperText={false}
+  isMulti={false}
+  label=""
+  noBorder={true}
+  onChange={[MockFunction]}
+  options={Array []}
+  placeholder="Choose Options"
+  rawValue={false}
+  required={false}
+  value=""
+/>
+`;
+
+exports[`src/components/Select render/Mobile 1`] = `
+<Select
+  error={false}
+  helperText=""
+  isMulti={false}
+  label=""
+  noBorder={true}
+  onChange={[MockFunction]}
+  options={Array []}
+  placeholder="Choose Options"
+  rawValue={false}
+  required={false}
+  value=""
+/>
+`;

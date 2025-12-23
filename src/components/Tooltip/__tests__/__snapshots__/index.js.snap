@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Tooltip render 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "arrow": "makeStyles-arrow-1",
+      "tooltip": "makeStyles-tooltip-2",
+    }
+  }
+  title="aaa"
+>
+  <span>
+    asdsd
+  </span>
+</WithStyles(ForwardRef(Tooltip))>
+`;

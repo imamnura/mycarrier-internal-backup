@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ConfirmationDialog render 1`] = `
+<WithStyles(Component)
+  disableClose={true}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="h5"
+      >
+        
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="body1"
+      >
+        label
+      </WithStyles(Component)>
+      <div>
+        <WithStyles(Component)
+          variant="caption"
+        >
+          secondary
+        </WithStyles(Component)>
+        <br />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        justify="center"
+        spacing={1}
+        style={
+          Object {
+            "paddingTop": 8,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs="auto"
+        >
+          <WithStyles(Component)
+            onClick={[MockFunction]}
+            variant="secondary"
+          >
+            label 1
+          </WithStyles(Component)>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs="auto"
+        >
+          <WithStyles(Component)
+            onClick={[MockFunction]}
+            variant="primary"
+          >
+            label 2
+          </WithStyles(Component)>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/ConfirmationDialog render 3 actions 1`] = `
+<WithStyles(Component)
+  disableClose={true}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="h5"
+      >
+        
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="body1"
+      >
+        label
+      </WithStyles(Component)>
+      <div>
+        <WithStyles(Component)
+          variant="caption"
+        >
+          secondary
+        </WithStyles(Component)>
+        <br />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        justify="center"
+        spacing={1}
+        style={
+          Object {
+            "paddingTop": 8,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Component)
+            onClick={[MockFunction]}
+            variant="primary"
+          >
+            label 1
+          </WithStyles(Component)>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Component)
+            onClick={[MockFunction]}
+            variant="secondary"
+          >
+            label 2
+          </WithStyles(Component)>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Component)
+            onClick={[MockFunction]}
+            variant="secondary"
+          >
+            label 3
+          </WithStyles(Component)>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

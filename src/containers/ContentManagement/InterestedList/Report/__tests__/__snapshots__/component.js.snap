@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/InterestedList/Report/component render 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/InterestedList/Report/component render change tab 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/InterestedList/Report/component render read_graphic_interested 1`] = `ShallowWrapper {}`;

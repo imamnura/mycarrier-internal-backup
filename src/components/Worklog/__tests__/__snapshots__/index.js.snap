@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Worklog render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-worklogItem-1"
+  >
+    <div
+      className="makeStyles-node-2 makeStyles-activeNode-3"
+    />
+    <div
+      className="makeStyles-content-4"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={true}
+          variant="body2"
+          weight="normal"
+        >
+          21/05/2020 11:42:31
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <Styled(MuiBox)
+        mt={0.5}
+      >
+        <Text
+          size="16px"
+          weight="600"
+        >
+          TELKOMREG-AM | APPROVED
+        </Text>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Document approved
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </div>
+  <div
+    className="makeStyles-worklogItem-1"
+  >
+    <div
+      className="makeStyles-node-2"
+    />
+    <div
+      className="makeStyles-content-4"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={true}
+          variant="body2"
+          weight="normal"
+        >
+          21/05/2020 11:42:51
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <Styled(MuiBox)
+        mt={0.5}
+      >
+        <Text
+          size="16px"
+          weight="600"
+        >
+          TELKOMREG-AM | APPROVED
+        </Text>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Document approved
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </div>
+  <div
+    className="makeStyles-worklogItem-1"
+  >
+    <div
+      className="makeStyles-node-2"
+    />
+    <div
+      className="makeStyles-content-4 makeStyles-lastContent-5"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={true}
+          variant="body2"
+          weight="normal"
+        >
+          21/05/2020 11:42:51
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <Styled(MuiBox)
+        mt={0.5}
+      >
+        <Text
+          size="16px"
+          weight="600"
+        >
+          TELKOMREG-AM | APPROVED
+        </Text>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)>
+        <React.Fragment>
+          0
+        </React.Fragment>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <div
+          className="makeStyles-worklogItem-1"
+        >
+          <div
+            className="makeStyles-node-2"
+          />
+          <div
+            className="makeStyles-content-4 makeStyles-lastChild-6"
+          >
+            <Typography
+              className=""
+              color="general-mid"
+              inline={true}
+              variant="body2"
+              weight="normal"
+            >
+              21/05/2020 11:42:51
+            </Typography>
+            <Styled(MuiBox)
+              mt={0.5}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                Activity
+              </Typography>
+            </Styled(MuiBox)>
+          </div>
+        </div>
+      </Styled(MuiBox)>
+    </div>
+  </div>
+</React.Fragment>
+`;

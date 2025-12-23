@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/List/elements/Summary/index render 1`] = `
+<div>
+  <div>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      Lead Submit Summary
+    </Typography>
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[MockFunction]}
+    >
+      <Maximize />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+  <div>
+    <DateRangePicker
+      label="Date Submit"
+      onChange={[MockFunction]}
+      value={Array []}
+      variant="secondary"
+    />
+  </div>
+  <WithStyles(ForwardRef(Divider)) />
+  <div>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "minWidth": 100,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Total Submit
+          </Typography>
+          <Typography
+            className=""
+            color="general-main"
+            inline={true}
+            variant="h2"
+            weight="bold"
+          >
+            Object {}
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <PieChart
+          arcLinkLabelsDiagonalLength={8}
+          arcLinkLabelsStraightLength={8}
+          arcLinkLabelsTextOffset={4}
+          arcLinkLabelsThickness={2}
+          data={
+            Array [
+              Object {
+                "color": "test",
+                "label": "test",
+              },
+            ]
+          }
+          height={240}
+          indexBy="label"
+          legends={false}
+          loading={false}
+          margin={
+            Object {
+              "bottom": 40,
+              "left": 64,
+              "right": 64,
+              "top": 40,
+            }
+          }
+          theme={
+            Object {
+              "axis": Object {
+                "label": Object {
+                  "text": Object {
+                    "fontSize": 10,
+                  },
+                },
+              },
+              "fontFamily": "Titillium Web",
+              "fontSize": 12,
+              "textColor": "#3B525C",
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <ChartLegend
+            color="test"
+            labelProps={
+              Object {
+                "weight": "normal",
+              }
+            }
+            variant="bar"
+          >
+            test
+          </ChartLegend>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/List/elements/Summary/index render loading true 1`] = `
+<div>
+  <div>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      Lead Submit Summary
+    </Typography>
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[MockFunction]}
+    >
+      <Maximize />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+  <div>
+    <DateRangePicker
+      label="Date Submit"
+      onChange={[MockFunction]}
+      value={Array []}
+      variant="secondary"
+    />
+  </div>
+  <WithStyles(ForwardRef(Divider)) />
+  <div>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "minWidth": 100,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Total Submit
+          </Typography>
+          <Typography
+            className=""
+            color="general-main"
+            inline={true}
+            variant="h2"
+            weight="bold"
+          >
+            0
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <PieChart
+          arcLinkLabelsDiagonalLength={8}
+          arcLinkLabelsStraightLength={8}
+          arcLinkLabelsTextOffset={4}
+          arcLinkLabelsThickness={2}
+          data={
+            Array [
+              Object {
+                "color": "test",
+                "label": "test",
+              },
+            ]
+          }
+          height={240}
+          indexBy="label"
+          legends={false}
+          loading={true}
+          margin={
+            Object {
+              "bottom": 40,
+              "left": 64,
+              "right": 64,
+              "top": 40,
+            }
+          }
+          theme={
+            Object {
+              "axis": Object {
+                "label": Object {
+                  "text": Object {
+                    "fontSize": 10,
+                  },
+                },
+              },
+              "fontFamily": "Titillium Web",
+              "fontSize": 12,
+              "textColor": "#3B525C",
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        style={
+          Object {
+            "padding": "0",
+          }
+        }
+        xs={12}
+      >
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <ChartLegend
+            color="test"
+            labelProps={
+              Object {
+                "weight": "normal",
+              }
+            }
+            variant="bar"
+          >
+            test
+          </ChartLegend>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;

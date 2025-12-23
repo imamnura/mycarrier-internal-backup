@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Hero/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Name & Logo"
+  />
+  <Styled(MuiBox)
+    minHeight={503}
+    p={4}
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "textAlign": "center",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+      sx={
+        Object {
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[Function]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [Function],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="background"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "width": "50%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": "1",
+          }
+        }
+      >
+        <UploadImage
+          alt="Link gambar disini.."
+          disabled={false}
+          getUpdateItem={[Function]}
+          isIcon={true}
+          isValidateByPixel={true}
+          item={
+            Object {
+              "mediaPath": "test",
+            }
+          }
+          maxSize={358400}
+          previewState={Object {}}
+          ratioPixel={
+            Array [
+              64,
+              64,
+            ]
+          }
+          sectionName="Icon Product"
+          sizeBig={false}
+          type="icon"
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": "1",
+          }
+        }
+        width="100%"
+      >
+        <Typography
+          className=""
+          color="white"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "width": "80%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
+        width="90%"
+      >
+        <TextField
+          colorPlaceholder="white"
+          control={Object {}}
+          disabled={false}
+          fontSize="2.25rem"
+          multiline={true}
+          name="L0 - Content PageHeroTitleid"
+          noSpacing={true}
+          placeholder="Ketik konten judul di sini dalam Bahasa.."
+          position="center"
+          weight="bold"
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        width="80%"
+      >
+        <TextEditorComp
+          onChange={[Function]}
+          previewMode={false}
+          tab="id"
+          value=""
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="white"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Geser kebawah
+      </Typography>
+      <ArrowDown />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Hero/index render tab en 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Name & Logo"
+  />
+  <Styled(MuiBox)
+    minHeight={503}
+    p={4}
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "textAlign": "center",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+      sx={
+        Object {
+          "height": "100%",
+          "left": 0,
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[Function]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [Function],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="background"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "width": "50%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": "1",
+          }
+        }
+      >
+        <UploadImage
+          alt="Link gambar disini.."
+          disabled={false}
+          getUpdateItem={[Function]}
+          isIcon={true}
+          isValidateByPixel={true}
+          item={
+            Object {
+              "mediaPath": "test",
+            }
+          }
+          maxSize={358400}
+          previewState={Object {}}
+          ratioPixel={
+            Array [
+              64,
+              64,
+            ]
+          }
+          sectionName="Icon Product"
+          sizeBig={false}
+          type="icon"
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": "1",
+          }
+        }
+        width="100%"
+      >
+        <Typography
+          className=""
+          color="white"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "width": "80%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
+        width="90%"
+      >
+        <TextField
+          colorPlaceholder="white"
+          control={Object {}}
+          disabled={false}
+          fontSize="2.25rem"
+          multiline={true}
+          name="L0 - Content PageHeroTitleen"
+          noSpacing={true}
+          placeholder="Type the content of the title here in English.."
+          position="center"
+          weight="bold"
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        width="80%"
+      >
+        <TextEditorComp
+          onChange={[Function]}
+          previewMode={false}
+          tab="en"
+          value=""
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "zIndex": 1,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="white"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Scroll down to see more
+      </Typography>
+      <ArrowDown />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;

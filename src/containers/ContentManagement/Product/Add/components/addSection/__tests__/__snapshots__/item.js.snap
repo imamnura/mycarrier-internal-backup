@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add/lib/components/item render 1`] = `
+<Item
+  action={Object {}}
+  active="test"
+  classes={Object {}}
+  label="test"
+/>
+`;

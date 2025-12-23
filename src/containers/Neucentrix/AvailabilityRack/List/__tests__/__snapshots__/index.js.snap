@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/AvailabilityRack/List render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": undefined,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Availability Rack",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Box
+    padding="24px 40px 0px 40px"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={6}
+      >
+        <Card
+          content=""
+          icon={[Function]}
+          labelDown="Ready for Sales"
+          labelUp="Utilized Rack"
+          loading={false}
+          onClick={null}
+          percentageDown=""
+          percentageUp=""
+          title="Installed Rack"
+          valueDown=""
+          valueUp=""
+          variant="general"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={6}
+      >
+        <Card
+          content=""
+          icon={[Function]}
+          labelDown="Usage Capacity"
+          labelUp="Power Available"
+          loading={false}
+          onClick={null}
+          percentageDown=""
+          percentageUp=""
+          title="Power Capacity"
+          valueDown=""
+          valueUp=""
+          variant="general"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Box>
+  <List
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={null}
+    table={
+      Object {
+        "data": Array [],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Object {},
+        "onPaginationChange": [Function],
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 80,
+              "width": 80,
+            },
+            "label": "Region",
+            "name": "region",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 320,
+              "width": 320,
+            },
+            "label": "Location Neucentrix",
+            "name": "neucentrixLocation",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Installed Rack",
+            "name": "installedRack",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Utilized Rack",
+            "name": "utilizedRack",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Ready for Sales",
+            "name": "readyForSalesRack",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Power Capacity",
+            "name": "powerCapacity",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Usage Capacity",
+            "name": "usageCapacity",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "label": "Power Available",
+            "name": "powerAvailable",
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Availability Rack"
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

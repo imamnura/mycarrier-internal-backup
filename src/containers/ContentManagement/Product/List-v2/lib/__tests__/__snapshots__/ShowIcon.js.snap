@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/List-v2/lib/ShowIcon run properly 1`] = `
+<Styled(MuiBox)
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Product/List-v2/lib/ShowIcon run properly isDisplay to be false 1`] = `
+<Styled(MuiBox)
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Product/List-v2/lib/ShowIcon run properly not access 1`] = `
+<Styled(MuiBox)
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Product/List-v2/lib/ShowIcon updateProduct have access and failed 1`] = `
+<Styled(MuiBox)
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;

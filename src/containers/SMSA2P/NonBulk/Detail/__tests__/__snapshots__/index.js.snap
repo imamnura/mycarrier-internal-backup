@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/SMSA2P/NonBulk/Detail render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Non Bulk",
+          "url": "/non-bulk",
+        },
+        Object {
+          "label": "test123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "custAccntName": "LINTAS JARINGAN NUSANTARA",
+                  "lastUpdate": "2022-09-06T16:12:46+07:00",
+                  "orderDate": "2022-09-06T16:12:46+07:00",
+                  "orderNumber": "NB-1662455547159",
+                  "status": "On Progress",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Order Number",
+                    "name": "orderNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Customer Name",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Order Date",
+                    "name": "orderDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Last Update",
+                    "name": "updateAt",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "brandName": "BrandNew",
+                  "campaignName": "campaign3334",
+                  "campaignType": "LBA",
+                  "channel": "SMS LBA",
+                  "companyName": "PT. Telekomunikasi Indonesia",
+                  "industryCategory": "ban",
+                  "senderId": "SUPER INDO",
+                  "whitelistUATExternal": "0852786612",
+                  "whitelistUATInternal": "0852786611",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Brand Name",
+                    "name": "brandName",
+                  },
+                  Object {
+                    "label": "Industry Category",
+                    "name": "industryCategory",
+                  },
+                  Object {
+                    "label": "Campaign Name",
+                    "name": "campaignName",
+                  },
+                  Object {
+                    "label": "Campaign Type",
+                    "name": "campaignType",
+                  },
+                  Object {
+                    "label": "Channel",
+                    "name": "channel",
+                  },
+                  Object {
+                    "label": "WHITELIST AND UAT INTERNAL",
+                    "name": "whitelistUATInternal",
+                  },
+                  Object {
+                    "label": "WHITELIST AND UAT EXTERNAL",
+                    "name": "whitelistUATExternal",
+                  },
+                  Object {
+                    "label": "SENDER ID/MASKING",
+                    "name": "senderId",
+                  },
+                ],
+              },
+              "title": "Brand & Product Order",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "campaignChild": "campaign3334_LINTASJARINGANNUSANTARA_304",
+                    "campaignEndDate": "2022-06-15T06:00:00.000Z",
+                    "campaignStartDate": "2022-06-15T01:00:00.000Z",
+                    "location": "Benowo - Benowo, Surabaya City, East Java, Indonesia",
+                    "quantity": "250",
+                    "wording": "Arek - Arek Suroboyo, Super Indo Citraland Utara Segera Buka 16 Juni 2022, Promo Pesta Seafood Udang Vaname AK 55-60 Rp 8.990/100gr, Berlaku 16-19 Juni 2022",
+                  },
+                  Object {
+                    "campaignChild": "campaign3334_LINTASJARINGANNUSANTARA_305",
+                    "campaignEndDate": "2022-06-16T06:00:00.000Z",
+                    "campaignStartDate": "2022-06-16T01:00:00.000Z",
+                    "location": "Benowo - Benowo, Surabaya City, East Java, Indonesia",
+                    "quantity": "250",
+                    "wording": "Arek - Arek Suroboyo, Super Indo Citraland Utara Segera Buka 16 Juni 2022, Promo Pesta Seafood Udang Vaname AK 55-60 Rp 8.990/100gr, Berlaku 16-19 Juni 2022",
+                  },
+                  Object {
+                    "campaignChild": "campaign3334_LINTASJARINGANNUSANTARA_306",
+                    "campaignEndDate": "2022-06-16T01:00:00.000Z",
+                    "campaignStartDate": "2022-06-16T01:00:00.000Z",
+                    "location": "Benowo - Benowo, Surabaya City, East Java, Indonesia",
+                    "quantity": "250",
+                    "wording": "Telah Buka Super Indo Citraland Utara 16 Juni 2022, Akeh Promo Seger Udang Vaname A5 55-60 Rp 8.990/100gr , Ikan Bawal Hitam Rp 6.490 Berlaku 16-19 Juni22",
+                  },
+                  Object {
+                    "campaignChild": "campaign3334_LINTASJARINGANNUSANTARA_307",
+                    "campaignEndDate": "2022-06-18T06:00:00.000Z",
+                    "campaignStartDate": "2022-06-18T01:00:00.000Z",
+                    "location": "Benowo - Benowo, Surabaya City, East Java, Indonesia",
+                    "quantity": "250",
+                    "wording": "Telah Buka Super Indo Citraland Utara 16 Juni 2022, Akeh Promo Seger Udang Vaname A5 55-60 Rp 8.990/100gr , Ikan Bawal Hitam Rp 6.490 Berlaku 16-19 Juni22",
+                  },
+                ],
+                "schema": Array [
+                  Object {
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                  Object {
+                    "label": "QUANTITY",
+                    "name": "quantity",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CAMPAIGN DATE",
+                    "name": "campaignDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "WORDING",
+                    "name": "wording",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "name": "campaignChild",
+                  },
+                ],
+              },
+              "title": "Campaign List",
+              "type": "numbering",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "steps": Array [
+                  "Submitted",
+                  "On Progress",
+                  "Completed",
+                ],
+              },
+              "title": "Order Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "On Progress",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    id="test123"
+    modalUpdateStatus={null}
+  />
+</React.Fragment>
+`;

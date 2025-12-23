@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Image/image onChange image default 1`] = `
+<React.Fragment>
+  <label
+    htmlFor="test"
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <div
+      alt=""
+      className="makeStyles-image-2"
+    >
+      <div
+        className="makeStyles-iconContainer-4"
+      >
+        <UploadImageWithCircle
+          className="makeStyles-icon-3"
+        />
+        <div
+          className="makeStyles-wordingImage-6"
+        >
+          <Typography
+            className=""
+            color="general-light"
+            inline={false}
+            variant="h4"
+            weight="normal"
+          >
+            test
+          </Typography>
+        </div>
+      </div>
+    </div>
+  </label>
+  <input
+    accept="image/*"
+    disabled={false}
+    hidden={true}
+    id="test"
+    onChange={[Function]}
+    type="file"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Image/image onChange image failed 1`] = `
+<React.Fragment>
+  <label
+    htmlFor="test"
+    style={
+      Object {
+        "cursor": "default",
+      }
+    }
+  >
+    <div
+      alt=""
+      className="makeStyles-image-38"
+    >
+      <div
+        className="makeStyles-iconContainer-40"
+      >
+        <UploadImageWithCircle
+          className="makeStyles-icon-39"
+        />
+        <div
+          className="makeStyles-wordingImage-42"
+        >
+          <Typography
+            className=""
+            color="general-light"
+            inline={false}
+            variant="h4"
+            weight="normal"
+          >
+            test
+          </Typography>
+        </div>
+      </div>
+    </div>
+  </label>
+  <input
+    accept="image/*"
+    disabled={true}
+    hidden={true}
+    id="test"
+    onChange={[Function]}
+    type="file"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Image/image onChange image isValidateByPixel 1`] = `
+<React.Fragment>
+  <label
+    htmlFor="test"
+    style={
+      Object {
+        "cursor": "default",
+      }
+    }
+  >
+    <div
+      alt=""
+      className="makeStyles-image-80"
+    >
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "relative",
+            "width": "100%",
+          }
+        }
+      >
+        <img
+          alt=""
+          className="makeStyles-image-80"
+          src="test"
+        />
+        <div
+          className="makeStyles-block-83"
+        />
+      </div>
+    </div>
+  </label>
+  <input
+    accept="image/*"
+    disabled={true}
+    hidden={true}
+    id="test"
+    onChange={[Function]}
+    type="file"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Image/image onChange image item 1`] = `
+<React.Fragment>
+  <label
+    htmlFor="test"
+    style={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <div
+      alt=""
+      className="makeStyles-image-62"
+    >
+      <div
+        className="makeStyles-iconContainer-64"
+      >
+        <UploadImageWithCircle
+          className="makeStyles-icon-63"
+        />
+        <div
+          className="makeStyles-wordingImage-66"
+        >
+          <Typography
+            className=""
+            color="general-light"
+            inline={false}
+            variant="h4"
+            weight="normal"
+          >
+            test
+          </Typography>
+        </div>
+      </div>
+    </div>
+  </label>
+  <input
+    accept="image/*"
+    disabled={false}
+    hidden={true}
+    id="test"
+    onChange={[Function]}
+    type="file"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Image/image onChange image maxSize 1`] = `
+<React.Fragment>
+  <label
+    htmlFor="test"
+    style={
+      Object {
+        "cursor": "default",
+      }
+    }
+  >
+    <div
+      alt=""
+      className="makeStyles-image-20"
+    >
+      <div
+        className="makeStyles-iconContainer-22"
+      >
+        <UploadImageWithCircle
+          className="makeStyles-icon-21"
+        />
+        <div
+          className="makeStyles-wordingImage-24"
+        >
+          <Typography
+            className=""
+            color="general-light"
+            inline={false}
+            variant="h4"
+            weight="normal"
+          >
+            test
+          </Typography>
+        </div>
+      </div>
+    </div>
+  </label>
+  <input
+    accept="image/*"
+    disabled={true}
+    hidden={true}
+    id="test"
+    onChange={[Function]}
+    type="file"
+  />
+</React.Fragment>
+`;

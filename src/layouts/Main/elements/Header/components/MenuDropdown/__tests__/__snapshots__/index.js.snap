@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/Main/elements/Header/components/MenuDropdown render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-iconOnly-3"
+    onClick={[Function]}
+  >
+    <Account
+      className="icon"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-6",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <StarOff
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Achievement
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <NotificationOff
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Notification Settings
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <Account
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        User Profile
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <Logout
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Logout
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;
+
+exports[`src/layouts/Main/elements/Header/components/MenuDropdown render 2 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-28"
+    onClick={[Function]}
+  >
+    <Account
+      className="makeStyles-account-22"
+    />
+    <div
+      className="makeStyles-label-25"
+    >
+      x
+    </div>
+    <ArrowDown
+      className="makeStyles-arrow-23"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-27",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-menuItem-26"
+      onClick={[Function]}
+    >
+      <StarOff
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Achievement
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-26"
+      onClick={[Function]}
+    >
+      <NotificationOff
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Notification Settings
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-26"
+      onClick={[Function]}
+    >
+      <Account
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        User Profile
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-26"
+      onClick={[Function]}
+    >
+      <Logout
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Logout
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;

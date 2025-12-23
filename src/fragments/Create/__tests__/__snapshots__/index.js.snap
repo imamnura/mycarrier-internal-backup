@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/Create render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <div
+    className="makeStyles-headerContainer-2"
+  >
+    <React.Fragment>
+      <Styled(MuiBox)
+        pt={3}
+      />
+      <span />
+    </React.Fragment>
+  </div>
+  <Styled(MuiBox)
+    className=""
+    pb={4}
+    px={5}
+  >
+    <span />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/fragments/Create render/loading 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={true}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <div
+    className="makeStyles-headerContainer-4"
+  >
+    <React.Fragment>
+      <Styled(MuiBox)
+        pt={3}
+      />
+      <span />
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;

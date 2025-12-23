@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/Detail/elements/SectionInformation render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={6}
+    xs={12}
+  >
+    <Information
+      label="satu"
+      value="-"
+      weight="normal"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={6}
+    xs={12}
+  >
+    <Information
+      label="dua"
+      value="-"
+      weight="normal"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={6}
+    xs={12}
+  >
+    <Information
+      label="tiga"
+      type="tags"
+      value={
+        Array [
+          <Chip
+            background="primary-main"
+            className=""
+            color="white"
+            colorIcon="default"
+            label="tag1"
+            weight="medium"
+          />,
+          <Chip
+            background="primary-main"
+            className=""
+            color="white"
+            colorIcon="default"
+            label="tag2"
+            weight="medium"
+          />,
+        ]
+      }
+      weight="normal"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={6}
+    xs={12}
+  >
+    <Information
+      label="lima"
+      type="tooltip"
+      value={
+        <Tooltip
+          placement="right"
+          title="xxx"
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "alignItems": "center",
+                "cursor": "default",
+                "display": "flex",
+                "width": "max-content",
+              }
+            }
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h5"
+              weight="medium"
+            >
+              -
+            </Typography>
+            <Information
+              style={
+                Object {
+                  "height": 16,
+                  "marginLeft": 8,
+                  "width": 16,
+                }
+              }
+            />
+          </Styled(MuiBox)>
+        </Tooltip>
+      }
+      weight="normal"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

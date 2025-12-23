@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/ReportNeucentrix/Detail/forms/AddCompanyName render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+  open={false}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h4"
+          weight="bold"
+        >
+          Are you sure want to add company details?
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="body1"
+          weight="normal"
+        >
+          Add company name to make this report clearly referred
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <AutoComplete
+          control={Object {}}
+          error={false}
+          helperText=""
+          label="CompanyName"
+          maxLength={160}
+          name="companyName"
+          options={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+          required={true}
+        />
+        <span>
+          <WithStyles(ForwardRef(Chip))
+            className="makeStyles-chip-1"
+            label="test"
+            variant="outlined"
+          />
+        </span>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Note"
+          maxLength={160}
+          minRows={3}
+          multiline={true}
+          name="note"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          NO
+        </Button>
+         
+        <Button
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          YES
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

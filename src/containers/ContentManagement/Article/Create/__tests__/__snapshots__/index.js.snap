@@ -1,0 +1,1013 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Article/Create render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelArticle",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": undefined,
+        "id": "btnSaveArticle",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+        "url": "/article-management",
+      },
+      Object {
+        "label": "Edit Article",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Article Attributes"
+      >
+        <Box>
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="id"
+            variant="default"
+          />
+        </Box>
+        <Box>
+          <AutoComplete
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Choose Article Category"
+            name="categoryArticle"
+            required={true}
+            rightAdornment={[Function]}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Article Name (id)"
+            maxLength={140}
+            name="nameid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Caption (id)"
+            maxLength={255}
+            minRows={4}
+            multiline={true}
+            name="captionid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 1MB and minimum resolution 600px X 400px."
+            label="Add Image File"
+            maxSize={1048576}
+            name="imageFile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                600,
+                400,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+            withCropper={true}
+          />
+        </Box>
+        <Box
+          mb="8px"
+          mt="16px"
+        >
+          <Box
+            mb="8px"
+          >
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Story (id)
+            </Typography>
+          </Box>
+          <Wysiwyg
+            config={Object {}}
+            error={false}
+            helperText={false}
+            onChange={[MockFunction]}
+            value=""
+            variant="article"
+          />
+        </Box>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Related Product"
+      >
+        <Box>
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label=""
+            name="relatedProduct"
+            options={Array []}
+            placeholder="Choose Related Product"
+            required={false}
+            shouldUnregister={false}
+            staticWidth="100%"
+          />
+        </Box>
+      </Card>
+      <Card
+        title="Focus Keyword"
+      >
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Type Keyword"
+            maxLength={40}
+            name="keyword"
+            onKeyDown={[MockFunction]}
+            placeholder="Press enter to add keyword, max 4 keyword"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Component
+        caption=""
+        classes={
+          Object {
+            "chip": "makeStyles-chip-2",
+            "contentKeyword": "makeStyles-contentKeyword-5",
+            "imagePreview": "makeStyles-imagePreview-1",
+            "sectionCaption": "makeStyles-sectionCaption-4",
+            "textTitleThumbnail": "makeStyles-textTitleThumbnail-3",
+          }
+        }
+        imgPreview=""
+        relatedProduct={Array []}
+        story=""
+        tab="id"
+        title=""
+        updatedAt=""
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create render another state tab id 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelArticle",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": undefined,
+        "id": "btnSaveArticle",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+        "url": "/article-management",
+      },
+      Object {
+        "label": "Add Article",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Article Attributes"
+      >
+        <Box>
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="id"
+            variant="default"
+          />
+        </Box>
+        <Box>
+          <AutoComplete
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Choose Article Category"
+            name="categoryArticle"
+            required={true}
+            rightAdornment={[Function]}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Article Name (id)"
+            maxLength={140}
+            name="nameid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Caption (id)"
+            maxLength={255}
+            minRows={4}
+            multiline={true}
+            name="captionid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 1MB and minimum resolution 600px X 400px."
+            label="Add Image File"
+            maxSize={1048576}
+            name="imageFile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                600,
+                400,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+            withCropper={true}
+          />
+        </Box>
+        <Box
+          mb="8px"
+          mt="16px"
+        >
+          <Box
+            mb="8px"
+          >
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Story (id)
+            </Typography>
+          </Box>
+          <Wysiwyg
+            config={Object {}}
+            error={false}
+            helperText={
+              <Typography
+                className=""
+                color="primary-main"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                Story (id) is a required field
+              </Typography>
+            }
+            onChange={[MockFunction]}
+            value="Ketik story konten di sini dalam Bahasa.."
+            variant="article"
+          />
+        </Box>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Related Product"
+      >
+        <Box>
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label=""
+            name="relatedProduct"
+            options={Array []}
+            placeholder="Choose Related Product"
+            required={false}
+            shouldUnregister={false}
+            staticWidth="100%"
+          />
+          <span>
+            <Chip
+              background="white"
+              className=""
+              color="general-mid"
+              colorIcon="red"
+              label="test"
+              variant="outlined"
+              weight="normal"
+            />
+          </span>
+        </Box>
+      </Card>
+      <Card
+        title="Focus Keyword"
+      >
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Type Keyword"
+            maxLength={40}
+            name="keyword"
+            onKeyDown={[MockFunction]}
+            placeholder="Press enter to add keyword, max 4 keyword"
+            required={true}
+            shouldUnregister={false}
+          />
+          <span>
+            <Chip
+              background="white"
+              className=""
+              color="general-mid"
+              colorIcon="red"
+              label="test"
+              variant="outlined"
+              weight="normal"
+            />
+          </span>
+        </Box>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Component
+        caption=""
+        classes={
+          Object {
+            "chip": "makeStyles-chip-7",
+            "contentKeyword": "makeStyles-contentKeyword-10",
+            "imagePreview": "makeStyles-imagePreview-6",
+            "sectionCaption": "makeStyles-sectionCaption-9",
+            "textTitleThumbnail": "makeStyles-textTitleThumbnail-8",
+          }
+        }
+        imgPreview=""
+        relatedProduct={
+          Array [
+            Object {
+              "label": "test",
+            },
+          ]
+        }
+        story="Ketik story konten di sini dalam Bahasa.."
+        tab="id"
+        title=""
+        updatedAt=""
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create render state tab en & value story 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelArticle",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": undefined,
+        "id": "btnSaveArticle",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+        "url": "/article-management",
+      },
+      Object {
+        "label": "Edit Article",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Article Attributes"
+      >
+        <Box>
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="en"
+            variant="default"
+          />
+        </Box>
+        <Box>
+          <AutoComplete
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Choose Article Category"
+            name="categoryArticle"
+            required={true}
+            rightAdornment={[Function]}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Article Name (en)"
+            maxLength={140}
+            name="nameen"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Caption (en)"
+            maxLength={255}
+            minRows={4}
+            multiline={true}
+            name="captionen"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 1MB and minimum resolution 600px X 400px."
+            label="Add Image File"
+            maxSize={1048576}
+            name="imageFile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                600,
+                400,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+            withCropper={true}
+          />
+        </Box>
+        <Box
+          mb="8px"
+          mt="16px"
+        >
+          <Box
+            mb="8px"
+          >
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Story (en)
+            </Typography>
+          </Box>
+          <Wysiwyg
+            config={Object {}}
+            error={false}
+            helperText={
+              <Typography
+                className=""
+                color="primary-main"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                Story (en) is a required field
+              </Typography>
+            }
+            onChange={[MockFunction]}
+            value="Type content story here in English.."
+            variant="article"
+          />
+        </Box>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Related Product"
+      >
+        <Box>
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label=""
+            name="relatedProduct"
+            options={Array []}
+            placeholder="Choose Related Product"
+            required={false}
+            shouldUnregister={false}
+            staticWidth="100%"
+          />
+        </Box>
+      </Card>
+      <Card
+        title="Focus Keyword"
+      >
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Type Keyword"
+            maxLength={40}
+            name="keyword"
+            onKeyDown={[MockFunction]}
+            placeholder="Press enter to add keyword, max 4 keyword"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Component
+        caption=""
+        classes={
+          Object {
+            "chip": "makeStyles-chip-17",
+            "contentKeyword": "makeStyles-contentKeyword-20",
+            "imagePreview": "makeStyles-imagePreview-16",
+            "sectionCaption": "makeStyles-sectionCaption-19",
+            "textTitleThumbnail": "makeStyles-textTitleThumbnail-18",
+          }
+        }
+        imgPreview=""
+        relatedProduct={Array []}
+        story="Type content story here in English.."
+        tab="en"
+        title=""
+        updatedAt=""
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create render state tab en 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelArticle",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": undefined,
+        "id": "btnSaveArticle",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+        "url": "/article-management",
+      },
+      Object {
+        "label": "Add Article",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Article Attributes"
+      >
+        <Box>
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="en"
+            variant="default"
+          />
+        </Box>
+        <Box>
+          <AutoComplete
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Choose Article Category"
+            name="categoryArticle"
+            required={true}
+            rightAdornment={[Function]}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Article Name (en)"
+            maxLength={140}
+            name="nameen"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Caption (en)"
+            maxLength={255}
+            minRows={4}
+            multiline={true}
+            name="captionen"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Box>
+        <Box>
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 1MB and minimum resolution 600px X 400px."
+            label="Add Image File"
+            maxSize={1048576}
+            name="imageFile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                600,
+                400,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+            withCropper={true}
+          />
+        </Box>
+        <Box
+          mb="8px"
+          mt="16px"
+        >
+          <Box
+            mb="8px"
+          >
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Story (en)
+            </Typography>
+          </Box>
+          <Wysiwyg
+            config={Object {}}
+            error={false}
+            helperText={false}
+            onChange={[MockFunction]}
+            value="test"
+            variant="article"
+          />
+        </Box>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "24px",
+          }
+        }
+        title="Related Product"
+      >
+        <Box>
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label=""
+            name="relatedProduct"
+            options={Array []}
+            placeholder="Choose Related Product"
+            required={false}
+            shouldUnregister={false}
+            staticWidth="100%"
+          />
+          <span>
+            <Chip
+              background="white"
+              className=""
+              color="general-mid"
+              colorIcon="red"
+              label="test"
+              variant="outlined"
+              weight="normal"
+            />
+          </span>
+        </Box>
+      </Card>
+      <Card
+        title="Focus Keyword"
+      >
+        <Box>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Type Keyword"
+            maxLength={40}
+            name="keyword"
+            onKeyDown={[MockFunction]}
+            placeholder="Press enter to add keyword, max 4 keyword"
+            required={true}
+            shouldUnregister={false}
+          />
+          <span>
+            <Chip
+              background="white"
+              className=""
+              color="general-mid"
+              colorIcon="red"
+              label="test"
+              variant="outlined"
+              weight="normal"
+            />
+          </span>
+        </Box>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Component
+        caption=""
+        classes={
+          Object {
+            "chip": "makeStyles-chip-12",
+            "contentKeyword": "makeStyles-contentKeyword-15",
+            "imagePreview": "makeStyles-imagePreview-11",
+            "sectionCaption": "makeStyles-sectionCaption-14",
+            "textTitleThumbnail": "makeStyles-textTitleThumbnail-13",
+          }
+        }
+        imgPreview=""
+        relatedProduct={
+          Array [
+            Object {
+              "label": "test",
+            },
+          ]
+        }
+        story="test"
+        tab="en"
+        title=""
+        updatedAt=""
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;

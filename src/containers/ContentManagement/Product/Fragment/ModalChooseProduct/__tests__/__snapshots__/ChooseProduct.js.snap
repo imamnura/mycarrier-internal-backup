@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Fragment/ModalChooseProduct render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <div>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      Choose Content Menu
+    </Typography>
+  </div>
+  <div
+    id="btnListMenuContent"
+    onClick={[Function]}
+  >
+    <ProductModal
+      className="undefined"
+    />
+    <div>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="bold"
+      >
+        Full Product Category
+      </Typography>
+      <div>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Can add all page (Level 0 page, Level 1 page, Level 2 category and Product Detail page)
+        </Typography>
+      </div>
+    </div>
+  </div>
+  <div
+    id="btnListMenuContent"
+    onClick={[Function]}
+  >
+    <ProductModal
+      className=""
+    />
+    <div>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="bold"
+      >
+        Half Product Category
+      </Typography>
+      <div>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Just add Level 0 & Level 1 page
+        </Typography>
+      </div>
+    </div>
+  </div>
+  <div
+    id="btnListMenuContent"
+    onClick={[Function]}
+  >
+    <ProductModal
+      className=""
+    />
+    <div>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="bold"
+      >
+        Single Product Category
+      </Typography>
+      <div>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Only add Level 0 page (this product category only have Level 0 page)
+        </Typography>
+      </div>
+    </div>
+  </div>
+  <div>
+    <Button
+      disabled={false}
+      id="cancelAddContentHomepage"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={12}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CANCEL
+    </Button>
+    <Button
+      disabled={false}
+      id="addContentHomepage"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      GO AHEAD
+    </Button>
+  </div>
+</WithStyles(Component)>
+`;

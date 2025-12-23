@@ -1,0 +1,572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail RefreshNote 1`] = `
+<Note
+  message=""
+  variant="general"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "textAlign": "left",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mb={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Invoice Number
+        </Typography>
+      </Styled(MuiBox)>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="bold"
+      >
+        
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mb={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Status
+        </Typography>
+      </Styled(MuiBox)>
+      <Status
+        rounded={false}
+        size="small"
+        variant="tag"
+      >
+        
+      </Status>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Note>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail RefreshNote/others 1`] = `
+<Note
+  message=""
+  variant="general"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "textAlign": "left",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mb={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Invoice Number
+        </Typography>
+      </Styled(MuiBox)>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="bold"
+      >
+        
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mb={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Old Status
+        </Typography>
+      </Styled(MuiBox)>
+      <Status
+        rounded={false}
+        size="small"
+        variant="tag"
+      >
+        
+      </Status>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)>
+         
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        color="#B3C3CA"
+        height={24}
+        width={24}
+      >
+        [Function]
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mb={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          New Status
+        </Typography>
+      </Styled(MuiBox)>
+      <Status
+        rounded={false}
+        size="small"
+        variant="tag"
+      >
+        xxx
+      </Status>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Note>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "id": "bill-and-payment-company-detail-sections-customer-information",
+              "render": <Box
+                className="css-13hj8wy"
+              >
+                <Box>
+                  <Flex
+                    alignX="space-between"
+                    alignY="center"
+                    pr="32px"
+                    style={
+                      Object {
+                        "justifyContent": "space-between",
+                        "padding": "0",
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    <Box
+                      pt="16px"
+                    >
+                      <UploadImage
+                        alt="Logo Customer"
+                        bpNumber={null}
+                        getUpdateItem={[Function]}
+                        isValidateByPixel={true}
+                        maxSize={2048000}
+                        ratioPixel={
+                          Array [
+                            200,
+                            200,
+                          ]
+                        }
+                        sectionName="Logo Customer"
+                        value={Object {}}
+                        wordingImage="Upload Cust logo .png .jpg"
+                        wordingVariant="caption"
+                      />
+                    </Box>
+                    <div
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "flexWrap": "wrap",
+                          "width": "80%",
+                        }
+                      }
+                    >
+                      <Box
+                        pt="16px"
+                        style={
+                          Object {
+                            "width": "50%",
+                          }
+                        }
+                      >
+                        <Information
+                          label="Customer"
+                          value={null}
+                          weight="normal"
+                        />
+                      </Box>
+                      <Box
+                        pt="16px"
+                        style={
+                          Object {
+                            "width": "50%",
+                          }
+                        }
+                      >
+                        <Information
+                          label="BP Number"
+                          value={null}
+                          weight="normal"
+                        />
+                      </Box>
+                      <Box
+                        pt="16px"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <Information
+                          label="Address"
+                          value={null}
+                          weight="normal"
+                        />
+                      </Box>
+                    </div>
+                  </Flex>
+                </Box>
+                <Box
+                  className="css-14ed7tl"
+                  id="bill-and-payment-company-detail-sections-customer-information-os-balance"
+                >
+                  <Box
+                    style={
+                      Object {
+                        "display": "flex",
+                        "flexDirection": "column",
+                      }
+                    }
+                  >
+                    <Text
+                      color="secondary500"
+                      size="14px"
+                      weight="700"
+                    >
+                      O/S Balance
+                    </Text>
+                    <Text
+                      color="#DE1B1B"
+                      size="30px"
+                      weight="700"
+                    >
+                      -
+                    </Text>
+                  </Box>
+                  <Box>
+                    <Button
+                      center={true}
+                      disabled={false}
+                      id="bill-and-payment-company-detail-sections-customer-information-os-balance-download-action"
+                      leftIcon={[Function]}
+                      loading={false}
+                      ml={0}
+                      mr={0}
+                      onClick={[Function]}
+                      rightIcon={null}
+                      rounded="normal"
+                      style={
+                        Object {
+                          "background": "transparent",
+                        }
+                      }
+                      textTransform="uppercase"
+                      variant="ghost"
+                    >
+                      
+                    </Button>
+                  </Box>
+                </Box>
+              </Box>,
+              "title": "Customer Information",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "id": "bill-and-payment-company-detail-sections-pic-am",
+              "render": <PICProfileRefactor
+                data={Array []}
+                feature={
+                  Array [
+                    "",
+                  ]
+                }
+                testLocator={
+                  Object {
+                    "addPic": "bill-and-payment-company-detail-sections-pic-am-add-pic",
+                    "id": "bill-and-payment-company-detail-sections-pic-am",
+                  }
+                }
+                type="am"
+              />,
+              "style": Object {
+                "height": "100%",
+              },
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 4,
+            "xs": 12,
+          },
+          "style": Object {
+            "height": "100%",
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "id": "bill-and-payment-company-detail-sections-pic-customer",
+              "render": <React.Fragment>
+                <PICProfileRefactor
+                  data={Array []}
+                  feature={Array []}
+                  testLocator={
+                    Object {
+                      "addPic": "bill-and-payment-company-detail-sections-pic-customer-add-pic",
+                      "id": "bill-and-payment-company-detail-sections-pic-customer",
+                    }
+                  }
+                  type="customer"
+                  updatePicProfile={[MockFunction]}
+                />
+              </React.Fragment>,
+              "style": Object {
+                "height": "100%",
+              },
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 4,
+            "xs": 12,
+          },
+          "style": Object {
+            "height": "100%",
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "id": "bill-and-payment-company-detail-sections-pic-cdm",
+              "render": <React.Fragment>
+                <PICProfileRefactor
+                  data={Array []}
+                  feature={Array []}
+                  testLocator={
+                    Object {
+                      "addPic": "bill-and-payment-company-detail-sections-pic-cdm-add-pic",
+                      "id": "bill-and-payment-company-detail-sections-pic-cdm",
+                    }
+                  }
+                  type="cdm"
+                  updatePicProfile={[MockFunction]}
+                />
+              </React.Fragment>,
+              "style": Object {
+                "height": "100%",
+              },
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 4,
+            "xs": 12,
+          },
+          "style": Object {
+            "height": "100%",
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <ListOfDocument
+                feature={Array []}
+                setOpenCreateReconciliation={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        false,
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": [MockFunction],
+                      },
+                    ],
+                  }
+                }
+                setRemindingOption={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "open": false,
+                          "value": "",
+                        },
+                      ],
+                      Array [
+                        Object {
+                          "open": [Function],
+                          "value": "",
+                        },
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
+                setSendInvoiceEmail={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        "",
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": [MockFunction],
+                      },
+                    ],
+                  }
+                }
+                setUpdatePeriod={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        false,
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": [MockFunction],
+                      },
+                    ],
+                  }
+                }
+              />,
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <RemindingOption
+    onSubmit={[MockFunction]}
+    open={false}
+    value=""
+  />
+  <SendInvoiceEmail
+    onClose={[MockFunction]}
+    type="billingReminder"
+  />
+  <UpdatePeriod
+    onClose={[MockFunction]}
+    open={[MockFunction]}
+  />
+  <PopupCreateReconciliation
+    onClose={[MockFunction]}
+  />
+  <DownloadOsBalance
+    onClose={[Function]}
+  />
+</React.Fragment>
+`;

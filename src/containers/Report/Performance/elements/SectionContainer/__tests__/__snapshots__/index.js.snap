@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragment-v2/Performance/lib/TableLegends render success 1`] = `
+<Styled(MuiBox)
+  mt={4}
+>
+  <Typography
+    className=""
+    color="general-mid"
+    inline={false}
+    variant="h4"
+    weight="medium"
+  >
+    abc
+  </Typography>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <div />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

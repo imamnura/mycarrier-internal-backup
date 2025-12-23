@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/texteditor render 1`] = `
+<ForwardRef(LoadableComponent)
+  config={
+    Object {
+      "attribution": false,
+      "charCounterMax": 1500,
+      "imagePaste": false,
+      "imageUpload": false,
+      "key": "aLF3c1B8A5D6E3F2A2C-7SLJCKHXOSLMc2YGSGe1ZXHSa1CgC3E3G3B2B7A4E4F4D2E3==",
+      "pastePlain": true,
+      "placeholderText": "Edit Your Content Here!",
+      "quickInsertTags": Array [],
+      "toolbarButtons": Object {
+        "moreMisc": Object {
+          "buttons": Array [
+            "undo",
+            "redo",
+            "fullscreen",
+            "print",
+            "getPDF",
+            "spellChecker",
+            "selectAll",
+            "html",
+            "help",
+          ],
+        },
+        "moreParagraph": Object {
+          "buttons": Array [
+            "alignLeft",
+            "alignCenter",
+            "formatOLSimple",
+            "alignRight",
+            "alignJustify",
+            "formatOL",
+            "formatUL",
+            "paragraphFormat",
+            "paragraphStyle",
+            "lineHeight",
+            "outdent",
+            "indent",
+            "quote",
+          ],
+        },
+        "moreRich": Object {
+          "buttons": Array [
+            "insertLink",
+            "insertTable",
+            "emoticons",
+            "specialCharacters",
+            "insertHR",
+            "Undo",
+            "Redo",
+          ],
+        },
+        "moreText": Object {
+          "buttons": Array [
+            "bold",
+            "italic",
+            "underline",
+            "strikeThrough",
+            "subscript",
+            "superscript",
+            "fontFamily",
+            "fontSize",
+            "textColor",
+            "backgroundColor",
+            "inlineClass",
+            "inlineStyle",
+            "clearFormatting",
+          ],
+        },
+      },
+      "wordDeniedAttrs": Array [
+        "width",
+        "height",
+      ],
+      "wordPasteKeepFormatting": false,
+      "wordPasteModal": false,
+    }
+  }
+  model=""
+  onModelChange={[Function]}
+  tag="textarea"
+/>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/texteditor render value 1`] = `
+<ForwardRef(LoadableComponent)
+  config={
+    Object {
+      "attribution": false,
+      "charCounterMax": 1500,
+      "imagePaste": false,
+      "imageUpload": false,
+      "key": "aLF3c1B8A5D6E3F2A2C-7SLJCKHXOSLMc2YGSGe1ZXHSa1CgC3E3G3B2B7A4E4F4D2E3==",
+      "pastePlain": true,
+      "placeholderText": "Edit Your Content Here!",
+      "quickInsertTags": Array [],
+      "toolbarButtons": Object {
+        "moreMisc": Object {
+          "buttons": Array [
+            "undo",
+            "redo",
+            "fullscreen",
+            "print",
+            "getPDF",
+            "spellChecker",
+            "selectAll",
+            "html",
+            "help",
+          ],
+        },
+        "moreParagraph": Object {
+          "buttons": Array [
+            "alignLeft",
+            "alignCenter",
+            "formatOLSimple",
+            "alignRight",
+            "alignJustify",
+            "formatOL",
+            "formatUL",
+            "paragraphFormat",
+            "paragraphStyle",
+            "lineHeight",
+            "outdent",
+            "indent",
+            "quote",
+          ],
+        },
+        "moreRich": Object {
+          "buttons": Array [
+            "insertLink",
+            "insertTable",
+            "emoticons",
+            "specialCharacters",
+            "insertHR",
+            "Undo",
+            "Redo",
+          ],
+        },
+        "moreText": Object {
+          "buttons": Array [
+            "bold",
+            "italic",
+            "underline",
+            "strikeThrough",
+            "subscript",
+            "superscript",
+            "fontFamily",
+            "fontSize",
+            "textColor",
+            "backgroundColor",
+            "inlineClass",
+            "inlineStyle",
+            "clearFormatting",
+          ],
+        },
+      },
+      "wordDeniedAttrs": Array [
+        "width",
+        "height",
+      ],
+      "wordPasteKeepFormatting": false,
+      "wordPasteModal": false,
+    }
+  }
+  model="test"
+  onModelChange={[Function]}
+  tag="textarea"
+/>
+`;

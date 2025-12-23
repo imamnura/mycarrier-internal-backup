@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/FormFollowUp/elements/Note/index render properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isSearchable={true}
+          label="Type"
+          name="type"
+          options={
+            Array [
+              Object {
+                "label": "Safety",
+                "value": "Safety",
+              },
+              Object {
+                "label": "Special",
+                "value": "Special",
+              },
+              Object {
+                "label": "Reference",
+                "value": "Reference",
+              },
+              Object {
+                "label": "eAdvisor",
+                "value": "eAdvisor",
+              },
+              Object {
+                "label": "Legal",
+                "value": "Legal",
+              },
+              Object {
+                "label": "Exclusion",
+                "value": "Exclusion",
+              },
+              Object {
+                "label": "Pre-existing Condition",
+                "value": "Pre-existing Condition",
+              },
+              Object {
+                "label": "Permanent",
+                "value": "Permanent",
+              },
+              Object {
+                "label": "System",
+                "value": "System",
+              },
+              Object {
+                "label": "Temporary",
+                "value": "Temporary",
+              },
+              Object {
+                "label": "Note",
+                "value": "Note",
+              },
+              Object {
+                "label": "Business Description",
+                "value": "Business Description",
+              },
+              Object {
+                "label": "Regional Plans",
+                "value": "Regional Plans",
+              },
+              Object {
+                "label": "Contracts Process",
+                "value": "Contracts Process",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Description"
+          maxLength={160}
+          minRows={4}
+          multiline={true}
+          name="description"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={16}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

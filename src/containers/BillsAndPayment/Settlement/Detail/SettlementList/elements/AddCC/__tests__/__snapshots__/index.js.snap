@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/AddCC render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogRoot-1",
+      }
+    }
+    maxWidth="lg"
+    open={true}
+    scroll="paper"
+  >
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "mb": 3,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Choose carbon copy type
+        </Typography>
+      </Styled(MuiBox)>
+      <OptionList
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "Icon": [Function],
+              "description": "Carbon copy can search by Title",
+              "label": "By Title",
+              "value": "1",
+            },
+            Object {
+              "Icon": [Function],
+              "description": "Carbon copy can search by Name",
+              "label": "By Name",
+              "value": "2",
+            },
+          ]
+        }
+        redBorder={false}
+        value=""
+      />
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": 16,
+            "justifyContent": "center",
+            "mt": 4,
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Cancel
+        </Button>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          go ahead
+        </Button>
+      </Styled(MuiBox)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/AddCC render/ccType = 1 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogRoot-4",
+      }
+    }
+    maxWidth="lg"
+    open={true}
+    scroll="paper"
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(DialogTitle))>
+        <Styled(MuiBox)
+          mb={2}
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": 8,
+              "textAlign": "center",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="h5"
+            weight="medium"
+          >
+            Select carbon copy by 
+            Title
+          </Typography>
+        </Styled(MuiBox)>
+        <SearchBox
+          fullWidth={true}
+          noBorder={true}
+          onChange={[MockFunction]}
+          placeholder="Search Title.."
+          size="default"
+          value=""
+        />
+      </WithStyles(ForwardRef(DialogTitle))>
+      <WithStyles(ForwardRef(DialogContent))
+        style={
+          Object {
+            "paddingBottom": 0,
+          }
+        }
+      >
+        <TableDesktop
+          customBody={null}
+          customEmptyMessage={null}
+          customItem={null}
+          customStyles={Object {}}
+          data={
+            Array [
+              Object {
+                "hierarchy": <Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="general-main"
+                    inline={true}
+                    variant="body2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="body2"
+                    weight="normal"
+                  >
+                     /
+                     
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="body2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </Styled(MuiBox)>,
+              },
+            ]
+          }
+          emptyMessage="Data not found"
+          headerAlign="flex-start"
+          loading={false}
+          loadingRoot={false}
+          maxHeight={null}
+          meta={Object {}}
+          numbering={false}
+          onBottomPage={null}
+          onClickRow={[MockFunction]}
+          onPaginationChange={null}
+          page={1}
+          pickedRow=""
+          pickedRowKey="hierarchy"
+          schema={
+            Array [
+              Object {
+                "label": "HIERARCHY",
+                "name": "hierarchy",
+              },
+              Object {
+                "label": "DEPARTMENT",
+                "name": "department",
+              },
+            ]
+          }
+          selectWithRawData={false}
+          selectedRowKey="key"
+          selectedRowSticky={false}
+          size={10}
+          useCollapseChild={null}
+          useOrderBy={
+            Array [
+              null,
+              [Function],
+            ]
+          }
+          useOrderDirection={
+            Array [
+              null,
+              [Function],
+            ]
+          }
+          useSelectedRow={Array []}
+        />
+      </WithStyles(ForwardRef(DialogContent))>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": 16,
+            "justifyContent": "center",
+            "mt": 4,
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Cancel
+        </Button>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Add
+        </Button>
+      </Styled(MuiBox)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

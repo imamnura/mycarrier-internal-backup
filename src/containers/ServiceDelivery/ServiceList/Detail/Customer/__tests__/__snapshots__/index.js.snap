@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Customer render properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "CUSTOMER",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "CA NUMBER",
+                    "name": "custAccntNum",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Customer Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(ProjectAndServiceList)
+                feature={
+                  Array [
+                    "read_detail_service_list",
+                  ]
+                }
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Customer render properly have project 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "isHaveProject": true,
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CUSTOMER",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "CA NUMBER",
+                    "name": "custAccntNum",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Customer Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(ProjectAndServiceList)
+                feature={
+                  Array [
+                    "read_detail_service_list",
+                  ]
+                }
+                optTab={
+                  Array [
+                    Object {
+                      "label": "Non Project",
+                      "value": "serviceList",
+                    },
+                    Object {
+                      "label": "Project",
+                      "value": "project",
+                    },
+                  ]
+                }
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

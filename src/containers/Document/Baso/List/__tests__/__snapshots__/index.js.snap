@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/Baso render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "BASO",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 140,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Customer Sign",
+            "value": "NEED CUST SIGN",
+          },
+          Object {
+            "label": "BASO Completed",
+            "value": "BA COMPLETE",
+          },
+          Object {
+            "label": "BASO Returned",
+            "value": "RETURNED",
+          },
+          Object {
+            "label": "BASO Rejected",
+            "value": "REJECTED",
+          },
+        ],
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 140,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Product",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 170,
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Order Type",
+            "value": "",
+          },
+          Object {
+            "label": "New Install",
+            "value": "New Install",
+          },
+          Object {
+            "label": "Modify",
+            "value": "Modify",
+          },
+          Object {
+            "label": "Disconnect",
+            "value": "Disconnect",
+          },
+        ],
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Order Type",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 150,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Customer",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 150,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Segment",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 190,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Account Manager",
+            "value": "",
+          },
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "accountManager": "test",
+          "account_manager": Object {
+            "fullName": "test",
+            "segment": "test",
+          },
+          "activationDoc": Object {
+            "fileName": "test.pdf",
+            "fileurl": "https://test",
+          },
+          "document": <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            test.pdf
+          </Typography>,
+          "segment": "test",
+          "status": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Order Type",
+          "name": "orderType",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 150,
+          },
+          "label": "Account Manager",
+          "name": "accountManager",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 100,
+          },
+          "label": "Segment",
+          "name": "segment",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "formatDate": "date",
+          "label": "Received Date",
+          "name": "receivedDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Product",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 130,
+          },
+          "label": "Document",
+          "name": "document",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "baso complete": "success",
+            "baso rejected": "danger",
+            "baso returned": "danger",
+            "customer sign": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="BASO"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Document/Baso render with empty data 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "BASO",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 140,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Customer Sign",
+            "value": "NEED CUST SIGN",
+          },
+          Object {
+            "label": "BASO Completed",
+            "value": "BA COMPLETE",
+          },
+          Object {
+            "label": "BASO Returned",
+            "value": "RETURNED",
+          },
+          Object {
+            "label": "BASO Rejected",
+            "value": "REJECTED",
+          },
+        ],
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 140,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Product",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 170,
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Order Type",
+            "value": "",
+          },
+          Object {
+            "label": "New Install",
+            "value": "New Install",
+          },
+          Object {
+            "label": "Modify",
+            "value": "Modify",
+          },
+          Object {
+            "label": "Disconnect",
+            "value": "Disconnect",
+          },
+        ],
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Order Type",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 150,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Customer",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 150,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Segment",
+            "value": "",
+          },
+        ],
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 190,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Account Manager",
+            "value": "",
+          },
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "accountManager": "test",
+          "account_manager": Object {
+            "fullName": "test",
+            "segment": "test",
+          },
+          "activationDoc": Object {
+            "fileName": "test.pdf",
+            "fileurl": "https://test",
+          },
+          "document": <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            test.pdf
+          </Typography>,
+          "segment": "test",
+          "status": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Order Type",
+          "name": "orderType",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 150,
+          },
+          "label": "Account Manager",
+          "name": "accountManager",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 100,
+          },
+          "label": "Segment",
+          "name": "segment",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "formatDate": "date",
+          "label": "Received Date",
+          "name": "receivedDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Product",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 130,
+          },
+          "label": "Document",
+          "name": "document",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "baso complete": "success",
+            "baso rejected": "danger",
+            "baso returned": "danger",
+            "customer sign": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="BASO"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductAndServices/index render 1`] = `
+<div>
+  <SectionMark
+    description="This section automatically added product & services link, based on L1 mapping data"
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product & Services"
+  />
+  <div>
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="ProductServicesTitleid"
+      noSpacing={true}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))>
+          <div>
+            <WithStyles(ForwardRef(CardMedia))
+              component="img"
+              height="176"
+            />
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  test
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+          <WithStyles(ForwardRef(CardActions))>
+            <Button>
+              LEARN MORE
+            </Button>
+          </WithStyles(ForwardRef(CardActions))>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))>
+          <div>
+            <WithStyles(ForwardRef(CardMedia))
+              component="img"
+              height="176"
+            />
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  test 2
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test 2
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+          <WithStyles(ForwardRef(CardActions))>
+            <Button>
+              LEARN MORE
+            </Button>
+          </WithStyles(ForwardRef(CardActions))>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductAndServices/index render tab en 1`] = `
+<div>
+  <SectionMark
+    description="This section automatically added product & services link, based on L1 mapping data"
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product & Services"
+  />
+  <div>
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="ProductServicesTitleen"
+      noSpacing={true}
+      placeholder="Type the content of the title here in English.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))>
+          <div>
+            <WithStyles(ForwardRef(CardMedia))
+              component="img"
+              height="176"
+            />
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  test
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+          <WithStyles(ForwardRef(CardActions))>
+            <Button>
+              LEARN MORE
+            </Button>
+          </WithStyles(ForwardRef(CardActions))>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))>
+          <div>
+            <WithStyles(ForwardRef(CardMedia))
+              component="img"
+              height="176"
+            />
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  test 2
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test 2
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+          <WithStyles(ForwardRef(CardActions))>
+            <Button>
+              LEARN MORE
+            </Button>
+          </WithStyles(ForwardRef(CardActions))>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductAndServices/index render tab en no data 1`] = `
+<div>
+  <SectionMark
+    description="This section automatically added product & services link, based on L1 mapping data"
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product & Services"
+  />
+  <div>
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="ProductServicesTitleen"
+      noSpacing={true}
+      placeholder="Type the content of the title here in English.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductAndServices/index render tab id no data 1`] = `
+<div>
+  <SectionMark
+    description="This section automatically added product & services link, based on L1 mapping data"
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product & Services"
+  />
+  <div>
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="ProductServicesTitleid"
+      noSpacing={true}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={4}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Card))
+          className=""
+        >
+          <div>
+            <div>
+              <Memo />
+            </div>
+            <WithStyles(ForwardRef(CardContent))>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="h5"
+                  weight="medium"
+                >
+                  Automatically Generated
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className=""
+                  color="general-main"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  This card was automatically generated by L1 mapping data
+                </Typography>
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </div>
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;

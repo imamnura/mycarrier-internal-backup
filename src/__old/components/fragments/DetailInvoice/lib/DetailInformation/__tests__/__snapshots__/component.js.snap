@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/DetailInvoice/lib/DetailInformation render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        title one
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        label="Label"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        invoiceFile
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        actionButton={[MockFunction]}
+        file={true}
+        fileName="fileName"
+        label="Label"
+        type="PDF"
+        upload={false}
+        url="fileUrl"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;

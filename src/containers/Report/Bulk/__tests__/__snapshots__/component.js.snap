@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SenderID Pages render 1`] = `ShallowWrapper {}`;
+
+exports[`Component SenderID Pages render time delivery 1`] = `ShallowWrapper {}`;

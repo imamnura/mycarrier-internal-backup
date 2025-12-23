@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/PICProfileRefactor render 1`] = `
+<div>
+  <Flex
+    alignX="space-between"
+    alignY="center"
+    mb="24px"
+    mt="0px"
+  >
+    <Text
+      color="secondary500"
+      size="20px"
+      weight="700"
+    >
+      PIC Profile Customer
+    </Text>
+  </Flex>
+  <div
+    style={
+      Object {
+        "maxHeight": "151px",
+        "overflow": "unset",
+      }
+    }
+  >
+    <Flex
+      alignX="space-between"
+      alignY="center"
+      className="makeStyles-boxPic-6"
+      style={
+        Object {
+          "alignItems": "center",
+          "gap": 12,
+          "position": "relative",
+        }
+      }
+    >
+      <Flex
+        style={
+          Object {
+            "flexGrow": 1,
+            "maxWidth": "90%",
+          }
+        }
+      >
+        <Flex
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            color="secondary700"
+            size="14px"
+            weight="600"
+          >
+            1
+            . 
+          </Text>
+        </Flex>
+        <Flex
+          direction="column"
+          ml="15px"
+        >
+          <Flex
+            alignY="center"
+          >
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+            <Box
+              className="makeStyles-circle-4"
+            />
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+    <Flex
+      alignX="space-between"
+      alignY="center"
+      className="makeStyles-boxPic-6"
+      style={
+        Object {
+          "alignItems": "center",
+          "gap": 12,
+          "position": "relative",
+        }
+      }
+    >
+      <Flex
+        style={
+          Object {
+            "flexGrow": 1,
+            "maxWidth": "90%",
+          }
+        }
+      >
+        <Flex
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            color="secondary700"
+            size="14px"
+            weight="600"
+          >
+            2
+            . 
+          </Text>
+        </Flex>
+        <Flex
+          direction="column"
+          ml="15px"
+        >
+          <Flex
+            alignY="center"
+          >
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+            <Box
+              className="makeStyles-circle-4"
+            />
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+  </div>
+  <FormPICProfile
+    allProfile={
+      Array [
+        Object {},
+        Object {},
+      ]
+    }
+    type="customer"
+    updatePicProfile={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/PICProfileRefactor render/empty 1`] = `
+<div>
+  <Flex
+    alignX="space-between"
+    alignY="center"
+    mb="24px"
+    mt="0px"
+  >
+    <Text
+      color="secondary500"
+      size="20px"
+      weight="700"
+    >
+      PIC Profile Customer
+    </Text>
+  </Flex>
+  <div
+    style={
+      Object {
+        "maxHeight": "151px",
+        "overflow": "unset",
+      }
+    }
+  >
+    <Flex
+      alignX="space-between"
+      alignY="center"
+      className="makeStyles-boxPic-13"
+      style={
+        Object {
+          "alignItems": "center",
+          "gap": 12,
+          "position": "relative",
+        }
+      }
+    >
+      <Flex
+        style={
+          Object {
+            "flexGrow": 1,
+            "maxWidth": "90%",
+          }
+        }
+      >
+        <Flex
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            color="secondary700"
+            size="14px"
+            weight="600"
+          >
+            1
+            . 
+          </Text>
+        </Flex>
+        <Flex
+          direction="column"
+          ml="15px"
+        >
+          <Flex
+            alignY="center"
+          >
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+            <Box
+              className="makeStyles-circle-11"
+            />
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+    <Flex
+      alignX="space-between"
+      alignY="center"
+      className="makeStyles-boxPic-13"
+      style={
+        Object {
+          "alignItems": "center",
+          "gap": 12,
+          "position": "relative",
+        }
+      }
+    >
+      <Flex
+        style={
+          Object {
+            "flexGrow": 1,
+            "maxWidth": "90%",
+          }
+        }
+      >
+        <Flex
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            color="secondary700"
+            size="14px"
+            weight="600"
+          >
+            2
+            . 
+          </Text>
+        </Flex>
+        <Flex
+          direction="column"
+          ml="15px"
+        >
+          <Flex
+            alignY="center"
+          >
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+            <Box
+              className="makeStyles-circle-11"
+            />
+            <Text
+              color="secondary400"
+              size="12px"
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+  </div>
+  <FormPICProfile
+    allProfile={
+      Array [
+        Object {},
+        Object {},
+      ]
+    }
+    type="customer"
+    updatePicProfile={[MockFunction]}
+  />
+</div>
+`;

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Attachment hide preview download 1`] = `
+<div
+  className="makeStyles-root-11"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <FilePDF
+        className="makeStyles-icon-10"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-title-12"
+      item={true}
+      xs={true}
+    >
+      <Text>
+        sampleFile.pdf
+      </Text>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <div
+        className="makeStyles-actionIcon-9"
+      >
+        <Eye />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/components/Attachment other extension 1`] = `
+<div
+  className="makeStyles-root-7"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <FileZIP
+        className="makeStyles-icon-6"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-title-8"
+      item={true}
+      xs={true}
+    >
+      <Text>
+        sampleFile.zip
+      </Text>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <div
+        className="makeStyles-actionIcon-5"
+      >
+        <Eye />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/components/Attachment render 1`] = `
+<div
+  className="makeStyles-root-3"
+  onClick={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <FilePDF
+        className="makeStyles-icon-2"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-title-4"
+      item={true}
+      xs={true}
+    >
+      <Text>
+        sampleFile.pdf
+      </Text>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <div
+        className="makeStyles-actionIcon-1"
+      >
+        <Eye />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

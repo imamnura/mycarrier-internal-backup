@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/Banner/Create render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelBanner",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": false,
+        "id": "btnSaveBanner",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management",
+      },
+      Object {
+        "label": "Edit Banner Hero",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={5}
+      xs={12}
+    >
+      <Card
+        title="Banner Hero Attributes"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="id"
+            variant="default"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Banner Title (id)"
+            maxLength={40}
+            name="titleid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Banner Description (id)"
+            maxLength={160}
+            minRows={4}
+            multiline={true}
+            name="descriptionid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Divider)) />
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-marginBT-2"
+        >
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 512 KB and size 1440 x 520 px"
+            label="Add Image File for Desktop"
+            maxSize={524288}
+            name="imageDesktop"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                1440,
+                520,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 512 KB and size 360 x 300 px"
+            label="Add Image File for Mobile"
+            maxSize={524288}
+            name="imageMobile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                360,
+                300,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Type"
+            name="type"
+            options={
+              Array [
+                Object {
+                  "label": "Internal",
+                  "value": "internal",
+                },
+                Object {
+                  "label": "Eksternal",
+                  "value": "eksternal",
+                },
+              ]
+            }
+            placeholder="Choose Type"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-1"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Product Slug"
+            loading={false}
+            maxWidth={500}
+            name="linkedTo"
+            options={Array []}
+            placeholder="Choose product"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/Banner/Create render another state tab id 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelBanner",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": false,
+        "id": "btnSaveBanner",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management",
+      },
+      Object {
+        "label": "Add Banner Hero",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={5}
+      xs={12}
+    >
+      <Card
+        title="Banner Hero Attributes"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <Tabs
+            isCustom={false}
+            onChange={[MockFunction]}
+            onSwap={[MockFunction]}
+            options={Array []}
+            value="id"
+            variant="default"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Banner Title (id)"
+            maxLength={40}
+            name="titleid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Banner Description (id)"
+            maxLength={160}
+            minRows={4}
+            multiline={true}
+            name="descriptionid"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Divider)) />
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-marginBT-6"
+        >
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 512 KB and size 1440 x 520 px"
+            label="Add Image File for Desktop"
+            maxSize={524288}
+            name="imageDesktop"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                1440,
+                520,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <FileUpload
+            accept={
+              Array [
+                ".png",
+              ]
+            }
+            control={Object {}}
+            error={false}
+            fetcher={[Function]}
+            helperText="Upload .png image, max 512 KB and size 360 x 300 px"
+            label="Add Image File for Mobile"
+            maxSize={524288}
+            name="imageMobile"
+            placeholder="Example: satellite.png"
+            ratioPixel={
+              Array [
+                360,
+                300,
+              ]
+            }
+            required={true}
+            shouldUnregister={true}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Type"
+            name="type"
+            options={
+              Array [
+                Object {
+                  "label": "Internal",
+                  "value": "internal",
+                },
+                Object {
+                  "label": "Eksternal",
+                  "value": "eksternal",
+                },
+              ]
+            }
+            placeholder="Choose Type"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="makeStyles-inputField-5"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Product Slug"
+            loading={false}
+            maxWidth={500}
+            name="linkedTo"
+            options={Array []}
+            placeholder="Choose product"
+            required={true}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;

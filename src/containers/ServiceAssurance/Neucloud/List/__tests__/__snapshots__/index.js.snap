@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ServiceAssurance/Neucloud/List render 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Neucloud",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Checking",
+              "value": "checking",
+            },
+            Object {
+              "label": "On Progress",
+              "value": "onprogress",
+            },
+            Object {
+              "label": "Closed",
+              "value": "completed",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Ticket Number..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "status": "closed",
+            "ticketId": undefined,
+          },
+          Object {
+            "status": "on progress",
+            "ticketId": undefined,
+          },
+          Object {
+            "status": "checking",
+            "ticketId": undefined,
+          },
+        ],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Array [],
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Ticket Number",
+            "name": "ticketId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference ID",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Username",
+            "name": "usernameTicket",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Trouble Type",
+            "name": "troubleType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "formatDate": "date",
+            "label": "Created Date",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "checking": "primary",
+              "closed": "success",
+              "on progress": "warning",
+            },
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <WithStyles(Component)
+    actions={Array []}
+    content=""
+    onClose={[MockFunction]}
+  />
+  <WithStyles(Component)
+    maxWidth="xs"
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <Memo(Connect(ReduxForm))
+      clearConfirmation={[MockFunction]}
+      maxLength={10}
+      onClose={[MockFunction]}
+      onSubmit={[MockFunction]}
+      open={false}
+      refId=""
+      setConfirmation={[MockFunction]}
+    />
+  </WithStyles(Component)>
+</React.Fragment>
+`;
+
+exports[`src/pages/ServiceAssurance/Neucloud/List render case 2 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Neucloud",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Checking",
+              "value": "checking",
+            },
+            Object {
+              "label": "On Progress",
+              "value": "onprogress",
+            },
+            Object {
+              "label": "Closed",
+              "value": "completed",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Ticket Number..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Ticket Number",
+            "name": "ticketId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference ID",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Username",
+            "name": "usernameTicket",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Trouble Type",
+            "name": "troubleType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "formatDate": "date",
+            "label": "Created Date",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "checking": "primary",
+              "closed": "success",
+              "on progress": "warning",
+            },
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <WithStyles(Component)
+    actions={Array []}
+    content=""
+    onClose={[MockFunction]}
+  />
+  <WithStyles(Component)
+    maxWidth="xs"
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <Memo(Connect(ReduxForm))
+      clearConfirmation={[MockFunction]}
+      maxLength={10}
+      onClose={[MockFunction]}
+      onSubmit={[MockFunction]}
+      open={false}
+      refId=""
+      setConfirmation={[MockFunction]}
+    />
+  </WithStyles(Component)>
+</React.Fragment>
+`;

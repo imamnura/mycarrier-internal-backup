@@ -1,0 +1,2975 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={Array []}
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title=""
+  >
+    
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formRender L0 - Product Information 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L0 - Product Information",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <Step1
+      dataInformation={Object {}}
+      formType=""
+      handleDeleteKeyword={[MockFunction]}
+      handleKeyDown={[MockFunction]}
+      handleUploadIcon={[MockFunction]}
+      iconState={
+        Object {
+          "iconFile": Object {},
+          "setIconFile": [MockFunction],
+        }
+      }
+      keywordChip={Array []}
+      l2CategoryChip={Array []}
+      l2MappingOptions={Array []}
+      level=""
+      query={
+        Object {
+          "isSingleProduct": false,
+          "level": "l0",
+        }
+      }
+      useform={
+        Object {
+          "clearErrors": [MockFunction],
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L0 - Product Information"
+  >
+    <Step1
+      dataInformation={Object {}}
+      formType=""
+      handleDeleteKeyword={[MockFunction]}
+      handleKeyDown={[MockFunction]}
+      handleUploadIcon={[MockFunction]}
+      iconState={
+        Object {
+          "iconFile": Object {},
+          "setIconFile": [MockFunction],
+        }
+      }
+      keywordChip={Array []}
+      l2CategoryChip={Array []}
+      l2MappingOptions={Array []}
+      level=""
+      query={
+        Object {
+          "isSingleProduct": false,
+          "level": "l0",
+        }
+      }
+      useform={
+        Object {
+          "clearErrors": [MockFunction],
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "setValue": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType create L1 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "CANCEL",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L1 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L1ContentPage
+      l1Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      l2BenefitState={
+        Object {
+          "l2ProductBenefits": Array [],
+          "setL2ProductBenefits": [MockFunction],
+        }
+      }
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2TypeState={
+        Object {
+          "l2TypeListen": Array [],
+          "l2TypeListid": Array [],
+          "setL2TypeListen": [MockFunction],
+          "setL2TypeListid": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productDetailsData={Array []}
+      productDetailsFields={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L1 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L1 - Content Page"
+  >
+    <L1ContentPage
+      l1Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      l2BenefitState={
+        Object {
+          "l2ProductBenefits": Array [],
+          "setL2ProductBenefits": [MockFunction],
+        }
+      }
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2TypeState={
+        Object {
+          "l2TypeListen": Array [],
+          "l2TypeListid": Array [],
+          "setL2TypeListen": [MockFunction],
+          "setL2TypeListid": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productDetailsData={Array []}
+      productDetailsFields={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L1 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType create L1 - Content Page 2 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "CANCEL",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "Product Detail - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="create"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="Product Detail - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="create"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType create L1 - Content Page isSingleProduct 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "CANCEL",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L1 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="create"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L1 - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="create"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType full L0 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L0 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L0ContentPage
+      l0Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productServicesData={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L0 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L0 - Content Page"
+  >
+    <L0ContentPage
+      l0Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productServicesData={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L0 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType full L0 - Content Page isSingleProduct 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L0 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L0 - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType full L1 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L1 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L1ContentPage
+      l1Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      l2BenefitState={
+        Object {
+          "l2ProductBenefits": Array [],
+          "setL2ProductBenefits": [MockFunction],
+        }
+      }
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2TypeState={
+        Object {
+          "l2TypeListen": Array [],
+          "l2TypeListid": Array [],
+          "setL2TypeListen": [MockFunction],
+          "setL2TypeListid": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productDetailsData={Array []}
+      productDetailsFields={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L1 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L1 - Content Page"
+  >
+    <L1ContentPage
+      l1Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      l2BenefitState={
+        Object {
+          "l2ProductBenefits": Array [],
+          "setL2ProductBenefits": [MockFunction],
+        }
+      }
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2TypeState={
+        Object {
+          "l2TypeListen": Array [],
+          "l2TypeListid": Array [],
+          "setL2TypeListen": [MockFunction],
+          "setL2TypeListid": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productDetailsData={Array []}
+      productDetailsFields={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L1 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType full L1 - Content Page isSingleProduct 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L1 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L1 - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType full Product Detail - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "Product Detail - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="Product Detail - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="full"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType half L0 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L0 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L0ContentPage
+      l0Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productServicesData={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L0 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L0 - Content Page"
+  >
+    <L0ContentPage
+      l0Banner={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      productServicesData={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      stepName="L0 - Content Page"
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType half L1 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L1 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="half"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L1 - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="half"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render formType single L0 - Content Page 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={
+            Array [
+              "L0 - Content Page",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="single"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title="L0 - Content Page"
+  >
+    <L2ContentPage
+      filterSectionTree={
+        Object {
+          "options": Array [],
+          "value": Object {
+            "label": "Section Tree",
+            "value": "",
+          },
+        }
+      }
+      formType="single"
+      isDisplayProductBenefits={true}
+      isDisplayProductGuarantee={true}
+      isDisplayProductMarketingToolkit={true}
+      isDisplayProductQuality={true}
+      isDisplayProductSpesifications={true}
+      isDisplayProductType={true}
+      l2DocumentState={
+        Object {
+          "l2Documents": Array [],
+          "setL2Documents": [MockFunction],
+        }
+      }
+      l2Hero={
+        Object {
+          "_file": Object {},
+          "_setFile": [MockFunction],
+        }
+      }
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      setIsDisplayProductQuality={[MockFunction]}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      setIsDisplayProductType={[MockFunction]}
+      tabsProps={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Bahasa Indonesia",
+              "value": "id",
+            },
+            Object {
+              "label": "English",
+              "value": "en",
+            },
+          ],
+          "value": "id",
+          "variant": "centered",
+        }
+      }
+      useform={
+        Object {
+          "control": Object {},
+          "formState": Object {},
+          "getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </PageViewer>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2 render level l2 1`] = `
+<React.Fragment>
+  <form>
+    <div
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Next Step",
+              "disabled": undefined,
+              "loading": false,
+              "onClick": [Function],
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Product Management",
+              "url": "/product-management",
+            },
+            Object {
+              "label": "Add Product",
+            },
+          ]
+        }
+        filter={Array []}
+        isCustomSize={
+          Object {
+            "left": 5,
+            "right": 7,
+          }
+        }
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withSearch={false}
+        withTopDivider={true}
+      />
+    </div>
+    <div>
+      <Styled(MuiBox)
+        mt={3}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "8px",
+            "paddingBottom": "16px",
+          }
+        }
+      >
+        <Stepper
+          accessibleTab={-1}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          steps={Array []}
+          variant="number"
+          warnings=""
+        />
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+    </div>
+    
+  </form>
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PageViewer
+    actionButton={null}
+    onClose={[Function]}
+    open={false}
+    title=""
+  >
+    
+  </PageViewer>
+</React.Fragment>
+`;

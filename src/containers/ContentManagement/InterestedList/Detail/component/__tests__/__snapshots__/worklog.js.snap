@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/worklog render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+  style={
+    Object {
+      "marginTop": "24px",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      Order Step
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      activeSteps={0}
+      steps={
+        Array [
+          "1",
+          "2",
+          "3",
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      History Work Log
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      status="Waiting"
+      steps={
+        Array [
+          Object {
+            "caption": "Interested about product",
+            "date": "10/11/2021 19:42:20",
+            "title": "CUSTOMER",
+          },
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/worklog render without stepperProps 1`] = `null`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown render 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <Droppable
+    droppableId="droppable"
+    type="eventDay"
+  >
+    [Function]
+  </Droppable>
+</DragDropContext>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown render isLoadingDetail true 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <Droppable
+    droppableId="droppable"
+    type="eventDay"
+  >
+    [Function]
+  </Droppable>
+</DragDropContext>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown render tab en 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <Droppable
+    droppableId="droppable"
+    type="eventDay"
+  >
+    [Function]
+  </Droppable>
+</DragDropContext>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/WhatsNew render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "disableStrictModeCompat": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-root-5",
+    }
+  }
+  fullWidth={true}
+  open={false}
+>
+  <div
+    className="makeStyles-header-4"
+  >
+    <Typography
+      className=""
+      color="general-main"
+      inline={false}
+      variant="h5"
+      weight="medium"
+    >
+      What’s New on MyCarrier
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-content-1"
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="subtitle1"
+      weight="light"
+    >
+      
+    </Typography>
+    <div
+      className="makeStyles-title-6"
+    >
+      <div
+        className="dot"
+      />
+      <Typography
+        className=""
+        color="general-main"
+        inline={false}
+        variant="h3"
+        weight="medium"
+      >
+        Release new feature for v
+        
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-detail-2"
+    />
+  </div>
+  <div
+    className="makeStyles-footer-3"
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      thanks for the information!
+    </Button>
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;

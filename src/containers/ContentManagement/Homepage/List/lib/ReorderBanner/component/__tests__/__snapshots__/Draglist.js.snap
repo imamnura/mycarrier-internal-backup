@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/Draglist run properly 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <div>
+    <DraggableElement
+      classes={Object {}}
+      elements={Array []}
+      prefix="active"
+    />
+    <DraggableElement
+      classes={Object {}}
+      elements={Array []}
+      prefix="hide"
+    />
+  </div>
+</DragDropContext>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/Draglist run properly banner active more than 5 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <div>
+    <DraggableElement
+      classes={Object {}}
+      elements={
+        Array [
+          Object {
+            "bannerId": 1,
+            "status": "hide",
+            "title": "Banner Baru 1",
+          },
+          Object {
+            "bannerId": 2,
+            "status": "active",
+            "title": "Banner Baru 2",
+          },
+          Object {
+            "bannerId": 3,
+            "status": "active",
+            "title": "Banner Baru 3",
+          },
+          Object {
+            "bannerId": 4,
+            "status": "active",
+            "title": "Banner Baru 4",
+          },
+          Object {
+            "bannerId": 5,
+            "status": "active",
+            "title": "Banner Baru 5",
+          },
+          Object {
+            "bannerId": 6,
+            "status": "active",
+            "title": "Banner Baru 6",
+          },
+          Object {
+            "bannerId": 7,
+            "status": "active",
+            "title": "Banner Baru 1",
+          },
+        ]
+      }
+      prefix="active"
+    />
+    <DraggableElement
+      classes={Object {}}
+      elements={Array []}
+      prefix="hide"
+    />
+  </div>
+</DragDropContext>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/Draglist run properly destination not found 1`] = `
+<DragDropContext
+  onDragEnd={[Function]}
+>
+  <div>
+    <DraggableElement
+      classes={Object {}}
+      elements={Array []}
+      prefix="active"
+    />
+    <DraggableElement
+      classes={Object {}}
+      elements={Array []}
+      prefix="hide"
+    />
+  </div>
+</DragDropContext>
+`;

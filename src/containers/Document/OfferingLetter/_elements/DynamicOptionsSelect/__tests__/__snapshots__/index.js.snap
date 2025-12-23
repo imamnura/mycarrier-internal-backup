@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/_elements/DynamicOptionsSelect/index render 1`] = `
+<Select
+  additionalWidth={2}
+  error={false}
+  helperText=""
+  isDisabled={false}
+  label=""
+  maxWidth="100%"
+  menuPosition="fixed"
+  options={
+    Array [
+      Object {},
+    ]
+  }
+  required={false}
+  shouldUnregister={true}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/_elements/DynamicOptionsSelect/index render currentValue null 1`] = `
+<Select
+  additionalWidth={0}
+  error={false}
+  helperText=""
+  isDisabled={false}
+  label=""
+  maxWidth="100%"
+  menuPosition="fixed"
+  options={
+    Array [
+      Object {},
+    ]
+  }
+  required={false}
+  shouldUnregister={true}
+/>
+`;

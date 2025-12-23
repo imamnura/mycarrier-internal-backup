@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/RegistrationLink render 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Registration Link"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <Styled(MuiBox)>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Event Registration"
+          maxLength={240}
+          minRows={3}
+          multiline={true}
+          name="eventRegistration"
+          required={true}
+          shouldUnregister={false}
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Link (for Past Event)"
+          maxLength={240}
+          minRows={3}
+          multiline={true}
+          name="pastLink"
+          shouldUnregister={false}
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/RegistrationLink render tab en 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Registration Link"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <Styled(MuiBox)>
+        <TextField
+          control={Object {}}
+          disabled={true}
+          error={false}
+          helperText=""
+          label="Event Registration"
+          maxLength={240}
+          minRows={3}
+          multiline={true}
+          name="eventRegistration"
+          required={true}
+          shouldUnregister={false}
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <TextField
+          control={Object {}}
+          disabled={true}
+          error={false}
+          helperText=""
+          label="Link (for Past Event)"
+          maxLength={240}
+          minRows={3}
+          multiline={true}
+          name="pastLink"
+          shouldUnregister={false}
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

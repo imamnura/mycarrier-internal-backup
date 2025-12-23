@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Topology render 1`] = `
+<div
+  className="makeStyles-root-14"
+>
+  <div
+    className="makeStyles-lineContainer-7"
+  >
+    <WithStyles(ForwardRef(Divider))
+      className="makeStyles-line-6"
+    />
+  </div>
+  <div
+    className="makeStyles-nodeContainer-9"
+  >
+    <div
+      className="makeStyles-nodeItem-12"
+      style={
+        Object {
+          "paddingRight": 16,
+        }
+      }
+    >
+      <div
+        className="makeStyles-visible-15"
+      >
+        <div
+          className="makeStyles-nodeContentTop-11"
+        >
+          <Typography
+            className="makeStyles-info-5"
+            color="general-mid"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            Status: UP
+          </Typography>
+          <div
+            className="makeStyles-arrowBottom-1"
+            onClick={[Function]}
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              PE-D1-PUB-VPN
+            </Typography>
+            <Duplicate
+              className="makeStyles-copyIcon-3"
+            />
+          </div>
+        </div>
+        <div
+          className="makeStyles-node-8"
+        />
+      </div>
+      <div
+        className="makeStyles-nodeItemBottom-13 makeStyles-visible-15"
+      >
+        <div
+          className="makeStyles-node-8"
+        />
+        <div
+          className="makeStyles-nodeContentBottom-10"
+        >
+          <Typography
+            className="makeStyles-info-5"
+            color="general-mid"
+            inline={true}
+            variant="overline"
+            weight="normal"
+          >
+            
+          </Typography>
+          <div
+            className="makeStyles-arrowTop-2"
+            onClick={[Function]}
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              GigabitEthernet0/0
+            </Typography>
+            <Duplicate
+              className="makeStyles-copyIcon-3"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="makeStyles-nodeItem-12"
+      style={
+        Object {
+          "paddingRight": 0,
+        }
+      }
+    >
+      <div
+        className="makeStyles-hidden-4"
+      >
+        <div
+          className="makeStyles-nodeContentTop-11"
+        >
+          <Typography
+            className="makeStyles-info-5"
+            color="general-mid"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            
+          </Typography>
+          <div
+            className="makeStyles-arrowBottom-1"
+            onClick={[Function]}
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Duplicate
+              className="makeStyles-copyIcon-3"
+            />
+          </div>
+        </div>
+        <div
+          className="makeStyles-node-8"
+        />
+      </div>
+      <div
+        className="makeStyles-nodeItemBottom-13 makeStyles-visible-15"
+      >
+        <div
+          className="makeStyles-node-8"
+        />
+        <div
+          className="makeStyles-nodeContentBottom-10"
+        >
+          <Typography
+            className="makeStyles-info-5"
+            color="general-mid"
+            inline={true}
+            variant="overline"
+            weight="normal"
+          >
+            
+          </Typography>
+          <div
+            className="makeStyles-arrowTop-2"
+            onClick={[Function]}
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              GigabitEthernet0/1
+            </Typography>
+            <Duplicate
+              className="makeStyles-copyIcon-3"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

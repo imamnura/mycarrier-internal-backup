@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Microsite/lib/Success render 1`] = `
+<div>
+  <img
+    alt="illustration-response"
+    src="image"
+  />
+  <br />
+  <WithStyles(Component)
+    variant="subtitle2"
+  >
+    label
+  </WithStyles(Component)>
+  <br />
+  <WithStyles(Component)
+    onClick={[Function]}
+  >
+    buttonLabel
+  </WithStyles(Component)>
+</div>
+`;

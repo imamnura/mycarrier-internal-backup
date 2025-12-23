@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Tabs render 1`] = `
+<div>
+  <div>
+    <WithStyles(ForwardRef(Tabs))
+      balance={false}
+      classes={
+        Object {
+          "indicator": undefined,
+          "root": undefined,
+        }
+      }
+      disableRipple={true}
+      onChange={[Function]}
+      value={0}
+    >
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+            "wrapper": undefined,
+          }
+        }
+        disableTouchRipple={true}
+        label="tab 1"
+      />
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": undefined,
+            "selected": undefined,
+            "wrapper": undefined,
+          }
+        }
+        disableTouchRipple={true}
+        label="tab 2"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <div />
+  </div>
+  <div />
+</div>
+`;

@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/DetailRequestSection/lib/DetailWorklog render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      Stepper Title
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      stepperTitle="Stepper Title"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      History Work Log
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      status="value"
+      steps={
+        Array [
+          Object {
+            "caption": "note",
+            "date": "10/11/2010 00:00:00",
+            "title": Object {
+              "note": "note",
+            },
+          },
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/fragments/DetailRequestSection/lib/DetailWorklog render activation status 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      Message 
+      negatif
+    </WithStyles(Component)>
+    <div>
+      note negatif
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Grid))
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        Stepper Title
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        stepperTitle="Stepper Title"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        History Work Log
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        status="returned"
+        steps={
+          Array [
+            Object {
+              "caption": "Request returned has been updated: note",
+              "date": "10/11/2010 00:00:00",
+              "title": undefined,
+            },
+            Object {
+              "caption": "Request returned: note",
+              "date": "10/11/2010 00:00:00",
+              "title": undefined,
+            },
+            Object {
+              "caption": "Request rejected",
+              "date": "10/11/2010 00:00:00",
+              "title": undefined,
+            },
+            Object {
+              "caption": <div>
+                <span>
+                  note
+                </span>
+                <br />
+                <span />
+              </div>,
+              "date": "10/11/2010 00:00:00",
+              "title": undefined,
+            },
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/fragments/DetailRequestSection/lib/DetailWorklog render negatif 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="h4"
+    >
+      Message 
+      negatif
+    </WithStyles(Component)>
+    <div>
+      note negatif
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Grid))
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        Stepper Title
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        stepperTitle="Stepper Title"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        History Work Log
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        status="returned"
+        steps={
+          Array [
+            Object {
+              "caption": "Submitted By Created Approver Creator",
+              "date": "10/11/2010 00:00:00",
+              "title": Object {
+                "note": "createdBy",
+              },
+            },
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+</WithStyles(ForwardRef(Grid))>
+`;

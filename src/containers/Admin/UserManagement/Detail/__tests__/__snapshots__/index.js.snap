@@ -1,0 +1,4183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Detail/index render 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "EDIT",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "DISABLE",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Active",
+                    "userType": "customer",
+                  },
+                  "updatedBy": "test",
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "metaData.customerAccountName",
+                  },
+                  Object {
+                    "label": "BP NUMBER",
+                    "name": "metaData.bpNumber",
+                  },
+                  Object {
+                    "label": "COMPANY EMAIL",
+                    "name": "metaData.customerEmail",
+                  },
+                  Object {
+                    "label": "CA NUMBER",
+                    "name": "metaData.customerAccountNumber",
+                  },
+                  Object {
+                    "label": "NIPNAS",
+                    "name": "metaData.nipnas",
+                  },
+                ],
+              },
+              "title": "Company Profile",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Active",
+                    "userType": "customer",
+                  },
+                  "updatedBy": "test",
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": false,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "PIC Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <ActionHighlight
+                action={null}
+                subTitle={null}
+                title=""
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Active",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render metaData null 1 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": null,
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <ActionHighlight
+                action={null}
+                subTitle={null}
+                title=""
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Checking 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "RETURN",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "REQUEST USER",
+          "disabled": true,
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Checking",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <ActionHighlight
+                action={null}
+                subTitle={null}
+                title=""
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Checking",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Non_active 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "ENABLE ACCOUNT",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Non_active",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={null}
+                subTitle=""
+                title="This user account has been disabled."
+                variant="warning"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Disabled",
+        "variant": "orange",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Registered 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "EDIT",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Registered",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={null}
+                subTitle="User has received an email for completing registration process."
+                title="This user account request has been registered"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Registered",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Registered isAccountManager false 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "EDIT",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Registered",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={null}
+                subTitle="Please contact Account Manager to inform this user request has been registered."
+                title="This user account request has been registered"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Registered",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Rejected 1 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Rejected",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={
+                  Object {
+                    "children": "EDIT PROFILE",
+                    "onClick": [MockFunction],
+                  }
+                }
+                subTitle="Note: “undefined”"
+                title="This user account request has been rejected"
+                variant="danger"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Rejected",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Rejected 2 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Rejected",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={null}
+                subTitle={
+                  Array [
+                    "Please contact Account Manager to inform this user request has been rejected.",
+                    "Note: “undefined”",
+                  ]
+                }
+                title="This user account request has been rejected"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Rejected",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Requested 1 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "REJECT",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "APPROVE",
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Requested",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={
+                  Object {
+                    "children": "EDIT PROFILE",
+                    "onClick": [MockFunction],
+                  }
+                }
+                subTitle="If something goes wrong about email or etc, please click button below to edit."
+                title="Please contact WDM to approve this user request"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Requested",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Requested 2 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "REJECT",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "APPROVE",
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Requested",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={
+                  Object {
+                    "children": "EDIT PROFILE",
+                    "onClick": [MockFunction],
+                  }
+                }
+                subTitle="If you have any data didn’t match, you can update this by click button below."
+                title="This user account request can be edited"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Requested",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/index render status Returned 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+          "url": "/user-management",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "historyWorklog": Array [
+                    Object {
+                      "createdBy": null,
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "Create Ticket",
+                      "noteProgress": "",
+                      "status": "CHECKING",
+                      "step": 0,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:05:55.651Z",
+                      "note": "",
+                      "noteProgress": "",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:12.108Z",
+                      "note": "DCS Telkom updating status to Solved",
+                      "noteProgress": "solva",
+                      "status": "SOLVED",
+                      "step": 2,
+                    },
+                    Object {
+                      "createdBy": "Super Admin Stage",
+                      "dateTime": "2025-03-17T06:06:29.006Z",
+                      "note": "Closed ticket",
+                      "noteProgress": null,
+                      "status": "closed",
+                      "step": 3,
+                    },
+                    Object {
+                      "createdBy": "Syahrul Rasyid",
+                      "dateTime": "2025-03-17T07:42:04.754Z",
+                      "note": "ok",
+                      "noteProgress": "Your report has completed. Thank you for your feedback",
+                      "status": "CLOSED",
+                      "statusAlias": "report completed",
+                      "step": 6,
+                    },
+                  ],
+                  "metaData": Object {
+                    "status": "Returned",
+                  },
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Checking",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Requested",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "disabled",
+                      "status": "Registered",
+                    },
+                    Object {
+                      "dateTime": "",
+                      "label": "active",
+                      "status": "Active",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ID USER",
+                    "name": "userId",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "NIK",
+                    "name": "metaData.nik",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "FULL NAME",
+                    "name": "metaData.fullName",
+                  },
+                  Object {
+                    "label": "PIC EMAIL",
+                    "name": "metaData.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "NO. HANDPHONE",
+                    "name": "metaData.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "CREATED DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "REQUEST BY",
+                    "name": "metaData.requestedBy.email",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "APPROVED BY",
+                    "name": "metaData.registeredBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "hidden": true,
+                    "label": "UPDATED BY",
+                    "name": "updatedBy.email",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "USER TYPE",
+                    "name": "metaData.userType",
+                  },
+                  Object {
+                    "grid": Object {
+                      "xs": 12,
+                    },
+                    "label": "ROLE TYPE",
+                    "name": "metaData.role.roleName",
+                  },
+                ],
+              },
+              "title": "User Profile",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <ActionHighlight
+                action={null}
+                subTitle={
+                  Array [
+                    "Please contact Customer to inform this user request has been returned.",
+                  ]
+                }
+                title="This user account request has been returned"
+                variant="default"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 0,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 1,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "disabled",
+                    "step": 2,
+                  },
+                  Object {
+                    "dateTime": "",
+                    "label": "",
+                    "status": "active",
+                    "step": 3,
+                  },
+                ],
+                "warnings": undefined,
+              },
+              "title": "Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "17/03/2025 07:42:04",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Your report has completed. Thank you for your feedback
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          ok
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:29",
+                    "note": "Closed ticket",
+                    "status": "CLOSED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:06:12",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        solva
+                      </Typography>
+                      <Styled(MuiBox)
+                        display="block"
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={false}
+                          variant="caption"
+                          weight="normal"
+                        >
+                          Note: “
+                          DCS Telkom updating status to Solved
+                          ”
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </React.Fragment>,
+                    "status": "SOLVED",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "",
+                    "status": "ON PROGRESS",
+                  },
+                  Object {
+                    "date": "17/03/2025 06:05:55",
+                    "note": "Create Ticket",
+                    "status": "CHECKING",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Returned",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption="Once you rejected this, it will be process and data will be sent to customer automatically."
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title="Please give note of reject"
+  />
+</React.Fragment>
+`;

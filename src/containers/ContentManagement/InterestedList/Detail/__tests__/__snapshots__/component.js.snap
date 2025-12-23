@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/component render component no interestedlistdetail 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/component render component with interestedlistdetail 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/component render component with interestedlistdetail data 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/ContentManagement/InterestedList/Detail/component render interestedlistdetail with fetch tabList 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <WithStyles(Component)
+          data={
+            Array [
+              Object {
+                "label": "Interested List",
+                "url": "/interested-list",
+              },
+              Object {
+                "label": "id",
+              },
+            ]
+          }
+        />
+        <WithStyles(Component)
+          label="Qualify"
+          variant="orange"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          id="btnRefresh"
+          leftIcon={[Function]}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          style={
+            Object {
+              "marginRight": "1em",
+            }
+          }
+          textTransform="uppercase"
+          variant="filled"
+        >
+           
+          Refresh
+           
+        </Button>
+        
+      </div>
+    </div>
+    <WithStyles(Component) />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={4}
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={6}
+          xs={12}
+        >
+          <WithStyles(Component)
+            ScIntegrationStatus={true}
+            data={
+              Object {
+                "data": Object {
+                  "companyDetail": Object {
+                    "companyName": "tes",
+                  },
+                  "isNetworkConnectivity": true,
+                  "statusStarClick": "Qualify",
+                  "worklog": Array [
+                    Object {
+                      "status": "Waiting",
+                      "timestamp": "2021-11-10 19:42:20",
+                    },
+                  ],
+                },
+              }
+            }
+            loading={false}
+            statusEmailMailgun=""
+            statusWaMailgun=""
+            tab={
+              Object {
+                "activeTab": 0,
+                "setActiveTab": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      true,
+                    ],
+                    Array [
+                      true,
+                    ],
+                    Array [
+                      true,
+                    ],
+                    Array [
+                      true,
+                    ],
+                    Array [
+                      Object {
+                        "root": true,
+                      },
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                },
+              }
+            }
+            tabList={
+              Object {
+                "dataList": Object {},
+                "loadingTabList": Object {
+                  "root": true,
+                  "row": false,
+                },
+                "onBottomPage": [Function],
+              }
+            }
+          />
+          <WithStyles(Component)
+            assignedBy=""
+            data={
+              Object {
+                "companyDetail": Object {
+                  "companyName": "tes",
+                },
+                "isNetworkConnectivity": true,
+                "statusStarClick": "Qualify",
+                "worklog": Array [
+                  Object {
+                    "status": "Waiting",
+                    "timestamp": "2021-11-10 19:42:20",
+                  },
+                ],
+              }
+            }
+            hasStatusEmailAndWA={true}
+            isDoneGetStatusWaAndEmailMailgun={false}
+            newDataAm={Array []}
+            statusEmailMailgun=""
+            statusWaMailgun=""
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={6}
+          xs={12}
+        >
+          <Component
+            data={
+              Array [
+                Object {
+                  "status": "Waiting",
+                  "timestamp": "2021-11-10 19:42:20",
+                },
+              ]
+            }
+            status="Qualify"
+            stepperProps={
+              Object {
+                "activeStep": 2,
+                "activeStyle": "default",
+                "steps": Array [
+                  "Waiting",
+                  "Valid",
+                  "Qualify",
+                  "Convert",
+                  "Create Opportunity",
+                  "Auto Quote",
+                ],
+              }
+            }
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+  <Memo(Connect(WithStyles(Component)))
+    content=""
+    onClose={[Function]}
+    success={true}
+  />
+</React.Fragment>
+`;

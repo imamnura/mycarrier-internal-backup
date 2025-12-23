@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/MarketingToolkit/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div>
+    <SectionMark
+      description=""
+      isDisplay={false}
+      nonmandatory={true}
+      onChange={[Function]}
+      title="Marketing Tool Kit"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "borderBottom": "2px dashed #E4E7E9",
+          "marginInline": "auto",
+          "maxWidth": "1280px",
+          "padding": "3rem 4rem",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={11}
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
+        xs={12}
+      >
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Download 
+            test
+             Brosur
+          </Typography>
+        </div>
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Untuk mendapatkan brosur silahkan isi data diri anda dibawah ini
+          </Typography>
+        </div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Nama"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={5}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Email"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              Download brochure
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <div>
+          <ForwardRef
+            disabled={true}
+          />
+           
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Agree, Data cannot be changed after submitting
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <img
+        alt="brochure ilustration"
+        src="/ewz-mycarrier-pub-dev/public/brochure/brochure-illustration.png"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    style={
+      Object {
+        "boxSizing": "border-box",
+        "padding": "4rem",
+      }
+    }
+  >
+    <WithStyles(Component)
+      accept={
+        Array [
+          ".pdf",
+          ".jpg",
+          ".png",
+        ]
+      }
+      onChange={[MockFunction]}
+    />
+    <div>
+      <div
+        style={
+          Object {
+            "marginBottom": "12px",
+            "marginTop": 0,
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Uploaded Document
+        </Typography>
+      </div>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          style={
+            Object {
+              "paddingBottom": 10,
+            }
+          }
+          xs={12}
+        >
+          <WithStyles(Component)
+            fileName="test"
+            onDelete={[Function]}
+            tab="id"
+          />
+          <WithStyles(Component)
+            fileName="test 2"
+            onDelete={[Function]}
+            tab="id"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/MarketingToolkit/index render checkTopSectionBorder 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div>
+    <SectionMark
+      description=""
+      isDisplay={true}
+      nonmandatory={true}
+      onChange={[Function]}
+      title="Marketing Tool Kit"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "borderBottom": "none",
+          "marginInline": "auto",
+          "maxWidth": "1280px",
+          "padding": "3rem 4rem",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={11}
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
+        xs={12}
+      >
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Download 
+            test
+             Brosur
+          </Typography>
+        </div>
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            To get a brochure, please fill in your personal data below
+          </Typography>
+        </div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Nama"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={5}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Email"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              Download brochure
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <div>
+          <ForwardRef
+            disabled={true}
+          />
+           
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Agree, Data cannot be changed after submitting
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <img
+        alt="brochure ilustration"
+        src="/ewz-mycarrier-pub-dev/public/brochure/brochure-illustration.png"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    style={
+      Object {
+        "boxSizing": "border-box",
+        "padding": 0,
+      }
+    }
+  />
+  <div
+    className={false}
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/MarketingToolkit/index render isDisplayProductMarketingToolkit and previewMode false 1`] = `<React.Fragment />`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/MarketingToolkit/index render isDisplayProductMarketingToolkit true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "borderBottom": "none",
+          "marginInline": "auto",
+          "maxWidth": "1280px",
+          "padding": "2.5rem 1rem",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={11}
+        style={
+          Object {
+            "zIndex": 1,
+          }
+        }
+        xs={12}
+      >
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Download 
+            test
+             Brosur
+          </Typography>
+        </div>
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            To get a brochure, please fill in your personal data below
+          </Typography>
+        </div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Nama"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={5}
+            xs={12}
+          >
+            <ForwardRef
+              InputLabelProps={Object {}}
+              InputProps={Object {}}
+              changeType="default"
+              disabled={true}
+              helperText=""
+              inputProps={Object {}}
+              label="Email"
+              leftAdornment={null}
+              maxLength={0}
+              required={true}
+              rightAdornment={null}
+              type="text"
+              valueMasking={null}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              Download brochure
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <div>
+          <ForwardRef
+            disabled={true}
+          />
+           
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Agree, Data cannot be changed after submitting
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <img
+        alt="brochure ilustration"
+        src="/ewz-mycarrier-pub-dev/public/brochure/brochure-illustration.png"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    className={false}
+  />
+</div>
+`;

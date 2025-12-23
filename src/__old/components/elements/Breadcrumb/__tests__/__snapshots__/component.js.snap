@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Breadcrumb render 1`] = `
+<WithStyles(ForwardRef(Breadcrumbs))
+  aria-label="breadcrumb"
+  separator={<ArrowRight />}
+>
+  <WithStyles(Component)
+    className="undefined"
+    color="grey"
+    variant="h4"
+  >
+    label1
+  </WithStyles(Component)>
+  <WithStyles(Component)
+    className=""
+    color="primary"
+    variant="h4"
+  >
+    label2
+  </WithStyles(Component)>
+</WithStyles(ForwardRef(Breadcrumbs))>
+`;

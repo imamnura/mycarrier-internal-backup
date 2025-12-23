@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/component/texteditor.js render another editableDesc false tab en 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "10px",
+    }
+  }
+>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    onClick={[Function]}
+    variant="subtitle1"
+    weight="light"
+  >
+    <ForwardRef(LoadableComponent)
+      model="test"
+    />
+  </Typography>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/component/texteditor.js render another editableDesc true tab en 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "10px",
+    }
+  }
+>
+  <React.Fragment>
+    <Component
+      getStory={[Function]}
+      name="desc"
+      type="explore"
+      value="Type content description here in English.."
+    />
+    <Styled(MuiBox)
+      mt={2}
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        textTransform="uppercase"
+        variant="filled"
+      >
+        SAVE
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </Styled(MuiBox)>
+  </React.Fragment>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/component/texteditor.js render another editableDesc true tab id 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "10px",
+    }
+  }
+>
+  <React.Fragment>
+    <Component
+      getStory={[Function]}
+      name="desc"
+      type="explore"
+      value="Ketik deskripsi konten di sini dalam Bahasa.."
+    />
+    <Styled(MuiBox)
+      mt={2}
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        textTransform="uppercase"
+        variant="filled"
+      >
+        SAVE
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </Styled(MuiBox)>
+  </React.Fragment>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/component/texteditor.js render tab en description 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "10px",
+    }
+  }
+>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    onClick={[Function]}
+    variant="subtitle1"
+    weight="light"
+  >
+    <ForwardRef(LoadableComponent)
+      model="test"
+    />
+  </Typography>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/component/texteditor.js run properly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "10px",
+    }
+  }
+>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    onClick={[Function]}
+    variant="subtitle1"
+    weight="light"
+  >
+    <ForwardRef(LoadableComponent)
+      model="test"
+    />
+  </Typography>
+</div>
+`;

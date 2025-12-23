@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Isolate/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Isolate",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 240,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Product & Services",
+            "value": "",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Product & Services",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Service ID..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": undefined,
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "AM",
+          "name": "am",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+            "width": 240,
+          },
+          "label": "CUSTOMER",
+          "name": "customer",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "REGIONAL",
+          "name": "regional",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "SID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "label": "PRODUCT",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 140,
+          },
+          "currency": true,
+          "label": "BILLING",
+          "name": "billing",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 280,
+            "width": 280,
+          },
+          "label": "SERVICE LOCATION",
+          "name": "serviceLocation",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "ISOLATE BY",
+          "name": "isolateBy",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "formatDate": "date-time",
+          "label": "DATE ISOLATE",
+          "name": "isolateDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "formatDate": "date-time",
+          "label": "DATE SUBMIT",
+          "name": "submitDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 140,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Isolated": "danger",
+            "Request Open": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Isolate"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/BillsAndPayment/Isolate/List render/others 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Isolate",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 240,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Product & Services",
+            "value": "",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Product & Services",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Service ID..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": undefined,
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "AM",
+          "name": "am",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+            "width": 240,
+          },
+          "label": "CUSTOMER",
+          "name": "customer",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "REGIONAL",
+          "name": "regional",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "SID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "label": "PRODUCT",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 140,
+          },
+          "currency": true,
+          "label": "BILLING",
+          "name": "billing",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 280,
+            "width": 280,
+          },
+          "label": "SERVICE LOCATION",
+          "name": "serviceLocation",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "ISOLATE BY",
+          "name": "isolateBy",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "formatDate": "date-time",
+          "label": "DATE ISOLATE",
+          "name": "isolateDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "formatDate": "date-time",
+          "label": "DATE SUBMIT",
+          "name": "submitDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 140,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Isolated": "danger",
+            "Request Open": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Isolate"
+  withTopDivider={true}
+/>
+`;

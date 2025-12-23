@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/LineItems run properly 1`] = `
+<React.Fragment>
+  <Text
+    color="secondary500"
+    size="20px"
+    weight="700"
+  >
+    Line Items
+  </Text>
+  <List
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    noMargin={true}
+    noPadding={true}
+    onBottomPage={[Function]}
+    search={null}
+    table={
+      Object {
+        "data": Array [],
+        "emptyMessage": Object {
+          "description": "undefined Number is not currently created",
+          "icon": [Function],
+          "message": "Line Items doesn't exist yet",
+        },
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Object {
+          "totalPage": 0,
+        },
+        "numbering": false,
+        "schema": Array [],
+        "size": 5,
+        "useCollapseChild": Array [
+          "",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

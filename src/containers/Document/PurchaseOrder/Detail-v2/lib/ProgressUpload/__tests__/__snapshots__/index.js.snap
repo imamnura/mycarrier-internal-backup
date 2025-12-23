@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/elements/ProgressUpload render 1`] = `
+<WithStyles(Component)
+  disableClose={true}
+  maxWidth="xs"
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle2"
+        weight="normal"
+      >
+        Uploading file: 
+        0
+        %
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(WithStyles(ForwardRef(LinearProgress)))
+        value={0}
+        variant="determinate"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

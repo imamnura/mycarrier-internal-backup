@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/BrochureUpload/Create render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelBrochure",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": false,
+        "id": "btnSaveBrochure",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management",
+      },
+      Object {
+        "label": "sample-14.pdf",
+        "url": "/brochure/detail/DOC-32756808",
+      },
+      Object {
+        "label": "Edit Brochure",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    sm={12}
+  >
+    <Card
+      title="Brochure Attributes"
+    >
+      <WithStyles(ForwardRef(Grid))>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Brochure Name"
+          maxLength={80}
+          name="name"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))>
+        <WithStyles(Component)
+          accept={
+            Array [
+              ".pdf",
+              ".png",
+              ".jpg",
+            ]
+          }
+          handleDelete={[Function]}
+          isLabelInputTop={true}
+          labelCustom="Example: guidelines.pdf"
+          labelInput="Upload Brochure"
+          maxSize={10485760}
+          name="fileBrochure"
+          onChange={[Function]}
+          required={true}
+          withDelete={true}
+        />
+        <div
+          style={
+            Object {
+              "marginTop": "4px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            Upload .pdf, .jpg or .png image, max 10 MB
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Description"
+          maxLength={140}
+          minRows={4}
+          multiline={true}
+          name="description"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </Card>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/BrochureUpload/Create render another state tab id 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "id": "btnCancelBrochure",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Save",
+        "disabled": false,
+        "id": "btnSaveBrochure",
+        "loading": false,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management",
+      },
+      Object {
+        "label": "Upload Brochure",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    sm={12}
+  >
+    <Card
+      title="Brochure Attributes"
+    >
+      <WithStyles(ForwardRef(Grid))>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Brochure Name"
+          maxLength={80}
+          name="name"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))>
+        <WithStyles(Component)
+          accept={
+            Array [
+              ".pdf",
+              ".png",
+              ".jpg",
+            ]
+          }
+          fileName=""
+          handleDelete={[Function]}
+          isLabelInputTop={true}
+          labelCustom="Example: guidelines.pdf"
+          labelInput="Upload Brochure"
+          maxSize={10485760}
+          name="fileBrochure"
+          onChange={[Function]}
+          required={true}
+          withDelete={true}
+        />
+        <div
+          style={
+            Object {
+              "marginTop": "4px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            Upload .pdf, .jpg or .png image, max 10 MB
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Description"
+          maxLength={140}
+          minRows={4}
+          multiline={true}
+          name="description"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </Card>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;

@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Broadcast/BroadcastInformation/Create render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as draft",
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Submit",
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Broadcast Information",
+        "url": "/broadcast-information",
+      },
+      Object {
+        "label": "Create Broadcast",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+    style={
+      Object {
+        "marginTop": -24,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={true}
+      xs={12}
+    >
+      <Card
+        title="General Settings"
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Broadcast Name"
+              maxLength={80}
+              name="broadcastName"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              fullWidth={true}
+              helperText=""
+              isLoading={false}
+              isMulti={true}
+              label="Contact Group"
+              maxWidth={300}
+              name="contactGroup"
+              options={Array []}
+              placeholder="Choose Contact Group"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            alignItems="center"
+            container={true}
+            item={true}
+            spacing={1}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="subtitle2"
+                weight="normal"
+              >
+                Do you want sent broadcast information right now?
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            >
+              <Switch
+                control={Object {}}
+                defaultValue={false}
+                name="isSendNow"
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={12}
+            >
+              <div
+                className="makeStyles-dateTimeWrapper-1"
+              >
+                <DateTimePicker
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Select Date"
+                  minDateTime="2022-10-10T08:08:08.000Z"
+                  name="schedule"
+                  required={true}
+                />
+              </div>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={12}
+            >
+              <FileUpload
+                accept={
+                  Array [
+                    ".jpg",
+                    ".png",
+                    ".pdf",
+                  ]
+                }
+                control={Object {}}
+                error={false}
+                fetcher={[Function]}
+                helperText="Upload .png, .jpg, or .pdf image, max 2 MB "
+                label="Upload Media"
+                maxSize={2097152}
+                name="media"
+                placeholder="Example: image.png"
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginTop": 24,
+          }
+        }
+        title="Broadcast Message"
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Paragraph 1"
+              maxLength={900}
+              minRows={4}
+              multiline={true}
+              name="paragraph1"
+              required={true}
+              shouldUnregister={false}
+              valueLength={0}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Paragraph 2"
+              maxLength={900}
+              minRows={4}
+              multiline={true}
+              name="paragraph2"
+              shouldUnregister={false}
+              valueLength={0}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Paragraph 3"
+              maxLength={900}
+              minRows={4}
+              multiline={true}
+              name="paragraph3"
+              shouldUnregister={false}
+              valueLength={0}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md="auto"
+      xs={12}
+    >
+      <Card
+        title="Message Preview"
+      >
+        <div
+          className="makeStyles-previewWrapper-2"
+        >
+          <PreviewMessage
+            media={Object {}}
+            message={
+              Array [
+                "",
+                "",
+                "",
+              ]
+            }
+            time=""
+          />
+        </div>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/List/ProjectAndService/lib/ServiceList render 1`] = `
+<Generator
+  data={
+    Array [
+      Object {
+        "render": <WithStyles(ForwardRef(Grid))>
+          <ServiceList
+            loading={false}
+            schema={Array []}
+          />
+          <List
+            action={Array []}
+            breadcrumb={Array []}
+            filter={
+              Array [
+                Object {
+                  "maxWidth": 300,
+                  "onChange": [MockFunction],
+                  "options": Array [
+                    Object {
+                      "label": "label",
+                      "value": "",
+                    },
+                  ],
+                  "type": "dropdown",
+                  "value": "",
+                },
+                Object {
+                  "maxWidth": 300,
+                  "onChange": [MockFunction],
+                  "options": Array [
+                    Object {
+                      "label": "label",
+                      "value": "",
+                    },
+                  ],
+                  "type": "dropdown",
+                  "value": "",
+                },
+                Object {
+                  "isSearchable": true,
+                  "maxWidth": 300,
+                  "onChange": [MockFunction],
+                  "options": Array [
+                    Object {
+                      "label": "label",
+                      "value": "",
+                    },
+                  ],
+                  "type": "dropdown",
+                  "value": "",
+                },
+              ]
+            }
+            noMargin={true}
+            noPadding={true}
+            onBottomPage={[Function]}
+            search={
+              Object {
+                "onChange": [MockFunction],
+                "placeholder": "Search Service ID or Order ID or Service Location..",
+                "value": "",
+                "withTooltip": true,
+              }
+            }
+            table={
+              Object {
+                "data": Array [],
+                "loading": false,
+                "loadingRoot": undefined,
+                "meta": Object {},
+                "onClickRow": [MockFunction],
+                "onPaginationChange": undefined,
+                "page": undefined,
+                "schema": Array [
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 140,
+                    },
+                    "label": "Order ID",
+                    "name": "orderId",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "Order Type",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 180,
+                    },
+                    "label": "Product & Service",
+                    "name": "productName",
+                    "sort": true,
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "Regional",
+                    "name": "regional",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 420,
+                    },
+                    "label": "Service Location",
+                    "name": "serviceLocation",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 180,
+                    },
+                    "formatDate": "date-time",
+                    "label": "Order Date",
+                    "name": "orderDate",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 180,
+                    },
+                    "formatDate": "date-time",
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdate",
+                    "sort": true,
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "Status",
+                    "name": "status",
+                    "schemaStatus": Object {
+                      "Active": "success",
+                      "Disconnect": "danger",
+                      "Isolated": "alert",
+                      "On Delivery": "primary",
+                      "Request To Open": "alert",
+                      "Suspend": "alert",
+                    },
+                  },
+                ],
+                "useOrderBy": Array [
+                  "",
+                  [MockFunction],
+                ],
+                "useOrderDirection": Array [
+                  "",
+                  [MockFunction],
+                ],
+              }
+            }
+            tabs={
+              Object {
+                "onChange": [Function],
+                "options": Array [],
+                "value": "",
+              }
+            }
+            title=""
+            withTopDivider={true}
+          />
+        </WithStyles(ForwardRef(Grid))>,
+        "style": Object {
+          "marginTop": "8px",
+          "padding": "8px 32px !important",
+        },
+        "title": "List of Service",
+        "type": "custom",
+      },
+    ]
+  }
+/>
+`;

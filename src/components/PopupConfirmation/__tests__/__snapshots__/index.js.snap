@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/PopupConfirmation render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "disableStrictModeCompat": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-root-2",
+    }
+  }
+  open={false}
+/>
+`;
+
+exports[`src/components/PopupConfirmation render/opened 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "disableStrictModeCompat": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-root-4",
+    }
+  }
+  open={true}
+>
+  <React.Fragment>
+    <CircleCheck
+      className="makeStyles-icon-3"
+    />
+    <Styled(MuiBox)
+      pb={3}
+      textAlign="center"
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        m
+      </Typography>
+      <Styled(MuiBox)
+        py={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="body2"
+          weight="normal"
+        >
+          d
+        </Typography>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        pt={1}
+      >
+        n
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justifyContent="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/component/form/AddMappingCustomer/component render 1`] = `
+<React.Fragment>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <div>
+          <WithStyles(Component)
+            variant="h5"
+          >
+            Input customer profile below
+          </WithStyles(Component)>
+        </div>
+        <div>
+          <WithStyles(Component)
+            disabled={true}
+            getValue={[Function]}
+            label="custAccntName"
+            options={Array []}
+            placeholder="Search Customer name"
+          />
+        </div>
+        <WithStyles(Component)
+          variant="status"
+        >
+           
+          Search by
+          <span
+            onClick={[Function]}
+          >
+            Name
+          </span>
+          <span
+            onClick={[Function]}
+          >
+            Account Number
+          </span>
+        </WithStyles(Component)>
+        <div>
+          <NoData />
+          <div>
+            <WithStyles(Component)
+              variant="h5"
+            >
+              Search your data with specific keyword.
+            </WithStyles(Component)>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="ghost"
+            >
+              Cancel
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={true}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              Submit
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+  <WithStyles(Component)
+    actions={Array []}
+    content=""
+    onClose={[Function]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/component/form/AddMappingCustomer/component render is loading true 1`] = `
+<React.Fragment>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <div>
+          <WithStyles(Component)
+            variant="h5"
+          >
+            Input customer profile below
+          </WithStyles(Component)>
+        </div>
+        <div>
+          <WithStyles(Component)
+            disabled={true}
+            getValue={[Function]}
+            label="custAccntName"
+            options={Array []}
+            placeholder="Loading Customer Profile.."
+          />
+        </div>
+        <WithStyles(Component)
+          variant="status"
+        >
+           
+          Search by
+          <span
+            onClick={[Function]}
+          >
+            Name
+          </span>
+          <span
+            onClick={[Function]}
+          >
+            Account Number
+          </span>
+        </WithStyles(Component)>
+        <div>
+          <NoData />
+          <div>
+            <WithStyles(Component)
+              variant="h5"
+            >
+              Search your data with specific keyword.
+            </WithStyles(Component)>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="ghost"
+            >
+              Cancel
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={true}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              <WithStyles(ForwardRef(CircularProgress))
+                size={17}
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "marginTop": 5,
+                  }
+                }
+                thickness={3}
+              />
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+  <WithStyles(Component)
+    actions={Array []}
+    content=""
+    onClose={[Function]}
+  />
+</React.Fragment>
+`;

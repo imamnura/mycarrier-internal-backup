@@ -1,0 +1,578 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/elements/PreviewPrivilege/index render 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Accordion))
+        TransitionProps={
+          Object {
+            "unmountOnExit": true,
+          }
+        }
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(AccordionSummary))
+          classes={
+            Object {
+              "content": undefined,
+              "root": undefined,
+            }
+          }
+          expandIcon={<ArrowDown />}
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "gap": 16,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <Minus />
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="subtitle1"
+                weight="bold"
+              >
+                TEST
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="overline"
+                weight="normal"
+              >
+                test
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </WithStyles(ForwardRef(AccordionSummary))>
+        <WithStyles(ForwardRef(AccordionDetails))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <React.Fragment>
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Accordion))
+                TransitionProps={
+                  Object {
+                    "unmountOnExit": true,
+                  }
+                }
+                classes={
+                  Object {
+                    "root": undefined,
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(AccordionSummary))
+                  classes={
+                    Object {
+                      "content": undefined,
+                      "root": undefined,
+                    }
+                  }
+                  expandIcon={false}
+                >
+                  <Styled(MuiBox)
+                    sx={
+                      Object {
+                        "alignItems": "flex-start",
+                        "display": "flex",
+                        "gap": 16,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <Minus />
+                    <Styled(MuiBox)
+                      sx={
+                        Object {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": 8,
+                        }
+                      }
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="body2"
+                        weight="normal"
+                      >
+                        
+                      </Typography>
+                    </Styled(MuiBox)>
+                  </Styled(MuiBox)>
+                </WithStyles(ForwardRef(AccordionSummary))>
+              </WithStyles(ForwardRef(Accordion))>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Accordion))
+                TransitionProps={
+                  Object {
+                    "unmountOnExit": true,
+                  }
+                }
+                classes={
+                  Object {
+                    "root": undefined,
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(AccordionSummary))
+                  classes={
+                    Object {
+                      "content": undefined,
+                      "root": undefined,
+                    }
+                  }
+                  expandIcon={false}
+                >
+                  <Styled(MuiBox)
+                    sx={
+                      Object {
+                        "alignItems": "flex-start",
+                        "display": "flex",
+                        "gap": 16,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <Minus />
+                    <Styled(MuiBox)
+                      sx={
+                        Object {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": 8,
+                        }
+                      }
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="body2"
+                        weight="normal"
+                      >
+                        
+                      </Typography>
+                    </Styled(MuiBox)>
+                  </Styled(MuiBox)>
+                </WithStyles(ForwardRef(AccordionSummary))>
+              </WithStyles(ForwardRef(Accordion))>
+            </Styled(MuiBox)>
+          </React.Fragment>
+        </WithStyles(ForwardRef(AccordionDetails))>
+      </WithStyles(ForwardRef(Accordion))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Accordion))
+        TransitionProps={
+          Object {
+            "unmountOnExit": true,
+          }
+        }
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(AccordionSummary))
+          classes={
+            Object {
+              "content": undefined,
+              "root": undefined,
+            }
+          }
+          expandIcon={false}
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "gap": 16,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <Minus />
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="overline"
+                weight="normal"
+              >
+                test
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </WithStyles(ForwardRef(AccordionSummary))>
+      </WithStyles(ForwardRef(Accordion))>
+    </Styled(MuiBox)>
+  </React.Fragment>
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/elements/PreviewPrivilege/index render loading true 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Accordion))
+        TransitionProps={
+          Object {
+            "unmountOnExit": true,
+          }
+        }
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(AccordionSummary))
+          classes={
+            Object {
+              "content": undefined,
+              "root": undefined,
+            }
+          }
+          expandIcon={<ArrowDown />}
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "gap": 16,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <Minus />
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="subtitle1"
+                weight="bold"
+              >
+                TEST
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="overline"
+                weight="normal"
+              >
+                test
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </WithStyles(ForwardRef(AccordionSummary))>
+        <WithStyles(ForwardRef(AccordionDetails))
+          classes={
+            Object {
+              "root": undefined,
+            }
+          }
+        >
+          <React.Fragment>
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Accordion))
+                TransitionProps={
+                  Object {
+                    "unmountOnExit": true,
+                  }
+                }
+                classes={
+                  Object {
+                    "root": undefined,
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(AccordionSummary))
+                  classes={
+                    Object {
+                      "content": undefined,
+                      "root": undefined,
+                    }
+                  }
+                  expandIcon={false}
+                >
+                  <Styled(MuiBox)
+                    sx={
+                      Object {
+                        "alignItems": "flex-start",
+                        "display": "flex",
+                        "gap": 16,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <Minus />
+                    <Styled(MuiBox)
+                      sx={
+                        Object {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": 8,
+                        }
+                      }
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="body2"
+                        weight="normal"
+                      >
+                        
+                      </Typography>
+                    </Styled(MuiBox)>
+                  </Styled(MuiBox)>
+                </WithStyles(ForwardRef(AccordionSummary))>
+              </WithStyles(ForwardRef(Accordion))>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Accordion))
+                TransitionProps={
+                  Object {
+                    "unmountOnExit": true,
+                  }
+                }
+                classes={
+                  Object {
+                    "root": undefined,
+                  }
+                }
+              >
+                <WithStyles(ForwardRef(AccordionSummary))
+                  classes={
+                    Object {
+                      "content": undefined,
+                      "root": undefined,
+                    }
+                  }
+                  expandIcon={false}
+                >
+                  <Styled(MuiBox)
+                    sx={
+                      Object {
+                        "alignItems": "flex-start",
+                        "display": "flex",
+                        "gap": 16,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <Minus />
+                    <Styled(MuiBox)
+                      sx={
+                        Object {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "gap": 8,
+                        }
+                      }
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="body2"
+                        weight="normal"
+                      >
+                        
+                      </Typography>
+                    </Styled(MuiBox)>
+                  </Styled(MuiBox)>
+                </WithStyles(ForwardRef(AccordionSummary))>
+              </WithStyles(ForwardRef(Accordion))>
+            </Styled(MuiBox)>
+          </React.Fragment>
+        </WithStyles(ForwardRef(AccordionDetails))>
+      </WithStyles(ForwardRef(Accordion))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Accordion))
+        TransitionProps={
+          Object {
+            "unmountOnExit": true,
+          }
+        }
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(AccordionSummary))
+          classes={
+            Object {
+              "content": undefined,
+              "root": undefined,
+            }
+          }
+          expandIcon={false}
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "gap": 16,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <Minus />
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="overline"
+                weight="normal"
+              >
+                test
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </WithStyles(ForwardRef(AccordionSummary))>
+      </WithStyles(ForwardRef(Accordion))>
+    </Styled(MuiBox)>
+  </React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mt": 2,
+      }
+    }
+  >
+    <LoadingBar
+      loading={true}
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/Trial render properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Purchase Order",
+          "url": "/dashboard/purchase-order",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "ORDER ID",
+                    "name": "orderNumber",
+                  },
+                  Object {
+                    "label": "BAKES NUMBER",
+                    "name": "bakesNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "PURCHASE DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "label": "CUSTOMER",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "ORDER TYPE",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "TRIAL DURATION",
+                    "name": "trialDuration",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "ACCOUNT BALANCE",
+                    "name": "accountBalance",
+                  },
+                  Object {
+                    "label": "USERNAME",
+                    "name": "neucloudUsername",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "COUPON CODE",
+                    "name": "couponCode",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "hidden": true,
+                    "label": "COUPON EXPIRATION DATE",
+                    "name": "couponCodeExpired",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "Purchase Order",
+                    "name": "documentPO",
+                  },
+                  Object {
+                    "label": "BAKES",
+                    "name": "bakesFile",
+                  },
+                  Object {
+                    "label": "BASO",
+                    "name": "activationDoc",
+                  },
+                  Object {
+                    "label": "SIUP",
+                    "name": "siup",
+                  },
+                  Object {
+                    "label": "Company Deed",
+                    "name": "companyDeed",
+                  },
+                  Object {
+                    "label": "NPWP",
+                    "name": "npwp",
+                  },
+                  Object {
+                    "label": "Onboarding File",
+                    "name": "onboardingFile",
+                  },
+                  Object {
+                    "label": "Data Consent File",
+                    "name": "dataConsentFile",
+                  },
+                  Object {
+                    "label": "Additional File",
+                    "name": "additionalFile",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "AM Approval",
+                  "Delivery Approval",
+                  "Approved",
+                ],
+              },
+              "title": "Purchase Order Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    content={null}
+  />
+</React.Fragment>
+`;

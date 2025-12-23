@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/List/ProjectAndService/lib/ProjectList render 1`] = `
+<Generator
+  data={
+    Array [
+      Object {
+        "render": <div
+          style={
+            Object {
+              "paddingTop": "16px",
+            }
+          }
+        >
+          <List
+            action={Array []}
+            breadcrumb={Array []}
+            filter={Array []}
+            noMargin={true}
+            noPadding={true}
+            onBottomPage={[MockFunction]}
+            search={
+              Object {
+                "onChange": [MockFunction],
+                "placeholder": "Search Project ID..",
+                "value": "",
+              }
+            }
+            table={
+              Object {
+                "data": Array [],
+                "loading": false,
+                "loadingRoot": false,
+                "meta": Object {},
+                "onClickRow": [MockFunction],
+                "schema": Array [
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 140,
+                    },
+                    "label": "ORDER ID",
+                    "name": "orderId",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "PROJECT ID",
+                    "name": "projectId",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 420,
+                    },
+                    "label": "PROJECT NAME",
+                    "name": "projectName",
+                    "sort": true,
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 120,
+                    },
+                    "label": "TOTAL SERVICE",
+                    "name": "totalService",
+                  },
+                  Object {
+                    "cellStyle": Object {
+                      "minWidth": 180,
+                    },
+                    "formatDate": "date-time",
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdate",
+                    "sort": true,
+                  },
+                ],
+                "useOrderBy": Array [
+                  "",
+                  [MockFunction],
+                ],
+                "useOrderDirection": Array [
+                  "",
+                  [MockFunction],
+                ],
+              }
+            }
+            tabs={
+              Object {
+                "onChange": [Function],
+                "options": Array [],
+                "value": "",
+              }
+            }
+            title=""
+            withTopDivider={true}
+          />
+        </div>,
+        "style": Object {
+          "marginTop": "8px",
+          "padding": "8px 16px !important",
+        },
+        "title": "List of Project",
+        "type": "custom",
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/RadioGroup render 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-9"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-6"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <ForwardRef(RadioGroup)
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={[Function]}
+    row={false}
+    value={null}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-7",
+            "root": "makeStyles-labelRoot-8",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-4",
+                "disabled": "makeStyles-iconDisabled-5",
+                "root": "makeStyles-icon-3",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              nol
+            </Typography>
+          </React.Fragment>
+        }
+        value="0"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-7",
+            "root": "makeStyles-labelRoot-8",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-4",
+                "disabled": "makeStyles-iconDisabled-5",
+                "root": "makeStyles-icon-3",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            1
+          </React.Fragment>
+        }
+        value="1"
+      />
+    </Styled(MuiBox)>
+  </ForwardRef(RadioGroup)>
+  <div
+    className="makeStyles-helper-1"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      helper
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/RadioGroup render hideHelper 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-36"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-33"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <ForwardRef(RadioGroup)
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={[Function]}
+    row={false}
+    value={null}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-34",
+            "root": "makeStyles-labelRoot-35",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-31",
+                "disabled": "makeStyles-iconDisabled-32",
+                "root": "makeStyles-icon-30",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              nol
+            </Typography>
+          </React.Fragment>
+        }
+        value="0"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-34",
+            "root": "makeStyles-labelRoot-35",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-31",
+                "disabled": "makeStyles-iconDisabled-32",
+                "root": "makeStyles-icon-30",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            1
+          </React.Fragment>
+        }
+        value="1"
+      />
+    </Styled(MuiBox)>
+  </ForwardRef(RadioGroup)>
+  <div
+    className="makeStyles-helper-28"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      helper
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/RadioGroup render/other 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-63"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-60"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <ForwardRef(RadioGroup)
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={[Function]}
+    row={false}
+    value={null}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-61",
+            "root": "makeStyles-labelRoot-62",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-58",
+                "disabled": "makeStyles-iconDisabled-59",
+                "root": "makeStyles-icon-57",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="normal"
+            >
+              nol
+            </Typography>
+          </React.Fragment>
+        }
+        value="0"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(FormControlLabel))
+        classes={
+          Object {
+            "label": "makeStyles-radioLabel-61",
+            "root": "makeStyles-labelRoot-62",
+          }
+        }
+        control={
+          <WithStyles(ForwardRef(Radio))
+            classes={
+              Object {
+                "checked": "makeStyles-iconChecked-58",
+                "disabled": "makeStyles-iconDisabled-59",
+                "root": "makeStyles-icon-57",
+              }
+            }
+            size="small"
+          />
+        }
+        disabled={false}
+        label={
+          <React.Fragment>
+            1
+          </React.Fragment>
+        }
+        value="1"
+      />
+    </Styled(MuiBox)>
+  </ForwardRef(RadioGroup)>
+  <div
+    className="makeStyles-helper-55"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      helper
+    </Typography>
+  </div>
+</React.Fragment>
+`;

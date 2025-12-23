@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/UpdatePeriod render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": 320,
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": 8,
+          "textAlign": "center",
+          "width": 310,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Update period
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Choose period that you want to update your data
+      </Typography>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={3}
+    width="100%"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justifyContent="flex-start"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <RadioGroup
+          control={Object {}}
+          direction="horizontal"
+          error={false}
+          helperText=""
+          hideHelper={true}
+          label="Updaate by"
+          name="update"
+          options={
+            Array [
+              Object {
+                "label": "Invoice Date",
+                "value": "invoiceDate",
+              },
+              Object {
+                "label": "Clearing Date",
+                "value": "clearingDate",
+              },
+            ]
+          }
+          shouldUnregister={false}
+        />
+        <Unknown
+          control={Object {}}
+          name="period"
+          render={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <div
+      className="makeStyles-actionDivider-2"
+    />
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      Update
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

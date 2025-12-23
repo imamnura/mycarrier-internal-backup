@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Attendees/index render default 1`] = `
+<div
+  className="makeStyles-root-2"
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Attendees"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Siapa yang Harus Hadir?
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={4}
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        className="makeStyles-fieldContainer-6"
+        mb={3}
+      >
+        <TextField
+          colorInput="#2E434D"
+          colorPlaceholder="black"
+          control={Object {}}
+          fontSize="1.25rem"
+          name="attendee"
+          noSpacing={true}
+          placeholder="Ketik jabatan peserta"
+          position="left"
+          weight="medium"
+        />
+        <Button
+          className="makeStyles-addButton-7"
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          add attendee
+        </Button>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className="makeStyles-disabledSection-1"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Attendees/index render initialAttendees 1`] = `
+<div
+  className="makeStyles-root-9"
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Attendees"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Siapa yang Harus Hadir?
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={4}
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        className="makeStyles-fieldContainer-13"
+        mb={3}
+      >
+        <TextField
+          colorInput="#2E434D"
+          colorPlaceholder="black"
+          control={Object {}}
+          fontSize="1.25rem"
+          name="attendee"
+          noSpacing={true}
+          placeholder="Ketik jabatan peserta"
+          position="left"
+          weight="medium"
+        />
+        <Button
+          className="makeStyles-addButton-14"
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          add attendee
+        </Button>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="makeStyles-itemContainer-10"
+          >
+            <Typography
+              className="makeStyles-itemsLabel-11"
+              color="general-main"
+              inline={false}
+              variant="h5"
+              weight="medium"
+            >
+              test
+            </Typography>
+            <Memo
+              className="makeStyles-deleteIcon-12"
+              onClick={[Function]}
+            />
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <div
+            className="makeStyles-itemContainer-10"
+          >
+            <Typography
+              className="makeStyles-itemsLabel-11"
+              color="general-main"
+              inline={false}
+              variant="h5"
+              weight="medium"
+            >
+              test 2
+            </Typography>
+            <Memo
+              className="makeStyles-deleteIcon-12"
+              onClick={[Function]}
+            />
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className="makeStyles-disabledSection-8"
+  />
+</div>
+`;

@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/CustomerDetail/index render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "AM Mapping",
+          "url": "/am-mapping",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Styled(MuiBox)>
+                <WithStyles(ForwardRef(Grid))
+                  alignItems="baseline"
+                  container={true}
+                  justifyContent="flex-start"
+                  spacing={1}
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                  >
+                    <Text
+                      color="secondary-500"
+                      size="20px"
+                      weight="700"
+                    >
+                      Customer Information
+                    </Text>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                  >
+                    <Text
+                      color="secondary-400"
+                    >
+                      Last Update: 
+                      test
+                    </Text>
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>
+                <Styled(MuiBox)
+                  pt={3}
+                >
+                  <SectionInformation
+                    data={
+                      Object {
+                        "lastUpdate": "test",
+                        "status": "success",
+                      }
+                    }
+                    schema={
+                      Array [
+                        Object {
+                          "grid": 3,
+                          "label": "Customer",
+                          "name": "customerAccountName",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "CA Number",
+                          "name": "caNumber",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "Nipnas",
+                          "name": "nipnas",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "BP Number",
+                          "name": "bpNumber",
+                        },
+                        Object {
+                          "grid": 12,
+                          "label": "Customer Type",
+                          "name": "region",
+                        },
+                        Object {
+                          "grid": 12,
+                          "label": "Address",
+                          "name": "address",
+                        },
+                      ]
+                    }
+                  />
+                </Styled(MuiBox)>
+              </Styled(MuiBox)>,
+              "type": "custom",
+            },
+            Object {
+              "render": <AmList />,
+              "title": "AM Mapping",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "success",
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/AmMapping/CustomerDetail/index render not found 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "AM Mapping",
+          "url": "/am-mapping",
+        },
+        Object {
+          "label": "",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Styled(MuiBox)>
+                <WithStyles(ForwardRef(Grid))
+                  alignItems="baseline"
+                  container={true}
+                  justifyContent="flex-start"
+                  spacing={1}
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                  >
+                    <Text
+                      color="secondary-500"
+                      size="20px"
+                      weight="700"
+                    >
+                      Customer Information
+                    </Text>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                  >
+                    <Text
+                      color="secondary-400"
+                    >
+                      Last Update: 
+                    </Text>
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>
+                <Styled(MuiBox)
+                  pt={3}
+                >
+                  <SectionInformation
+                    data={Object {}}
+                    schema={
+                      Array [
+                        Object {
+                          "grid": 3,
+                          "label": "Customer",
+                          "name": "customerAccountName",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "CA Number",
+                          "name": "caNumber",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "Nipnas",
+                          "name": "nipnas",
+                        },
+                        Object {
+                          "grid": 3,
+                          "label": "BP Number",
+                          "name": "bpNumber",
+                        },
+                        Object {
+                          "grid": 12,
+                          "label": "Customer Type",
+                          "name": "region",
+                        },
+                        Object {
+                          "grid": 12,
+                          "label": "Address",
+                          "name": "address",
+                        },
+                      ]
+                    }
+                  />
+                </Styled(MuiBox)>
+              </Styled(MuiBox)>,
+              "type": "custom",
+            },
+            Object {
+              "render": <AmList />,
+              "title": "AM Mapping",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

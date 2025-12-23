@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add/lib/components/LineButton render 1`] = `
+<lineButton
+  classes={Object {}}
+  handleClick={[MockFunction]}
+  label="test"
+  variant="default"
+/>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add/lib/components/LineButton render variant primary 1`] = `
+<lineButton
+  classes={Object {}}
+  handleClick={[MockFunction]}
+  label="test"
+  variant="primary"
+/>
+`;

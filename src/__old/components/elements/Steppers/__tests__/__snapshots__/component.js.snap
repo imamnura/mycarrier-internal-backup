@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Steppers render 1`] = `
+<WithStyles(ForwardRef(Stepper))
+  activeStep={1}
+  alternativeLabel={true}
+  classes={
+    Object {
+      "root": undefined,
+    }
+  }
+>
+  <WithStyles(ForwardRef(Step))
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": undefined,
+            "alternativeLabel": undefined,
+            "completed": undefined,
+            "line": undefined,
+            "lineHorizontal": undefined,
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(StepLabel))
+      StepIconComponent=""
+      StepIconProps={
+        Object {
+          "classes": Object {
+            "active": undefined,
+            "completed": undefined,
+            "root": "",
+            "text": undefined,
+          },
+          "label": Object {
+            "label": "label",
+          },
+        }
+      }
+      classes={
+        Object {
+          "active": undefined,
+          "iconContainer": undefined,
+          "label": "undefined",
+        }
+      }
+    >
+      Object {
+        "label": "label",
+      }
+    </WithStyles(ForwardRef(StepLabel))>
+  </WithStyles(ForwardRef(Step))>
+</WithStyles(ForwardRef(Stepper))>
+`;
+
+exports[`src/components/elements/Steppers render with StepIconComponent 1`] = `ShallowWrapper {}`;

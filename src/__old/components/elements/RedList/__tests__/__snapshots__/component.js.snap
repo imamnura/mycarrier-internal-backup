@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Redlist render 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "flex-start",
+      }
+    }
+  >
+    <div>
+      <WithStyles(Component)
+        color="white"
+        variant="h5"
+      >
+        1
+      </WithStyles(Component)>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "flex-start",
+      }
+    }
+  >
+    <div>
+      <WithStyles(Component)
+        color="white"
+        variant="h5"
+      >
+        2
+      </WithStyles(Component)>
+    </div>
+  </div>
+</div>
+`;

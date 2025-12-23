@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/ModalUploadAgreement run properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": 320,
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": 8,
+          "textAlign": "center",
+          "width": 310,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Upload Agreement Document
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        First step, please upload Agreement Document
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "mt": 3,
+          "px": 4,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={0}
+        errors={null}
+        errorsLabel=""
+        steps={
+          Array [
+            "Upload Agreement Document",
+            "Fill Agreement Revenue",
+          ]
+        }
+        variant="number"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <React.Fragment>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": 320,
+        }
+      }
+    >
+      <FileUpload
+        accept={
+          Array [
+            ".pdf",
+          ]
+        }
+        control={Object {}}
+        customValidate={null}
+        disabled={false}
+        error={false}
+        fetcher={null}
+        helperText="Upload .pdf document, max 5 MB "
+        label=""
+        maxFile={1}
+        maxSize={5242880}
+        onChange={[MockFunction]}
+        placeholder="Example: agreement-document.pdf"
+        ratio={Array []}
+        ratioPixel={Array []}
+        required={false}
+        value={Object {}}
+        withCropper={false}
+        withDelete={true}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "mt": 4,
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+      <div
+        className="makeStyles-actionDivider-2"
+      />
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Next
+      </Button>
+    </Styled(MuiBox)>
+  </React.Fragment>
+</WithStyles(ForwardRef(Dialog))>
+`;

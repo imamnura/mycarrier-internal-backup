@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/SummaryInvoice/index render 1`] = `
+<Box
+  background="white"
+  id="bill-and-payment-dashboard-sections-summary-invoice"
+  padding="24px 32px"
+  radius="8px"
+  shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+>
+  <div>
+    <Text
+      color="secondary500"
+      size="h6"
+      weight="700"
+    >
+      Summary Invoice Document Status
+    </Text>
+    <div>
+      <DatePicker
+        format="MMMM YYYY"
+        id="bill-and-payment-dashboard-sections-summary-invoice-filters-period"
+        label="All Period"
+        minDate="2020/01/01"
+        onChange={[MockFunction]}
+        openTo="month"
+        value="test"
+        views={
+          Array [
+            "year",
+            "month",
+          ]
+        }
+      />
+      <Dropdown
+        additionalWidth={0}
+        asyncProps={Object {}}
+        creatableWording={null}
+        emptyMessage={null}
+        id="bill-and-payment-dashboard-sections-summary-invoice-filters-request-time"
+        isCreatable={false}
+        isOptionDisabled={[Function]}
+        maxWidth={null}
+        menuStick="left"
+        menuWidth={200}
+        minWidth={null}
+        noBorder={false}
+        onChange={[MockFunction]}
+        onCreate={[Function]}
+        onSearch={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "All Request Time",
+              "value": "",
+            },
+            Object {
+              "label": "> 15 Minutes",
+              "value": ">15",
+            },
+          ]
+        }
+        placeholder="Choose Option"
+        required={false}
+        searchable={false}
+        staticHeight={null}
+        staticWidth={null}
+        styles={Object {}}
+        value={Object {}}
+        valueFitToContent={false}
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      id="bill-and-payment-dashboard-sections-summary-invoice-all"
+    >
+      <ResponsivePie
+        animate={false}
+        colors={[Function]}
+        data={
+          Array [
+            Object {
+              "color": "#52BD94",
+              "value": 0,
+            },
+            Object {
+              "color": "#3366FF",
+              "value": 0,
+            },
+            Object {
+              "color": "#FFB020",
+              "value": 0,
+            },
+          ]
+        }
+        enableArcLabels={false}
+        enableArcLinkLabels={false}
+        endAngle={90}
+        innerRadius={0.72}
+        isInteractive={false}
+        startAngle={-90}
+      />
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="subtitle2"
+          weight="medium"
+        >
+          Total Invoice
+        </Typography>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h3"
+          weight="medium"
+        >
+          0
+        </Typography>
+        <Typography
+          className=""
+          color="primary-main"
+          id="bill-and-payment-dashboard-sections-summary-invoice-all-view-all"
+          inline={false}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          variant="caption"
+          weight="bold"
+        >
+          VIEW ALL
+        </Typography>
+      </div>
+    </div>
+    <div>
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-requested-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-requested"
+        isActive={false}
+        loading={false}
+        onClick={null}
+        title="Requested"
+        variant="information"
+      />
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-in-progress-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-in-progress"
+        isActive={false}
+        loading={false}
+        onClick={null}
+        title="In Progress"
+        variant="warning"
+      />
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-completed-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-completed"
+        isActive={false}
+        loading={false}
+        onClick={null}
+        title="Completed"
+        variant="success"
+      />
+    </div>
+  </div>
+</Box>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/SummaryInvoice/index render loading true 1`] = `
+<Box
+  background="white"
+  id="bill-and-payment-dashboard-sections-summary-invoice"
+  padding="24px 32px"
+  radius="8px"
+  shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+>
+  <div>
+    <Text
+      color="secondary500"
+      size="h6"
+      weight="700"
+    >
+      Summary Invoice Document Status
+    </Text>
+    <div>
+      <DatePicker
+        format="MMMM YYYY"
+        id="bill-and-payment-dashboard-sections-summary-invoice-filters-period"
+        label="All Period"
+        minDate="2020/01/01"
+        onChange={[MockFunction]}
+        openTo="month"
+        value="test"
+        views={
+          Array [
+            "year",
+            "month",
+          ]
+        }
+      />
+      <Dropdown
+        additionalWidth={0}
+        asyncProps={Object {}}
+        creatableWording={null}
+        emptyMessage={null}
+        id="bill-and-payment-dashboard-sections-summary-invoice-filters-request-time"
+        isCreatable={false}
+        isOptionDisabled={[Function]}
+        maxWidth={null}
+        menuStick="left"
+        menuWidth={200}
+        minWidth={null}
+        noBorder={false}
+        onChange={[MockFunction]}
+        onCreate={[Function]}
+        onSearch={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "All Request Time",
+              "value": "",
+            },
+            Object {
+              "label": "> 15 Minutes",
+              "value": ">15",
+            },
+          ]
+        }
+        placeholder="Choose Option"
+        required={false}
+        searchable={false}
+        staticHeight={null}
+        staticWidth={null}
+        styles={Object {}}
+        value={Object {}}
+        valueFitToContent={false}
+      />
+    </div>
+  </div>
+  <div>
+    <Skeleton
+      height={140}
+      variant="rect"
+      width={280}
+    />
+    <div>
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-requested-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-requested"
+        isActive={false}
+        loading={true}
+        onClick={null}
+        title="Requested"
+        variant="information"
+      />
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-in-progress-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-in-progress"
+        isActive={false}
+        loading={true}
+        onClick={null}
+        title="In Progress"
+        variant="warning"
+      />
+      <CardInfo
+        actionLocator="bill-and-payment-dashboard-sections-summary-invoice-completed-view-all"
+        content={0}
+        design="extended"
+        id="bill-and-payment-dashboard-sections-summary-invoice-completed"
+        isActive={false}
+        loading={true}
+        onClick={null}
+        title="Completed"
+        variant="success"
+      />
+    </div>
+  </div>
+</Box>
+`;

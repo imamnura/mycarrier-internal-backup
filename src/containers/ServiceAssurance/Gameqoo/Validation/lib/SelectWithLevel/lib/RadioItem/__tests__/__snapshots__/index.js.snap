@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation/lib/SelectWithLevel/lib/RadioItem render 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <WithStyles(ForwardRef(Radio))
+      onClick={[Function]}
+    />
+  }
+  label="test"
+  style={
+    Object {
+      "marginLeft": "6px",
+    }
+  }
+  value="test"
+/>
+`;

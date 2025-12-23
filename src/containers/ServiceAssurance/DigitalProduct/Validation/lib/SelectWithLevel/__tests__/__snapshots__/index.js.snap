@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Validation/lib/SelectWithLevel render 1`] = `
+<div>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    Select Date
+  </Typography>
+  <div
+    onClick={[Function]}
+  >
+    <div>
+      Choose Symptomps
+    </div>
+    <ArrowDown />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(RadioGroup)
+        name="selectLevel"
+        onChange={[Function]}
+        value=""
+      >
+        <ListItemLevel
+          data={Array []}
+          handleValue={[Function]}
+          level={1}
+          symptompPath=""
+          value=""
+        />
+      </ForwardRef(RadioGroup)>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Validation/lib/SelectWithLevel render isLoading true 1`] = `
+<div>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    Select Date
+  </Typography>
+  <div
+    onClick={[Function]}
+  >
+    <div>
+      Choose Symptomps
+    </div>
+    <ArrowDown />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div>
+      <WithStyles(ForwardRef(CircularProgress))
+        size={28}
+      />
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Validation/lib/SelectWithLevel render value true 1`] = `
+<div>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    Select Date
+  </Typography>
+  <div
+    onClick={[Function]}
+  >
+    <div>
+      Choose Symptomps
+    </div>
+    <ArrowDown />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div>
+      <ForwardRef(RadioGroup)
+        name="selectLevel"
+        onChange={[Function]}
+        value="test"
+      >
+        <ListItemLevel
+          data={Array []}
+          handleValue={[Function]}
+          level={1}
+          symptompPath=""
+          value=""
+        />
+      </ForwardRef(RadioGroup)>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;

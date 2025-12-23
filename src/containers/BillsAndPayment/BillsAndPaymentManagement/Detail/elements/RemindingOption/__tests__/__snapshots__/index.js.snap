@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/Reminding Option render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  maxWidth="lg"
+  open={false}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": 8,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Send Billing Reminder
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      First, choose option below for sending billing reminder
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "minWidth": 352,
+        "mt": 3,
+      }
+    }
+  >
+    <OptionList
+      onChange={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      options={
+        Array [
+          Object {
+            "description": "Send billing list to customer",
+            "label": "Billing Reminder Letter 1",
+            "value": "reminder1",
+          },
+          Object {
+            "description": "Send message with notice approach",
+            "label": "Billing Reminder Letter 2",
+            "value": "reminder2",
+          },
+          Object {
+            "description": "Send message with warning approach",
+            "label": "Billing Reminder Letter 3",
+            "value": "reminder3",
+          },
+        ]
+      }
+      redBorder={true}
+      value=""
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 2,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "height": 24,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Divider))
+        orientation="vertical"
+      />
+    </Styled(MuiBox)>
+    <Button
+      disabled={true}
+      id="btn-next"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      Next
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

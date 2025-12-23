@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Create Ticket",
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "completed",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "onprogress",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "checking",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "On Progress",
+            "value": "onProgress",
+          },
+          Object {
+            "label": "Closed Ticket",
+            "value": "closed",
+          },
+        ],
+        "value": undefined,
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render no tab 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Create Ticket",
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "completed",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "onprogress",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "checking",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "On Progress",
+            "value": "onProgress",
+          },
+          Object {
+            "label": "Closed Ticket",
+            "value": "closed",
+          },
+        ],
+        "value": "",
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render tab approval 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Create Ticket",
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "completed",
+            "ticketDate": "",
+          },
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "onprogress",
+            "ticketDate": "",
+          },
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "checking",
+            "ticketDate": "",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference Id",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 130,
+            },
+            "label": "Ticket Source",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "Response Time",
+            "name": "responseTime",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Ticket Date",
+            "name": "ticketDate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Sold DTP",
+            "name": "soldDTP",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "OLO",
+            "name": "olo",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Service ID",
+            "name": "serviceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Address",
+            "name": "address",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Product",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Description",
+            "name": "description",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "PIC Name",
+            "name": "picName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "PIC Contact",
+            "name": "picPhoneNumber",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "APPROVED": "success",
+              "DRAFT": "primary",
+              "REJECTED": "danger",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "On Progress",
+            "value": "onProgress",
+          },
+          Object {
+            "label": "Closed Ticket",
+            "value": "closed",
+          },
+        ],
+        "value": "approval",
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render tab approval no feature 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "completed",
+            "ticketDate": "",
+          },
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "onprogress",
+            "ticketDate": "",
+          },
+          Object {
+            "address": undefined,
+            "approvalDate": "",
+            "description": undefined,
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "responseTime": "undefined minutes",
+            "status": "checking",
+            "ticketDate": "",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference Id",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 130,
+            },
+            "label": "Ticket Source",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "Response Time",
+            "name": "responseTime",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Ticket Date",
+            "name": "ticketDate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Sold DTP",
+            "name": "soldDTP",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "OLO",
+            "name": "olo",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Service ID",
+            "name": "serviceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Address",
+            "name": "address",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Product",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Description",
+            "name": "description",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "PIC Name",
+            "name": "picName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "PIC Contact",
+            "name": "picPhoneNumber",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "APPROVED": "success",
+              "DRAFT": "primary",
+              "REJECTED": "danger",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [],
+        "value": "approval",
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render tab history 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Create Ticket",
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "completed",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "onprogress",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "checking",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "On Progress",
+            "value": "onProgress",
+          },
+          Object {
+            "label": "Closed Ticket",
+            "value": "closed",
+          },
+        ],
+        "value": "history",
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/List render tab history no feature 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "completed",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "onprogress",
+          },
+          Object {
+            "fileEvidence": Object {
+              "fileName": "",
+            },
+            "mttr": 1000,
+            "status": "checking",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [],
+        "value": "history",
+      }
+    }
+    title="General Product"
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(LoadableComponent))
+    actionButton={
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Download
+        </Button>
+      </React.Fragment>
+    }
+    file=""
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;

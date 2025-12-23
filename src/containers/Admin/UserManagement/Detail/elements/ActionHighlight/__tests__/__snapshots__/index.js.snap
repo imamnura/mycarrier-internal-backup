@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Detail/elements/ActionHighlight render 1`] = `
+<div>
+  <Typography
+    className=""
+    color="general-dark"
+    inline={false}
+    variant="h4"
+    weight="medium"
+  >
+    test
+  </Typography>
+  <Typography
+    className=""
+    color="general-mid"
+    inline={false}
+    variant="subtitle1"
+    weight="normal"
+  >
+    test
+  </Typography>
+  <div>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      EDIT PROFILE
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`src/containers/Admin/UserManagement/Detail/elements/ActionHighlight render subTitle array 1`] = `
+<div>
+  <Typography
+    className=""
+    color="general-dark"
+    inline={false}
+    variant="h4"
+    weight="medium"
+  >
+    test
+  </Typography>
+  <Typography
+    className=""
+    color="general-mid"
+    inline={false}
+    variant="subtitle1"
+    weight="normal"
+  >
+    Please contact Account Manager to inform this user request has been rejected.
+  </Typography>
+  <Typography
+    className=""
+    color="general-mid"
+    inline={false}
+    variant="subtitle1"
+    weight="normal"
+  >
+    Note: test
+  </Typography>
+  <div>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      EDIT PROFILE
+    </Button>
+  </div>
+</div>
+`;

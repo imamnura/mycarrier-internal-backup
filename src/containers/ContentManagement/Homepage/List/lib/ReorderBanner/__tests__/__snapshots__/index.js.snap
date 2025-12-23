@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/index run properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "css-1lr29yc",
+    }
+  }
+  maxWidth="lg"
+  open={false}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "my": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Reorder Banner Hero
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      You can reordering banner hero, max. 5 banners on the list
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    className="css-1rx7knk"
+    mt={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="column"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <DragList
+          bannerActive={Array []}
+          bannerHide={Array []}
+          onChangeBannerActive={[Function]}
+          onChangeBannerHide={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={10}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      save
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/index run properly other state 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "css-1lr29yc",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "my": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Reorder Banner Hero
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      You can reordering banner hero, max. 5 banners on the list
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    className="css-1rx7knk"
+    mt={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="column"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <DragList
+          bannerActive={Array []}
+          bannerHide={Array []}
+          onChangeBannerActive={[Function]}
+          onChangeBannerHide={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={10}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      save
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

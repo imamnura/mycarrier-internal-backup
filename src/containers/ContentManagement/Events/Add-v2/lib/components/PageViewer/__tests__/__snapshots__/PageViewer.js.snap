@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/PageViewer/index render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-12",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-7",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-8",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[MockFunction]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        test
+      </Typography>
+      <div
+        className="makeStyles-grow-2"
+      />
+      <Button
+        autoFocus={true}
+        color="inherit"
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-11"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/id/events/test?id=test"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/PageViewer/index render actionButton not null 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-40",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-35",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-36",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[MockFunction]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        test
+      </Typography>
+      <div
+        className="makeStyles-grow-30"
+      />
+      Object {}
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-39"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/id/events/test?id=test"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/PageViewer/index render eventId null 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-54",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-49",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-50",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[MockFunction]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        test
+      </Typography>
+      <div
+        className="makeStyles-grow-44"
+      />
+      <Button
+        autoFocus={true}
+        color="inherit"
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-53"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/id/events/preview?id=test"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/PageViewer/index render tab en 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-26",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-21",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-22",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[MockFunction]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        test
+      </Typography>
+      <div
+        className="makeStyles-grow-16"
+      />
+      <Button
+        autoFocus={true}
+        color="inherit"
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-25"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/events/test?id=test"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;

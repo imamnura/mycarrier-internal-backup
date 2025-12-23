@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/Quotation render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "NEW OFFERING LETTER",
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Offering Letter",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Draft",
+            "value": "draft",
+          },
+          Object {
+            "label": "Telkom Approval",
+            "value": "signing on progress",
+          },
+          Object {
+            "label": "Approved",
+            "value": "approved",
+          },
+        ],
+        "type": "dropdown",
+        "value": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, Offering Letter ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "companyName": "companyName",
+          "createdAt": "2021-09-09T07:16:04.511Z",
+          "quotationId": "quotationId",
+          "status": "draft",
+          "step": 1,
+          "updatedAt": "2021-10-04T11:22:42.526Z",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": true,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "Offering Letter ID",
+          "name": "offeringLetterId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "date-time",
+          "label": "Ceated Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "date-time",
+          "label": "Updated Date",
+          "name": "updatedAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "success",
+            "completed": "success",
+            "draft": "primary",
+            "signing on progress": "success",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Offering Letter"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Document/Quotation render/other case 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Offering Letter",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, Offering Letter ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "companyName": "companyName",
+          "createdAt": "2021-09-09T07:16:04.511Z",
+          "quotationId": "quotationId",
+          "status": "draft",
+          "step": 1,
+          "updatedAt": "2021-10-04T11:22:42.526Z",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": true,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "Offering Letter ID",
+          "name": "offeringLetterId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "date-time",
+          "label": "Ceated Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "date-time",
+          "label": "Updated Date",
+          "name": "updatedAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "success",
+            "completed": "success",
+            "draft": "primary",
+            "signing on progress": "success",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Offering Letter"
+  withTopDivider={true}
+/>
+`;

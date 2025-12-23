@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/QuoteHeader run properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+          "url": "/lead-management-system/dashboard/detail/123",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "QUOTE #",
+                    "name": "quoteNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SC QUOTE ID",
+                    "name": "scQuoteId",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "QUOTE NAME",
+                    "name": "quoteName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "REVISION",
+                    "name": "revision",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "TYPE",
+                    "name": "type",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "STATUS",
+                    "name": "status",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "FIRST NAME",
+                    "name": "firstName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "LAST NAME",
+                    "name": "lastName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CREATED BY",
+                    "name": "createdBy",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CUSTOMER ACCOUNT",
+                    "name": "customerAccount",
+                  },
+                ],
+              },
+              "title": "Quote Detail",
+              "type": "information",
+            },
+            Object {
+              "render": <LineItems
+                feature={Array []}
+                status="Quote"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "PHONE NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "MASTER AGREEMENT",
+                    "name": "masterAgreement",
+                  },
+                ],
+              },
+              "title": "Master Agreement Document",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "name": "childAgreementDoc",
+                  },
+                ],
+              },
+              "title": "Child Agreement Document",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

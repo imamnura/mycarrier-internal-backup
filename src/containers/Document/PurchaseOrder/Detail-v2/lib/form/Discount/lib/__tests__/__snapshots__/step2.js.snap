@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/Discount/lib/Step2 render properly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      alignItems="flex-start"
+      control={Object {}}
+      error={false}
+      helperText=""
+      name="radioApproval"
+      options={
+        Array [
+          Object {
+            "label": <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={1}
+              style={
+                Object {
+                  "marginBottom": 16,
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="normal"
+                >
+                  Input discount and need GM Segment approval
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="Discount (%)"
+                  maxLength={3}
+                  name="discount"
+                  required={true}
+                  shouldUnregister={false}
+                  type="number"
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>,
+            "value": "1",
+          },
+          Object {
+            "label": "Auto approval without discount price",
+            "value": "2",
+          },
+        ]
+      }
+      required={true}
+      shouldUnregister={false}
+    />
+    <WithStyles(ForwardRef(Divider)) />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      label="Note"
+      maxLength={1000}
+      minRows={3}
+      multiline={true}
+      name="noteProgress"
+      placeholder="Please describe the note.."
+      required={true}
+      shouldUnregister={false}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

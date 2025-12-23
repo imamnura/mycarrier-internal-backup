@@ -1,0 +1,1489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/TicketAnalyzeConfirmation render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "24px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Please filled the data 
+          <br />
+          to be sent to operator
+        </Typography>
+        <br />
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Data will be sent according the date of issue that has been requested by customer
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Service Category"
+          name="category"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Date of issue"
+          name="date"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Sender ID"
+          name="senderID"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          CANCEL
+        </Button>
+         
+        <Button
+          disabled={true}
+          id="buttonApprove"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          SUBMIT
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/forms/TicketAnalyzeConfirmation render SmsCValidation true 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "24px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Please filled the data 
+          <br />
+          to be sent to operator
+        </Typography>
+        <br />
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Data will be sent according the date of issue that has been requested by customer
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Service Category"
+          name="category"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Date of issue"
+          name="date"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Sender ID"
+          name="senderID"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          CANCEL
+        </Button>
+         
+        <Button
+          disabled={true}
+          id="buttonApprove"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          SUBMIT
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/forms/TicketAnalyzeConfirmation render no operatortypename 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "24px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Please filled the data 
+          <br />
+          to be sent to operator
+        </Typography>
+        <br />
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Data will be sent according the date of issue that has been requested by customer
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Service Category"
+          name="category"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Date of issue"
+          name="date"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={
+            Object {
+              "_defaultValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_disableForm": [Function],
+              "_fields": Object {},
+              "_formState": Object {
+                "dirtyFields": Object {},
+                "disabled": false,
+                "errors": Object {},
+                "isDirty": false,
+                "isLoading": false,
+                "isReady": false,
+                "isSubmitSuccessful": false,
+                "isSubmitted": false,
+                "isSubmitting": false,
+                "isValid": false,
+                "isValidating": false,
+                "submitCount": 0,
+                "touchedFields": Object {},
+                "validatingFields": Object {},
+              },
+              "_formValues": Object {
+                "category": "",
+                "date": "-",
+                "ipCustomer": "",
+                "logPingTrace": "",
+                "senderID": "-",
+                "timestamp": "",
+                "trouble": Array [],
+                "troubleFile": "",
+              },
+              "_getDirty": [Function],
+              "_getFieldArray": [Function],
+              "_getWatch": [Function],
+              "_names": Object {
+                "array": Set {
+                  "trouble",
+                },
+                "disabled": Set {},
+                "focus": "",
+                "mount": Set {},
+                "unMount": Set {},
+                "watch": Set {
+                  "trouble",
+                },
+              },
+              "_options": Object {
+                "defaultValues": Object {
+                  "category": "",
+                  "date": "-",
+                  "ipCustomer": "",
+                  "logPingTrace": "",
+                  "senderID": "-",
+                  "timestamp": "",
+                  "trouble": Array [],
+                  "troubleFile": "",
+                },
+                "mode": "onChange",
+                "reValidateMode": "onChange",
+                "resolver": [Function],
+                "shouldFocusError": true,
+              },
+              "_proxyFormState": Object {
+                "dirtyFields": false,
+                "errors": false,
+                "isDirty": false,
+                "isValid": "all",
+                "isValidating": false,
+                "touchedFields": false,
+                "validatingFields": false,
+              },
+              "_removeUnmounted": [Function],
+              "_reset": [Function],
+              "_resetDefaultValues": [Function],
+              "_runSchema": [Function],
+              "_setDisabledField": [Function],
+              "_setErrors": [Function],
+              "_setFieldArray": [Function],
+              "_setValid": [Function],
+              "_state": Object {
+                "action": false,
+                "mount": true,
+                "watch": false,
+              },
+              "_subjects": Object {
+                "array": Object {
+                  "next": [Function],
+                  "observers": Array [
+                    Object {
+                      "next": [Function],
+                    },
+                  ],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+                "state": Object {
+                  "next": [Function],
+                  "observers": Array [],
+                  "subscribe": [Function],
+                  "unsubscribe": [Function],
+                },
+              },
+              "_subscribe": [Function],
+              "getFieldState": [Function],
+              "handleSubmit": [Function],
+              "register": [Function],
+              "setError": [Function],
+              "unregister": [Function],
+            }
+          }
+          disabled={true}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          label="Sender ID"
+          name="senderID"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+          }
+        }
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          style={
+            Object {
+              "marginRight": "8px",
+            }
+          }
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          CANCEL
+        </Button>
+         
+        <Button
+          disabled={true}
+          id="buttonApprove"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          SUBMIT
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Dialog render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  className=""
+  classes={
+    Object {
+      "paperFullWidth": "",
+    }
+  }
+  fullWidth={true}
+  maxWidth="sm"
+  open={false}
+  scroll="body"
+>
+  <Memo
+    onClick={[MockFunction]}
+  />
+  <WithStyles(ForwardRef(DialogContent)) />
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/components/elements/Dialog render custom width 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  className=""
+  classes={
+    Object {
+      "paperFullWidth": "css-custom",
+    }
+  }
+  fullWidth={true}
+  open={false}
+  scroll="body"
+>
+  <Memo
+    onClick={[MockFunction]}
+  />
+  <WithStyles(ForwardRef(DialogContent)) />
+</WithStyles(ForwardRef(Dialog))>
+`;

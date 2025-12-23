@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/ReportNeucentrix/Detail/forms/Reupload render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h4"
+          weight="bold"
+        >
+          Please reupload the document to be submitted
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="body1"
+          weight="normal"
+        >
+          Once you send this data, it will be submitted
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+            ]
+          }
+          customValidate={null}
+          disabled={false}
+          error={false}
+          fetcher={null}
+          label=""
+          labelCustom="Example: monthly-report-bukalapak2.pdf"
+          labelInput="Upload .pdf document here, max 10 MB "
+          maxFile={1}
+          maxSize={10485760}
+          onChange={[Function]}
+          onDelete={[Function]}
+          placeholder="Example: filename.ext"
+          ratio={Array []}
+          ratioPixel={Array []}
+          required={false}
+          value={null}
+          withCropper={false}
+          withDelete={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Note"
+          minRows={3}
+          multiline={true}
+          name="note"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr="16px"
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          CANCEL
+        </Button>
+         
+        <Button
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          SEND
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Neucentrix/ReportNeucentrix/Detail/forms/Reupload render disabled button 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[Function]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h4"
+          weight="bold"
+        >
+          Please reupload the document to be submitted
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="body1"
+          weight="normal"
+        >
+          Once you send this data, it will be submitted
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+            ]
+          }
+          customValidate={null}
+          disabled={false}
+          error={false}
+          fetcher={null}
+          label=""
+          labelCustom="Example: monthly-report-bukalapak2.pdf"
+          labelInput="Upload .pdf document here, max 10 MB "
+          maxFile={1}
+          maxSize={10485760}
+          onChange={[Function]}
+          onDelete={[Function]}
+          placeholder="Example: filename.ext"
+          ratio={Array []}
+          ratioPixel={Array []}
+          required={false}
+          value={
+            Object {
+              "name": "test",
+            }
+          }
+          withCropper={false}
+          withDelete={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Note"
+          minRows={3}
+          multiline={true}
+          name="note"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr="16px"
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          CANCEL
+        </Button>
+         
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          type="submit"
+          variant="filled"
+        >
+          SEND
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

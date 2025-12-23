@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Msight/lib/KeyData render properly 1`] = `
+Array [
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-rootMargin-5"
+      item={true}
+      xs={8}
+    >
+      <Typography
+        className="makeStyles-label-4"
+        color="general-mid"
+        inline={true}
+        variant="subtitle2"
+        weight="normal"
+      >
+        Api Key
+      </Typography>
+      <Typography
+        className=""
+        color="general-main"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        5ghyu7
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="makeStyles-rootMargin-5"
+      container={true}
+      item={true}
+      justifyContent="flex-end"
+      spacing={2}
+      xs={4}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-button-3"
+        item={true}
+        onClick={[Function]}
+      >
+        <Hide />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-button-3"
+        item={true}
+      >
+        <Duplicate />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>,
+]
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Msight/lib/KeyData render properly with hidden value 1`] = `
+Array [
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-rootMargin-5"
+      item={true}
+      xs={8}
+    >
+      <Typography
+        className="makeStyles-label-4"
+        color="general-mid"
+        inline={true}
+        variant="subtitle2"
+        weight="normal"
+      >
+        Api Key
+      </Typography>
+      <Typography
+        className=""
+        color="general-main"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        5g****
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="makeStyles-rootMargin-5"
+      container={true}
+      item={true}
+      justifyContent="flex-end"
+      spacing={2}
+      xs={4}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-button-3"
+        item={true}
+        onClick={[Function]}
+      >
+        <Show
+          fill="#3B525C"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-button-3"
+        item={true}
+      >
+        <Duplicate />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>,
+]
+`;

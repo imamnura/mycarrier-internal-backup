@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/Discount/lib/Step1 render properly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      alignItems="flex-start"
+      control={Object {}}
+      error={false}
+      helperText=""
+      name="radioBakes"
+      options={
+        Array [
+          Object {
+            "label": <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={1}
+              style={
+                Object {
+                  "marginBottom": 16,
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="normal"
+                >
+                  Select BAKES
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <AutoComplete
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="BAKES Number"
+                  maxLength={27}
+                  name="bakesNumberAuto"
+                  options={
+                    Array [
+                      "123",
+                    ]
+                  }
+                  required={true}
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>,
+            "value": "1",
+          },
+          Object {
+            "label": <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={1}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="normal"
+                >
+                  Upload New BAKES File
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <FileUpload
+                  accept={
+                    Array [
+                      ".pdf",
+                    ]
+                  }
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText="Upload .pdf document, max 5 MB "
+                  maxSize={5242880}
+                  name="media"
+                  placeholder="Example: bakes.pdf"
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="BAKES Number"
+                  maxLength={27}
+                  name="bakesNumber"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>,
+            "value": "2",
+          },
+        ]
+      }
+      required={true}
+      shouldUnregister={false}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

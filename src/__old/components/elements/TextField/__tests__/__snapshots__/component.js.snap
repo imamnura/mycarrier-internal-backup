@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/TextField render 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(TextField))
+    FormHelperTextProps={
+      Object {
+        "classes": Object {
+          "error": undefined,
+        },
+      }
+    }
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "error": undefined,
+          "focused": undefined,
+          "root": undefined,
+          "shrink": undefined,
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "root": undefined,
+          "underline": undefined,
+        },
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={true}
+    helperText=""
+    id="text-field"
+    label=""
+    multiline={false}
+    rows={0}
+  />
+</div>
+`;
+
+exports[`src/components/elements/TextField render disbled 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(TextField))
+    FormHelperTextProps={
+      Object {
+        "classes": Object {
+          "error": undefined,
+        },
+      }
+    }
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "error": undefined,
+          "focused": undefined,
+          "root": undefined,
+          "shrink": undefined,
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "root": undefined,
+          "underline": undefined,
+        },
+      }
+    }
+    disabled={true}
+    error={false}
+    fullWidth={true}
+    helperText=""
+    id="text-field"
+    label=""
+    multiline={false}
+    rows={0}
+  />
+</div>
+`;
+
+exports[`src/components/elements/TextField render error 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(TextField))
+    FormHelperTextProps={
+      Object {
+        "classes": Object {
+          "error": undefined,
+        },
+      }
+    }
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "error": undefined,
+          "focused": undefined,
+          "root": undefined,
+          "shrink": undefined,
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": undefined,
+          "root": undefined,
+          "underline": undefined,
+        },
+      }
+    }
+    disabled={false}
+    error={true}
+    fullWidth={true}
+    helperText="error"
+    id="text-field"
+    label=""
+    multiline={false}
+    rows={0}
+  />
+</div>
+`;

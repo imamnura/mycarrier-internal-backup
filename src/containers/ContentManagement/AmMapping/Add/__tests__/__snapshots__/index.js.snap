@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/Add/index render 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+    justifyContent="space-between"
+    style={
+      Object {
+        "marginBottom": "12px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <WithStyles(Component)
+        data={
+          Array [
+            Object {
+              "label": "Account Manager Mapping",
+              "url": "/am-mapping",
+            },
+            Object {
+              "label": "Add New Mapping",
+            },
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        direction="row"
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            Cancel
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            Save
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(Component) />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "marginTop": "24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Component
+        classes={Object {}}
+        handleGetValueAM={[MockFunction]}
+        handleTypeSearchProfil={[MockFunction]}
+        labelProfile="fullName"
+        loadingAMProfile={false}
+        optionsAMProfile={Array []}
+        profile={Object {}}
+        typeProfil="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Component
+        classes={Object {}}
+        customer={Object {}}
+        handleGetValueCustomer={[MockFunction]}
+        handleTypeSearchCustomer={[MockFunction]}
+        labelCustomer="custAccntName"
+        loadingCustomerProfile={false}
+        optionsCustomerProfile={Array []}
+        typeCustomer="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/index render loading true 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+    justifyContent="space-between"
+    style={
+      Object {
+        "marginBottom": "12px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <WithStyles(Component)
+        data={
+          Array [
+            Object {
+              "label": "Account Manager Mapping",
+              "url": "/am-mapping",
+            },
+            Object {
+              "label": "Add New Mapping",
+            },
+          ]
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        direction="row"
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            Cancel
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            <WithStyles(ForwardRef(CircularProgress))
+              size={17}
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "marginTop": 5,
+                }
+              }
+              thickness={3}
+            />
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(Component) />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "marginTop": "24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Component
+        classes={Object {}}
+        handleGetValueAM={[MockFunction]}
+        handleTypeSearchProfil={[MockFunction]}
+        labelProfile="fullName"
+        loadingAMProfile={false}
+        optionsAMProfile={Array []}
+        profile={Object {}}
+        typeProfil="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Component
+        classes={Object {}}
+        customer={Object {}}
+        handleGetValueCustomer={[MockFunction]}
+        handleTypeSearchCustomer={[MockFunction]}
+        labelCustomer="custAccntName"
+        loadingCustomerProfile={false}
+        optionsCustomerProfile={Array []}
+        typeCustomer="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Button render 1`] = `
+<WithStyles(ForwardRef(ButtonBase))
+  classes={
+    Object {
+      "disabled": undefined,
+      "root": "",
+    }
+  }
+  onClick={[MockFunction]}
+>
+  <WithStyles(Component)
+    className=""
+    noColor={true}
+    variant="button"
+  >
+    label
+  </WithStyles(Component)>
+</WithStyles(ForwardRef(ButtonBase))>
+`;
+
+exports[`src/components/elements/Button render when loading 1`] = `
+<WithStyles(ForwardRef(ButtonBase))
+  classes={
+    Object {
+      "disabled": undefined,
+      "root": "",
+    }
+  }
+  onClick={[Function]}
+>
+  <WithStyles(Component)
+    noColor={true}
+    variant="button"
+  >
+    label
+  </WithStyles(Component)>
+  <WithStyles(ForwardRef(CircularProgress))
+    size={18}
+    thickness={4}
+  />
+</WithStyles(ForwardRef(ButtonBase))>
+`;

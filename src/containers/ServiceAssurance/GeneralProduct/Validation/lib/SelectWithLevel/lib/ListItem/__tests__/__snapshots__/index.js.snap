@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/lib/ListItem/index render 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    className="makeStyles-rootList-10"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": false,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="desc"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/lib/ListItem/index render fetch condition 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    className="makeStyles-rootList-21"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": 32,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="desc"
+        />
+        <WithStyles(ForwardRef(ListItemSecondaryAction))>
+          <WithStyles(ForwardRef(CircularProgress))
+            size={28}
+          />
+        </WithStyles(ForwardRef(ListItemSecondaryAction))>
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        in="content"
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/lib/ListItem/index render no children 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    className="makeStyles-rootList-43"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": 32,
+      }
+    }
+  >
+    <RadioItem
+      handleValue={[MockFunction]}
+      keyItem="content"
+      label="desc"
+      value={
+        Object {
+          "symptompDesc": "desc",
+          "symptompId": "content",
+          "symptompName": undefined,
+          "symptompPath": undefined,
+          "value": "desc",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(List))>,
+]
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/lib/ListItem/index render with data items 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    className="makeStyles-rootList-32"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": 32,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="desc"
+        />
+        <WithStyles(ForwardRef(ListItemSecondaryAction))>
+          <WithStyles(ForwardRef(CircularProgress))
+            size={28}
+          />
+        </WithStyles(ForwardRef(ListItemSecondaryAction))>
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        in="content"
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;

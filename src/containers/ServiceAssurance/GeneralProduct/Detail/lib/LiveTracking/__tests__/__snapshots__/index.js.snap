@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/LiveTracking/index render 1`] = `
+<WithStyles(Component)
+  maxWidth="md"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Live Tracking Engineer
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "height": "314px",
+            "width": "100%",
+          }
+        }
+      >
+        <ForwardRef(LoadableComponent)
+          lat={123}
+          latCust={NaN}
+          lon={NaN}
+          lonCust={NaN}
+          scroll={true}
+          zoom={20}
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+        style={
+          Object {
+            "marginTop": "16px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="light"
+          >
+            ENGINEER NAME
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+        style={
+          Object {
+            "marginTop": "16px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="light"
+          >
+            STATUS
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+        style={
+          Object {
+            "marginTop": "16px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="light"
+          >
+            LAST UPDATE
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CLOSE
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/LiveTracking/index render with no data 1`] = `
+<WithStyles(Component)
+  maxWidth="md"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Live Tracking Engineer
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+        style={
+          Object {
+            "padding": "40px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <NoData />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Sorry, we didn’t find any data for your search
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          align="center"
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Please try again later or contact your Account Manager for more details.
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CLOSE
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

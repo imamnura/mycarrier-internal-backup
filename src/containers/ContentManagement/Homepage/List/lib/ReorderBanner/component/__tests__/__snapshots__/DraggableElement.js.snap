@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/Draglist run properly 1`] = `
+<div>
+  <div>
+    <Styled(MuiBox)
+      flexGrow={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="medium"
+      >
+        Hide Banner
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+  <Memo(Connect(Droppable))
+    direction="vertical"
+    droppableId="hide"
+    getContainerForClone={[Function]}
+    ignoreContainerClipping={false}
+    isCombineEnabled={false}
+    isDropDisabled={false}
+    mode="standard"
+    renderClone={null}
+    type="DEFAULT"
+  >
+    [Function]
+  </Memo(Connect(Droppable))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/Draglist run properly prefix active 1`] = `
+<div>
+  <div>
+    <Styled(MuiBox)
+      flexGrow={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="medium"
+      >
+        Active Banner, max. 5 banners, min. 1 banner
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+  <Memo(Connect(Droppable))
+    direction="vertical"
+    droppableId="active"
+    getContainerForClone={[Function]}
+    ignoreContainerClipping={false}
+    isCombineEnabled={false}
+    isDropDisabled={false}
+    mode="standard"
+    renderClone={null}
+    type="DEFAULT"
+  >
+    [Function]
+  </Memo(Connect(Droppable))>
+</div>
+`;

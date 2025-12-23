@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Rundown/index.js render l0 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Rundown"
+  />
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "1rem",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Rangkaian Acara
+        </Typography>
+      </div>
+      <div
+        style={
+          Object {
+            "paddingLeft": "30px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-general"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Tanggal otomatis terpilih..
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Rundown
+        isClickPreview={false}
+        isLoadingDetail={false}
+        onChangeDataEn={[Function]}
+        onChangeDataId={[Function]}
+        range={Array []}
+        setRange={[Function]}
+        setValue={[MockFunction]}
+        tab="id"
+        watchField={
+          Object {
+            "rundownen": [MockFunction],
+            "rundownid": [MockFunction],
+          }
+        }
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div />
+</div>
+`;

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/MRTG/elements/ModalMTTR render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="normal"
+      >
+        MTTR
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={12}
+      sm={12}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <TableDesktop
+          customBody={null}
+          customEmptyMessage={null}
+          customItem={null}
+          customStyles={Object {}}
+          data={Array []}
+          emptyMessage="Data not found"
+          headerAlign="flex-start"
+          loading={false}
+          loadingRoot={false}
+          maxHeight={null}
+          meta={
+            Object {
+              "page": 0,
+            }
+          }
+          numbering={true}
+          onBottomPage={null}
+          onClickRow={null}
+          onPaginationChange={null}
+          page={1}
+          pickedRow=""
+          pickedRowKey=""
+          schema={Array []}
+          selectWithRawData={false}
+          selectedRowKey="key"
+          selectedRowSticky={false}
+          size={10}
+          useCollapseChild={null}
+          useOrderBy={
+            Array [
+              null,
+              [Function],
+            ]
+          }
+          useOrderDirection={
+            Array [
+              null,
+              [Function],
+            ]
+          }
+          useSelectedRow={Array []}
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      md={12}
+      sm={12}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        display="flex"
+        justifyContent="center"
+        mt={1}
+      >
+        <WithStyles(ForwardRef(Pagination))
+          className="makeStyles-root-1"
+          count={5}
+          shape="rounded"
+          variant="outlined"
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      md={12}
+      sm={12}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Close
+        </Button>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

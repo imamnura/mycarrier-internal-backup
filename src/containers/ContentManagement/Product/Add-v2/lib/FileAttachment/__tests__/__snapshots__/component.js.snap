@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="png"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render type DELETE 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="DELETE"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render type EDIT 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="EDIT"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render type JPG 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="JPG"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render type ZIP 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="ZIP"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/FileAttachment render type pdf 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={11}
+            xs={12}
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "width": "fit-content",
+                }
+              }
+            >
+              <Icon
+                type="PDF"
+              />
+                  
+              <WithStyles(Component)
+                variant="h5"
+              >
+                test
+              </WithStyles(Component)>
+            </div>
+            <div
+              onClick={[Function]}
+            >
+              <Show
+                fill="#DE1B1B"
+                style={
+                  Object {
+                    "color": "#DE1B1B",
+                    "fontSize": 24,
+                  }
+                }
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "end",
+              }
+            }
+            xs={1}
+          >
+            <div
+              onClick={[Function]}
+            >
+              <Icon
+                type="DELETE"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file="https://test"
+    onClose={[Function]}
+    open={false}
+    title="test"
+  />
+</div>
+`;

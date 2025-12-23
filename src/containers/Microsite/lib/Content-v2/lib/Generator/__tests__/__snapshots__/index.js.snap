@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Microsite/lib/Content-v2/lib/Generator/index render information 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    pt={2}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      information
+    </Typography>
+    <SectionInformation
+      0="t"
+      1="e"
+      2="s"
+      3="t"
+      data={null}
+      schema={Array []}
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/lib/Content-v2/lib/Generator/index render type numbering 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    pt={2}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      numbering
+    </Typography>
+    <SectionNumbering
+      0="t"
+      1="e"
+      2="s"
+      3="t"
+      data={Array []}
+      nameKey=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/lib/Content-v2/lib/Generator/index render type others 1`] = `<React.Fragment />`;

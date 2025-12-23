@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/PickUpProductItems run properly 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogRoot-1",
+      }
+    }
+    maxWidth="lg"
+    open={true}
+    scroll="paper"
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={true}
+        variant="h5"
+        weight="medium"
+      >
+        Pick Product Items
+      </Typography>
+      <Typography
+        className=""
+        color="general"
+        inline={true}
+        variant="caption"
+        weight="normal"
+      >
+        Pick product that you want to create in one bundle SC Quote
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <SearchBox
+        fullWidth={true}
+        placeholder="Search Product Name.."
+        size="default"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "maxHeight": 600,
+          "mt": 2,
+          "overflow": "auto",
+        }
+      }
+    >
+      <TableDesktop
+        customBody={null}
+        customEmptyMessage={null}
+        customItem={null}
+        customStyles={Object {}}
+        data={Array []}
+        emptyMessage="Data not found"
+        headerAlign="flex-start"
+        loading={false}
+        loadingRoot={false}
+        maxHeight={null}
+        meta={
+          Object {
+            "page": 1,
+            "totalData": 0,
+            "totalPage": 0,
+          }
+        }
+        numbering={false}
+        onBottomPage={null}
+        onClickRow={null}
+        onPaginationChange={null}
+        page={1}
+        pickedRow=""
+        pickedRowKey="productId"
+        schema={
+          Array [
+            Object {
+              "label": "Product",
+              "name": "productName",
+            },
+            Object {
+              "label": "Product Type",
+              "name": "productId",
+            },
+            Object {
+              "label": "Part",
+              "name": "part",
+            },
+            Object {
+              "label": "Description",
+              "name": "productDesc",
+            },
+          ]
+        }
+        selectWithRawData={false}
+        selectedRowKey="key"
+        selectedRowSticky={false}
+        size={10}
+        useCollapseChild={null}
+        useOrderBy={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useOrderDirection={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useSelectedRow={Array []}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      display="flex"
+      justifyContent="center"
+      mt={4}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={16}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Create SC quote
+      </Button>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

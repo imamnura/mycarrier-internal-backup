@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Status render 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <Typography
+    className=""
+    color="grey-main"
+    inline={false}
+    variant="caption"
+    weight="bold"
+  >
+    
+  </Typography>
+</div>
+`;

@@ -1,0 +1,957 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/Notification render 1`] = `
+<WithStyles(ForwardRef(Paper))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="h5"
+      >
+        Notification
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      onScroll={[Function]}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "height": 16,
+          }
+        }
+      />
+      <WithStyles(Component)
+        to="/service-assurance-sms-a2p/detail/ticket id"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="ticket"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Assurance Ticket
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <React.Fragment>
+                <span
+                  style={
+                    Object {
+                      "color": "#DE1B1B",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                   
+                  [
+                  ticket id
+                  ]
+                </span>
+                 
+              </React.Fragment>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/link/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="link"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Link
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/non-bulk/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="lba"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                LBA
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/bulk/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="sender"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Sender ID
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/purchase-order/detail/undefined"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="purchaseOrder"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Purchase Order
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                You receive a 
+                <strong>
+                  Purchase Order
+                </strong>
+                 (PO) from
+                 
+                <strong />
+                 with order number
+                 
+                <strong />
+                . Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/baso/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="baso"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                BASO
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                <strong />
+                 has assigned Berita Acara for
+                <strong>
+                   
+                </strong>
+                 with
+                <strong>
+                   
+                  order number
+                </strong>
+                 - Berita Acara
+                <strong>
+                   
+                  Not Completed
+                </strong>
+                . Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/user-management/detail/user id"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="userManagement"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                User Management
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                 
+                <strong>
+                   
+                   .
+                </strong>
+                 Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Paper))>
+`;
+
+exports[`src/components/fragments/Notification render isLoading true 1`] = `
+<WithStyles(ForwardRef(Paper))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="h5"
+      >
+        Notification
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      onScroll={[Function]}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "height": 16,
+          }
+        }
+      />
+      <WithStyles(Component)
+        to="/service-assurance-sms-a2p/detail/ticket id"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="ticket"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Assurance Ticket
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <React.Fragment>
+                <span
+                  style={
+                    Object {
+                      "color": "#DE1B1B",
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                   
+                  [
+                  ticket id
+                  ]
+                </span>
+                 
+              </React.Fragment>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/link/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="link"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Link
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/non-bulk/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="lba"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                LBA
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/bulk/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="sender"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Sender ID
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/purchase-order/detail/undefined"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="purchaseOrder"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                Purchase Order
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                You receive a 
+                <strong>
+                  Purchase Order
+                </strong>
+                 (PO) from
+                 
+                <strong />
+                 with order number
+                 
+                <strong />
+                . Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/baso/detail/order number"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="baso"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                BASO
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                <strong />
+                 has assigned Berita Acara for
+                <strong>
+                   
+                </strong>
+                 with
+                <strong>
+                   
+                  order number
+                </strong>
+                 - Berita Acara
+                <strong>
+                   
+                  Not Completed
+                </strong>
+                . Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        to="/user-management/detail/user id"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="undefined"
+          container={true}
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <div>
+              <WithStyles(Component)
+                type="userManagement"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(Component)
+                color="mainDark"
+                variant="captionBold"
+              >
+                User Management
+              </WithStyles(Component)>
+                
+              <WithStyles(Component)
+                color="softGrey"
+                variant="caption"
+              />
+            </div>
+            <WithStyles(Component)
+              color="grey"
+              variant="body2"
+            >
+              <span>
+                 
+                <strong>
+                   
+                   .
+                </strong>
+                 Please check it.
+              </span>
+            </WithStyles(Component)>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(Component)>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={2}
+        >
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={40}
+            width={null}
+            wrapper={null}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={10}
+        >
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={2}
+        >
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={40}
+            width={null}
+            wrapper={null}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={10}
+        >
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+          <Skeleton
+            circle={false}
+            count={1}
+            delay={0}
+            duration={1.2}
+            height={null}
+            width={null}
+            wrapper={null}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Paper))>
+`;

@@ -1,0 +1,4572 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "worklog": Array [
+                    Object {
+                      "note": "x",
+                      "status": "z",
+                    },
+                    Object {
+                      "description": "x",
+                      "status": "z",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "worklog": Array [
+                    Object {
+                      "note": "x",
+                      "status": "z",
+                    },
+                    Object {
+                      "description": "x",
+                      "status": "z",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "worklog": Array [
+                    Object {
+                      "note": "x",
+                      "status": "z",
+                    },
+                    Object {
+                      "description": "x",
+                      "status": "z",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "worklog": Array [
+                    Object {
+                      "note": "x",
+                      "status": "z",
+                    },
+                    Object {
+                      "description": "x",
+                      "status": "z",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "",
+                    "note": "x",
+                    "status": "Z",
+                  },
+                  Object {
+                    "date": "",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        
+                      </Typography>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={true}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Note: 
+                        x
+                      </Typography>
+                    </React.Fragment>,
+                    "status": "Z",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "worklog": Array [
+          Object {
+            "note": "x",
+            "status": "z",
+          },
+          Object {
+            "description": "x",
+            "status": "z",
+          },
+        ],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/empty data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={null}
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status am_approved - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 3,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "SETTLEMENT COMPLETED",
+        "variant": "alert",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "am_approved",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status am_approved 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "VIEW SIGNED MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "VIEW NDE DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "COMPLETE",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "am_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 3,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "SETTLEMENT COMPLETED",
+        "variant": "alert",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "invoiceDocument": Object {},
+        "ndeDocument": Object {},
+        "signedMomDocument": Object {},
+        "status": "am_approved",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status am_send_mom - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "CUSTOMER APPROVAL",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "am_send_mom",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status am_send_mom 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "VIEW MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "reassign customer",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "am_send_mom",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "CUSTOMER APPROVAL",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "momDocument": Object {},
+        "status": "am_send_mom",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status cdm_generate_settlement  - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "AM SEND MOM",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "cdm_generate_settlement",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status cdm_generate_settlement 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "create & send mom document",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "cdm_generate_settlement",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "AM SEND MOM",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "invoiceDocument": Object {},
+        "ndeDocument": Object {},
+        "signedMomDocument": Object {},
+        "status": "cdm_generate_settlement",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status complete - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": false,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 4,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "COMPLETED",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "completed",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status complete 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "VIEW SIGNED MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "VIEW NDE DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "VIEW invoice DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": false,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "completed",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 4,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "COMPLETED",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "invoiceDocument": Object {},
+        "ndeDocument": Object {},
+        "signedMomDocument": Object {},
+        "status": "completed",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status customer_approved - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 2,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "AM SEND NDE",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "customer_approved",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status customer_approved 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "VIEW SIGNED MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "send nde document",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "invoiceDocument": Object {},
+                  "ndeDocument": Object {},
+                  "signedMomDocument": Object {},
+                  "status": "customer_approved",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 2,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "AM SEND NDE",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "invoiceDocument": Object {},
+        "ndeDocument": Object {},
+        "signedMomDocument": Object {},
+        "status": "customer_approved",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status customer_returned  - no data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": "returned",
+                "errorsLabel": "Customer Returned",
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "RETURNED",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "status": "customer_returned",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList render/status customer_returned 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "VIEW MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "edit MOM DOCUMENT",
+          "ml": 16,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SETTLEMENT ID",
+                    "name": "settlementId",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "BILLING NUMBER",
+                    "name": "billingNumber",
+                  },
+                  Object {
+                    "label": "PRODUCT",
+                    "name": "product",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PERIOD",
+                    "name": "periode",
+                  },
+                  Object {
+                    "label": "Amount Usage",
+                    "name": "amountUsage",
+                    "weight": "bold",
+                  },
+                ],
+              },
+              "title": "Settlement Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "USER ID",
+                    "name": "userInformation.userId",
+                  },
+                  Object {
+                    "label": "COMPANY NAME",
+                    "name": "userInformation.companyName",
+                  },
+                  Object {
+                    "label": "BILLING EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "userInformation.fullName",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "userInformation.billingEmail",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE NUMBER",
+                    "name": "userInformation.phoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CREATED DATE",
+                    "name": "userInformation.createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "COMPANY NAME",
+                    "name": "companyInformation.companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "ADDRESS",
+                    "name": "companyInformation.address",
+                  },
+                  Object {
+                    "label": "CITY",
+                    "name": "companyInformation.city",
+                  },
+                  Object {
+                    "label": "STATE",
+                    "name": "companyInformation.state",
+                  },
+                  Object {
+                    "label": "COUNTRY",
+                    "name": "companyInformation.country",
+                  },
+                  Object {
+                    "label": "POSTAL CODE",
+                    "name": "companyInformation.postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Array [],
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "customerName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "customerPosition",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "Customer Approval",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Position",
+                    "name": "position",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Phone Number",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Email",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 6,
+                    "hidden": true,
+                    "label": "Email Status",
+                    "name": "emailStatus",
+                    "schemaStatus": Object {
+                      "delivered": "success",
+                      "failed": "danger",
+                    },
+                  },
+                ],
+              },
+              "title": "NDE Reviewer",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "momDocument": Object {},
+                  "status": "customer_returned",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "attachment",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": "returned",
+                "errorsLabel": "Customer Returned",
+                "steps": Array [
+                  "AM Sended MOM",
+                  "Customer Approval",
+                  "AM Send NDE",
+                  "Settlement Completed",
+                  "Completed",
+                ],
+              },
+              "title": "Settlement Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "RETURNED",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ValidationAndSendMOM
+    detailData={
+      Object {
+        "momDocument": Object {},
+        "status": "customer_returned",
+        "worklog": Array [],
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <SendNDE
+    onClose={[Function]}
+    open={false}
+    setDetailData={[MockFunction]}
+  />
+  <AddCC
+    open={false}
+  />
+</React.Fragment>
+`;

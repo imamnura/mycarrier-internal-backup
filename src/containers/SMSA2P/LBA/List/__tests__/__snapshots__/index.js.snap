@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/SMSA2P/LBA/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "LBA",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "minWidth": 170,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Sender Id",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "serviceCategory",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Failed": "danger",
+            "Rejected": "danger",
+            "Sent": "success",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "LBA Activation Requests",
+          "value": "progress",
+        },
+        Object {
+          "label": "Active LBA",
+          "value": "done",
+        },
+      ],
+      "value": "progress",
+    }
+  }
+  title="LBA"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/SMSA2P/LBA/List render with no privilege & no tab 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "LBA",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Sender Id",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "serviceCategory",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Failed": "danger",
+            "Rejected": "danger",
+            "Sent": "success",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="LBA"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/SMSA2P/LBA/List render with tab done 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "LBA",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "minWidth": 170,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Sender Id",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "serviceCategory",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Failed": "danger",
+            "Rejected": "danger",
+            "Sent": "success",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "LBA Activation Requests",
+          "value": "progress",
+        },
+        Object {
+          "label": "Active LBA",
+          "value": "done",
+        },
+      ],
+      "value": "done",
+    }
+  }
+  title="LBA"
+  withTopDivider={true}
+/>
+`;

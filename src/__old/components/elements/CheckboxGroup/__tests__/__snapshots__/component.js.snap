@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CheckboxGroup render 1`] = `
+<WithStyles(ForwardRef(FormControl))>
+  <WithStyles(ForwardRef(FormControlLabel))
+    classes={
+      Object {
+        "label": undefined,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        checkedIcon={
+          <Memo
+            fontSize="small"
+          />
+        }
+        color="primary"
+        disableRipple={true}
+        icon={
+          <Memo
+            fontSize="small"
+          />
+        }
+        onChange={[Function]}
+        value="value"
+      />
+    }
+    label="label"
+    value="value"
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;

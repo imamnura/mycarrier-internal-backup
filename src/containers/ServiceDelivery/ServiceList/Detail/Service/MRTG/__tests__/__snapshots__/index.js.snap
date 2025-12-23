@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Service/MRTG render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": "0123",
+          "url": "/service-list/detail-customer/0123?tab=serviceList",
+        },
+        Object {
+          "label": "0123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={Array []}
+    search={null}
+    status={
+      Object {
+        "children": "",
+        "variant": "",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    id="0123"
+    modalMTTR={false}
+    schema={
+      Array [
+        Object {
+          "label": "Period",
+          "name": "billPeriode",
+        },
+        Object {
+          "label": "MTTR",
+          "name": "mttr",
+        },
+      ]
+    }
+  />
+  <Component
+    modalGraph={null}
+    setModalGraph={[MockFunction]}
+  />
+</React.Fragment>
+`;

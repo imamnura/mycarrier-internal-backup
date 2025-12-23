@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/Detail/elements/NotFound render 1`] = `
+<Styled(MuiBox)
+  alignItems="center"
+  display="flex"
+  flexDirection="column"
+  justifyContent="center"
+  pt="25vh"
+>
+  <Person404
+    style={
+      Object {
+        "height": 160,
+        "width": "auto",
+      }
+    }
+  />
+  <Styled(MuiBox)
+    pt={4}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h3"
+      weight="medium"
+    >
+      Data Not Found
+    </Typography>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/elements/General/index render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test2"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      name="GLOBAL"
+      rules={Object {}}
+      shouldUnregister={true}
+      type="number"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test2"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

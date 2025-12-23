@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/MonitoringOperator/List/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Sistem Monitoring & Performansi Traffic Interkoneksi",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "label": "All Period",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+        "variant": "secondary",
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": Object {
+          "label": "All POI",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Operator",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={null}
+  table={
+    Object {
+      "data": Array [
+        Object {},
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {
+        "page": 1,
+        "size": 10,
+        "totalData": 2,
+        "totalPages": 1,
+      },
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Sistem Monitoring & Performansi Traffic Interkoneksi"
+  withTopDivider={true}
+/>
+`;

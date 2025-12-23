@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/CustomerDetail/lib/AMList/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {},
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {},
+      },
+    ]
+  }
+  noMargin={true}
+  noPadding={true}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search AM Name or NIK..",
+      "value": "test",
+    }
+  }
+  table={
+    Object {
+      "data": Object {},
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 280,
+            "width": 280,
+          },
+          "label": "Name",
+          "name": "fullName",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Segment",
+          "name": "segment",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "NIK",
+          "name": "nik",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Position",
+          "name": "jobTitle",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Contact Number",
+          "name": "phoneNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Email",
+          "name": "email",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ContentManagement/AmMapping/CustomerDetail/lib/AMList/index render not found 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {},
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {},
+      },
+    ]
+  }
+  noMargin={true}
+  noPadding={true}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search AM Name or NIK..",
+      "value": "test",
+    }
+  }
+  table={
+    Object {
+      "data": Object {},
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 280,
+            "width": 280,
+          },
+          "label": "Name",
+          "name": "fullName",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "Segment",
+          "name": "segment",
+        },
+        Object {
+          "cellStyle": Object {
+            "width": 120,
+          },
+          "label": "NIK",
+          "name": "nik",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Position",
+          "name": "jobTitle",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Contact Number",
+          "name": "phoneNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Email",
+          "name": "email",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;

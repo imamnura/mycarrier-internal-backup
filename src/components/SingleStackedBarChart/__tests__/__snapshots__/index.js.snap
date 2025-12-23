@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/SingleStackedBarChart render 1`] = `
+<div
+  className="makeStyles-root-2"
+>
+  <div
+    className="makeStyles-bar-1"
+    style={
+      Object {
+        "background": "test",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="makeStyles-bar-1"
+    style={
+      Object {
+        "background": "test",
+        "width": "NaN%",
+      }
+    }
+  />
+  <div
+    className="makeStyles-bar-1"
+    style={
+      Object {
+        "background": "test",
+        "width": "NaN%",
+      }
+    }
+  />
+</div>
+`;

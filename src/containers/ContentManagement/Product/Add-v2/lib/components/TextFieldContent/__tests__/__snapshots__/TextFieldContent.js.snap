@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/TextFieldContent/TextFieldContent render 1`] = `
+<ControllerTextField
+  colorInput="#2E434D"
+  control={Object {}}
+  error={false}
+  helperText=""
+  name="test"
+  placeholder="test"
+/>
+`;

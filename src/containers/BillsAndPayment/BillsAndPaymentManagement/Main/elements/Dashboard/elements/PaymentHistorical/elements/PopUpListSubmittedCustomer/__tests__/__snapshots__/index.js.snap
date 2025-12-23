@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/PaymentHistorical/elements/PopUpListSubmittedCustomer/index render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  keepMounted={false}
+  maxWidth="lg"
+  open={false}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      List of customers to be notified on
+       
+      -
+       - 
+      test
+    </Typography>
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="normal"
+      >
+        Customers will receive a payment notification after it has been sent
+      </Typography>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <TableDesktop
+      customBody={null}
+      customEmptyMessage={null}
+      customItem={null}
+      customStyles={Object {}}
+      data={
+        Array [
+          Object {
+            "action": <WithStyles(ForwardRef(IconButton))>
+              <Trash />
+            </WithStyles(ForwardRef(IconButton))>,
+          },
+          Object {
+            "action": <WithStyles(ForwardRef(IconButton))>
+              <Trash />
+            </WithStyles(ForwardRef(IconButton))>,
+          },
+        ]
+      }
+      emptyMessage="Data not found"
+      headerAlign="flex-start"
+      loading={false}
+      loadingRoot={false}
+      maxHeight={400}
+      meta={
+        Object {
+          "page": 1,
+          "size": 2,
+          "totalData": 2,
+          "totalPage": 1,
+        }
+      }
+      numbering={true}
+      onBottomPage={null}
+      onClickRow={null}
+      onPaginationChange={null}
+      page={1}
+      pickedRow=""
+      pickedRowKey=""
+      schema={
+        Array [
+          Object {
+            "cellStyle": Object {
+              "maxWidth": 140,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "label": "BP NUMBER",
+            "name": "bpNumber",
+          },
+          Object {
+            "label": "PAYMENT",
+            "name": "type",
+          },
+          Object {
+            "name": "action",
+          },
+        ]
+      }
+      selectWithRawData={false}
+      selectedRowKey="key"
+      selectedRowSticky={false}
+      size={10}
+      useCollapseChild={null}
+      useOrderBy={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useOrderDirection={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useSelectedRow={Array []}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "mt": 2,
+      }
+    }
+  >
+    <Dropdown
+      additionalWidth={0}
+      asyncProps={
+        Object {
+          "additional": Object {
+            "page": 1,
+          },
+          "loadOptions": [MockFunction],
+        }
+      }
+      creatableWording={null}
+      emptyMessage={null}
+      isCreatable={false}
+      isOptionDisabled={[Function]}
+      isSearchable={true}
+      label="Company Name"
+      maxWidth="100%"
+      menuPosition="fixed"
+      menuStick="left"
+      menuWidth={320}
+      minWidth={240}
+      noBorder={false}
+      onChange={[MockFunction]}
+      onCreate={[Function]}
+      onSearch={[Function]}
+      placeholder="Choose Company Name"
+      rawValue={true}
+      required={false}
+      searchable={false}
+      staticHeight={null}
+      staticWidth={null}
+      styles={Object {}}
+      value={Object {}}
+      valueFitToContent={false}
+    />
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "gap": 8,
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        X
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        ADD
+      </Button>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      SEND
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/PaymentHistorical/elements/PopUpListSubmittedCustomer/index render newData null 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  keepMounted={false}
+  maxWidth="lg"
+  open={false}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      List of customers to be notified on
+       
+      -
+       - 
+      test
+    </Typography>
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="normal"
+      >
+        Customers will receive a payment notification after it has been sent
+      </Typography>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <TableDesktop
+      customBody={null}
+      customEmptyMessage={null}
+      customItem={null}
+      customStyles={Object {}}
+      data={
+        Array [
+          Object {
+            "action": <WithStyles(ForwardRef(IconButton))>
+              <Trash />
+            </WithStyles(ForwardRef(IconButton))>,
+          },
+          Object {
+            "action": <WithStyles(ForwardRef(IconButton))>
+              <Trash />
+            </WithStyles(ForwardRef(IconButton))>,
+          },
+        ]
+      }
+      emptyMessage="Data not found"
+      headerAlign="flex-start"
+      loading={false}
+      loadingRoot={false}
+      maxHeight={400}
+      meta={
+        Object {
+          "page": 1,
+          "size": 2,
+          "totalData": 2,
+          "totalPage": 1,
+        }
+      }
+      numbering={true}
+      onBottomPage={null}
+      onClickRow={null}
+      onPaginationChange={null}
+      page={1}
+      pickedRow=""
+      pickedRowKey=""
+      schema={
+        Array [
+          Object {
+            "cellStyle": Object {
+              "maxWidth": 140,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "label": "BP NUMBER",
+            "name": "bpNumber",
+          },
+          Object {
+            "label": "PAYMENT",
+            "name": "type",
+          },
+          Object {
+            "name": "action",
+          },
+        ]
+      }
+      selectWithRawData={false}
+      selectedRowKey="key"
+      selectedRowSticky={false}
+      size={10}
+      useCollapseChild={null}
+      useOrderBy={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useOrderDirection={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useSelectedRow={Array []}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <ButtonMinimal
+      label="ADD ANOTHER CUSTOMER"
+      loading={false}
+      onClick={[MockFunction]}
+      type="ghost"
+      variant="add"
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      SEND
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

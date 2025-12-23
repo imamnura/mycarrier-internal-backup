@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/EstimateValue render empty 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-2"
+>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="subtitle2"
+    weight="medium"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/EstimateValue render loading 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-3"
+>
+  <Skeleton
+    height={27}
+    variant="rect"
+    width="100%"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/EstimateValue render success 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-1"
+>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="subtitle2"
+    weight="medium"
+  >
+    123
+  </Typography>
+</Styled(MuiBox)>
+`;

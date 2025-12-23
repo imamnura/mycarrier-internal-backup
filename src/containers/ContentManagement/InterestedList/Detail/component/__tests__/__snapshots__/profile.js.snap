@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/pages/ContentManagement/InterestedList/Detail/component/profile render loading fill 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/pages/ContentManagement/InterestedList/Detail/component/profile render loading no amProfile 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/pages/ContentManagement/InterestedList/Detail/component/profile render loading no fill 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Banner/index render L0 - Content Page 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Banner"
+  />
+  <Styled(MuiBox)>
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[MockFunction]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="banner"
+      />
+    </Styled(MuiBox)>
+    <div />
+    <Styled(MuiBox)>
+      <React.Fragment>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              autoFocus={true}
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="2.25rem"
+              multiline={true}
+              name="l0BannerTitleid"
+              noSpacing={true}
+              placeholder="Ketik konten judul di sini dalam Bahasa.."
+              position="left"
+              weight="bold"
+            />
+          </div>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="1rem"
+              minRows={2}
+              multiline={true}
+              name="l0BannerDescid"
+              noSpacing={true}
+              placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+              position="left"
+              weight="normal"
+            />
+          </div>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Banner/index render L0 - Content Page tab en 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Banner"
+  />
+  <Styled(MuiBox)>
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[MockFunction]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="banner"
+      />
+    </Styled(MuiBox)>
+    <div />
+    <Styled(MuiBox)>
+      <React.Fragment>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              autoFocus={true}
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="2.25rem"
+              multiline={true}
+              name="l0BannerTitleen"
+              noSpacing={true}
+              placeholder="Type the content of the title here in English.."
+              position="left"
+              weight="bold"
+            />
+          </div>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="1rem"
+              minRows={2}
+              multiline={true}
+              name="l0BannerDescen"
+              noSpacing={true}
+              placeholder="Type content description here in English.."
+              position="left"
+              weight="normal"
+            />
+          </div>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Banner/index render L1 - Content Page 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Banner"
+  />
+  <Styled(MuiBox)>
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[MockFunction]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="banner"
+      />
+    </Styled(MuiBox)>
+    <div />
+    <Styled(MuiBox)>
+      <React.Fragment>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              autoFocus={true}
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="2.25rem"
+              multiline={true}
+              name="l1BannerTitleid"
+              noSpacing={true}
+              placeholder="Ketik konten judul di sini dalam Bahasa.."
+              position="left"
+              weight="bold"
+            />
+          </div>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="1rem"
+              minRows={2}
+              multiline={true}
+              name="l1BannerDescid"
+              noSpacing={true}
+              placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+              position="left"
+              weight="normal"
+            />
+          </div>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Banner/index render L1 - Content Page 2 1`] = `
+<div>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Banner"
+  />
+  <Styled(MuiBox)>
+    <Styled(MuiBox)
+      onClick={[Function]}
+      position="absolute"
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[MockFunction]}
+        isIcon={false}
+        isValidateByPixel={false}
+        item={
+          Object {
+            "_file": null,
+            "_setFile": [Function],
+          }
+        }
+        maxSize={358400}
+        previewState={
+          Object {
+            "preview": Object {
+              "_file": null,
+              "_setFile": [Function],
+            },
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            32,
+            32,
+          ]
+        }
+        sectionName="Product Name & Logo"
+        sizeBig={false}
+        type="banner"
+      />
+    </Styled(MuiBox)>
+    <div />
+    <Styled(MuiBox)>
+      <React.Fragment>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              autoFocus={true}
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="2.25rem"
+              multiline={true}
+              name="l1BannerTitleen"
+              noSpacing={true}
+              placeholder="Type the content of the title here in English.."
+              position="left"
+              weight="bold"
+            />
+          </div>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <div>
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              disabled={false}
+              fontSize="1rem"
+              minRows={2}
+              multiline={true}
+              name="l1BannerDescen"
+              noSpacing={true}
+              placeholder="Type content description here in English.."
+              position="left"
+              weight="normal"
+            />
+          </div>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;

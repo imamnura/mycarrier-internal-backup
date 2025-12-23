@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/List/index render 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Download",
+          "loading": undefined,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Account Manager Mapping",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "onChange": undefined,
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Unhandled",
+              "value": "unhandled",
+            },
+            Object {
+              "label": "Handled",
+              "value": "handled",
+            },
+          ],
+          "type": "dropdown",
+          "value": undefined,
+        },
+        Object {
+          "isLoading": undefined,
+          "isSearchable": true,
+          "maxWidth": 200,
+          "onChange": undefined,
+          "options": undefined,
+          "type": "dropdown",
+          "value": undefined,
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Customer or CA Number...",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "CUSTOMER",
+            "name": "customerAccountName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "CA NUMBER",
+            "name": "custAccntNum",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "CUSTOMER TYPE",
+            "name": "customerAccountType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 80,
+            },
+            "label": "TOTAL AM HANDLED",
+            "name": "totalAmHandled",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "STATUS",
+            "name": "status",
+            "schemaStatus": Object {
+              "handled": "success",
+              "unhandled": "warning",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Account Manager Mapping"
+    withTopDivider={true}
+  />
+  <WithStyles(Component) />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/AmMapping/List/index render case 2 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Download",
+          "loading": undefined,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "ADD NEW MAPPING",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Account Manager Mapping",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "onChange": undefined,
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Unhandled",
+              "value": "unhandled",
+            },
+            Object {
+              "label": "Handled",
+              "value": "handled",
+            },
+          ],
+          "type": "dropdown",
+          "value": undefined,
+        },
+        Object {
+          "isLoading": undefined,
+          "isSearchable": true,
+          "maxWidth": 200,
+          "onChange": undefined,
+          "options": undefined,
+          "type": "dropdown",
+          "value": undefined,
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Customer or CA Number...",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "CUSTOMER",
+            "name": "customerAccountName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "CA NUMBER",
+            "name": "custAccntNum",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "CUSTOMER TYPE",
+            "name": "customerAccountType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 80,
+            },
+            "label": "TOTAL AM HANDLED",
+            "name": "totalAmHandled",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "STATUS",
+            "name": "status",
+            "schemaStatus": Object {
+              "handled": "success",
+              "unhandled": "warning",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Account Manager Mapping"
+    withTopDivider={true}
+  />
+  <WithStyles(Component) />
+</React.Fragment>
+`;

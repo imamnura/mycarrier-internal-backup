@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/AddRundown render 1`] = `
+<div>
+  <div>
+    <Styled(MuiBox)
+      ml={3}
+    >
+      <div>
+        <div />
+      </div>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      ml={2}
+      width={400}
+    >
+      <TimeRangePicker
+        baseDate="test"
+        initialEndTime=""
+        initialOpen={false}
+        initialStartTime=""
+        minTime="test"
+        onChange={[Function]}
+        setValue={[MockFunction]}
+        tab="id"
+        type="eventDay"
+        value={
+          Object {
+            "endTime": undefined,
+            "startTime": undefined,
+          }
+        }
+      />
+      <div>
+        <WithStyles(ForwardRef(InputBase))
+          classes={
+            Object {
+              "input": undefined,
+            }
+          }
+          fullWidth={true}
+          onChange={[Function]}
+          placeholder="Ketik nama acara.."
+          value="test"
+        />
+      </div>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        add rundown
+      </Button>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/AddRundown render error 1`] = `
+<div>
+  <div>
+    <Styled(MuiBox)
+      ml={3}
+    >
+      <div>
+        <div />
+      </div>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      ml={2}
+      width={400}
+    >
+      <TimeRangePicker
+        baseDate="test"
+        initialEndTime=""
+        initialOpen={false}
+        initialStartTime=""
+        minTime="test"
+        onChange={[Function]}
+        setValue={[MockFunction]}
+        tab="id"
+        type="eventDay"
+        value={
+          Object {
+            "endTime": undefined,
+            "startTime": undefined,
+          }
+        }
+      />
+      <div>
+        <WithStyles(ForwardRef(InputBase))
+          classes={
+            Object {
+              "input": undefined,
+            }
+          }
+          fullWidth={true}
+          onChange={[Function]}
+          placeholder="Ketik nama acara.."
+          value="test"
+        />
+        <div>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Time or Event Name already exist
+          </Typography>
+        </div>
+      </div>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        add rundown
+      </Button>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;

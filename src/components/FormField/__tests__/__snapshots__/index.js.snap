@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/FormField AutoComplete 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField Checkbox 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField DatePicker 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField DateRangePicker 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField DateTimePicker 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField FileUpload 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField OTPInput 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField PhoneInput 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField PhoneInput/62 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField RadioGroup 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField Select 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField Switch 1`] = `
+<Unknown
+  control={Object {}}
+  defaultValue={false}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField TextField 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField TextFieldMasked 1`] = `
+<Unknown
+  control={Object {}}
+  defaultValue=""
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;
+
+exports[`src/components/FormField TimePicker 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/FormField Wysiwyg 1`] = `
+<Unknown
+  control={Object {}}
+  name="name"
+  render={[Function]}
+  shouldUnregister={false}
+/>
+`;

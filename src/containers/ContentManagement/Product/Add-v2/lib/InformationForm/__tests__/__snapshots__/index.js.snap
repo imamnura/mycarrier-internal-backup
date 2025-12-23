@@ -1,0 +1,1874 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l0ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l0ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l0MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l0MetaKeyword"
+        onKeyDown={[MockFunction]}
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l0MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <React.Fragment>
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Icon Assets
+        </Typography>
+      </div>
+      <WithStyles(Component)
+        accept={
+          Array [
+            ".png",
+            "application/json",
+          ]
+        }
+        handleDelete={[Function]}
+        isLabelInputTop={true}
+        labelCustom="Example: product-icon.png"
+        labelInput={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+               
+            </Typography>
+            Upload Icon Assets
+          </React.Fragment>
+        }
+        maxSize={5242880}
+        name="iconAssets"
+        onChange={[Function]}
+        withDelete={true}
+      />
+      <div
+        style={
+          Object {
+            "marginTop": "4px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="overline"
+          weight="normal"
+        >
+          Upload .png image, max 1 MB and size 64px x 64px
+        </Typography>
+      </div>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l0 formType half 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l0ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l0ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l0MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l0MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l0MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <React.Fragment>
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Icon Assets
+        </Typography>
+      </div>
+      <WithStyles(Component)
+        accept={
+          Array [
+            ".png",
+            "application/json",
+          ]
+        }
+        handleDelete={[Function]}
+        isLabelInputTop={true}
+        labelCustom="Example: product-icon.png"
+        labelInput={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+               
+            </Typography>
+            Upload Icon Assets
+          </React.Fragment>
+        }
+        maxSize={5242880}
+        name="iconAssets"
+        onChange={[Function]}
+        withDelete={true}
+      />
+      <div
+        style={
+          Object {
+            "marginTop": "4px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="overline"
+          weight="normal"
+        >
+          Upload .png image, max 1 MB and size 64px x 64px
+        </Typography>
+      </div>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l0 formType half icon null 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l0ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l0ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l0MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l0MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l0MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <React.Fragment>
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Icon Assets
+        </Typography>
+      </div>
+      <WithStyles(Component)
+        accept={
+          Array [
+            ".png",
+            "application/json",
+          ]
+        }
+        fileName=""
+        handleDelete={[Function]}
+        isLabelInputTop={true}
+        labelCustom="Example: product-icon.png"
+        labelInput={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+               
+            </Typography>
+            Upload Icon Assets
+          </React.Fragment>
+        }
+        maxSize={5242880}
+        name="iconAssets"
+        onChange={[Function]}
+        withDelete={true}
+      />
+      <div
+        style={
+          Object {
+            "marginTop": "4px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="overline"
+          weight="normal"
+        >
+          Upload .png image, max 1 MB and size 64px x 64px
+        </Typography>
+      </div>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l1 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l1ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l1ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l1MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l1MetaKeyword"
+        onKeyDown={[MockFunction]}
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l1MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={9}
+        xs={12}
+      >
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Level Mapping
+          </Typography>
+        </div>
+        <Styled(MuiBox)
+          mt={3}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Level 2 Category"
+            maxLength={40}
+            name="l2Category"
+            onKeyDown={[Function]}
+            required={true}
+            shouldUnregister={false}
+          />
+          <div>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Press enter to add level 2 category.
+            </Typography>
+          </div>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l1 2 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l1ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l1ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l1MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l1MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l1MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={9}
+        xs={12}
+      >
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Level Mapping
+          </Typography>
+        </div>
+        <Styled(MuiBox)
+          mt={3}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Level 2 Category"
+            maxLength={40}
+            name="l2Category"
+            onKeyDown={[Function]}
+            required={true}
+            shouldUnregister={false}
+          />
+          <div>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              Press enter to add level 2 category.
+            </Typography>
+          </div>
+          <span>
+            <WithStyles(ForwardRef(Chip))
+              label="satu"
+              variant="outlined"
+            />
+          </span>
+          <span>
+            <WithStyles(ForwardRef(Chip))
+              label="dua"
+              variant="outlined"
+            />
+          </span>
+          <span>
+            <WithStyles(ForwardRef(Chip))
+              label="tiga"
+              variant="outlined"
+            />
+          </span>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l1 isSingleProduct true 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l1ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l1ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l1MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l1MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l1MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l2 formType create 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l2ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l2ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l2MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l2MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l2MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render formType edit level l2 formType edit 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l2ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l2ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l2MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l2MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l2MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <React.Fragment>
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Level Mapping
+        </Typography>
+      </div>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          label="Level 2 Mapping"
+          maxWidth={230}
+          name="l2Mapping"
+          options={Array []}
+          placeholder="Choose Level 2"
+          required={true}
+          shouldUnregister={false}
+        />
+      </Styled(MuiBox)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render iconFile null 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l0ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l0ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l0MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l0MetaKeyword"
+        onKeyDown={[MockFunction]}
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l0MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    <React.Fragment>
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Icon Assets
+        </Typography>
+      </div>
+      <WithStyles(Component)
+        accept={
+          Array [
+            ".png",
+            "application/json",
+          ]
+        }
+        fileName=""
+        handleDelete={[Function]}
+        isLabelInputTop={true}
+        labelCustom="Example: product-icon.png"
+        labelInput={
+          <React.Fragment>
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              *
+               
+            </Typography>
+            Upload Icon Assets
+          </React.Fragment>
+        }
+        maxSize={5242880}
+        name="iconAssets"
+        onChange={[Function]}
+        withDelete={true}
+      />
+      <div
+        style={
+          Object {
+            "marginTop": "4px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="overline"
+          weight="normal"
+        >
+          Upload .png image, max 1 MB and size 64px x 64px
+        </Typography>
+      </div>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/InformationForm/index render null 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={4}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={5}
+    xs={12}
+  >
+    <div>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Product Information
+      </Typography>
+    </div>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Page Name"
+        maxLength={60}
+        name="l3ProductName"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Product Slug"
+        maxLength={60}
+        name="l3ProductSlug"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Title"
+        maxLength={40}
+        name="l3MetaSeo.title"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Keyword"
+        maxLength={40}
+        name="l3MetaKeyword"
+        onKeyDown={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+                "category",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+      <div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Press enter to add keyword, max 4 keywords.
+        </Typography>
+      </div>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="satu"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="dua"
+          variant="outlined"
+        />
+      </span>
+      <span>
+        <WithStyles(ForwardRef(Chip))
+          label="tiga"
+          variant="outlined"
+        />
+      </span>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="Meta Description"
+        maxLength={160}
+        minRows={5}
+        multiline={true}
+        name="l3MetaSeo.description"
+        required={true}
+        shouldUnregister={false}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={7}
+    xs={12}
+  >
+    
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

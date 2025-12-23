@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Authentication/Login render 1`] = `
+<Auth>
+  <div
+    className="makeStyles-centered-1"
+  >
+    <img
+      alt="logo-square"
+      src="/img/logo-square.svg"
+    />
+    <Styled(MuiBox)
+      mt={5}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Welcome to MyCarrier!
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        Type your details below 
+      </Typography>
+    </Styled(MuiBox)>
+    <LoginForm
+      useMessage={
+        Array [
+          " ",
+          [Function],
+        ]
+      }
+    />
+    <Styled(MuiBox)
+      my={5}
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </Styled(MuiBox)>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Having trouble?
+      <Typography
+        className="makeStyles-link-2"
+        color="primary-main"
+        inline={false}
+        onClick={[Function]}
+        variant="caption"
+        weight="bold"
+      >
+         Talk to Helpdesk
+      </Typography>
+      .
+    </Typography>
+  </div>
+</Auth>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/elements/DetailedList render 1`] = `
+<div
+  style={
+    Object {
+      "overflowX": "auto",
+    }
+  }
+>
+  <table
+    className="makeStyles-root-4"
+  >
+    <tbody>
+      <tr
+        className="makeStyles-row-5"
+      >
+        <td
+          className="makeStyles-cell-1"
+        >
+          <Typography
+            className="makeStyles-label-3"
+            color="general-mid"
+            inline={true}
+            variant="subtitle2"
+            weight="light"
+          >
+            label
+          </Typography>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            name
+          </Typography>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`src/components-v2/elements/DetailedList render mobile 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-item-13"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className="makeStyles-label-10"
+          color="general-mid"
+          inline={true}
+          variant="subtitle2"
+          weight="light"
+        >
+          label
+        </Typography>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle2"
+          weight="medium"
+        >
+          name
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components-v2/elements/DetailedList render no data 1`] = `null`;

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail/lib/UpdateActivity render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  open={true}
+>
+  <div
+    style={
+      Object {
+        "overflow": "visible",
+        "padding": "32px 40px",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Update Activity
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <Select
+        control={
+          Object {
+            "_defaultValues": Object {},
+            "_disableForm": [Function],
+            "_fields": Object {},
+            "_formState": Object {
+              "dirtyFields": Object {},
+              "disabled": false,
+              "errors": Object {},
+              "isDirty": false,
+              "isLoading": false,
+              "isReady": false,
+              "isSubmitSuccessful": false,
+              "isSubmitted": false,
+              "isSubmitting": false,
+              "isValid": false,
+              "isValidating": false,
+              "submitCount": 0,
+              "touchedFields": Object {},
+              "validatingFields": Object {},
+            },
+            "_formValues": Object {},
+            "_getDirty": [Function],
+            "_getFieldArray": [Function],
+            "_getWatch": [Function],
+            "_names": Object {
+              "array": Set {},
+              "disabled": Set {},
+              "mount": Set {},
+              "unMount": Set {},
+              "watch": Set {
+                "status",
+              },
+            },
+            "_options": Object {
+              "mode": "onChange",
+              "reValidateMode": "onChange",
+              "resolver": [Function],
+              "shouldFocusError": true,
+            },
+            "_proxyFormState": Object {
+              "dirtyFields": false,
+              "errors": false,
+              "isDirty": false,
+              "isValid": "all",
+              "isValidating": false,
+              "touchedFields": false,
+              "validatingFields": false,
+            },
+            "_removeUnmounted": [Function],
+            "_reset": [Function],
+            "_resetDefaultValues": [Function],
+            "_runSchema": [Function],
+            "_setDisabledField": [Function],
+            "_setErrors": [Function],
+            "_setFieldArray": [Function],
+            "_setValid": [Function],
+            "_state": Object {
+              "action": false,
+              "mount": false,
+              "watch": false,
+            },
+            "_subjects": Object {
+              "array": Object {
+                "next": [Function],
+                "observers": Array [],
+                "subscribe": [Function],
+                "unsubscribe": [Function],
+              },
+              "state": Object {
+                "next": [Function],
+                "observers": Array [],
+                "subscribe": [Function],
+                "unsubscribe": [Function],
+              },
+            },
+            "_subscribe": [Function],
+            "getFieldState": [Function],
+            "handleSubmit": [Function],
+            "register": [Function],
+            "setError": [Function],
+            "unregister": [Function],
+          }
+        }
+        error={false}
+        helperText=""
+        isLoading={false}
+        label="Status"
+        name="status"
+        options={Array []}
+        required={true}
+        shouldUnregister={true}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      display="flex"
+      justifyContent="center"
+      mt={4}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={16}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Submit
+      </Button>
+    </Styled(MuiBox)>
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;

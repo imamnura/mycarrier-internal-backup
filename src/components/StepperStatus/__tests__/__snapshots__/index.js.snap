@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/StepperStatus render 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <div
+    className="makeStyles-item-2"
+  >
+    <div
+      className="makeStyles-circle-4"
+      style={Object {}}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        1
+      </Typography>
+    </div>
+  </div>
+  <div
+    className="makeStyles-item-2"
+  >
+    <div
+      className="makeStyles-line-3"
+    />
+    <div
+      className="makeStyles-circle-4"
+      style={Object {}}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        2
+      </Typography>
+    </div>
+  </div>
+  <div
+    className="makeStyles-item-2"
+  >
+    <div
+      className="makeStyles-line-3"
+    />
+    <div
+      className="makeStyles-circle-4"
+      style={Object {}}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        3
+      </Typography>
+    </div>
+  </div>
+</div>
+`;

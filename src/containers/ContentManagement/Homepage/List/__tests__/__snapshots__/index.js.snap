@@ -1,0 +1,895 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/index render tab banner 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": undefined,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "REORDER BANNER HERO",
+          "disabled": false,
+          "loading": undefined,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "ADD CONTENT",
+          "loading": undefined,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Homepage Management",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "type": "dateRange",
+          "variant": "secondary",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Title..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "bannerId": 1,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "operations": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))
+                id="updateBanner"
+                onClick={[Function]}
+              >
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={false}
+                id="deleteBanner"
+                onClick={[Function]}
+              >
+                <Delete
+                  style={false}
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 1,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v5",
+                  "type": "banner",
+                }
+              }
+              meta={Object {}}
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v5",
+            "type": "banner",
+          },
+          Object {
+            "bannerId": 2,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "operations": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))
+                id="updateBanner"
+                onClick={[Function]}
+              >
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={false}
+                id="deleteBanner"
+                onClick={[Function]}
+              >
+                <Delete
+                  style={false}
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 2,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v6",
+                  "type": "banner",
+                }
+              }
+              meta={Object {}}
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v6",
+            "type": "banner",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "numbering": true,
+        "onClickRow": null,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+              "width": 50,
+            },
+            "label": "ID",
+            "name": "id",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+              "width": 200,
+            },
+            "label": "TITLE",
+            "name": "bannerTitle",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "label": "LINK BANNER",
+            "name": "linkBanner",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+              "width": 50,
+            },
+            "label": "Status",
+            "name": "status",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+              "width": 50,
+            },
+            "hasTooltipHeader": true,
+            "label": "",
+            "name": "operations",
+            "tooltipHeader": "“Active” & “Hide” status is mapping on Reorder Banner Hero",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Banner Hero",
+            "value": "bannerHero",
+          },
+          Object {
+            "label": "Brochure Upload",
+            "value": "brochure",
+          },
+          Object {
+            "label": "Pop Up",
+            "value": "popup",
+          },
+        ],
+        "value": "bannerHero",
+      }
+    }
+    title="Homepage Management"
+    withTopDivider={true}
+  />
+  <AddContent
+    addContent={[MockFunction]}
+    choosedContent={1}
+    disabled={true}
+    onClose={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <ReorderBanner
+    classes={
+      Object {
+        "buttonContainer": "css-56sgxr",
+        "dialogRoot": "css-1c8wxga",
+        "dialogRootReorder": "css-1lr29yc",
+        "icon": "css-v7cnpc",
+        "iconActive": "css-1l2ixz7",
+        "listAction": "css-70qvj9",
+        "sectionItem": "css-onlkwk",
+        "sectionItemActive": "css-167g1og",
+        "tableContainer": "css-1rx7knk",
+      }
+    }
+    confirmSaveReorder={[Function]}
+    listBannerActive={Array []}
+    listBannerHide={Array []}
+    openDialogReorder={false}
+    setListBannerActive={[Function]}
+    setListBannerHide={[Function]}
+    setOpenDialogReorder={[Function]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/index render tab brochure 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": undefined,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "ADD CONTENT",
+          "loading": undefined,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Homepage Management",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "type": "dateRange",
+          "variant": "secondary",
+        },
+        Object {
+          "maxwidth": 200,
+          "type": "dropdown",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Brochure Name..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "bannerId": 1,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "status": "active",
+            "title": "Banner Baru v5",
+            "type": "banner",
+          },
+          Object {
+            "bannerId": 2,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "status": "active",
+            "title": "Banner Baru v6",
+            "type": "banner",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "numbering": true,
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "BROCHURE ID",
+            "name": "id",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "BROCHURE NAME",
+            "name": "name",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+            },
+            "label": "SIZE",
+            "name": "size",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+            },
+            "label": "FILE TYPE",
+            "name": "fileType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+              "width": 200,
+            },
+            "formatDate": "date-time",
+            "label": "DATE UPLOADED",
+            "name": "createdAt",
+            "sort": true,
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Banner Hero",
+            "value": "bannerHero",
+          },
+          Object {
+            "label": "Brochure Upload",
+            "value": "brochure",
+          },
+          Object {
+            "label": "Pop Up",
+            "value": "popup",
+          },
+        ],
+        "value": "brochure",
+      }
+    }
+    title="Homepage Management"
+    withTopDivider={true}
+  />
+  <AddContent
+    addContent={[MockFunction]}
+    choosedContent={2}
+    disabled={true}
+    onClose={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <ReorderBanner
+    classes={
+      Object {
+        "buttonContainer": "css-56sgxr",
+        "dialogRoot": "css-1c8wxga",
+        "dialogRootReorder": "css-1lr29yc",
+        "icon": "css-v7cnpc",
+        "iconActive": "css-1l2ixz7",
+        "listAction": "css-70qvj9",
+        "sectionItem": "css-onlkwk",
+        "sectionItemActive": "css-167g1og",
+        "tableContainer": "css-1rx7knk",
+      }
+    }
+    confirmSaveReorder={[Function]}
+    listBannerActive={Array []}
+    listBannerHide={Array []}
+    openDialogReorder={false}
+    setListBannerActive={[Function]}
+    setListBannerHide={[Function]}
+    setOpenDialogReorder={[Function]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/index render tab popup 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": undefined,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "ADD CONTENT",
+          "loading": undefined,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Homepage Management",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "action": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))>
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={true}
+              >
+                <Delete
+                  style={
+                    Object {
+                      "stroke": "#9E9E9E",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "bannerId": 1,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "period": undefined,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 1,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v5",
+                  "type": "banner",
+                }
+              }
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v5",
+            "type": "banner",
+          },
+          Object {
+            "action": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))>
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={true}
+              >
+                <Delete
+                  style={
+                    Object {
+                      "stroke": "#9E9E9E",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "bannerId": 2,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "period": undefined,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 2,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v6",
+                  "type": "banner",
+                }
+              }
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v6",
+            "type": "banner",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "numbering": true,
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "Pop Up Name",
+            "name": "name",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Action Button Link",
+            "name": "link",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Period",
+            "name": "period",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+            },
+            "label": "Status",
+            "name": "status",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+              "width": 50,
+            },
+            "label": "Action",
+            "name": "action",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Banner Hero",
+            "value": "bannerHero",
+          },
+          Object {
+            "label": "Brochure Upload",
+            "value": "brochure",
+          },
+          Object {
+            "label": "Pop Up",
+            "value": "popup",
+          },
+        ],
+        "value": "popup",
+      }
+    }
+    title="Homepage Management"
+    withTopDivider={true}
+  />
+  <AddContent
+    addContent={[MockFunction]}
+    choosedContent={3}
+    disabled={true}
+    onClose={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <ReorderBanner
+    classes={
+      Object {
+        "buttonContainer": "css-56sgxr",
+        "dialogRoot": "css-1c8wxga",
+        "dialogRootReorder": "css-1lr29yc",
+        "icon": "css-v7cnpc",
+        "iconActive": "css-1l2ixz7",
+        "listAction": "css-70qvj9",
+        "sectionItem": "css-onlkwk",
+        "sectionItemActive": "css-167g1og",
+        "tableContainer": "css-1rx7knk",
+      }
+    }
+    confirmSaveReorder={[Function]}
+    listBannerActive={Array []}
+    listBannerHide={Array []}
+    openDialogReorder={false}
+    setListBannerActive={[Function]}
+    setListBannerHide={[Function]}
+    setOpenDialogReorder={[Function]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/index render without access to add 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": undefined,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Homepage Management",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "action": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))>
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={true}
+              >
+                <Delete
+                  style={
+                    Object {
+                      "stroke": "#9E9E9E",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "bannerId": 1,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "period": undefined,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 1,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v5",
+                  "type": "banner",
+                }
+              }
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v5",
+            "type": "banner",
+          },
+          Object {
+            "action": <Box
+              className="css-70qvj9"
+            >
+              <WithStyles(ForwardRef(IconButton))>
+                <Pencil />
+              </WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(IconButton))
+                disabled={true}
+              >
+                <Delete
+                  style={
+                    Object {
+                      "stroke": "#9E9E9E",
+                    }
+                  }
+                />
+              </WithStyles(ForwardRef(IconButton))>
+            </Box>,
+            "bannerId": 2,
+            "lang": "id",
+            "linkedTo": "metro-ethernet",
+            "period": undefined,
+            "status": <SwitchStatusPopUp
+              data={
+                Object {
+                  "bannerId": 2,
+                  "lang": "id",
+                  "linkedTo": "metro-ethernet",
+                  "status": "active",
+                  "title": "Banner Baru v6",
+                  "type": "banner",
+                }
+              }
+              onClickUpdateStatus={[Function]}
+            />,
+            "title": "Banner Baru v6",
+            "type": "banner",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "numbering": true,
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "Pop Up Name",
+            "name": "name",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 250,
+            },
+            "label": "Action Button Link",
+            "name": "link",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Period",
+            "name": "period",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+            },
+            "label": "Status",
+            "name": "status",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 50,
+              "width": 50,
+            },
+            "label": "Action",
+            "name": "action",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Banner Hero",
+            "value": "bannerHero",
+          },
+          Object {
+            "label": "Brochure Upload",
+            "value": "brochure",
+          },
+        ],
+        "value": "popup",
+      }
+    }
+    title="Homepage Management"
+    withTopDivider={true}
+  />
+  <AddContent
+    addContent={[MockFunction]}
+    choosedContent={3}
+    disabled={true}
+    onClose={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <ReorderBanner
+    classes={
+      Object {
+        "buttonContainer": "css-56sgxr",
+        "dialogRoot": "css-1c8wxga",
+        "dialogRootReorder": "css-1lr29yc",
+        "icon": "css-v7cnpc",
+        "iconActive": "css-1l2ixz7",
+        "listAction": "css-70qvj9",
+        "sectionItem": "css-onlkwk",
+        "sectionItemActive": "css-167g1og",
+        "tableContainer": "css-1rx7knk",
+      }
+    }
+    confirmSaveReorder={[Function]}
+    listBannerActive={Array []}
+    listBannerHide={Array []}
+    openDialogReorder={false}
+    setListBannerActive={[Function]}
+    setListBannerHide={[Function]}
+    setOpenDialogReorder={[Function]}
+  />
+</React.Fragment>
+`;

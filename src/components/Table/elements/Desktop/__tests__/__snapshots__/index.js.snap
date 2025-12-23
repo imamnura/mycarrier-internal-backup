@@ -1,0 +1,5440 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Table/elements/Desktop render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-8"
+    onScroll={[Function]}
+  >
+    <table
+      className="makeStyles-table-11"
+      id="table-row"
+    >
+      <thead
+        className="makeStyles-tHeader-16"
+      >
+        <tr>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": undefined,
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2"
+                id="th-number"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  No.
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2 makeStyles-thItemSortable-18"
+                id="th-a"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  With Sort & Custom Width
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2 makeStyles-thItemSortable-18"
+                id="th-b"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Date Time
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2"
+                id="th-c"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Currency
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2"
+                id="th-d"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2"
+                id="th-e"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Node Child
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2"
+                id="th-f"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-17"
+            >
+              <div
+                className="makeStyles-flex-2 makeStyles-tooltipHead-19"
+                id="th-g"
+                onClick={[Function]}
+              >
+                <Tooltip
+                  arrow={true}
+                  placement="top"
+                  title="Wording Tooltip"
+                >
+                  <span
+                    style={
+                      Object {
+                        "display": "flex",
+                        "margin": "0 5px",
+                      }
+                    }
+                  >
+                    <Information
+                      style={
+                        Object {
+                          "height": 16,
+                          "width": 16,
+                        }
+                      }
+                    />
+                  </span>
+                </Tooltip>
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Header Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-2"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-9"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-13 makeStyles-tBodyClickable-14 makeStyles-tBodyPicked-15"
+              id="table-row-0"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    1
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data A
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="success"
+                  >
+                    Completed
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <pre>
+                    node
+                  </pre>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment />
+          </React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-13 makeStyles-tBodyClickable-14"
+              id="table-row-1"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    2
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data B
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="danger"
+                  >
+                    Rejected
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-12"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment>
+              <React.Fragment>
+                <tr
+                  className="makeStyles-tBody-13 makeStyles-tBodyClickable-14"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "maxWidth": 64,
+                        "minWidth": 64,
+                        "position": undefined,
+                        "width": 64,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                        "width": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Data B
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        2010-11-10T00:00:00.000Z
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        20000000
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Rejected
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-12"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                </tr>
+                <React.Fragment>
+                  <React.Fragment>
+                    <tr
+                      className="makeStyles-tBody-13 makeStyles-tBodyClickable-14"
+                      style={
+                        Object {
+                          "display": "none",
+                        }
+                      }
+                    >
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "maxWidth": 64,
+                            "minWidth": 64,
+                            "position": undefined,
+                            "width": 64,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                            "width": "50%",
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Data B
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            2010-11-10T00:00:00.000Z
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            20000000
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Rejected
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-12"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                    </tr>
+                  </React.Fragment>
+                </React.Fragment>
+              </React.Fragment>
+            </React.Fragment>
+          </React.Fragment>
+        </React.Fragment>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="makeStyles-pageInformation-5"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      <React.Fragment>
+        <React.Fragment>
+          Showing 
+          <strong>
+            10
+          </strong>
+           data from
+           
+          <strong>
+            10
+             data
+          </strong>
+        </React.Fragment>
+      </React.Fragment>
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/Table/elements/Desktop render selectable 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-28"
+    onScroll={[Function]}
+  >
+    <table
+      className="makeStyles-table-31"
+      id="table-row"
+    >
+      <thead
+        className="makeStyles-tHeader-36"
+      >
+        <tr>
+          <td
+            style={
+              Object {
+                "left": 0,
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": "",
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <Styled(MuiBox)
+                display="flex"
+                justifyContent="center"
+                width="100%"
+              >
+                <ForwardRef
+                  checked={false}
+                  id="checkbox-h"
+                  onChange={[Function]}
+                />
+              </Styled(MuiBox)>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": undefined,
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-expand"
+                onClick={[Function]}
+              >
+                <React.Fragment />
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": undefined,
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-number"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  No.
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22 makeStyles-thItemSortable-38"
+                id="th-a"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  With Sort & Custom Width
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22 makeStyles-thItemSortable-38"
+                id="th-b"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Date Time
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-c"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Currency
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-d"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-e"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Node Child
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22"
+                id="th-f"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-37"
+            >
+              <div
+                className="makeStyles-flex-22 makeStyles-tooltipHead-39"
+                id="th-g"
+                onClick={[Function]}
+              >
+                <Tooltip
+                  arrow={true}
+                  placement="top"
+                  title="Wording Tooltip"
+                >
+                  <span
+                    style={
+                      Object {
+                        "display": "flex",
+                        "margin": "0 5px",
+                      }
+                    }
+                  >
+                    <Information
+                      style={
+                        Object {
+                          "height": 16,
+                          "width": 16,
+                        }
+                      }
+                    />
+                  </span>
+                </Tooltip>
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Header Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-22"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-29"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-33 makeStyles-tBodyClickable-34 makeStyles-tBodyPicked-35"
+              id="table-row-0"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "left": 0,
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": "",
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Styled(MuiBox)
+                    display="flex"
+                    justifyContent="center"
+                    width="100%"
+                  >
+                    <ForwardRef
+                      checked={false}
+                      id="checkbox-0"
+                      onChange={[Function]}
+                    />
+                  </Styled(MuiBox)>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    1
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data A
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="success"
+                  >
+                    Completed
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <pre>
+                    node
+                  </pre>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment />
+          </React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-33 makeStyles-tBodyClickable-34"
+              id="table-row-1"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "left": 0,
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": "",
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Styled(MuiBox)
+                    display="flex"
+                    justifyContent="center"
+                    width="100%"
+                  >
+                    <ForwardRef
+                      checked={false}
+                      id="checkbox-1"
+                      onChange={[Function]}
+                    />
+                  </Styled(MuiBox)>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Styled(MuiBox)
+                    display="flex"
+                    justifyContent="center"
+                    width="100%"
+                  >
+                    <WithStyles(ForwardRef(IconButton))
+                      aria-label="expand row"
+                      id="expand-row"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      <Memo />
+                    </WithStyles(ForwardRef(IconButton))>
+                  </Styled(MuiBox)>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    2
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data B
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="danger"
+                  >
+                    Rejected
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-32"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment>
+              <React.Fragment>
+                <tr
+                  className="makeStyles-tBody-33 makeStyles-tBodyClickable-34"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "left": 0,
+                        "maxWidth": 64,
+                        "minWidth": 64,
+                        "position": "",
+                        "width": 64,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "maxWidth": 64,
+                        "minWidth": 64,
+                        "position": undefined,
+                        "width": 64,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Styled(MuiBox)
+                        display="flex"
+                        justifyContent="center"
+                        width="100%"
+                      >
+                        <WithStyles(ForwardRef(IconButton))
+                          aria-label="expand row"
+                          id="expand-child-row"
+                          onClick={[Function]}
+                          size="small"
+                        >
+                          <Memo />
+                        </WithStyles(ForwardRef(IconButton))>
+                      </Styled(MuiBox)>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "maxWidth": 64,
+                        "minWidth": 64,
+                        "position": undefined,
+                        "width": 64,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                        "width": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Data B
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        2010-11-10T00:00:00.000Z
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        20000000
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Rejected
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-32"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                </tr>
+                <React.Fragment>
+                  <React.Fragment>
+                    <tr
+                      className="makeStyles-tBody-33 makeStyles-tBodyClickable-34"
+                      style={
+                        Object {
+                          "display": "none",
+                        }
+                      }
+                    >
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "left": 0,
+                            "maxWidth": 64,
+                            "minWidth": 64,
+                            "position": "",
+                            "width": 64,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "maxWidth": 64,
+                            "minWidth": 64,
+                            "position": undefined,
+                            "width": 64,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "maxWidth": 64,
+                            "minWidth": 64,
+                            "position": undefined,
+                            "width": 64,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                            "width": "50%",
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Data B
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            2010-11-10T00:00:00.000Z
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            20000000
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Rejected
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-32"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                    </tr>
+                  </React.Fragment>
+                </React.Fragment>
+              </React.Fragment>
+            </React.Fragment>
+          </React.Fragment>
+        </React.Fragment>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="makeStyles-pageInformation-25"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      <React.Fragment>
+        <React.Fragment>
+          Showing 
+          <strong>
+            10
+          </strong>
+           data from
+           
+          <strong>
+            10
+             data
+          </strong>
+        </React.Fragment>
+      </React.Fragment>
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/Table/elements/Desktop render/empty 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-48"
+    onScroll={[Function]}
+  >
+    <table
+      className="makeStyles-table-51"
+      id="table-row"
+    >
+      <thead
+        className="makeStyles-tHeader-56"
+      >
+        <tr>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42 makeStyles-thItemSortable-58"
+                id="th-a"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  With Sort & Custom Width
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42 makeStyles-thItemSortable-58"
+                id="th-b"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Date Time
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42"
+                id="th-c"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Currency
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42"
+                id="th-d"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42"
+                id="th-e"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Node Child
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42"
+                id="th-f"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-57"
+            >
+              <div
+                className="makeStyles-flex-42 makeStyles-tooltipHead-59"
+                id="th-g"
+                onClick={[Function]}
+              >
+                <Tooltip
+                  arrow={true}
+                  placement="top"
+                  title="Wording Tooltip"
+                >
+                  <span
+                    style={
+                      Object {
+                        "display": "flex",
+                        "margin": "0 5px",
+                      }
+                    }
+                  >
+                    <Information
+                      style={
+                        Object {
+                          "height": 16,
+                          "width": 16,
+                        }
+                      }
+                    />
+                  </span>
+                </Tooltip>
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Header Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-42"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-49"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <React.Fragment />
+      </tbody>
+    </table>
+    <div
+      className="makeStyles-boxNotFound-41"
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/Table/elements/Desktop render/loading 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-88"
+    onScroll={[Function]}
+  >
+    <table
+      className="makeStyles-table-91"
+      id="table-row"
+    >
+      <thead
+        className="makeStyles-tHeader-96"
+      >
+        <tr>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": undefined,
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82"
+                id="th-number"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  No.
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82 makeStyles-thItemSortable-98"
+                id="th-a"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  With Sort & Custom Width
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82 makeStyles-thItemSortable-98"
+                id="th-b"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Date Time
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82"
+                id="th-c"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Currency
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82"
+                id="th-d"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82"
+                id="th-e"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Node Child
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82"
+                id="th-f"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-97"
+            >
+              <div
+                className="makeStyles-flex-82 makeStyles-tooltipHead-99"
+                id="th-g"
+                onClick={[Function]}
+              >
+                <Tooltip
+                  arrow={true}
+                  placement="top"
+                  title="Wording Tooltip"
+                >
+                  <span
+                    style={
+                      Object {
+                        "display": "flex",
+                        "margin": "0 5px",
+                      }
+                    }
+                  >
+                    <Information
+                      style={
+                        Object {
+                          "height": 16,
+                          "width": 16,
+                        }
+                      }
+                    />
+                  </span>
+                </Tooltip>
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Header Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-82"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-89"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-93 makeStyles-tBodyClickable-94 makeStyles-tBodyPicked-95"
+              id="table-row-0"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    1
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data A
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="success"
+                  >
+                    Completed
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <pre>
+                    node
+                  </pre>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment />
+          </React.Fragment>
+          <React.Fragment>
+            <tr
+              className="makeStyles-tBody-93 makeStyles-tBodyClickable-94"
+              id="table-row-1"
+              onClick={[Function]}
+            >
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "maxWidth": 64,
+                    "minWidth": 64,
+                    "position": undefined,
+                    "width": 64,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    2
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                    "width": "50%",
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Data B
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    10/11/2010 00:00
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    Rp 20.000.000
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Status
+                    rounded={false}
+                    size="small"
+                    variant="danger"
+                  >
+                    Rejected
+                  </Status>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+              <td
+                style={
+                  Object {
+                    "borderRight": "none",
+                    "position": undefined,
+                  }
+                }
+              >
+                <div
+                  className="makeStyles-tbItem-92"
+                >
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </td>
+            </tr>
+            <React.Fragment>
+              <React.Fragment>
+                <tr
+                  className="makeStyles-tBody-93 makeStyles-tBodyClickable-94"
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "maxWidth": 64,
+                        "minWidth": 64,
+                        "position": undefined,
+                        "width": 64,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                        "width": "50%",
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Data B
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        2010-11-10T00:00:00.000Z
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        20000000
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                        Rejected
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "borderRight": "none",
+                        "position": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      className="makeStyles-tbItem-92"
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle2"
+                        weight="normal"
+                      >
+                         
+                      </Typography>
+                    </div>
+                  </td>
+                </tr>
+                <React.Fragment>
+                  <React.Fragment>
+                    <tr
+                      className="makeStyles-tBody-93 makeStyles-tBodyClickable-94"
+                      style={
+                        Object {
+                          "display": "none",
+                        }
+                      }
+                    >
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "maxWidth": 64,
+                            "minWidth": 64,
+                            "position": undefined,
+                            "width": 64,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                            "width": "50%",
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Data B
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            2010-11-10T00:00:00.000Z
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            20000000
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                            Rejected
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                      <td
+                        style={
+                          Object {
+                            "borderRight": "none",
+                            "position": undefined,
+                          }
+                        }
+                      >
+                        <div
+                          className="makeStyles-tbItem-92"
+                        >
+                          <Typography
+                            className=""
+                            color="inherit"
+                            inline={false}
+                            variant="subtitle2"
+                            weight="normal"
+                          >
+                             
+                          </Typography>
+                        </div>
+                      </td>
+                    </tr>
+                  </React.Fragment>
+                </React.Fragment>
+              </React.Fragment>
+            </React.Fragment>
+          </React.Fragment>
+        </React.Fragment>
+        <React.Fragment>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-83"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+        </React.Fragment>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="makeStyles-pageInformation-85"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      <React.Fragment>
+        <React.Fragment>
+          Showing 
+          <strong>
+            10
+          </strong>
+           data from
+           
+          <strong>
+            10
+             data
+          </strong>
+        </React.Fragment>
+      </React.Fragment>
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/Table/elements/Desktop render/loadingRoot 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-68"
+    onScroll={[Function]}
+  >
+    <table
+      className="makeStyles-table-71"
+      id="table-row"
+    >
+      <thead
+        className="makeStyles-tHeader-76"
+      >
+        <tr>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "maxWidth": 64,
+                "minWidth": 64,
+                "position": undefined,
+                "width": 64,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-number"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  No.
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-a"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  With Sort & Custom Width
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-b"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Date Time
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-c"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Currency
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-d"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-e"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Node Child
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62"
+                id="th-f"
+                onClick={[Function]}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Status Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+          <td
+            style={
+              Object {
+                "borderRight": "none",
+                "position": undefined,
+              }
+            }
+          >
+            <div
+              className="makeStyles-thItem-77"
+            >
+              <div
+                className="makeStyles-flex-62 makeStyles-tooltipHead-79"
+                id="th-g"
+                onClick={[Function]}
+              >
+                <Tooltip
+                  arrow={true}
+                  placement="top"
+                  title="Wording Tooltip"
+                >
+                  <span
+                    style={
+                      Object {
+                        "display": "flex",
+                        "margin": "0 5px",
+                      }
+                    }
+                  >
+                    <Information
+                      style={
+                        Object {
+                          "height": 16,
+                          "width": 16,
+                        }
+                      }
+                    />
+                  </span>
+                </Tooltip>
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="bold"
+                >
+                  Header Tooltip
+                </Typography>
+                <Styled(MuiBox)
+                  className="makeStyles-flex-62"
+                  pl={1}
+                  style={
+                    Object {
+                      "opacity": 0,
+                      "transition": "200ms",
+                    }
+                  }
+                >
+                  <ArrowKeyboardDown
+                    className="makeStyles-sortIcon-69"
+                  />
+                </Styled(MuiBox)>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <React.Fragment>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+            <td
+              className="makeStyles-loadingRow-63"
+            >
+              <Skeleton
+                height={20}
+                variant="rect"
+                width="100%"
+              />
+            </td>
+          </tr>
+        </React.Fragment>
+      </tbody>
+    </table>
+  </div>
+  <div
+    className="makeStyles-pageInformation-65"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      <React.Fragment>
+        <React.Fragment>
+          Showing 
+          <strong>
+            10
+          </strong>
+           data from
+           
+          <strong>
+            10
+             data
+          </strong>
+        </React.Fragment>
+      </React.Fragment>
+    </Typography>
+  </div>
+</React.Fragment>
+`;

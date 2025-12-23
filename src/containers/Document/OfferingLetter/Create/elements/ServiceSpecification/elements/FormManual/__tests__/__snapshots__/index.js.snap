@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormManual/index render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      label="test"
+      maxLength={40}
+      name="detailFields.0.fieldValue"
+      required={true}
+      rules={
+        Object {
+          "required": "Value Field is a required field",
+        }
+      }
+      shouldUnregister={false}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      label="test"
+      maxLength={40}
+      name="detailFields.1.fieldValue"
+      required={true}
+      rules={
+        Object {
+          "required": "Value Field is a required field",
+        }
+      }
+      shouldUnregister={false}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <TextFieldMasked
+      control={Object {}}
+      defaultValue=""
+      error={false}
+      helperText=""
+      label="Value Total"
+      maskType="currency"
+      maxLength={40}
+      name="total"
+      onCustomChange={[Function]}
+      required={true}
+      rules={
+        Object {
+          "required": "Value Total is a required field",
+        }
+      }
+      shouldUnregister={false}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormManual/index render builder < 0 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justifyContent="space-between"
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={10}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={6}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Name Field 1"
+            maxLength={40}
+            name="detailFields.0.fieldName"
+            required={true}
+            rules={
+              Object {
+                "required": "Name Field is a required field",
+              }
+            }
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={6}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Value Field 1"
+            maxLength={40}
+            name="detailFields.0.fieldValue"
+            required={true}
+            rules={
+              Object {
+                "required": "Value Field is a required field",
+              }
+            }
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mt={2}
+      >
+        <ButtonMinimal
+          label=""
+          loading={false}
+          onClick={[Function]}
+          type="ghost"
+          variant="delete"
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justifyContent="space-between"
+    style={
+      Object {
+        "marginBottom": 16,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={10}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={6}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Name Field 2"
+            maxLength={40}
+            name="detailFields.1.fieldName"
+            required={true}
+            rules={
+              Object {
+                "required": "Name Field is a required field",
+              }
+            }
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={6}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Value Field 2"
+            maxLength={40}
+            name="detailFields.1.fieldValue"
+            required={true}
+            rules={
+              Object {
+                "required": "Value Field is a required field",
+              }
+            }
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Styled(MuiBox)
+        mt={2}
+      >
+        <ButtonMinimal
+          label=""
+          loading={false}
+          onClick={[Function]}
+          type="ghost"
+          variant="delete"
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <Styled(MuiBox)
+    alignItems="center"
+    display="flex"
+    mt={3}
+  >
+    <div />
+    <ButtonMinimal
+      label=""
+      loading={false}
+      onClick={[Function]}
+      type="ghost"
+      variant="add"
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={2}
+  >
+    <TextFieldMasked
+      control={Object {}}
+      defaultValue=""
+      error={false}
+      helperText=""
+      label="Value Total"
+      maskType="currency"
+      maxLength={40}
+      name="total"
+      onCustomChange={[Function]}
+      required={true}
+      rules={
+        Object {
+          "required": "Value Total is a required field",
+        }
+      }
+      shouldUnregister={false}
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

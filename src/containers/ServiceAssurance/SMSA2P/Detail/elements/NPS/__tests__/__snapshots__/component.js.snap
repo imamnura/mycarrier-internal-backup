@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SMSA2P Detail-NPS render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "paddingTop": 8,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "lineHeight": 0,
+        }
+      }
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          SCORE
+        </Typography>
+        <div
+          className=""
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            variant="h3"
+            weight="normal"
+          >
+            <Typography
+              className=""
+              color="white"
+              inline={false}
+              variant="h5"
+              weight="normal"
+            >
+              /10
+            </Typography>
+          </Typography>
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={9}
+    >
+      <Information
+        label="Impressions"
+        value="\\"test1\\""
+        weight="normal"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Information
+        label="Comments"
+        value="\\"test2\\""
+        weight="normal"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;

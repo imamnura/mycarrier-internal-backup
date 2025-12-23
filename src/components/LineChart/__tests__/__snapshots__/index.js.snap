@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/LineChart render 1`] = `
+<div
+  className="makeStyles-root-2"
+>
+  <React.Fragment>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "height": "100%",
+          "overflowX": "hidden",
+          "overflowY": "hidden",
+          "pb": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        className="makeStyles-chartContainer-3"
+        sx={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <Typography
+          className="makeStyles-leftLabel-1"
+          color="inherit"
+          inline={false}
+          variant="subtitle2"
+          weight="medium"
+        >
+          label
+        </Typography>
+        <ResponsiveLine
+          axisBottom={
+            Object {
+              "tickPadding": 8,
+              "tickRotation": 0,
+              "tickSize": 5,
+            }
+          }
+          axisLeft={
+            Object {
+              "tickPadding": 8,
+              "tickSize": 5,
+              "tickValues": 5,
+            }
+          }
+          colors={
+            Array [
+              undefined,
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "data": Array [
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                ],
+                "id": "1",
+              },
+            ]
+          }
+          enableGridX={true}
+          enablePoints={true}
+          gridYValues={5}
+          lineWidth={2}
+          margin={
+            Object {
+              "bottom": 40,
+              "left": 40,
+              "right": 96,
+              "top": 40,
+            }
+          }
+          pointBorderColor={
+            Object {
+              "from": "serieColor",
+            }
+          }
+          pointBorderWidth={2}
+          pointColor="white"
+          pointSize={12}
+          theme={
+            Object {
+              "axis": Object {},
+              "fontFamily": "Titillium Web",
+              "fontSize": 14,
+              "grid": Object {
+                "line": Object {
+                  "stroke": "#D2DADE",
+                },
+              },
+              "labels": Object {
+                "text": Object {
+                  "fontSize": 10,
+                },
+              },
+              "textColor": "#3B525C",
+            }
+          }
+          tooltip={[Function]}
+          useMesh={true}
+          yScale={
+            Object {
+              "max": 5.5,
+              "reverse": false,
+              "stacked": false,
+              "type": "linear",
+            }
+          }
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <div
+      className="makeStyles-legendContainer-4"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justifyContent="center"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="line"
+          >
+            1
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </React.Fragment>
+  <div
+    className="makeStyles-loadingOverlay-6"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/components/LineChart render empty 1`] = `
+<div
+  className="makeStyles-root-16"
+>
+  <div
+    className="makeStyles-notFoundContainer-21"
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      Chart Not Found
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-loadingOverlay-20"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/components/LineChart render long data 1`] = `
+<div
+  className="makeStyles-root-9"
+>
+  <React.Fragment>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "height": "100%",
+          "overflowX": "auto",
+          "overflowY": "hidden",
+          "pb": 2,
+          "width": "100%",
+        }
+      }
+    >
+      <Styled(MuiBox)
+        className="makeStyles-chartContainer-10"
+        sx={
+          Object {
+            "width": 660,
+          }
+        }
+      >
+        <ResponsiveLine
+          axisBottom={
+            Object {
+              "tickPadding": 8,
+              "tickRotation": -25,
+              "tickSize": 5,
+            }
+          }
+          axisLeft={
+            Object {
+              "tickPadding": 8,
+              "tickSize": 5,
+              "tickValues": 5,
+            }
+          }
+          colors={
+            Array [
+              undefined,
+            ]
+          }
+          data={
+            Array [
+              Object {
+                "data": Array [
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 100,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1.5,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                  Object {
+                    "x": 1,
+                    "y": 1,
+                  },
+                ],
+                "id": "1",
+              },
+            ]
+          }
+          enableGridX={true}
+          enablePoints={true}
+          gridYValues={5}
+          lineWidth={2}
+          margin={
+            Object {
+              "bottom": 40,
+              "left": 40,
+              "right": 96,
+              "top": 40,
+            }
+          }
+          pointBorderColor={
+            Object {
+              "from": "serieColor",
+            }
+          }
+          pointBorderWidth={2}
+          pointColor="white"
+          pointSize={12}
+          theme={
+            Object {
+              "axis": Object {},
+              "fontFamily": "Titillium Web",
+              "fontSize": 14,
+              "grid": Object {
+                "line": Object {
+                  "stroke": "#D2DADE",
+                },
+              },
+              "labels": Object {
+                "text": Object {
+                  "fontSize": 10,
+                },
+              },
+              "textColor": "#3B525C",
+            }
+          }
+          tooltip={[Function]}
+          useMesh={true}
+          yScale={
+            Object {
+              "max": 105,
+              "reverse": false,
+              "stacked": false,
+              "type": "linear",
+            }
+          }
+        />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <div
+      className="makeStyles-legendContainer-11"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justifyContent="center"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="line"
+          >
+            1
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </React.Fragment>
+  <div
+    className="makeStyles-loadingOverlay-13"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;

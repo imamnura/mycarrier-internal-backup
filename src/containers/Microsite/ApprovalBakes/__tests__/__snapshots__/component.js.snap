@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Microsite/ApprovalBakes render 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    action={null}
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "30vh",
+          "textAlign": "center",
+        }
+      }
+    >
+      <WithStyles(Component)
+        variant="body2"
+      >
+        Data Not Found
+      </WithStyles(Component)>
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component)
+    id="renderform"
+    maxWidth="xs"
+    onClose={[Function]}
+    open=""
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "8px 16px 16px 16px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          variant="subtitle2"
+        >
+          Give the detail reason why you  it
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        xs={12}
+      >
+        <WithStyles(Component)
+          id="note"
+          input={
+            Object {
+              "onChange": [Function],
+              "value": "",
+            }
+          }
+          inputProps={
+            Object {
+              "rows": 3,
+            }
+          }
+          label="Reason"
+          meta={Object {}}
+          multiline={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        style={
+          Object {
+            "paddingTop": 32,
+          }
+        }
+        xs={12}
+      >
+        <WithStyles(Component)
+          id="cancel"
+          onClick={[Function]}
+          variant="ghost"
+        >
+          Cancel
+        </WithStyles(Component)>
+            
+        <WithStyles(Component)
+          disabled={true}
+          id="submit"
+          onClick={[Function]}
+        >
+          Submit
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(Component)>
+  <WithStyles(Component)
+    actions={Array []}
+    onClose={[Function]}
+  />
+  <Memo(Connect(WithStyles(Component)))
+    onClose={[Function]}
+  />
+  <WithStyles(Component)
+    id="renderotp"
+    maxWidth="xs"
+    onClose={[Function]}
+    open={false}
+  >
+    <Memo(Connect(WithStyles(Component)))
+      endpoint={
+        Object {
+          "resend": "https://maas-api-dev.mycarrier.co.id/mycarrier-quotation/bakes/v1/without-login/resend-otp",
+          "send": "https://maas-api-dev.mycarrier.co.id/mycarrier-quotation/bakes/v1/without-login/send-otp",
+          "verify": "https://maas-api-dev.mycarrier.co.id/mycarrier-quotation/bakes/v1/without-login/verification",
+        }
+      }
+      keyId="bakesId"
+      note=""
+      onClose={[Function]}
+      onSubmit={[Function]}
+    />
+  </WithStyles(Component)>
+</React.Fragment>
+`;

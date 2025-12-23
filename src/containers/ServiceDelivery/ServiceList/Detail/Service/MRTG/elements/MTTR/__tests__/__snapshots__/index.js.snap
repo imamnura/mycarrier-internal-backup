@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/MRTG/elements/MTTR render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+    sm={12}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <TableDesktop
+        customBody={null}
+        customEmptyMessage={null}
+        customItem={null}
+        customStyles={Object {}}
+        data={
+          Array [
+            Object {
+              "period": "test",
+            },
+          ]
+        }
+        emptyMessage="Data not found"
+        headerAlign="flex-start"
+        loading={false}
+        loadingRoot={false}
+        maxHeight={null}
+        meta={
+          Object {
+            "page": 0,
+          }
+        }
+        numbering={true}
+        onBottomPage={null}
+        onClickRow={null}
+        onPaginationChange={null}
+        page={1}
+        pickedRow=""
+        pickedRowKey=""
+        schema={Array []}
+        selectWithRawData={false}
+        selectedRowKey="key"
+        selectedRowSticky={false}
+        size={10}
+        useCollapseChild={null}
+        useOrderBy={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useOrderDirection={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useSelectedRow={Array []}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+    sm={12}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Button
+        boxProps={
+          Object {
+            "justifyContent": "space-between",
+            "width": "100%",
+          }
+        }
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={[Function]}
+        rounded="normal"
+        style={
+          Object {
+            "border": "none",
+            "width": "100%",
+          }
+        }
+        textTransform="uppercase"
+        variant="secondary"
+      >
+        View All
+      </Button>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

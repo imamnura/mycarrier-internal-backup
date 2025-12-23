@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventBanner/index render default 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <div
+    className="makeStyles-wrapper-2"
+  >
+    <SectionMark
+      description=""
+      isDisplay={true}
+      nonmandatory={false}
+      onChange={[Function]}
+      title="Event Banner"
+    />
+    <Styled(MuiBox)
+      height={440}
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[Function]}
+        initialPreview=""
+        isValidateByPixel={true}
+        item={Object {}}
+        maxSize={1024000}
+        previewState={
+          Object {
+            "preview": Object {},
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            880,
+            440,
+          ]
+        }
+        sectionName="Event Banner"
+        sizeBig={false}
+        type="background"
+        wordingImage="Upload .png/.jpg image, max 1 MB and size 880 x 440 px"
+        wordingVariant="h4"
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "14px 0",
+      }
+    }
+  >
+    <Wysiwyg
+      config={Object {}}
+      error={false}
+      helperText=""
+      onChange={[Function]}
+      tab="id"
+      value="test"
+      variant="article"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventBanner/index render previewMode true tab en 1`] = `
+<div
+  className="makeStyles-root-7"
+>
+  <div
+    className="makeStyles-wrapper-8"
+  >
+    <Styled(MuiBox)
+      height={440}
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={true}
+        getUpdateItem={[Function]}
+        initialPreview=""
+        isValidateByPixel={true}
+        item={Object {}}
+        maxSize={1024000}
+        previewState={
+          Object {
+            "preview": Object {},
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            880,
+            440,
+          ]
+        }
+        sectionName="Event Banner"
+        sizeBig={false}
+        type="background"
+        wordingImage="Upload .png/.jpg image, max 1 MB and size 880 x 440 px"
+        wordingVariant="h4"
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "14px 0",
+      }
+    }
+  >
+    <ForwardRef(LoadableComponent)
+      model="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventBanner/index render previewMode true tab id 1`] = `
+<div
+  className="makeStyles-root-5"
+>
+  <div
+    className="makeStyles-wrapper-6"
+  >
+    <Styled(MuiBox)
+      height={440}
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={true}
+        getUpdateItem={[Function]}
+        initialPreview=""
+        isValidateByPixel={true}
+        item={Object {}}
+        maxSize={1024000}
+        previewState={
+          Object {
+            "preview": Object {},
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            880,
+            440,
+          ]
+        }
+        sectionName="Event Banner"
+        sizeBig={false}
+        type="background"
+        wordingImage="Upload .png/.jpg image, max 1 MB and size 880 x 440 px"
+        wordingVariant="h4"
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "14px 0",
+      }
+    }
+  >
+    <ForwardRef(LoadableComponent)
+      model="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventBanner/index render tab en 1`] = `
+<div
+  className="makeStyles-root-3"
+>
+  <div
+    className="makeStyles-wrapper-4"
+  >
+    <SectionMark
+      description=""
+      isDisplay={true}
+      nonmandatory={false}
+      onChange={[Function]}
+      title="Event Banner"
+    />
+    <Styled(MuiBox)
+      height={440}
+    >
+      <UploadImage
+        alt="Link gambar disini.."
+        disabled={false}
+        getUpdateItem={[Function]}
+        initialPreview=""
+        isValidateByPixel={true}
+        item={Object {}}
+        maxSize={1024000}
+        previewState={
+          Object {
+            "preview": Object {},
+            "setPreview": [MockFunction],
+          }
+        }
+        ratioPixel={
+          Array [
+            880,
+            440,
+          ]
+        }
+        sectionName="Event Banner"
+        sizeBig={false}
+        type="background"
+        wordingImage="Upload .png/.jpg image, max 1 MB and size 880 x 440 px"
+        wordingVariant="h4"
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    style={
+      Object {
+        "padding": "14px 0",
+      }
+    }
+  >
+    <Wysiwyg
+      config={Object {}}
+      error={false}
+      helperText=""
+      onChange={[Function]}
+      tab="en"
+      value="test"
+      variant="article"
+    />
+  </div>
+</div>
+`;

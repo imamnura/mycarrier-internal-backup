@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/PageViewer render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    PaperProps={Object {}}
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "direction": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    TransitionProps={
+      Object {
+        "direction": "up",
+      }
+    }
+    classes={
+      Object {
+        "paperFullScreen": undefined,
+      }
+    }
+    fullScreen={true}
+    open={false}
+  >
+    <WithStyles(ForwardRef(AppBar))
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      color="inherit"
+      position="fixed"
+    >
+      <WithStyles(ForwardRef(Toolbar))
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(IconButton))
+          onClick={[MockFunction]}
+          size="medium"
+        >
+          <Memo />
+        </WithStyles(ForwardRef(IconButton))>
+        <WithStyles(Component)
+          variant="subtitle1"
+        >
+          test
+        </WithStyles(Component)>
+        <div />
+        <WithStyles(Component)
+          autoFocus={true}
+          color="inherit"
+          onClick={[MockFunction]}
+        >
+          Close
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(ForwardRef(AppBar))>
+    <div>
+      <div
+        data-navigation="['test', 'test2']"
+        id="prefix-menu"
+      />
+      <div />
+      <div
+        style={
+          Object {
+            "paddingTop": 72,
+          }
+        }
+      >
+        test
+      </div>
+    </div>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/PageViewer render open 1`] = `
+<React.Fragment>
+  <Script
+    defer={true}
+    src="/ewz-mycarrier-pub-dev/bundlejs/externalComponents.bundle.js"
+  />
+  <WithStyles(ForwardRef(Dialog))
+    PaperProps={Object {}}
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "direction": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    TransitionProps={
+      Object {
+        "direction": "up",
+      }
+    }
+    classes={
+      Object {
+        "paperFullScreen": undefined,
+      }
+    }
+    fullScreen={true}
+    open={true}
+  >
+    <WithStyles(ForwardRef(AppBar))
+      classes={
+        Object {
+          "root": undefined,
+        }
+      }
+      color="inherit"
+      position="fixed"
+    >
+      <WithStyles(ForwardRef(Toolbar))
+        classes={
+          Object {
+            "root": undefined,
+          }
+        }
+      >
+        <WithStyles(ForwardRef(IconButton))
+          onClick={[MockFunction]}
+          size="medium"
+        >
+          <Memo />
+        </WithStyles(ForwardRef(IconButton))>
+        <WithStyles(Component)
+          variant="subtitle1"
+        >
+          test
+        </WithStyles(Component)>
+        <div />
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(ForwardRef(AppBar))>
+    <div>
+      <div
+        data-navigation="['test', 'test2']"
+        id="prefix-menu"
+      />
+      <div />
+      <div
+        style={
+          Object {
+            "paddingTop": 72,
+          }
+        }
+      >
+        test
+      </div>
+    </div>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

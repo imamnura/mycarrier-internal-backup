@@ -1,0 +1,16 @@
+export const logo = '/img/logo.svg';
+export const logoSquare = '/img/logo-square.svg';
+export const banner = '/img/banner.png';
+export const marker = '/img/marker.png';
+export const riderBlue = '/img/rider-blue.png';
+export const mailApproved = '/img/mail-approved.svg';
+export const mailRejected = '/img/mail-rejected.svg';
+export const mailReturned = '/img/mail-returned.svg';
+export const BackgroundAchievement = '/img/background-achievement.svg';
+export const Power = '/img/power-icon.svg';
+export const Installed = '/img/installed-icon.svg';
+export const Coin = '/img/icon-point.svg';
+export const maintenance = '/img/img-maintenance.svg';
+export const BackgroundWave = '/img/background-wave.svg';
+export const BackgroundNewDashboard = '/img/background-new-dashboard.png';
+export const bgRevenueCard = '/img/background-revenue-card.png';

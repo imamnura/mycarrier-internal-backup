@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read More Test render case 1 1`] = `
+<div>
+  <span>
+    <span
+      className="makeStyles-readMoreTextHide-2"
+    >
+       tes1234567890123456
+    </span>
+    …
+  </span>
+   
+  <button
+    className="makeStyles-readMoreButton-1"
+    onClick={[Function]}
+    type="button"
+  >
+    more
+  </button>
+</div>
+`;
+
+exports[`Read More Test render case 2 1`] = `
+<div>
+  <span>
+    <span
+      className="makeStyles-readMoreTextShow-6"
+    >
+       undefined
+    </span>
+  </span>
+   
+  <button
+    className="makeStyles-readMoreButton-4"
+    onClick={[Function]}
+    type="button"
+  >
+    more
+  </button>
+</div>
+`;
+
+exports[`Read More Test render case 3 1`] = `
+<div>
+  <span>
+    <span
+      className="makeStyles-readMoreTextHide-8"
+    >
+       tes1234567890123456
+    </span>
+    …
+  </span>
+   
+  <button
+    className="makeStyles-readMoreButton-7"
+    onClick={[Function]}
+    type="button"
+  >
+    more
+  </button>
+</div>
+`;

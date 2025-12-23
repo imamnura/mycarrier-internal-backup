@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Brochure/Detail/index render 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Download Brochure",
+        "url": "/dashboard/user-download-brochure",
+      },
+      Object {
+        "label": "BD-06654796",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "label": "BROCHURE ID",
+                  "name": "brochureId",
+                },
+                Object {
+                  "date": true,
+                  "label": "DATE DOWNLOAD",
+                  "name": "dateDownload",
+                },
+                Object {
+                  "label": "TYPE OF LOGIN",
+                  "name": "typeOfLogin",
+                },
+                Object {
+                  "label": "NEWSLETTER STATUS",
+                  "name": "newsLetterStatus",
+                },
+                Object {
+                  "label": "PRODUCT",
+                  "name": "product",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "SOURCE",
+                  "name": "source",
+                },
+              ],
+            },
+            "title": "Brochure Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "COMPANY NAME",
+                  "name": "companyName",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "LOCATION",
+                  "name": "location",
+                },
+              ],
+            },
+            "title": "Company Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "NAME",
+                  "name": "name",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "CONTACT NUMBER",
+                  "name": "contactNumber",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "EMAIL",
+                  "name": "email",
+                },
+              ],
+            },
+            "title": "Contact Detail",
+            "type": "information",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ContentManagement/Brochure/Detail/index render/empty 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Download Brochure",
+        "url": "/dashboard/user-download-brochure",
+      },
+      Object {
+        "label": "BD-06654796",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "label": "BROCHURE ID",
+                  "name": "brochureId",
+                },
+                Object {
+                  "date": true,
+                  "label": "DATE DOWNLOAD",
+                  "name": "dateDownload",
+                },
+                Object {
+                  "label": "TYPE OF LOGIN",
+                  "name": "typeOfLogin",
+                },
+                Object {
+                  "label": "NEWSLETTER STATUS",
+                  "name": "newsLetterStatus",
+                },
+                Object {
+                  "label": "PRODUCT",
+                  "name": "product",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "SOURCE",
+                  "name": "source",
+                },
+              ],
+            },
+            "title": "Brochure Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "COMPANY NAME",
+                  "name": "companyName",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "LOCATION",
+                  "name": "location",
+                },
+              ],
+            },
+            "title": "Company Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "brochureId": "BD-06654796",
+                "contactNumber": "081324008164",
+                "dateDownload": "2022-10-18T15:24:14.796Z",
+                "email": "laras@getnada.com",
+                "location": "",
+                "name": "laras",
+                "newsLetterStatus": true,
+                "product": "Homepage",
+                "source": "https://mycarrier-staging.telkomdigitalsolution.co/",
+                "typeOfLogin": "After Login",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "NAME",
+                  "name": "name",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "CONTACT NUMBER",
+                  "name": "contactNumber",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "EMAIL",
+                  "name": "email",
+                },
+              ],
+            },
+            "title": "Contact Detail",
+            "type": "information",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;

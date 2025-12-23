@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/DataUnsettle/Detail/element/ListOfDetail render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Aging",
+            "value": "",
+          },
+          Object {
+            "label": "0-6 Bulan",
+            "value": "1",
+          },
+          Object {
+            "label": "7-12 Bulan",
+            "value": "2",
+          },
+          Object {
+            "label": "13-24 Bulan",
+            "value": "3",
+          },
+          Object {
+            "label": ">24 Bulan",
+            "value": "4",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Aging",
+          "value": "",
+        },
+      },
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All IDDB",
+            "value": "",
+          },
+          Object {
+            "label": "Adjustment",
+            "value": "adjustment",
+          },
+          Object {
+            "label": "Billing",
+            "value": "billing",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All IDDB",
+          "value": "",
+        },
+      },
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Year",
+            "value": "",
+          },
+          Object {
+            "label": "2025",
+            "value": "2025",
+          },
+          Object {
+            "label": "2024",
+            "value": "2024",
+          },
+          Object {
+            "label": "2023",
+            "value": "2023",
+          },
+          Object {
+            "label": "2022",
+            "value": "2022",
+          },
+          Object {
+            "label": "2021",
+            "value": "2021",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Month",
+            "value": "",
+          },
+          Object {
+            "label": "January",
+            "value": "01",
+          },
+          Object {
+            "label": "February",
+            "value": "02",
+          },
+          Object {
+            "label": "March",
+            "value": "03",
+          },
+          Object {
+            "label": "April",
+            "value": "04",
+          },
+          Object {
+            "label": "May",
+            "value": "05",
+          },
+          Object {
+            "label": "June",
+            "value": "06",
+          },
+          Object {
+            "label": "July",
+            "value": "07",
+          },
+          Object {
+            "label": "August",
+            "value": "08",
+          },
+          Object {
+            "label": "September",
+            "value": "09",
+          },
+          Object {
+            "label": "October",
+            "value": "10",
+          },
+          Object {
+            "label": "November",
+            "value": "11",
+          },
+          Object {
+            "label": "December",
+            "value": "12",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={true}
+  noPadding={true}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "bpNumber": "123",
+          "currency": "IDR",
+          "custName": "PT 123",
+          "docPeriod": "123",
+          "emailAM": "123",
+          "glAccount": "123",
+          "glDesc": "Pend Manage Capacity Service",
+          "iddb": "123",
+          "invoiceGroup": "SARTL",
+          "mobileAM": "123",
+          "nameAM": "123",
+          "nikAM": "123",
+          "periode": "0-6 Bulan",
+          "postPeriod": "123",
+          "segment": "BMS",
+          "serviceAcc": " ",
+          "total": "123",
+          "usgPeriod": "123",
+        },
+        Object {
+          "bpNumber": "123",
+          "currency": "IDR",
+          "custName": "PT 123",
+          "docPeriod": "123",
+          "emailAM": "123",
+          "glAccount": "123",
+          "glDesc": "Pend Manage Capacity Service",
+          "iddb": "123",
+          "invoiceGroup": "SARTL",
+          "mobileAM": "123",
+          "nameAM": "123",
+          "nikAM": "123",
+          "periode": null,
+          "postPeriod": "123",
+          "segment": "BMS",
+          "serviceAcc": " ",
+          "total": "123",
+          "usgPeriod": "123",
+        },
+      ],
+      "loadingRoot": undefined,
+      "meta": Object {
+        "page": 1,
+        "size": 2,
+        "totalData": 2,
+      },
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "Customer Number",
+          "name": "bpNumber",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Customer",
+          "name": "custName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+            "width": 80,
+          },
+          "label": "Currency",
+          "name": "currency",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 124,
+            "width": 124,
+          },
+          "label": "Total",
+          "name": "total",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "GL ACCOUNT",
+          "name": "glAccount",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "INVOICE GROUP",
+          "name": "invoiceGroup",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "GL DESCRIPTION",
+          "name": "glDesc",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "SERVICE ACC",
+          "name": "serviceAcc",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "DOC PERIOD",
+          "name": "docPeriod",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "POST PERIOD",
+          "name": "postPeriod",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "USG PERIOD",
+          "name": "usgPeriod",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "IDDB",
+          "name": "iddb",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+            "width": 80,
+          },
+          "label": "SEGMENT",
+          "name": "segment",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "NIK AM",
+          "name": "nikAM",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+            "width": 278,
+          },
+          "label": "NAME AM",
+          "name": "nameAM",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 140,
+          },
+          "label": "MOBILE AM",
+          "name": "mobileAM",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "EMAIL AM",
+          "name": "emailAM",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 128,
+            "width": 128,
+          },
+          "label": "AGING",
+          "name": "periode",
+          "sort": true,
+        },
+      ],
+      "useOrderBy": undefined,
+      "useOrderDirection": undefined,
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;

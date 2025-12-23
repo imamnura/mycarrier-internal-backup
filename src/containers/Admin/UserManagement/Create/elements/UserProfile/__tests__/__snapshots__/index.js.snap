@@ -1,0 +1,1339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/index render userType customer 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous",
+        "disabled": true,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Submit",
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "test",
+        "url": "/user-management/detail/test",
+      },
+      Object {
+        "label": "Edit User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={1}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": 24,
+          }
+        }
+        title="Company Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={380}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={12}
+            >
+              <Select
+                asyncProps={
+                  Object {
+                    "additional": Object {
+                      "page": 1,
+                    },
+                    "loadOptions": [MockFunction],
+                  }
+                }
+                cacheOptions={true}
+                control={Object {}}
+                defaultOptions={true}
+                error={false}
+                helperText=""
+                isSearchable={true}
+                label="Company Name"
+                maxWidth="100%"
+                menuWidth={320}
+                name="company"
+                placeholder="Choose Company Name"
+                rawValue={true}
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+      <Card
+        title="PIC Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={455}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                container={true}
+                spacing={2}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="Full Name"
+                    maxLength={40}
+                    name="fullName"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="Email"
+                    maxLength={40}
+                    name="email"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <PhoneNumber
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    errorState={
+                      Object {
+                        "dialCode": "+62",
+                        "isSubmitted": false,
+                        "number": "",
+                      }
+                    }
+                    helperText=""
+                    label="Phone Number"
+                    name="phone"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isLoading={false}
+                    isSearchable={true}
+                    label="Unit / Segment"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="segment"
+                    options={Array []}
+                    placeholder="Choose Unit / Segment"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    asyncProps={
+                      Object {
+                        "additional": Object {
+                          "page": 1,
+                        },
+                        "loadOptions": [MockFunction],
+                      }
+                    }
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isSearchable={true}
+                    label="Role"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="role"
+                    placeholder="Choose Role"
+                    rawValue={true}
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="Preview Privilege"
+      >
+        <PreviewPrivilege
+          data={Array []}
+          loading={false}
+        />
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/index render userType internal_non_staff 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous",
+        "disabled": true,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Submit",
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "test",
+        "url": "/user-management/detail/test",
+      },
+      Object {
+        "label": "Edit User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={1}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="User Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={455}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                container={true}
+                spacing={2}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="Full Name"
+                    maxLength={40}
+                    name="fullName"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="Email"
+                    maxLength={40}
+                    name="email"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <PhoneNumber
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    errorState={
+                      Object {
+                        "dialCode": "+62",
+                        "isSubmitted": false,
+                        "number": "",
+                      }
+                    }
+                    helperText=""
+                    label="Phone Number"
+                    name="phone"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isLoading={false}
+                    isSearchable={true}
+                    label="Unit / Segment"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="segment"
+                    options={Array []}
+                    placeholder="Choose Unit / Segment"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    asyncProps={
+                      Object {
+                        "additional": Object {
+                          "page": 1,
+                        },
+                        "loadOptions": [MockFunction],
+                      }
+                    }
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isSearchable={true}
+                    label="Role"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="role"
+                    placeholder="Choose Role"
+                    rawValue={true}
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="Preview Privilege"
+      >
+        <PreviewPrivilege
+          data={Array []}
+          loading={false}
+        />
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/index render userType internal_staff 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous",
+        "disabled": true,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Submit",
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "test",
+        "url": "/user-management/detail/test",
+      },
+      Object {
+        "label": "Edit User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={1}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="User Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={455}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                container={true}
+                spacing={2}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="NIK"
+                    maxLength={8}
+                    name="nik"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="Full Name"
+                    maxLength={40}
+                    name="fullName"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="Email"
+                    maxLength={40}
+                    name="email"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <PhoneNumber
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    errorState={
+                      Object {
+                        "dialCode": "+62",
+                        "isSubmitted": false,
+                        "number": "",
+                      }
+                    }
+                    helperText=""
+                    label="Phone Number"
+                    name="phone"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isLoading={false}
+                    isSearchable={true}
+                    label="Unit / Segment"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="segment"
+                    options={Array []}
+                    placeholder="Choose Unit / Segment"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    asyncProps={
+                      Object {
+                        "additional": Object {
+                          "page": 1,
+                        },
+                        "loadOptions": [MockFunction],
+                      }
+                    }
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isSearchable={true}
+                    label="Role"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="role"
+                    placeholder="Choose Role"
+                    rawValue={true}
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            >
+              <Button
+                disabled={true}
+                leftIcon={null}
+                loading={false}
+                ml={0}
+                mr={0}
+                onClick={[MockFunction]}
+                rightIcon={null}
+                rounded="normal"
+                textTransform="uppercase"
+                variant="filled"
+              >
+                Add
+              </Button>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="Preview Privilege"
+      >
+        <PreviewPrivilege
+          data={Array []}
+          loading={false}
+        />
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/index render userType internal_staff nik 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous",
+        "disabled": false,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Submit",
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "Add User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={1}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="User Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={455}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                container={true}
+                spacing={2}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="NIK"
+                    maxLength={8}
+                    name="nik"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="Full Name"
+                    maxLength={40}
+                    name="fullName"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="Email"
+                    maxLength={40}
+                    name="email"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <PhoneNumber
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    errorState={
+                      Object {
+                        "dialCode": "+62",
+                        "isSubmitted": false,
+                        "number": "",
+                      }
+                    }
+                    helperText=""
+                    label="Phone Number"
+                    name="phone"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isLoading={false}
+                    isSearchable={true}
+                    label="Unit / Segment"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="segment"
+                    options={Array []}
+                    placeholder="Choose Unit / Segment"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    asyncProps={
+                      Object {
+                        "additional": Object {
+                          "page": 1,
+                        },
+                        "loadOptions": [MockFunction],
+                      }
+                    }
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isSearchable={true}
+                    label="Role"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="role"
+                    placeholder="Choose Role"
+                    rawValue={true}
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            >
+              <Button
+                disabled={false}
+                leftIcon={null}
+                loading={false}
+                ml={0}
+                mr={0}
+                onClick={[MockFunction]}
+                rightIcon={null}
+                rounded="normal"
+                textTransform="uppercase"
+                variant="filled"
+              >
+                Add
+              </Button>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="Preview Privilege"
+      >
+        <PreviewPrivilege
+          data={Array []}
+          loading={false}
+        />
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/index render userType internal_staff userId and nik null 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous",
+        "disabled": false,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Submit",
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "Add User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={1}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="User Profile"
+      >
+        <Styled(MuiBox)
+          maxWidth={455}
+          width="100%"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                container={true}
+                spacing={2}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={false}
+                    error={false}
+                    helperText=""
+                    label="NIK"
+                    maxLength={8}
+                    name="nik"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="Full Name"
+                    maxLength={40}
+                    name="fullName"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <TextField
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    helperText=""
+                    label="Email"
+                    maxLength={40}
+                    name="email"
+                    required={true}
+                    shouldUnregister={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <PhoneNumber
+                    control={Object {}}
+                    disabled={true}
+                    error={false}
+                    errorState={
+                      Object {
+                        "dialCode": "+62",
+                        "isSubmitted": false,
+                        "number": "",
+                      }
+                    }
+                    helperText=""
+                    label="Phone Number"
+                    name="phone"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isLoading={false}
+                    isSearchable={true}
+                    label="Unit / Segment"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="segment"
+                    options={Array []}
+                    placeholder="Choose Unit / Segment"
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  item={true}
+                  xs={12}
+                >
+                  <Select
+                    asyncProps={
+                      Object {
+                        "additional": Object {
+                          "page": 1,
+                        },
+                        "loadOptions": [MockFunction],
+                      }
+                    }
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    isSearchable={true}
+                    label="Role"
+                    maxWidth="100%"
+                    menuWidth={320}
+                    name="role"
+                    placeholder="Choose Role"
+                    rawValue={true}
+                    required={true}
+                    shouldUnregister={false}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            >
+              <Button
+                disabled={true}
+                leftIcon={null}
+                loading={false}
+                ml={0}
+                mr={0}
+                onClick={[MockFunction]}
+                rightIcon={null}
+                rounded="normal"
+                textTransform="uppercase"
+                variant="filled"
+              >
+                Add
+              </Button>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <Card
+        title="Preview Privilege"
+      >
+        <PreviewPrivilege
+          data={Array []}
+          loading={false}
+        />
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;

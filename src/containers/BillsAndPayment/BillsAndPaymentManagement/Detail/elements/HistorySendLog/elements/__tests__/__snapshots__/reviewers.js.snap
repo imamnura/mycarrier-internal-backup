@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail/elements/HistorySendLog/elements/reviewers render createdAt null 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    className="undefined"
+  >
+    <div>
+      <div>
+        <div
+          className=""
+        />
+        <div
+          className=""
+        >
+          <Typography
+            className=""
+            color="general-general"
+            inline={true}
+            style={
+              Object {
+                "lineHeight": 1,
+                "marginBottom": "4px",
+              }
+            }
+            variant="subtitle2"
+            weight="medium"
+          >
+            test
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            tests
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="bold"
+          >
+            test
+          </Typography>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className=""
+        />
+        <div
+          className="undefined"
+        >
+          <Typography
+            className=""
+            color="general-general"
+            inline={true}
+            style={
+              Object {
+                "lineHeight": 1,
+                "marginBottom": "4px",
+              }
+            }
+            variant="subtitle2"
+            weight="medium"
+          >
+            test2
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            tests2
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="bold"
+          >
+            test2
+          </Typography>
+        </div>
+      </div>
+      <Styled(MuiBox)
+        mt={0.5}
+        sx={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          onClick={[Function]}
+          variant="caption"
+          weight="bold"
+        >
+          HIDE APPROVER
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail/elements/HistorySendLog/elements/reviewers render data 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    className="undefined"
+  >
+    <div>
+      <div>
+        <div
+          className=""
+        />
+        <div
+          className=""
+        >
+          <Typography
+            className=""
+            color="general-general"
+            inline={true}
+            style={
+              Object {
+                "lineHeight": 1,
+                "marginBottom": "4px",
+              }
+            }
+            variant="subtitle2"
+            weight="medium"
+          >
+            test
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            tests
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="bold"
+          >
+            test on -
+          </Typography>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className=""
+        />
+        <div
+          className="undefined"
+        >
+          <Typography
+            className=""
+            color="general-general"
+            inline={true}
+            style={
+              Object {
+                "lineHeight": 1,
+                "marginBottom": "4px",
+              }
+            }
+            variant="subtitle2"
+            weight="medium"
+          >
+            test2
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            tests2
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="bold"
+          >
+            test2 on -
+          </Typography>
+        </div>
+      </div>
+      <Styled(MuiBox)
+        mt={0.5}
+        sx={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          onClick={[Function]}
+          variant="caption"
+          weight="bold"
+        >
+          HIDE APPROVER
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail/elements/HistorySendLog/elements/reviewers render data idx 2 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    className=""
+  >
+    <div />
+    <div>
+      <Styled(MuiBox)
+        mt={0.5}
+        sx={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          onClick={[Function]}
+          variant="caption"
+          weight="bold"
+        >
+          SHOW APPROVER
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Detail/elements/HistorySendLog/elements/reviewers render properly 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    className=""
+  >
+    <div />
+    <div>
+      <Styled(MuiBox)
+        mt={0.5}
+        sx={
+          Object {
+            "cursor": "pointer",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          onClick={[Function]}
+          variant="caption"
+          weight="bold"
+        >
+          SHOW APPROVER
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

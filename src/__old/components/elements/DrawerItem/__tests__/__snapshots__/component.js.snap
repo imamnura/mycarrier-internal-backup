@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/DrawerItem render 1`] = `
+<WithStyles(Component)
+  to="#"
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      <WithStyles(Component)
+        active={false}
+        type="icon"
+      />
+    </div>
+  </div>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/DrawerItem render if active is true 1`] = `
+<WithStyles(Component)
+  to="#"
+>
+  <div>
+    <div
+      className="undefined"
+    >
+      <WithStyles(Component)
+        active={true}
+        type="icon"
+      />
+    </div>
+  </div>
+</WithStyles(Component)>
+`;

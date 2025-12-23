@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/TicketNumber/component render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          variant="body1"
+        >
+          Please add
+           Ticket Number
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          color="grey"
+          variant="caption"
+        >
+          Add ticket number from Wowrack Indonesia’s application
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText="test"
+          label="Ticket Number"
+          maxLength={10}
+          name="ticketId"
+          placeholder="#0000000"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <br />
+        <WithStyles(Component)
+          onClick={[MockFunction]}
+          variant="ghost"
+        >
+          CANCEL
+        </WithStyles(Component)>
+          
+        <WithStyles(Component)
+          disabled={true}
+          type="submit"
+        >
+          OKAY
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/TicketNumber/component render asyncValidating true 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          variant="body1"
+        >
+          Please add
+           Ticket Number
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          color="grey"
+          variant="caption"
+        >
+          Add ticket number from Wowrack Indonesia’s application
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText="test"
+          label="Ticket Number"
+          maxLength={10}
+          name="ticketId"
+          placeholder="#0000000"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <br />
+        <WithStyles(Component)
+          onClick={[MockFunction]}
+          variant="ghost"
+        >
+          CANCEL
+        </WithStyles(Component)>
+          
+        <WithStyles(Component)
+          disabled={true}
+          type="submit"
+        >
+          OKAY
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/TicketNumber/component render type edit 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          variant="body1"
+        >
+          Edit
+           Ticket Number
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <WithStyles(Component)
+          color="grey"
+          variant="caption"
+        >
+          Edit ticket number if want to change to other one
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText="test"
+          label="Ticket Number"
+          maxLength={10}
+          name="ticketId"
+          placeholder="#0000000"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <br />
+        <WithStyles(Component)
+          onClick={[MockFunction]}
+          variant="ghost"
+        >
+          CANCEL
+        </WithStyles(Component)>
+          
+        <WithStyles(Component)
+          disabled={true}
+          type="submit"
+        >
+          OKAY
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

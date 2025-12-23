@@ -1,0 +1,35 @@
+import { makeStyles } from '@material-ui/core';
+import color from '@styles/color';
+
+const useStyles = () => {
+  return makeStyles(() => ({
+    child: {
+      alignItems: 'center',
+      borderBottom: `1px solid ${color.general.light}`,
+      display: 'flex',
+      padding: '12px ',
+    },
+    container: {
+      position: 'relative',
+      width: '100%',
+    },
+    containerChild: {
+      width: 'auto',
+      minHeight: '60px',
+    },
+    containerChildHide: {
+      width: 'auto',
+      overflow: 'auto',
+      minHeight: '60px',
+      maxHeight: '180px',
+    },
+    parent: {
+      alignItems: 'center',
+      background: color.grey.soft,
+      display: 'flex',
+      padding: '4px 12px',
+    },
+  }))();
+};
+
+export default useStyles;

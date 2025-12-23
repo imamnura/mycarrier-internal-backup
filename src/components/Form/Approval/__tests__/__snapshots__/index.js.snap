@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/elements/Form/Approval render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={false}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      t
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      d
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      label="Please describe the note.."
+      maxLength={160}
+      minRows={4}
+      multiline={true}
+      name="reason"
+      required={true}
+      shouldUnregister={true}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={2}
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={16}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      Submit
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/FileAttachment render 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="body2"
+      >
+        label
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div
+        className="file"
+        onClick={[Function]}
+      >
+        <Icon
+          type="ZIP"
+        />
+            
+        <WithStyles(Component)
+          variant="subtitle1"
+        >
+          -
+        </WithStyles(Component)>
+        <span
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        />
+        <div>
+          <Download />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file=""
+    onClose={[Function]}
+    open={false}
+    title="-"
+  />
+</div>
+`;
+
+exports[`src/components/elements/FileAttachment render with action button 1`] = `
+<div
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="body2"
+      >
+        label
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <div
+          className="file"
+          onClick={[Function]}
+          style={
+            Object {
+              "flexGrow": 1,
+              "marginRight": 12,
+            }
+          }
+        >
+          <Icon
+            type="ZIP"
+          />
+              
+          <WithStyles(Component)
+            variant="subtitle1"
+          >
+            -
+          </WithStyles(Component)>
+          <span
+            style={
+              Object {
+                "flexGrow": 1,
+              }
+            }
+          />
+          <div>
+            <Download />
+          </div>
+        </div>
+        <WithStyles(Component)
+          onClick={[Function]}
+        >
+          Test
+        </WithStyles(Component)>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(LoadableComponent))
+    file=""
+    onClose={[Function]}
+    open={false}
+    title="-"
+  />
+</div>
+`;
+
+exports[`src/components/elements/FileAttachment render with type PDF 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/elements/FileAttachment render with type PNG 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/elements/FileAttachment render with type ZIP 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/elements/FileAttachment render with type default 1`] = `ShallowWrapper {}`;

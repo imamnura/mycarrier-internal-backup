@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventDetails/index render default 1`] = `
+<div
+  className="makeStyles-root-1"
+  style={
+    Object {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Event Details"
+  />
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+  >
+    <div
+      className="makeStyles-wrapper-4"
+    >
+      <Typography
+        className="makeStyles-card-2"
+        color="blue-main"
+        inline={false}
+        variant="caption"
+        weight="bold"
+      >
+        Event
+      </Typography>
+      <Filter />
+      <DateRangePicker
+        disabled={false}
+        inputFormat="DD MMMM YYYY"
+        label="Pilih tanggal event.."
+        name="eventDate"
+        onChange={[MockFunction]}
+        value={
+          Array [
+            "test",
+            "test",
+          ]
+        }
+        variant="secondary"
+      />
+      <React.Fragment>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          style={
+            Object {
+              "marginRight": "10px",
+            }
+          }
+          variant="subtitle2"
+          weight="normal"
+        >
+          -
+        </Typography>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          tests - - WIB 
+        </Typography>
+      </React.Fragment>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <TextField
+          colorInput="#2E434D"
+          colorPlaceholder="black"
+          control={[MockFunction]}
+          fontSize="24px"
+          multiline={true}
+          name="titleid"
+          noSpacing={true}
+          placeholder="Ketik nama event.."
+          position="left"
+          weight="medium"
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <TextField
+          control={[MockFunction]}
+          disabled={false}
+          error={false}
+          fontSize="24px"
+          helperText=""
+          label="Event Slug (autofilled & editable)"
+          maxLength={40}
+          minRows={1}
+          multiline={true}
+          name="slugid"
+          required={true}
+          shouldUnregister={false}
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={10}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <div
+          className="makeStyles-cardLocation-3"
+        >
+          <TextField
+            colorInput="#78858B"
+            colorPlaceholder="#78858B"
+            control={[MockFunction]}
+            disabled={false}
+            fontSize="1rem"
+            multiline={true}
+            name="location"
+            noSpacing={true}
+            placeholder="Ketik lokasi.."
+            position="left"
+            weight="medium"
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "paddingTop": "15px",
+              "zIndex": "3",
+            }
+          }
+        >
+          <Select
+            control={[MockFunction]}
+            error={false}
+            helperText=""
+            isDisabled={false}
+            isMulti={false}
+            label=""
+            name="typeLocation"
+            options={
+              Array [
+                Object {
+                  "label": "Online",
+                  "value": "online",
+                },
+                Object {
+                  "label": "Hybrid",
+                  "value": "hybrid",
+                },
+              ]
+            }
+            placeholder="Choose Type"
+            required={false}
+            shouldUnregister={false}
+          />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/EventDetails/index render tab en 1`] = `
+<div
+  className="makeStyles-root-5"
+  style={
+    Object {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Event Details"
+  />
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    direction="row"
+  >
+    <div
+      className="makeStyles-wrapper-8"
+    >
+      <Typography
+        className="makeStyles-card-6"
+        color="blue-main"
+        inline={false}
+        variant="caption"
+        weight="bold"
+      >
+        Event
+      </Typography>
+      <Filter />
+      <DateRangePicker
+        disabled={true}
+        inputFormat="DD MMMM YYYY"
+        label="Pilih tanggal event.."
+        name="eventDate"
+        onChange={[MockFunction]}
+        value={
+          Array [
+            "test",
+            "test",
+          ]
+        }
+        variant="secondary"
+      />
+      <React.Fragment>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          style={
+            Object {
+              "marginRight": "10px",
+            }
+          }
+          variant="subtitle2"
+          weight="normal"
+        >
+          -
+        </Typography>
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          tests - - WIB 
+        </Typography>
+      </React.Fragment>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <TextField
+          colorInput="#2E434D"
+          colorPlaceholder="black"
+          control={[MockFunction]}
+          fontSize="24px"
+          multiline={true}
+          name="titleen"
+          noSpacing={true}
+          placeholder="Type event name.."
+          position="left"
+          weight="medium"
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <TextField
+          control={[MockFunction]}
+          disabled={false}
+          error={false}
+          fontSize="24px"
+          helperText=""
+          label="Event Slug (autofilled & editable)"
+          maxLength={40}
+          minRows={1}
+          multiline={true}
+          name="slugen"
+          required={true}
+          shouldUnregister={false}
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={10}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <div
+          className="makeStyles-cardLocation-7"
+        >
+          <TextField
+            colorInput="#78858B"
+            colorPlaceholder="#78858B"
+            control={[MockFunction]}
+            disabled={true}
+            fontSize="1rem"
+            multiline={true}
+            name="location"
+            noSpacing={true}
+            placeholder="Ketik lokasi.."
+            position="left"
+            weight="medium"
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "paddingTop": "15px",
+              "zIndex": "3",
+            }
+          }
+        >
+          <Select
+            control={[MockFunction]}
+            error={false}
+            helperText=""
+            isDisabled={true}
+            isMulti={false}
+            label=""
+            name="typeLocation"
+            options={
+              Array [
+                Object {
+                  "label": "Online",
+                  "value": "online",
+                },
+                Object {
+                  "label": "Hybrid",
+                  "value": "hybrid",
+                },
+              ]
+            }
+            placeholder="Choose Type"
+            required={false}
+            shouldUnregister={false}
+          />
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/PICProfileRefactor/element/FormPICProfile render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="xs"
+  open={[MockFunction]}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "marginBottom": -16,
+          "paddingTop": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={true}
+        variant="h5"
+        weight="medium"
+      >
+        tes
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        
+      </Typography>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(DialogTitle))>
+  <Styled(MuiBox)
+    minWidth={432}
+    px={5}
+    py={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          asyncProps={Object {}}
+          control={Object {}}
+          error={false}
+          helperText=""
+          id="popup-form-pic-name"
+          isSearchable={true}
+          label="Name"
+          menuWidth="100%"
+          minWidth="100%"
+          name="customer"
+          placeholder="Choose Name"
+          rawValue={true}
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Grid))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "propTypes": Object {
+            "alignContent": [Function],
+            "alignItems": [Function],
+            "alignSelf": [Function],
+            "bgcolor": [Function],
+            "border": [Function],
+            "borderBottom": [Function],
+            "borderColor": [Function],
+            "borderLeft": [Function],
+            "borderRadius": [Function],
+            "borderRight": [Function],
+            "borderTop": [Function],
+            "bottom": [Function],
+            "boxShadow": [Function],
+            "boxSizing": [Function],
+            "children": [Function],
+            "className": [Function],
+            "clone": [Function],
+            "color": [Function],
+            "component": [Function],
+            "css": [Function],
+            "display": [Function],
+            "displayPrint": [Function],
+            "flex": [Function],
+            "flexBasis": [Function],
+            "flexDirection": [Function],
+            "flexGrow": [Function],
+            "flexShrink": [Function],
+            "flexWrap": [Function],
+            "fontFamily": [Function],
+            "fontSize": [Function],
+            "fontStyle": [Function],
+            "fontWeight": [Function],
+            "gridArea": [Function],
+            "gridAutoColumns": [Function],
+            "gridAutoFlow": [Function],
+            "gridAutoRows": [Function],
+            "gridColumn": [Function],
+            "gridColumnGap": [Function],
+            "gridGap": [Function],
+            "gridRow": [Function],
+            "gridRowGap": [Function],
+            "gridTemplateAreas": [Function],
+            "gridTemplateColumns": [Function],
+            "gridTemplateRows": [Function],
+            "height": [Function],
+            "justifyContent": [Function],
+            "justifyItems": [Function],
+            "justifySelf": [Function],
+            "left": [Function],
+            "letterSpacing": [Function],
+            "lineHeight": [Function],
+            "m": [Function],
+            "margin": [Function],
+            "marginBottom": [Function],
+            "marginLeft": [Function],
+            "marginRight": [Function],
+            "marginTop": [Function],
+            "marginX": [Function],
+            "marginY": [Function],
+            "maxHeight": [Function],
+            "maxWidth": [Function],
+            "mb": [Function],
+            "minHeight": [Function],
+            "minWidth": [Function],
+            "ml": [Function],
+            "mr": [Function],
+            "mt": [Function],
+            "mx": [Function],
+            "my": [Function],
+            "order": [Function],
+            "overflow": [Function],
+            "p": [Function],
+            "padding": [Function],
+            "paddingBottom": [Function],
+            "paddingLeft": [Function],
+            "paddingRight": [Function],
+            "paddingTop": [Function],
+            "paddingX": [Function],
+            "paddingY": [Function],
+            "pb": [Function],
+            "pl": [Function],
+            "position": [Function],
+            "pr": [Function],
+            "pt": [Function],
+            "px": [Function],
+            "py": [Function],
+            "right": [Function],
+            "sx": [Function],
+            "textAlign": [Function],
+            "textOverflow": [Function],
+            "top": [Function],
+            "visibility": [Function],
+            "whiteSpace": [Function],
+            "width": [Function],
+            "zIndex": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      container={true}
+      justifyContent="center"
+      spacing={2}
+      sx={
+        Object {
+          "padding": 24,
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          id="popup-form-pic-submit"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Cancel
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        id="popup-form-pic-submit"
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

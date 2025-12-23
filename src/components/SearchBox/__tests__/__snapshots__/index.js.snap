@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/SearchBox render 1`] = `
+<Tooltip
+  arrow={true}
+  onOpen={[Function]}
+  open={false}
+>
+  <ForwardRef
+    block={true}
+    iconLeft={
+      <Search
+        className="makeStyles-icon-1"
+      />
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+  />
+</Tooltip>
+`;
+
+exports[`src/components/SearchBox render/other 1`] = `
+<Tooltip
+  arrow={true}
+  onOpen={[Function]}
+  open={false}
+>
+  <ForwardRef
+    block={true}
+    iconLeft={
+      <Search
+        className="makeStyles-icon-4"
+      />
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="search"
+  />
+</Tooltip>
+`;

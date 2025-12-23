@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Numbering render 1`] = `
+<div
+  className="makeStyles-root-3"
+>
+  <div
+    className="makeStyles-number-2"
+  >
+    <Typography
+      className=""
+      color="white"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      1
+    </Typography>
+  </div>
+  <Styled(MuiBox)
+    className="makeStyles-content-1"
+    pl={3}
+    width="100%"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={true}
+      variant="subtitle1"
+      weight="normal"
+    >
+      Value
+    </Typography>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/components/Numbering render/other 1`] = `
+<div
+  className="makeStyles-root-9"
+>
+  <div
+    className="makeStyles-number-8"
+  >
+    <Typography
+      className=""
+      color="white"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      1
+    </Typography>
+  </div>
+  <Styled(MuiBox)
+    className="makeStyles-content-7"
+    pl={3}
+    width="100%"
+  >
+    <span>
+      test
+    </span>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/components/Numbering render/schema 1`] = `
+<div
+  className="makeStyles-root-6"
+>
+  <div
+    className="makeStyles-number-5"
+  >
+    <Typography
+      className=""
+      color="white"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      1
+    </Typography>
+  </div>
+  <Styled(MuiBox)
+    className="makeStyles-content-4"
+    pl={3}
+    width="100%"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={6}
+        xs={12}
+      >
+        <Information
+          label="Test"
+          value="-"
+          weight="normal"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={6}
+        xs={12}
+      >
+        <Information
+          label="Test"
+          value={null}
+          weight="normal"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={12}
+        xs={12}
+      >
+        <Information
+          label="Test2"
+          value="test2"
+          weight="normal"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm={6}
+        xs={12}
+      >
+        <Information
+          label="Status"
+          value={
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <Status
+                rounded={false}
+                size="small"
+                variant="success"
+              >
+                Success
+              </Status>
+            </Styled(MuiBox)>
+          }
+          weight="normal"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+</div>
+`;

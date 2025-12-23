@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/OptionList render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-5 makeStyles-rootSelected-6"
+    onClick={[Function]}
+  >
+    <div
+      className="makeStyles-iconContainer-2 makeStyles-iconContainerSelected-3"
+    >
+      <Account
+        className="makeStyles-icon-1 makeStyles-iconSelected-4"
+      />
+    </div>
+    <Styled(MuiBox)
+      flexGrow={1}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="bold"
+      >
+        1
+      </Typography>
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          test
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </div>
+</React.Fragment>
+`;

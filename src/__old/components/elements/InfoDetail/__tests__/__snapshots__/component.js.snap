@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/InfoDetail render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="body2"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      className=""
+      variant="h5"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/elements/InfoDetail render with content 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="body2"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      variant="h5"
+    >
+      content1
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      variant="h5"
+    >
+      content2
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/elements/InfoDetail render with inlline content 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="body2"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      className=""
+      variant="h5"
+    >
+      content1, content2
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/elements/InfoDetail render with null content 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="body2"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="left"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      className=""
+      variant="h5"
+    >
+      -
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

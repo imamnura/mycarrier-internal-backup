@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Microsite/lib/Content render 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-mainWrapper-4"
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="center"
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      xs={4}
+    >
+      <img
+        alt="mycarrier-logo"
+        className="makeStyles-logo-3"
+        src="/img/logo-square.svg"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={8}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        title
+      </Typography>
+      <Styled(MuiBox)
+        mt="4px"
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle1"
+          weight="normal"
+        >
+          subtitle
+        </Typography>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <Styled(MuiBox)
+    my={2}
+  >
+    <WithStyles(Component) />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mb={1}
+    mt={4}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      label
+    </Typography>
+  </Styled(MuiBox)>
+  <Generator
+    schema={
+      Array [
+        Object {
+          "label": "label",
+          "name": "name",
+        },
+        Object {
+          "date": true,
+          "label": "label",
+          "name": "date",
+        },
+        Object {
+          "color": "blue",
+          "label": "label",
+          "name": "name1",
+          "previewDocs": true,
+        },
+        Object {
+          "label": "label",
+          "link": true,
+          "name": "name1",
+        },
+      ]
+    }
+  />
+  <Styled(MuiBox) />
+</Styled(MuiBox)>
+`;

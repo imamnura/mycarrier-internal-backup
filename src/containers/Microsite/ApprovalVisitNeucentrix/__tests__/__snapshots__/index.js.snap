@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render 1`] = `
+<React.Fragment>
+  <WithStyles(Component) />
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as am 1`] = `
+<React.Fragment>
+  <WithStyles(Component)>
+    <div
+      style={
+        Object {
+          "paddingTop": "15vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "caption": "Once you rejected this, it will be process and data will be sent to customer automatically.",
+              "confirmation": "Are you sure want to reject this visit request?",
+              "placeholder": "Please describe the reason..",
+              "title": "Please give reason of reject",
+              "type": "marketing",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as am when its already approved 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    completed={
+      <WithStyles(Component)
+        buttonLabel="View Request"
+        image="/img/img-approval-success.svg"
+        label="undefined has been approved. View that request now."
+        url="/visit-neucentrix/detail/undefined"
+      />
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "15vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "caption": "Once you rejected this, it will be process and data will be sent to customer automatically.",
+              "confirmation": "Are you sure want to reject this visit request?",
+              "placeholder": "Please describe the reason..",
+              "title": "Please give reason of reject",
+              "type": "marketing",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as am when its already rejected 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    completed={
+      <WithStyles(Component)
+        buttonLabel="View Request"
+        image="/img/img-approval-rejected.svg"
+        label="undefined has been rejected. View that request now."
+        url="/visit-neucentrix/detail/undefined"
+      />
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "15vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "caption": "Once you rejected this, it will be process and data will be sent to customer automatically.",
+              "confirmation": "Are you sure want to reject this visit request?",
+              "placeholder": "Please describe the reason..",
+              "title": "Please give reason of reject",
+              "type": "marketing",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as marketing 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    action={
+      <Component
+        actions={
+          Array [
+            Object {
+              "label": "Reject",
+              "onClick": [Function],
+            },
+            Object {
+              "label": "Approve",
+              "onClick": [Function],
+            },
+          ]
+        }
+        label="Will you approve the New Visit Request with data above?"
+      />
+    }
+  >
+    <WithStyles(Component)
+      data={
+        Object {
+          "amApproved": false,
+          "isAssigned": false,
+          "visitId": "MCR123",
+        }
+      }
+      header={
+        Object {
+          "subtitle": "Customer: undefined",
+          "title": "Visit Approval Request",
+        }
+      }
+      label="You get request information for New Visit Request with the following data:"
+      schema={
+        Array [
+          Object {
+            "label": "Customer",
+            "name": "custAccntName",
+          },
+          Object {
+            "label": "Visit ID",
+            "name": "visitId",
+          },
+          Object {
+            "label": "PIC Visitor",
+            "name": "picName",
+          },
+          Object {
+            "label": "Additional Visitor",
+            "list": true,
+            "name": "additionalVisitor",
+          },
+          Object {
+            "label": "Visit Purpose",
+            "name": "purpose",
+          },
+          Object {
+            "label": "Visit Location",
+            "name": "location",
+          },
+          Object {
+            "date": true,
+            "label": "Request Visit Date",
+            "name": "requestVisitDate",
+            "type": "date-month-year",
+          },
+          Object {
+            "label": "Visit Date",
+            "name": "visitDate",
+          },
+          Object {
+            "color": "blue",
+            "label": "SPK Document",
+            "name": "spk",
+            "previewDocs": true,
+          },
+          Object {
+            "color": "blue",
+            "label": "BA Document",
+            "name": "ba",
+            "previewDocs": true,
+          },
+          Object {
+            "color": "blue",
+            "label": "NDA Document",
+            "name": "nda",
+            "previewDocs": true,
+          },
+          Object {
+            "color": "blue",
+            "label": "Additional Document",
+            "name": "additionalfile",
+            "previewDocs": true,
+          },
+          Object {
+            "color": "blue",
+            "label": "Pass Photo",
+            "name": "photo",
+            "previewDocs": true,
+          },
+        ]
+      }
+    />
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as marketing when its already approved 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    completed={
+      <WithStyles(Component)
+        buttonLabel="View Request"
+        image="/img/img-approval-success.svg"
+        label="undefined has been approved. View that request now."
+        url="/visit-neucentrix/detail/undefined"
+      />
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "15vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "caption": "Once you rejected this, it will be process and data will be sent to customer automatically.",
+              "confirmation": "Are you sure want to reject this visit request?",
+              "placeholder": "Please describe the reason..",
+              "title": "Please give reason of reject",
+              "type": "marketing",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as marketing when its already rejected 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    completed={
+      <WithStyles(Component)
+        buttonLabel="View Request"
+        image="/img/img-approval-rejected.svg"
+        label="undefined has been rejected. View that request now."
+        url="/visit-neucentrix/detail/undefined"
+      />
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "15vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <StateMessage
+        description=""
+        ilustration={[Function]}
+        maxWidth="100%"
+        size="large"
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "caption": "Once you rejected this, it will be process and data will be sent to customer automatically.",
+              "confirmation": "Are you sure want to reject this visit request?",
+              "placeholder": "Please describe the reason..",
+              "title": "Please give reason of reject",
+              "type": "marketing",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render as occ 1`] = `
+<React.Fragment>
+  <WithStyles(Component) />
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Microsite/ApprovalVisitNeucentrix render loading 1`] = `
+<React.Fragment>
+  <WithStyles(Component)>
+    <div
+      style={
+        Object {
+          "paddingTop": "30vh",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(CircularProgress))
+        style={
+          Object {
+            "color": "#DE1B1B",
+          }
+        }
+      />
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component) />
+  <Component
+    modalUpdateStatus={false}
+  />
+</React.Fragment>
+`;

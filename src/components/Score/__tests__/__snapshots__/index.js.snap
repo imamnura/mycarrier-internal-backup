@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Score render 1`] = `
+<div
+  className="css-1240kf0"
+>
+  <Text
+    size="34px"
+    weight="700"
+  >
+    0
+  </Text>
+  <Text
+    size="16px"
+    weight="600"
+  >
+    /10
+  </Text>
+</div>
+`;

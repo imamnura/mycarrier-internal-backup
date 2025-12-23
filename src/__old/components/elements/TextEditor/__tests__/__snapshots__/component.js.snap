@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/TextEditor render 1`] = `
+<ForwardRef(LoadableComponent)
+  config={
+    Object {
+      "attribution": false,
+      "charCounterCount": false,
+      "key": "jUA1yA4D4E4C1E1A1pZGCTRSAPJWTLPLZHTQQb1JGZxE2F2G2D1B10B2B2E6F1C1==",
+      "pastePlain": true,
+      "quickInsertTags": Array [],
+    }
+  }
+  model="value"
+  onModelChange={[MockFunction]}
+  tag="textarea"
+/>
+`;
+
+exports[`src/components/elements/TextEditor render evalute 1`] = `
+<ForwardRef(LoadableComponent)
+  config={
+    Object {
+      "attribution": false,
+      "charCounterCount": false,
+      "heightMin": 200,
+      "imagePaste": false,
+      "imageUpload": false,
+      "key": "jUA1yA4D4E4C1E1A1pZGCTRSAPJWTLPLZHTQQb1JGZxE2F2G2D1B10B2B2E6F1C1==",
+      "pastePlain": true,
+      "quickInsertTags": Array [],
+      "toolbarButtons": Object {
+        "moreMisc": Object {
+          "align": "right",
+          "buttons": Array [
+            "undo",
+            "redo",
+          ],
+          "buttonsVisible": 2,
+        },
+        "moreText": Object {
+          "buttons": Array [
+            "bold",
+            "italic",
+            "underline",
+            "strikeThrough",
+            "subscript",
+            "superscript",
+            "clearFormatting",
+            "alignLeft",
+            "alignCenter",
+            "alignRight",
+            "alignJustify",
+            "formatOL",
+            "formatUL",
+            "outdent",
+            "indent",
+            "insertLink",
+            "insertTable",
+            "specialCharacters",
+          ],
+          "buttonsVisible": 100,
+        },
+      },
+      "wordDeniedAttrs": Array [
+        "width",
+        "height",
+      ],
+      "wordPasteKeepFormatting": false,
+      "wordPasteModal": false,
+    }
+  }
+  model="value"
+  onModelChange={[MockFunction]}
+  tag="textarea"
+/>
+`;
+
+exports[`src/components/elements/TextEditor render explore 1`] = `
+<ForwardRef(LoadableComponent)
+  config={
+    Object {
+      "attribution": false,
+      "charCounterCount": false,
+      "imagePaste": false,
+      "key": "jUA1yA4D4E4C1E1A1pZGCTRSAPJWTLPLZHTQQb1JGZxE2F2G2D1B10B2B2E6F1C1==",
+      "pastePlain": true,
+      "placeholderText": "Edit Your Content Here!",
+      "quickInsertTags": Array [],
+      "toolbarButtonsXS": Object {
+        "moreParagraph": Object {
+          "buttons": Array [
+            "alignLeft",
+            "alignCenter",
+            "formatOLSimple",
+            "alignRight",
+            "alignJustify",
+            "formatOL",
+            "formatUL",
+            "paragraphFormat",
+            "paragraphStyle",
+            "lineHeight",
+            "outdent",
+            "indent",
+            "quote",
+          ],
+          "buttonsVisible": 4,
+        },
+        "moreText": Object {
+          "buttons": Array [
+            "bold",
+            "italic",
+            "underline",
+            "insertLink",
+            "strikeThrough",
+            "subscript",
+            "superscript",
+            "fontFamily",
+            "fontSize",
+            "textColor",
+            "backgroundColor",
+            "inlineClass",
+            "inlineStyle",
+            "clearFormatting",
+          ],
+          "buttonsVisible": 4,
+        },
+      },
+    }
+  }
+  model="value"
+  onModelChange={[MockFunction]}
+  tag="textarea"
+/>
+`;

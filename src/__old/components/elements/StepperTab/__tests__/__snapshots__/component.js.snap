@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/StepperTab render 1`] = `
+<div
+  style={
+    Object {
+      "maxWidth": "100%",
+      "overflowX": "auto",
+      "paddingBottom": 8,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": "max-content",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className=""
+        item={true}
+        xs={true}
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+            onClick={[Function]}
+          >
+            <React.Fragment>
+              <div
+                className=""
+              >
+                <WithStyles(Component)
+                  color="white"
+                  variant="h5"
+                >
+                  1
+                </WithStyles(Component)>
+              </div>
+              <WithStyles(Component)
+                color="primary"
+                variant="h5"
+                weight="medium"
+              >
+                label
+              </WithStyles(Component)>
+            </React.Fragment>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className=""
+        item={true}
+        xs={true}
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+            onClick={[Function]}
+          >
+            <React.Fragment>
+              <div
+                className=""
+              >
+                <WithStyles(Component)
+                  color="default"
+                  variant="h5"
+                >
+                  2
+                </WithStyles(Component)>
+              </div>
+              <WithStyles(Component)
+                color="default"
+                variant="h5"
+                weight="medium"
+              >
+                label2
+              </WithStyles(Component)>
+            </React.Fragment>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;
+
+exports[`src/components/elements/StepperTab render when complete 1`] = `
+<div
+  style={
+    Object {
+      "maxWidth": "100%",
+      "overflowX": "auto",
+      "paddingBottom": 8,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": "max-content",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="undefined"
+        item={true}
+        xs={true}
+      >
+        <div
+          className="undefined"
+        >
+          <div
+            className=""
+            onClick={[Function]}
+          >
+            <React.Fragment>
+              <div
+                className="undefined"
+              >
+                <Memo
+                  style={
+                    Object {
+                      "height": 20,
+                      "width": 24,
+                    }
+                  }
+                  viewBox="0 0 24 18"
+                />
+              </div>
+              <WithStyles(Component)
+                color="green"
+                variant="h5"
+                weight="medium"
+              >
+                label
+              </WithStyles(Component)>
+            </React.Fragment>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className=""
+        item={true}
+        xs={true}
+      >
+        <div
+          className="undefined"
+        >
+          <div
+            className=""
+            onClick={[Function]}
+          >
+            <React.Fragment>
+              <div
+                className=""
+              >
+                <WithStyles(Component)
+                  color="white"
+                  variant="h5"
+                >
+                  2
+                </WithStyles(Component)>
+              </div>
+              <WithStyles(Component)
+                color="primary"
+                variant="h5"
+                weight="medium"
+              >
+                label2
+              </WithStyles(Component)>
+            </React.Fragment>
+          </div>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;

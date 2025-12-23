@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/UserProfile/NotificationSetting/index render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Notification Settings",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Styled(MuiBox)
+    px={6}
+  >
+    <div>
+      <List
+        action={Array []}
+        breadcrumb={Array []}
+        filter={Array []}
+        noMargin={false}
+        noPadding={false}
+        onBottomPage={[Function]}
+        search={null}
+        table={
+          Object {
+            "data": Array [
+              Object {
+                "email": <div>
+                  <Styled(MuiBox)
+                    pl={1}
+                  >
+                    <Checkbox
+                      checkedIcon={<Memo />}
+                      control={Object {}}
+                      error={false}
+                      helperText=""
+                      label=""
+                      name="undefined.email"
+                      required={false}
+                      shouldUnregister={false}
+                    />
+                  </Styled(MuiBox)>
+                </div>,
+                "title": "Create Purchase Order",
+                "whatsapp": <div>
+                  <Styled(MuiBox)
+                    pl={3}
+                  >
+                    <Checkbox
+                      checkedIcon={<Memo />}
+                      control={Object {}}
+                      error={false}
+                      helperText=""
+                      label=""
+                      name="undefined.whatsapp"
+                      required={false}
+                      shouldUnregister={false}
+                    />
+                  </Styled(MuiBox)>
+                </div>,
+              },
+            ],
+            "loading": false,
+            "loadingRoot": Object {
+              "tableRoot": false,
+              "tableRow": false,
+            },
+            "meta": 0,
+            "numbering": false,
+            "schema": Array [
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                },
+                "label": "purchaseOrder",
+                "name": "title",
+              },
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                  "width": 30,
+                },
+                "label": "Email",
+                "name": "email",
+              },
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                  "width": 30,
+                },
+                "label": "WhatsApp",
+                "name": "whatsapp",
+              },
+            ],
+            "size": 2,
+          }
+        }
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        title=""
+        withTopDivider={false}
+      />
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/UserProfile/NotificationSetting/index render/sm/mobile 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Notification Settings",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Styled(MuiBox)
+    px={6}
+  >
+    <div>
+      <List
+        action={Array []}
+        breadcrumb={Array []}
+        filter={Array []}
+        noMargin={false}
+        noPadding={false}
+        onBottomPage={[Function]}
+        search={null}
+        table={
+          Object {
+            "data": Array [
+              Object {
+                "email": <div>
+                  <Styled(MuiBox)
+                    mt={2}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={true}
+                      variant="caption"
+                      weight="bold"
+                    >
+                      EMAIL
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Styled(MuiBox)
+                    pl={0}
+                  >
+                    <Checkbox
+                      checkedIcon={<Memo />}
+                      control={Object {}}
+                      error={false}
+                      helperText=""
+                      label=""
+                      name="undefined.email"
+                      required={false}
+                      shouldUnregister={false}
+                    />
+                  </Styled(MuiBox)>
+                </div>,
+                "title": "Create Purchase Order",
+                "whatsapp": <div>
+                  <Styled(MuiBox)
+                    mt={2}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={true}
+                      variant="caption"
+                      weight="bold"
+                    >
+                      WHATSAPP
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Styled(MuiBox)
+                    pl={0}
+                  >
+                    <Checkbox
+                      checkedIcon={<Memo />}
+                      control={Object {}}
+                      error={false}
+                      helperText=""
+                      label=""
+                      name="undefined.whatsapp"
+                      required={false}
+                      shouldUnregister={false}
+                    />
+                  </Styled(MuiBox)>
+                </div>,
+              },
+            ],
+            "loading": false,
+            "loadingRoot": Object {
+              "tableRoot": false,
+              "tableRow": false,
+            },
+            "meta": 0,
+            "numbering": false,
+            "schema": Array [
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                },
+                "label": "purchaseOrder",
+                "name": "title",
+              },
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                  "width": 30,
+                },
+                "label": "Email",
+                "name": "email",
+              },
+              Object {
+                "cellStyle": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderBottom": "1px solid #B3C3CA",
+                  "width": 30,
+                },
+                "label": "WhatsApp",
+                "name": "whatsapp",
+              },
+            ],
+            "size": 2,
+          }
+        }
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        title=""
+        withTopDivider={false}
+      />
+    </div>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

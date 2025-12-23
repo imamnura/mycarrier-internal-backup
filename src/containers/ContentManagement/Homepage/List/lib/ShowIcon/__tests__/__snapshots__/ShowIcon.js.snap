@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/ShowIcon run properly 1`] = `
+<Styled(MuiBox)
+  id="btnShowHideBanner"
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/ShowIcon run properly isDisplay to be false 1`] = `
+<Styled(MuiBox)
+  id="btnShowHideBanner"
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/ShowIcon run properly not access 1`] = `
+<Styled(MuiBox)
+  id="btnShowHideBanner"
+  onClick={[Function]}
+>
+  <Switch
+    onChange={[Function]}
+    value={false}
+  />
+</Styled(MuiBox)>
+`;

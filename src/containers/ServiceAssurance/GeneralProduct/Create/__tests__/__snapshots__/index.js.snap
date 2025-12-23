@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Create render 1`] = `
+<div>
+  <Component
+    actionButton={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/service-assurance-general-product",
+        },
+        Object {
+          "label": "Create Ticket",
+        },
+      ]
+    }
+    checking={false}
+    classes={Object {}}
+    detail={Object {}}
+    dropdown={Object {}}
+    dummy={false}
+    fetch={Object {}}
+    handleChangeSymptomp={[MockFunction]}
+    handleCheck={[MockFunction]}
+    handleDummySid={[MockFunction]}
+    loading={Object {}}
+    submitValidation={[MockFunction]}
+    title=""
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "handleSubmit": [MockFunction],
+        "setValue": undefined,
+      }
+    }
+  >
+    
+  </Component>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Create render no feature 1`] = `
+<div>
+  <Component
+    actionButton={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/service-assurance-general-product",
+        },
+        Object {
+          "label": "Create Ticket",
+        },
+      ]
+    }
+    checking={false}
+    classes={Object {}}
+    detail={Object {}}
+    dropdown={Object {}}
+    dummy={false}
+    fetch={Object {}}
+    handleChangeSymptomp={[MockFunction]}
+    handleCheck={[MockFunction]}
+    handleDummySid={[MockFunction]}
+    loading={Object {}}
+    submitValidation={[MockFunction]}
+    title=""
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "handleSubmit": [MockFunction],
+        "setValue": undefined,
+      }
+    }
+  >
+    
+  </Component>
+</div>
+`;

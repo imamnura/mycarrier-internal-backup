@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/AvailabilityRack/lib/Card render 1`] = `
+<div>
+  <WithStyles(ForwardRef(Grid))
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <mockConstructor />
+  </WithStyles(ForwardRef(Grid))>
+  <div>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle2"
+      weight="medium"
+    >
+      test
+    </Typography>
+  </div>
+  <div>
+    <Typography
+      className=""
+      color="primary-main"
+      inline={false}
+      variant="h3"
+      weight="medium"
+    >
+      test
+    </Typography>
+  </div>
+  <Styled(MuiBox)
+    pb={2}
+    px={3}
+  >
+    <Styled(MuiBox)
+      mb={1}
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="regular"
+      >
+        test
+      </Typography>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "width": "20%",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="body2"
+          weight="regular"
+        >
+          10
+        </Typography>
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="body2"
+          weight="regular"
+        >
+          10
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mb={1}
+      sx={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="regular"
+      >
+        test
+      </Typography>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "width": "20%",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="body2"
+          weight="regular"
+        >
+          10
+        </Typography>
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="body2"
+          weight="regular"
+        >
+          10
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/Neucentrix/AvailabilityRack/lib/Card render loading 1`] = `
+<Skeleton
+  height={96}
+  variant="rect"
+  width="100%"
+/>
+`;

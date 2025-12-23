@@ -1,0 +1,1788 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": "Add Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render other validation isValid 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": "Add Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render other validation isValidContent 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": "Add Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render other validation isValidRundown 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Save As Draft",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": "Add Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": true,
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render with id 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": undefined,
+              "url": "/events-management/detail/1",
+            },
+            Object {
+              "label": "Edit Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isDirty": false,
+                  "isValid": false,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render with id and other validation isValidContent 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": undefined,
+              "url": "/events-management/detail/1",
+            },
+            Object {
+              "label": "Edit Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/index render with id and other validation isValidRundown 1`] = `
+<React.Fragment>
+  <form>
+    <Styled(MuiBox)
+      style={
+        Object {
+          "background": "#FFF",
+          "position": "sticky",
+          "top": "72px",
+          "zIndex": 4,
+        }
+      }
+    >
+      <HeaderAndFilter
+        action={
+          Array [
+            Object {
+              "children": "Preview Page",
+              "disabled": false,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Cancel",
+              "loading": false,
+              "noDivider": true,
+              "onClick": [Function],
+              "variant": "ghost",
+            },
+            Object {
+              "children": "Add",
+              "disabled": true,
+              "loading": false,
+              "type": "submit",
+            },
+          ]
+        }
+        breadcrumb={
+          Array [
+            Object {
+              "label": "Events Management",
+              "url": "/events-management",
+            },
+            Object {
+              "label": undefined,
+              "url": "/events-management/detail/1",
+            },
+            Object {
+              "label": "Edit Event",
+            },
+          ]
+        }
+        filter={Array []}
+        loading={false}
+        otherStatus={null}
+        search={null}
+        status={null}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        tabsL2={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        withTopDivider={true}
+      />
+    </Styled(MuiBox)>
+    <Tabs
+      isCustom={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ]
+      }
+      value="id"
+      variant="default"
+    />
+    <Styled(MuiBox)
+      pb={4}
+      px={5}
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+            "width": "80%",
+          }
+        }
+      >
+        <React.Fragment>
+          <RegistrationLink
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useform={
+              Object {
+                "control": Object {},
+              }
+            }
+          />
+          <RelatedProducts
+            display={Object {}}
+            isLoading={false}
+            loadingProduct={false}
+            options={Array []}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+              }
+            }
+          />
+          <EventDetails
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <EventBanner
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_formState": Object {
+                  "isValid": true,
+                },
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Speakers
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+          <Attendees
+            display={Object {}}
+            initialValueAttendees={Array []}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <SectionRundown
+            display={Object {}}
+            isClickPreview={false}
+            isLoading={false}
+            isLoadingDetail={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+                "_getValues": Object {},
+                "_setValue": [MockFunction],
+                "_watch": Object {},
+              }
+            }
+          />
+          <Sponsor
+            display={Object {}}
+            isLoading={false}
+            previewMode={false}
+            tab="id"
+            useForm={
+              Object {
+                "_control": Object {},
+              }
+            }
+          />
+        </React.Fragment>
+      </Card>
+      <Card
+        style={
+          Object {
+            "marginBottom": "2rem",
+            "marginTop": "1.5rem",
+          }
+        }
+      >
+        <Component
+          filterOptions={Array []}
+          filterValue={Object {}}
+          filterWidth={300}
+        />
+      </Card>
+    </Styled(MuiBox)>
+    <PageViewer
+      actionButton={null}
+      eventId=""
+      idPreviewPage=""
+      onClose={[Function]}
+      open={false}
+      tab="id"
+      title="Event - Preview Page"
+    />
+  </form>
+</React.Fragment>
+`;

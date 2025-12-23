@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/DateTimePickerForm render 1`] = `
+<Unknown
+  dateAdapter={[Function]}
+  locale="en-US"
+>
+  <ForwardRef
+    ampm={false}
+    autoOk={true}
+    disabled={false}
+    inputFormat="DD/MM/YYYY HH:mm"
+    label="Start Date"
+    onChange={[Function]}
+    openPickerIcon={
+      <Date
+        style={
+          Object {
+            "color": "#3B525C",
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+    }
+    renderInput={[Function]}
+    showDaysOutsideCurrentMonth={true}
+    showToolbar={false}
+    value={null}
+  />
+</Unknown>
+`;
+
+exports[`src/components-v2/DateTimePickerForm render/other 1`] = `
+<Unknown
+  dateAdapter={[Function]}
+  locale="en-US"
+>
+  <ForwardRef
+    ampm={false}
+    autoOk={true}
+    disabled={true}
+    inputFormat="DD/MM/YYYY HH:mm"
+    label="Start Date"
+    onChange={[Function]}
+    openPickerIcon={
+      <Date
+        style={
+          Object {
+            "color": "#B3C3CA",
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+    }
+    renderInput={[Function]}
+    showDaysOutsideCurrentMonth={true}
+    showToolbar={false}
+    value={null}
+  />
+</Unknown>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/TextFieldContent/ControllerTextField render 1`] = `
+<Unknown
+  control={Object {}}
+  name="test"
+  render={[Function]}
+  rules={Object {}}
+/>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/components/TextFieldContent/ControllerTextField render tab en 1`] = `
+<Unknown
+  control={Object {}}
+  name="test"
+  render={[Function]}
+  rules={Object {}}
+/>
+`;

@@ -1,0 +1,842 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/SMSA2P/UMB/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "id": "umb-list-refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "umb-list-filters-status",
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-customer",
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-date",
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "rejected",
+          "status": "Rejected",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/UMB/List render with access feature 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "checking",
+          "status": "Customer Request",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "id": "umb-list-tab-request",
+          "label": "UMB Activation Requests",
+          "value": "progress",
+        },
+        Object {
+          "id": "umb-list-tab-active",
+          "label": "Active UMB",
+          "value": "done",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/UMB/List render with no status 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "id": "umb-list-refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "umb-list-filters-status",
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-customer",
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-date",
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "",
+          "status": "",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/UMB/List render with status completed 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "id": "umb-list-refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "umb-list-filters-status",
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-customer",
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-date",
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "completed",
+          "status": "Completed",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/UMB/List render with status customer request 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "id": "umb-list-refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "umb-list-filters-status",
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-customer",
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-date",
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "customer request",
+          "status": "Customer Request",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/UMB/List render with status onprogress 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "id": "umb-list-refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "UMB",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "umb-list-filters-status",
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-customer",
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "id": "umb-list-filters-date",
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "umb-list-search",
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "onprogress",
+          "status": "Checking Order",
+        },
+      ],
+      "id": "umb-list-table-row",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 155,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="UMB"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/IPPrefix/List/Request render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "IP Prefix",
+          "url": "/ip-prefix",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Customer",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Last Update",
+                    "name": "lastUpdate",
+                  },
+                ],
+              },
+              "title": "Customer Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <List
+                action={Array []}
+                breadcrumb={Array []}
+                filter={
+                  Array [
+                    Object {
+                      "onChange": undefined,
+                      "options": Array [
+                        Object {
+                          "label": "All Status",
+                          "value": "",
+                        },
+                        Object {
+                          "label": "EOS Approval",
+                          "value": "eos approval",
+                        },
+                        Object {
+                          "label": "On Progress",
+                          "value": "on progress",
+                        },
+                        Object {
+                          "label": "Completed",
+                          "value": "completed",
+                        },
+                        Object {
+                          "label": "Returned",
+                          "value": "returned",
+                        },
+                      ],
+                      "type": "dropdown",
+                      "value": undefined,
+                    },
+                  ]
+                }
+                noMargin={true}
+                noPadding={true}
+                onBottomPage={[Function]}
+                search={
+                  Object {
+                    "onChange": [MockFunction],
+                    "placeholder": "Search Request ID or Origin ASN...",
+                    "value": "",
+                  }
+                }
+                table={
+                  Object {
+                    "data": Array [
+                      Object {
+                        "asNumber": "Edit4321sd",
+                        "createdAt": "2023-10-06T06:34:12.069Z",
+                        "originAsNumber": "Edit4321sd",
+                        "requestId": "LOA652208289",
+                        "status": <Status
+                          rounded={false}
+                          size="small"
+                          variant="warning"
+                        >
+                          on progress
+                        </Status>,
+                      },
+                      Object {
+                        "asNumber": "54321",
+                        "createdAt": "2023-10-06T02:03:23.248Z",
+                        "originAsNumber": "54321",
+                        "requestId": "LOA340721418",
+                        "status": <Status
+                          rounded={false}
+                          size="small"
+                          variant="success"
+                        >
+                          completed
+                        </Status>,
+                      },
+                    ],
+                    "loading": false,
+                    "loadingRoot": Object {
+                      "tableRoot": false,
+                      "tableRow": false,
+                    },
+                    "meta": Object {},
+                    "onClickRow": [MockFunction],
+                    "onPaginationChange": undefined,
+                    "page": undefined,
+                    "schema": Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                        },
+                        "label": "Request Id",
+                        "name": "requestId",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Request Date",
+                        "name": "createdAt",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 150,
+                        },
+                        "label": "AsNumber",
+                        "name": "asNumber",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "label": "Origin As Number",
+                        "name": "originAsNumber",
+                      },
+                      Object {
+                        "label": "Status",
+                        "name": "status",
+                      },
+                    ],
+                  }
+                }
+                tabs={
+                  Object {
+                    "onChange": [Function],
+                    "options": Array [],
+                    "value": "",
+                  }
+                }
+                title=""
+                withTopDivider={true}
+              />,
+              "title": "IP Prefix",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

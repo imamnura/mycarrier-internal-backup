@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/ApprovalMicrosite render/default 1`] = `
+<div
+  className="makeStyles-root-8"
+>
+  <div
+    className="makeStyles-header-3"
+  >
+    <img
+      src="/img/logo.svg"
+    />
+  </div>
+  <LoadingBar
+    loading={true}
+  />
+</div>
+`;
+
+exports[`src/fragments/ApprovalMicrosite render/information 1`] = `
+<div
+  className="makeStyles-root-32"
+>
+  <div
+    className="makeStyles-header-27"
+  >
+    <img
+      src="/img/logo.svg"
+    />
+  </div>
+  <LoadingBar
+    loading={false}
+  />
+  <React.Fragment>
+    <div
+      className="makeStyles-main-29"
+    >
+      <div
+        className="makeStyles-content-25"
+      >
+        <div
+          className="makeStyles-title-30"
+        >
+          <img
+            src="/img/logo-square.svg"
+          />
+          <Styled(MuiBox)
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h5"
+              weight="medium"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="subtitle1"
+                weight="normal"
+              >
+                
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+        <Styled(MuiBox)
+          my={4}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            
+          </Typography>
+        </Styled(MuiBox)>
+        <div
+          className="makeStyles-information-28"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={5}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                A
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={1}
+            >
+              <Styled(MuiBox)
+                textAlign="right"
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="caption"
+                  weight="normal"
+                >
+                  :
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={6}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                -
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={5}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                B
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={1}
+            >
+              <Styled(MuiBox)
+                textAlign="right"
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="caption"
+                  weight="normal"
+                >
+                  :
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={6}
+            >
+              <Typography
+                className=""
+                color="blue-main"
+                inline={false}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+                variant="caption"
+                weight="normal"
+              >
+                x
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </div>
+    </div>
+    <div
+      className="makeStyles-footer-26"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h4"
+        weight="normal"
+      >
+        
+      </Typography>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          justifyContent="center"
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              view request
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Styled(MuiBox)>
+    </div>
+  </React.Fragment>
+</div>
+`;
+
+exports[`src/fragments/ApprovalMicrosite render/information mobile 1`] = `
+<div
+  className="makeStyles-root-40"
+>
+  <div
+    className="makeStyles-header-35"
+  >
+    <img
+      src="/img/logo.svg"
+    />
+  </div>
+  <LoadingBar
+    loading={false}
+  />
+  <React.Fragment>
+    <div
+      className="makeStyles-main-37"
+    >
+      <div
+        className="makeStyles-content-33"
+      >
+        <div
+          className="makeStyles-title-38"
+        >
+          <img
+            src="/img/logo-square.svg"
+          />
+          <Styled(MuiBox)
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={0.5}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+        <Styled(MuiBox)
+          my={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            
+          </Typography>
+        </Styled(MuiBox)>
+        <div
+          className="makeStyles-information-36"
+        >
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={5}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                A
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={1}
+            >
+              <Styled(MuiBox)
+                textAlign="right"
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="caption"
+                  weight="normal"
+                >
+                  :
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={6}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="caption"
+                weight="normal"
+              >
+                -
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </div>
+    </div>
+    <div
+      className="makeStyles-footer-34"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        
+      </Typography>
+      <Styled(MuiBox)
+        mt={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          justifyContent="center"
+          spacing={2}
+        />
+      </Styled(MuiBox)>
+    </div>
+  </React.Fragment>
+</div>
+`;
+
+exports[`src/fragments/ApprovalMicrosite render/not found 1`] = `
+<div
+  className="makeStyles-root-24"
+>
+  <div
+    className="makeStyles-header-19"
+  >
+    <img
+      src="/img/logo.svg"
+    />
+  </div>
+  <LoadingBar
+    loading={false}
+  />
+  <div
+    className="makeStyles-centeredContent-23"
+  >
+    <NotFound />
+  </div>
+</div>
+`;
+
+exports[`src/fragments/ApprovalMicrosite render/states 1`] = `
+<div
+  className="makeStyles-root-16"
+>
+  <div
+    className="makeStyles-header-11"
+  >
+    <img
+      src="/img/logo.svg"
+    />
+  </div>
+  <LoadingBar
+    loading={true}
+  />
+  <div
+    className="makeStyles-centeredContent-15"
+  >
+    <States
+      action={
+        Object {
+          "children": "view request",
+        }
+      }
+      message="message"
+      type="approved"
+    />
+  </div>
+</div>
+`;

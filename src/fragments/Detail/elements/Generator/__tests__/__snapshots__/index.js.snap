@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/elements/Generator render 1`] = `
+<React.Fragment>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          stepper
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={0}
+        errors={null}
+        errorsLabel=""
+        steps={Array []}
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          worklog
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <Worklog
+        data={Array []}
+        firstItemActive={true}
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          information
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <SectionInformation
+        data={null}
+        schema={Array []}
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          numbering
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <SectionNumbering
+        data={Array []}
+        nameKey=""
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          attachment
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Btn
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <SectionAttachment
+        data={null}
+        schema={Array []}
+      />
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          custom
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <Styled(MuiBox)
+        mt={-3}
+      >
+        <span />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    />
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <Styled(MuiBox)
+        mt={-4}
+      >
+        <span />
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </div>
+  <div
+    id="detail-section"
+    style={
+      Object {
+        "background": "#FFF",
+        "borderRadius": 8,
+        "marginTop": "24px",
+        "padding": "24px 32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Text
+          color="secondary500"
+          size="20px"
+          weight="700"
+        >
+          title1
+        </Text>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      pt={3}
+    >
+      <Generator
+        data={
+          Array [
+            Object {
+              "title": "information",
+              "titleVariant": "h5",
+              "type": "information",
+            },
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+  </div>
+</React.Fragment>
+`;

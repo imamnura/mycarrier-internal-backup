@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Broadcast/BroadcastInformation/_elements/MessagePreview render 1`] = `
+<div
+  className="makeStyles-previewBg-2"
+>
+  <div
+    className="makeStyles-previewMessageBox-3"
+  >
+    <div
+      className="makeStyles-previewMessageTriangle-5"
+    />
+    <div>
+      <React.Fragment>
+        <img
+          alt="media-broadcast"
+          className="makeStyles-previemMessageImage-1"
+          src="url.jpg"
+        />
+      </React.Fragment>
+      <React.Fragment>
+        <Typography
+          className=""
+          color="inherit"
+          inline={true}
+          variant="subtitle2"
+          weight="bold"
+        >
+          MyCarrier Broadcast Update
+        </Typography>
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "pt": 2,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "py": 2,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <p>
+                1
+              </p>
+              <p>
+                2
+              </p>
+              <p>
+                3
+              </p>
+            </div>
+          </Typography>
+        </Styled(MuiBox)>
+        <Typography
+          className=""
+          color="inherit"
+          inline={true}
+          variant="subtitle2"
+          weight="bold"
+        >
+          MyCarrier by Telkom Indonesia
+        </Typography>
+      </React.Fragment>
+    </div>
+    <div
+      className="makeStyles-previewMessageTime-4"
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="overline"
+        weight="normal"
+      >
+        12:00 am
+      </Typography>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`src/containers/Broadcast/BroadcastInformation/_elements/MessagePreview render/empty media 1`] = `
+<div
+  className="makeStyles-previewBg-8"
+>
+  <div
+    className="makeStyles-previewMessageBox-9"
+  >
+    <div
+      className="makeStyles-previewMessageTriangle-11"
+    />
+    <div>
+      <React.Fragment>
+        <img
+          alt="media-broadcast"
+          className="makeStyles-previemMessageImage-7"
+          src=""
+        />
+      </React.Fragment>
+      <React.Fragment>
+        <Typography
+          className=""
+          color="inherit"
+          inline={true}
+          variant="subtitle2"
+          weight="bold"
+        >
+          MyCarrier Broadcast Update
+        </Typography>
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "pt": 2,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "py": 2,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": 8,
+                }
+              }
+            >
+              <p />
+              <p />
+              <p />
+            </div>
+          </Typography>
+        </Styled(MuiBox)>
+        <Typography
+          className=""
+          color="inherit"
+          inline={true}
+          variant="subtitle2"
+          weight="bold"
+        >
+          MyCarrier by Telkom Indonesia
+        </Typography>
+      </React.Fragment>
+    </div>
+    <div
+      className="makeStyles-previewMessageTime-10"
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="overline"
+        weight="normal"
+      >
+        12:00 am
+      </Typography>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`src/containers/Broadcast/BroadcastInformation/_elements/MessagePreview render/others 1`] = `
+<div
+  className="makeStyles-previewBg-14"
+>
+  <div
+    className="makeStyles-previewMessageBox-15"
+  >
+    <div
+      className="makeStyles-previewMessageTriangle-17"
+    />
+    <div>
+      <React.Fragment>
+        <div
+          className="makeStyles-pdfShow-18"
+        >
+          <WithStyles(ForwardRef(Grid))
+            alignItems="center"
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs="auto"
+            >
+              <FilePDF />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={8}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="subtitle2"
+                weight="normal"
+              >
+                fileName
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </React.Fragment>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="normal"
+      >
+        <i>
+          Broadcast message goes here..
+        </i>
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-previewMessageTime-16"
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="overline"
+        weight="normal"
+      >
+        12:00 am
+      </Typography>
+    </div>
+  </div>
+</div>
+`;

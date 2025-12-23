@@ -1,0 +1,670 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/List render 1`] = `
+<React.Fragment>
+  <List
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "createdAt": "",
+            "status": "Report Checking",
+          },
+          Object {
+            "createdAt": "",
+            "status": "tes",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onPaginationChange": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "History Ticket",
+            "value": "history",
+          },
+        ],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/List render filter tab approval 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Report Checking",
+              "value": "Checking",
+            },
+            Object {
+              "label": "Report Issued",
+              "value": "Approved",
+            },
+            Object {
+              "label": "Fault Analysis",
+              "value": "Queued",
+            },
+            Object {
+              "label": "Fault Handling",
+              "value": "Backend",
+            },
+            Object {
+              "label": "Fault Completion",
+              "value": "Finalchecked, Resolved, Salamsim",
+            },
+            Object {
+              "label": "In Progress",
+              "value": "Onprogress",
+            },
+            Object {
+              "label": "On Hold",
+              "value": "Onhold",
+            },
+            Object {
+              "label": "Solved",
+              "value": "Solved",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "createdAt": "",
+            "status": "Report Checking",
+          },
+          Object {
+            "createdAt": "",
+            "status": "tes",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onPaginationChange": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Ticket Number",
+            "name": "ticketId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference Id",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Voucher Code",
+            "name": "voucherCode",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Trouble Type",
+            "name": "troubleType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Created Date",
+            "name": "createdAt",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "Closed": "success",
+              "Fault Analysis": "warning",
+              "Fault Completion": "alert",
+              "Fault Handling": "warning",
+              "In Progress": "warning",
+              "On Hold": "warning",
+              "Report Checking": "primary",
+              "Report Issued": "warning",
+              "Solved": "warning",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+            Array [
+              "",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "History Ticket",
+            "value": "history",
+          },
+        ],
+        "value": "approval",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/List render filter tab history 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Closed",
+              "value": "Closed",
+            },
+            Object {
+              "label": "Report Rejected",
+              "value": "Rejected",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "createdAt": "",
+            "status": "Report Checking",
+          },
+          Object {
+            "createdAt": "",
+            "status": "tes",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onPaginationChange": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Ticket Number",
+            "name": "ticketId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference Id",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Voucher Code",
+            "name": "voucherCode",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Trouble Type",
+            "name": "troubleType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Created Date",
+            "name": "createdAt",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "TTR",
+            "name": "ttrFab",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "Closed": "success",
+              "Report Completed": "success",
+              "Report Rejected": "danger",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+            Array [
+              "",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [
+          Object {
+            "label": "Approval Ticket",
+            "value": "approval",
+          },
+          Object {
+            "label": "History Ticket",
+            "value": "history",
+          },
+        ],
+        "value": "history",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/List render no feature 1`] = `
+<React.Fragment>
+  <List
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "createdAt": "",
+            "status": "Report Checking",
+          },
+          Object {
+            "createdAt": "",
+            "status": "tes",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onPaginationChange": undefined,
+        "schema": Array [],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+            Array [
+              "",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/List render no feature with tab 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+        },
+      ]
+    }
+    filter={Array []}
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Global Search..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "createdAt": "",
+            "status": "Report Checking",
+          },
+          Object {
+            "createdAt": "",
+            "status": "tes",
+          },
+        ],
+        "hovering": true,
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Array [],
+        "onPaginationChange": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Ticket Number",
+            "name": "ticketId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Reference Id",
+            "name": "referenceId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Voucher Code",
+            "name": "voucherCode",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "Trouble Type",
+            "name": "troubleType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "Created Date",
+            "name": "createdAt",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "Closed": "success",
+              "Fault Analysis": "warning",
+              "Fault Completion": "alert",
+              "Fault Handling": "warning",
+              "In Progress": "warning",
+              "On Hold": "warning",
+              "Report Checking": "primary",
+              "Report Issued": "warning",
+              "Solved": "warning",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              "approval",
+            ],
+            Array [
+              "",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+        "options": Array [],
+        "value": "approval",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

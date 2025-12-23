@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Service/CallCenterAndMasking render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": "0123",
+          "url": "/service-list/detail-customer/0123?tab=serviceList",
+        },
+        Object {
+          "label": "0123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "label": "SERVICE ID",
+                    "name": "sid",
+                  },
+                  Object {
+                    "label": "PRODUCT & SERVICE",
+                    "name": "productName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "ACTIVATED DATE",
+                    "name": "activatedDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "IN NUMBER",
+                    "name": "inNumber",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "TRANSLATION NUMBER",
+                    "name": "translationNumber",
+                  },
+                ],
+              },
+              "title": "Service Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": null,
+                "schema": Array [
+                  Object {
+                    "label": "COMPANY",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "SITE ID",
+                    "name": "siteId",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "SERVICE LOCATION",
+                    "name": "serviceLocation",
+                  },
+                ],
+              },
+              "title": "Activation Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": -1,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [],
+                "warnings": undefined,
+              },
+              "title": "Order Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "hidden": true,
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "",
+        "variant": "",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/NonBulk/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Non Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Campaign Name, Order Number...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "On Progress",
+        },
+        Object {
+          "status": "Completed",
+        },
+        Object {
+          "status": "Test",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "customer",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Name",
+          "name": "campaignName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Type",
+          "name": "campaignType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "lastUpdate",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Completed": "success",
+            "On Progress": "warning",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Non Bulk Activation Request",
+          "value": "On Progress",
+        },
+        Object {
+          "label": "Active Non Bulk",
+          "value": "Completed",
+        },
+      ],
+      "value": "On Progress",
+    }
+  }
+  title="Non Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/NonBulk/List render with no privilege & no tab 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Non Bulk",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Campaign Name, Order Number...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "On Progress",
+        },
+        Object {
+          "status": "Completed",
+        },
+        Object {
+          "status": "Test",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "customer",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Name",
+          "name": "campaignName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Type",
+          "name": "campaignType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "lastUpdate",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Completed": "success",
+            "On Progress": "warning",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Non Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/NonBulk/List render with tab done 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Non Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Campaign Name, Order Number...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "On Progress",
+        },
+        Object {
+          "status": "Completed",
+        },
+        Object {
+          "status": "Test",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "customer",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Name",
+          "name": "campaignName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "Campaign Type",
+          "name": "campaignType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "lastUpdate",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Completed": "success",
+            "On Progress": "warning",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            undefined,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Non Bulk Activation Request",
+          "value": "On Progress",
+        },
+        Object {
+          "label": "Active Non Bulk",
+          "value": "Completed",
+        },
+      ],
+      "value": "Completed",
+    }
+  }
+  title="Non Bulk"
+  withTopDivider={true}
+/>
+`;

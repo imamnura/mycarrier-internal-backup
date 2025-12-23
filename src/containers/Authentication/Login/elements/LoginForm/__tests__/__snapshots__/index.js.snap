@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Authentication/Login/elements/LoginForm render 1`] = `
+<React.Fragment>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "propTypes": Object {
+            "alignContent": [Function],
+            "alignItems": [Function],
+            "alignSelf": [Function],
+            "bgcolor": [Function],
+            "border": [Function],
+            "borderBottom": [Function],
+            "borderColor": [Function],
+            "borderLeft": [Function],
+            "borderRadius": [Function],
+            "borderRight": [Function],
+            "borderTop": [Function],
+            "bottom": [Function],
+            "boxShadow": [Function],
+            "boxSizing": [Function],
+            "children": [Function],
+            "className": [Function],
+            "clone": [Function],
+            "color": [Function],
+            "component": [Function],
+            "css": [Function],
+            "display": [Function],
+            "displayPrint": [Function],
+            "flex": [Function],
+            "flexBasis": [Function],
+            "flexDirection": [Function],
+            "flexGrow": [Function],
+            "flexShrink": [Function],
+            "flexWrap": [Function],
+            "fontFamily": [Function],
+            "fontSize": [Function],
+            "fontStyle": [Function],
+            "fontWeight": [Function],
+            "gridArea": [Function],
+            "gridAutoColumns": [Function],
+            "gridAutoFlow": [Function],
+            "gridAutoRows": [Function],
+            "gridColumn": [Function],
+            "gridColumnGap": [Function],
+            "gridGap": [Function],
+            "gridRow": [Function],
+            "gridRowGap": [Function],
+            "gridTemplateAreas": [Function],
+            "gridTemplateColumns": [Function],
+            "gridTemplateRows": [Function],
+            "height": [Function],
+            "justifyContent": [Function],
+            "justifyItems": [Function],
+            "justifySelf": [Function],
+            "left": [Function],
+            "letterSpacing": [Function],
+            "lineHeight": [Function],
+            "m": [Function],
+            "margin": [Function],
+            "marginBottom": [Function],
+            "marginLeft": [Function],
+            "marginRight": [Function],
+            "marginTop": [Function],
+            "marginX": [Function],
+            "marginY": [Function],
+            "maxHeight": [Function],
+            "maxWidth": [Function],
+            "mb": [Function],
+            "minHeight": [Function],
+            "minWidth": [Function],
+            "ml": [Function],
+            "mr": [Function],
+            "mt": [Function],
+            "mx": [Function],
+            "my": [Function],
+            "order": [Function],
+            "overflow": [Function],
+            "p": [Function],
+            "padding": [Function],
+            "paddingBottom": [Function],
+            "paddingLeft": [Function],
+            "paddingRight": [Function],
+            "paddingTop": [Function],
+            "paddingX": [Function],
+            "paddingY": [Function],
+            "pb": [Function],
+            "pl": [Function],
+            "position": [Function],
+            "pr": [Function],
+            "pt": [Function],
+            "px": [Function],
+            "py": [Function],
+            "right": [Function],
+            "sx": [Function],
+            "textAlign": [Function],
+            "textOverflow": [Function],
+            "top": [Function],
+            "visibility": [Function],
+            "whiteSpace": [Function],
+            "width": [Function],
+            "zIndex": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      container={true}
+      py={5}
+      spacing={2}
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Email or NIK"
+          maxLength={40}
+          name="username"
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Password"
+          name="password"
+          shouldUnregister={false}
+          type="password"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="right"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className="makeStyles-link-2"
+          color="primary-main"
+          inline={false}
+          onClick={[MockFunction]}
+          variant="caption"
+          weight="bold"
+        >
+          Forgot Password?
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <Styled(MuiBox)
+      mb={2}
+    >
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+         
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      display="flex"
+      justifyContent="center"
+    >
+      <Button
+        disabled={false}
+        id="login-submit"
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        type="submit"
+        variant="filled"
+      >
+        LOG IN
+      </Button>
+    </Styled(MuiBox)>
+  </form>
+</React.Fragment>
+`;

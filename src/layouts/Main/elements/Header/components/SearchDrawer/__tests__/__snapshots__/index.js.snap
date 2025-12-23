@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/Main/elements/Header/components/SearchDrawer render 1`] = `
+<WithStyles(ForwardRef(Drawer))
+  BackdropProps={
+    Object {
+      "invisible": true,
+    }
+  }
+  anchor="top"
+  classes={
+    Object {
+      "paper": "makeStyles-root-2",
+    }
+  }
+  onClose={[MockFunction]}
+  open={true}
+>
+  <span />
+  <div
+    className="makeStyles-closeIcon-1"
+    onClick={[MockFunction]}
+  >
+    <Cancel />
+  </div>
+</WithStyles(ForwardRef(Drawer))>
+`;

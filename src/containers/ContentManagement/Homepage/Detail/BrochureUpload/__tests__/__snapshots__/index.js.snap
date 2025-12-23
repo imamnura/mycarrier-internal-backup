@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/Detail/BrochureUpload/index render/data empty 1`] = `
+<Detail
+  action={
+    Array [
+      Object {
+        "children": "Delete",
+        "loading": false,
+        "noDivider": true,
+        "onClick": [Function],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Edit",
+        "disabled": false,
+        "loading": false,
+        "onClick": [Function],
+        "variant": "ghost",
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management?type=brochure",
+      },
+      Object {
+        "label": "",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={true}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": null,
+              "schema": Array [
+                Object {
+                  "grid": 6,
+                  "label": "Document Id",
+                  "name": "id",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "Date Uploaded",
+                  "name": "createdAt",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "Size",
+                  "name": "size",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "fileType",
+                  "name": "fileType",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "Document Name",
+                  "name": "name",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "Description",
+                  "name": "description",
+                },
+              ],
+            },
+            "title": "Document Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": null,
+              "schema": Array [
+                Object {
+                  "label": "",
+                  "name": "document",
+                },
+              ],
+            },
+            "title": "Uploaded Document",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/Detail/BrochureUpload/index render/feature empty 1`] = `
+<Detail
+  action={
+    Array [
+      Object {
+        "children": "Delete",
+        "loading": false,
+        "noDivider": true,
+        "onClick": [Function],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Edit",
+        "disabled": false,
+        "loading": false,
+        "onClick": [Function],
+        "variant": "ghost",
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Homepage Management",
+        "url": "/homepage-management?type=brochure",
+      },
+      Object {
+        "label": "sample-12.pdf",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {
+                "createdAt": "2023-02-08T05:03:48.328Z",
+                "description": "sample 12 desc",
+                "fileType": "pdf",
+                "id": "DOC-32628418",
+                "name": "sample-12.pdf",
+                "path": "/ewz-mycarrier-pub-dev/homepage/sample-12.pdf",
+                "size": "0.00 MB",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 6,
+                  "label": "Document Id",
+                  "name": "id",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "Date Uploaded",
+                  "name": "createdAt",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "Size",
+                  "name": "size",
+                },
+                Object {
+                  "grid": 6,
+                  "label": "fileType",
+                  "name": "fileType",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "Document Name",
+                  "name": "name",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "Description",
+                  "name": "description",
+                },
+              ],
+            },
+            "title": "Document Detail",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "createdAt": "2023-02-08T05:03:48.328Z",
+                "description": "sample 12 desc",
+                "fileType": "pdf",
+                "id": "DOC-32628418",
+                "name": "sample-12.pdf",
+                "path": "/ewz-mycarrier-pub-dev/homepage/sample-12.pdf",
+                "size": "0.00 MB",
+              },
+              "schema": Array [
+                Object {
+                  "label": "",
+                  "name": "document",
+                },
+              ],
+            },
+            "title": "Uploaded Document",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;

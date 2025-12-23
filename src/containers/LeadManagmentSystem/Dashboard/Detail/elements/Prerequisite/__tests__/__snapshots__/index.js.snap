@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/Prerequisite no data 1`] = `
+<WithStyles(ForwardRef(Accordion))
+  classes={
+    Object {
+      "root": "makeStyles-root-15",
+      "rounded": "makeStyles-rootRound-16",
+    }
+  }
+  defaultExpanded={true}
+>
+  <WithStyles(ForwardRef(AccordionSummary))
+    classes={
+      Object {
+        "content": "makeStyles-headerContent-11",
+        "root": "makeStyles-header-10",
+      }
+    }
+    expandIcon={
+      <ArrowDown
+        className="makeStyles-icon-12"
+      />
+    }
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h5"
+      weight="medium"
+    >
+      Prerequisite
+    </Typography>
+  </WithStyles(ForwardRef(AccordionSummary))>
+  <WithStyles(ForwardRef(AccordionDetails))>
+    <div
+      className="makeStyles-itemRoot-17"
+    >
+      <div
+        className="makeStyles-item-13"
+      >
+        <div
+          className="makeStyles-number-18"
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            variant="body2"
+            weight="normal"
+          >
+            1
+          </Typography>
+        </div>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          variant="subtitle1"
+          weight="normal"
+        >
+          <span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            }
+          />
+        </Typography>
+      </div>
+    </div>
+  </WithStyles(ForwardRef(AccordionDetails))>
+</WithStyles(ForwardRef(Accordion))>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/Prerequisite run properly 1`] = `
+<WithStyles(ForwardRef(Accordion))
+  classes={
+    Object {
+      "root": "makeStyles-root-6",
+      "rounded": "makeStyles-rootRound-7",
+    }
+  }
+  defaultExpanded={true}
+>
+  <WithStyles(ForwardRef(AccordionSummary))
+    classes={
+      Object {
+        "content": "makeStyles-headerContent-2",
+        "root": "makeStyles-header-1",
+      }
+    }
+    expandIcon={
+      <ArrowDown
+        className="makeStyles-icon-3"
+      />
+    }
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h5"
+      weight="medium"
+    >
+      Prerequisite
+    </Typography>
+  </WithStyles(ForwardRef(AccordionSummary))>
+  <WithStyles(ForwardRef(AccordionDetails))>
+    <div
+      className="makeStyles-itemRoot-8"
+    >
+      <div
+        className="makeStyles-item-4 makeStyles-itemSuccess-5"
+      >
+        <CircleCheck />
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle1"
+          weight="normal"
+        >
+          <span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "test",
+              }
+            }
+          />
+        </Typography>
+      </div>
+    </div>
+  </WithStyles(ForwardRef(AccordionDetails))>
+</WithStyles(ForwardRef(Accordion))>
+`;

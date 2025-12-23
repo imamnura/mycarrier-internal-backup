@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Approval/elements/EditDocument/index render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-paper-4",
+    }
+  }
+  fullScreen={true}
+  open={false}
+>
+  <div
+    className="makeStyles-header-2"
+  >
+    <Typography
+      className="makeStyles-title-5"
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      Edit Document
+    </Typography>
+    <div
+      className="makeStyles-actionButton-1"
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        cancel
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        save
+      </Button>
+    </div>
+  </div>
+  <div
+    className="makeStyles-wrapper-6"
+  >
+    <Wysiwyg
+      config={Object {}}
+      error={false}
+      helperText=""
+      onChange={[MockFunction]}
+      value="test"
+      variant="product"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Approval/elements/EditDocument/index render/transition 1`] = `
+<ForwardRef(Slide)
+  direction="up"
+/>
+`;

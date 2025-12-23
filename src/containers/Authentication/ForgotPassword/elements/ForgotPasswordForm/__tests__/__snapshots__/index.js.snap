@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Authentication/ForgotPasswordForm render 1`] = `
+<Auth>
+  <div
+    className="makeStyles-centered-1"
+  >
+    <img
+      alt="logo-square"
+      src="/img/logo-square.svg"
+    />
+    <Styled(MuiBox)
+      mt={5}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h4"
+        weight="medium"
+      >
+        Type your email below
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        We will send you an email with a link that you can use to reset your password
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      pt={5}
+      width="100%"
+    >
+      <form>
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Email"
+          maxLength={40}
+          name="email"
+          shouldUnregister={false}
+        />
+        <Styled(MuiBox)
+          display="flex"
+          justifyContent="center"
+          mt={5}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SEND LINK
+          </Button>
+        </Styled(MuiBox)>
+      </form>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      my={5}
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </Styled(MuiBox)>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      If you have Email or NIK Telkom, please change your password in
+      <Typography
+        className="makeStyles-link-2"
+        color="primary-main"
+        inline={false}
+        onClick={[MockFunction]}
+        variant="caption"
+        weight="bold"
+      >
+         Portal Telkom now
+      </Typography>
+      .
+    </Typography>
+    <Styled(MuiBox)
+      my={5}
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </Styled(MuiBox)>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Remember your account?
+      <Typography
+        className="makeStyles-link-2"
+        color="primary-main"
+        inline={false}
+        onClick={[MockFunction]}
+        variant="caption"
+        weight="bold"
+      >
+         Log in now
+      </Typography>
+      .
+    </Typography>
+  </div>
+</Auth>
+`;

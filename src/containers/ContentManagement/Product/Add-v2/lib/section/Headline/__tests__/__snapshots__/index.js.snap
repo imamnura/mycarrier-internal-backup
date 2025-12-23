@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Headline/index render L0 - Content Page 1`] = `
+<div
+  className="undefined"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Headline"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="2.25rem"
+            multiline={true}
+            name="l0HeadlineTitleid"
+            noSpacing={false}
+            placeholder="Ketik konten judul di sini dalam Bahasa.."
+            position="left"
+            weight="bold"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="1rem"
+            minRows={2}
+            multiline={true}
+            name="l0HeadlineDescid"
+            noSpacing={false}
+            placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+            position="left"
+            weight="normal"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Headline/index render L0 - Content Page tab en 1`] = `
+<div
+  className="undefined"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Headline"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="2.25rem"
+            multiline={true}
+            name="l0HeadlineTitleen"
+            noSpacing={false}
+            placeholder="Type the content of the title here in English.."
+            position="left"
+            weight="bold"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="1rem"
+            minRows={2}
+            multiline={true}
+            name="l0HeadlineDescen"
+            noSpacing={false}
+            placeholder="Type content description here in English.."
+            position="left"
+            weight="normal"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Headline/index render L1 - Content Page 1`] = `
+<div
+  className="undefined"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Headline"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="2.25rem"
+            multiline={true}
+            name="l1HeadlineTitleid"
+            noSpacing={false}
+            placeholder="Ketik konten judul di sini dalam Bahasa.."
+            position="left"
+            weight="bold"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="1rem"
+            minRows={2}
+            multiline={true}
+            name="l1HeadlineDescid"
+            noSpacing={false}
+            placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+            position="left"
+            weight="normal"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/Headline/index render L1 - Content Page 2 1`] = `
+<div
+  className="undefined"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Headline"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="2.25rem"
+            multiline={true}
+            name="l1HeadlineTitleen"
+            noSpacing={false}
+            placeholder="Type the content of the title here in English.."
+            position="left"
+            weight="bold"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div>
+          <TextField
+            colorPlaceholder="black"
+            control={Object {}}
+            disabled={false}
+            fontSize="1rem"
+            minRows={2}
+            multiline={true}
+            name="l1HeadlineDescen"
+            noSpacing={false}
+            placeholder="Type content description here in English.."
+            position="left"
+            weight="normal"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Provisioning run no data 1`] = `
+<Styled(MuiBox)
+  py={4}
+>
+  <StateMessage
+    description=""
+    maxWidth="100%"
+    size="large"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Provisioning run properly 1`] = `
+<React.Fragment>
+   
+</React.Fragment>
+`;

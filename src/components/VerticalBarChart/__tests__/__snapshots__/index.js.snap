@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/VerticalBarChart render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-1"
+  >
+    <BarChart
+      axisLeft={Object {}}
+      data={Array []}
+      indexBy="label"
+      layout="vertical"
+      leftLabel=""
+      padding={0}
+    />
+  </div>
+  <div
+    className="makeStyles-legendContainer-2"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justifyContent="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm="auto"
+        xs={6}
+      >
+        <ChartLegend
+          color="#000"
+          labelProps={Object {}}
+          variant="line"
+        >
+          Label
+        </ChartLegend>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;

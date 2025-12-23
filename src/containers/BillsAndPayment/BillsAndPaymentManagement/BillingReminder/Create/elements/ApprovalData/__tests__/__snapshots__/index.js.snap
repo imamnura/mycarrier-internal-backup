@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/ApprovalData/index render 1`] = `
+<React.Fragment>
+  <Create
+    action={
+      Array [
+        Object {
+          "children": "Save as Draft",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Discard",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Cancel",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Previous Step",
+          "hideDivider": true,
+          "loading": false,
+          "ml": 8,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "Submit",
+          "disabled": true,
+          "hideDivider": true,
+          "loading": false,
+          "ml": 8,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "test",
+          "url": "/bills-and-payment-management/detail/test",
+        },
+        Object {
+          "label": "Billing Reminder Letter 1",
+        },
+      ]
+    }
+    loading={false}
+    stepperTab={
+      <StepperForm
+        active={3}
+        data={Object {}}
+        onStepperClick={[MockFunction]}
+      />
+    }
+  >
+    <Box
+      background="white"
+      mt="24px"
+      padding="24px 32px"
+      radius="8px"
+      shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    >
+      <Text
+        as="h6"
+        color="secondary500"
+        mb="16px"
+        pb="32px"
+      >
+        Reviewer
+      </Text>
+      <DragDropContext>
+        <Memo(Connect(Droppable))
+          direction="vertical"
+          droppableId="reviewer"
+          getContainerForClone={[Function]}
+          ignoreContainerClipping={false}
+          isCombineEnabled={false}
+          isDropDisabled={false}
+          mode="standard"
+          renderClone={null}
+          type="DEFAULT"
+        >
+          [Function]
+        </Memo(Connect(Droppable))>
+      </DragDropContext>
+      <Text
+        as="h6"
+        color="secondary500"
+        mb="16px"
+        pb="32px"
+        pt="40px"
+      >
+        CC
+      </Text>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="body1"
+              weight="normal"
+            >
+              CC 
+              1
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body1"
+              weight="medium"
+            >
+              TEST
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="delete CC"
+              loading={false}
+              onClick={[Function]}
+              type="ghost"
+              variant="delete"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="body1"
+              weight="normal"
+            >
+              CC 
+              2
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body1"
+              weight="medium"
+            >
+              TEST2
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="delete CC"
+              loading={false}
+              onClick={[Function]}
+              type="ghost"
+              variant="delete"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <Box>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="add cc"
+              loading={false}
+              onClick={[MockFunction]}
+              type="ghost"
+              variant="add"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Box>
+    </Box>
+  </Create>
+  <AddCC
+    onClose={[MockFunction]}
+    open={false}
+    recepientCC={
+      Array [
+        Object {
+          "name": "test",
+        },
+        Object {
+          "name": "test2",
+        },
+      ]
+    }
+    setRecepientCC={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/ApprovalData/index render isValid true 1`] = `
+<React.Fragment>
+  <Create
+    action={
+      Array [
+        Object {
+          "children": "Save as Draft",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Discard",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Cancel",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Previous Step",
+          "hideDivider": true,
+          "loading": false,
+          "ml": 8,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "Submit",
+          "disabled": true,
+          "hideDivider": true,
+          "loading": false,
+          "ml": 8,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "test",
+          "url": "/bills-and-payment-management/detail/test",
+        },
+        Object {
+          "label": "Billing Reminder Letter 1",
+        },
+      ]
+    }
+    loading={false}
+    stepperTab={
+      <StepperForm
+        active={3}
+        data={Object {}}
+        onStepperClick={[MockFunction]}
+      />
+    }
+  >
+    <Box
+      background="white"
+      mt="24px"
+      padding="24px 32px"
+      radius="8px"
+      shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    >
+      <Text
+        as="h6"
+        color="secondary500"
+        mb="16px"
+        pb="32px"
+      >
+        Reviewer
+      </Text>
+      <DragDropContext>
+        <Memo(Connect(Droppable))
+          direction="vertical"
+          droppableId="reviewer"
+          getContainerForClone={[Function]}
+          ignoreContainerClipping={false}
+          isCombineEnabled={false}
+          isDropDisabled={false}
+          mode="standard"
+          renderClone={null}
+          type="DEFAULT"
+        >
+          [Function]
+        </Memo(Connect(Droppable))>
+      </DragDropContext>
+      <Text
+        as="h6"
+        color="secondary500"
+        mb="16px"
+        pb="32px"
+        pt="40px"
+      >
+        CC
+      </Text>
+      <Box>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="add cc"
+              loading={false}
+              onClick={[MockFunction]}
+              type="ghost"
+              variant="add"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Box>
+    </Box>
+  </Create>
+  <AddCC
+    onClose={[MockFunction]}
+    open={false}
+    recepientCC={Array []}
+    setRecepientCC={[MockFunction]}
+  />
+</React.Fragment>
+`;

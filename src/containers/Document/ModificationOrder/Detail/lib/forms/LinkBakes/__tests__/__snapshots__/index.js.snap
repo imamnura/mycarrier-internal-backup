@@ -1,0 +1,742 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <RadioGroup
+        control={Object {}}
+        error={false}
+        helperText=""
+        name="chooseBakes"
+        options={
+          Array [
+            Object {
+              "label": "Choose form available BAKES",
+              "value": "existing",
+            },
+            Object {
+              "label": "Upload New BAKES File",
+              "value": "upload",
+            },
+            Object {
+              "label": "Create New BAKES File",
+              "value": "create",
+            },
+          ]
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        CONTINUE
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render while Valid 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <RadioGroup
+        control={Object {}}
+        error={false}
+        helperText=""
+        name="chooseBakes"
+        options={
+          Array [
+            Object {
+              "label": "Choose form available BAKES",
+              "value": "existing",
+            },
+            Object {
+              "label": "Upload New BAKES File",
+              "value": "upload",
+            },
+            Object {
+              "label": "Create New BAKES File",
+              "value": "create",
+            },
+          ]
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        CONTINUE
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render with other chooseBakes 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="BAKES Number"
+          maxLength={40}
+          name="BAKESNumber"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+            ]
+          }
+          control={Object {}}
+          error={false}
+          helperText="Upload .pdf document here, max 5 MB "
+          maxSize={5242880}
+          name="media"
+          placeholder="Example: filename.pdf"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        type="submit"
+        variant="filled"
+      >
+        SUBMIT
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render with other chooseBakes 2 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        type="submit"
+        variant="filled"
+      >
+        SUBMIT
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render with other step 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <RadioGroup
+          control={Object {}}
+          error={false}
+          helperText=""
+          name="typeBakes"
+          options={
+            Array [
+              Object {
+                "label": "Existing Customer BAKES",
+                "value": "Existing Customer BAKES",
+              },
+              Object {
+                "label": "From BAKES Module",
+                "value": "From BAKES Module",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={true}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          fullWidth={true}
+          helperText=""
+          isLoading={false}
+          label="BAKES Name"
+          name="BAKESName"
+          options={
+            Array [
+              Object {
+                "label": "labelllll",
+                "value": "y",
+              },
+            ]
+          }
+          placeholder="Choose BAKES Name"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Attachment
+          fileName=""
+          fileUrl=""
+          hidePreviewDownload={false}
+          previewCentered={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        type="submit"
+        variant="filled"
+      >
+        SUBMIT
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/pages/Document/ModificationOrder/Detail/lib/forms/LinkBakes render with step 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  open={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Link BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Please choose the suitable BAKES
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <RadioGroup
+        control={Object {}}
+        error={false}
+        helperText=""
+        name="chooseBakes"
+        options={
+          Array [
+            Object {
+              "label": "Choose form available BAKES",
+              "value": "existing",
+            },
+            Object {
+              "label": "Upload New BAKES File",
+              "value": "upload",
+            },
+            Object {
+              "label": "Create New BAKES File",
+              "value": "create",
+            },
+          ]
+        }
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justifyContent="center"
+    pt={2}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        CANCEL
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        CONTINUE
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

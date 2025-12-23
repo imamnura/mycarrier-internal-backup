@@ -1,0 +1,740 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/SummaryLetter/index render 1`] = `
+<div>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-reminder-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Reminder Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-reminder-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <React.Fragment>
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            Total Billing Reminder
+          </Typography>
+          <div
+            id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtotal"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h3"
+              weight="small"
+            >
+              100
+            </Typography>
+            <Maximize />
+          </div>
+        </div>
+        <SingleStackedBarChart
+          all={100}
+          data="test"
+        />
+        <Box>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+        </Box>
+      </React.Fragment>
+    </div>
+  </Box>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-thanks-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Thanks Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-thanks-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <React.Fragment>
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            Total Thanks Letter
+          </Typography>
+          <div
+            id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtotal"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h3"
+              weight="small"
+            >
+              100
+            </Typography>
+            <Maximize />
+          </div>
+        </div>
+        <SingleStackedBarChart
+          all={100}
+          data="test"
+        />
+        <React.Fragment>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+        </React.Fragment>
+      </React.Fragment>
+    </div>
+  </Box>
+</div>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/SummaryLetter/index render reminderLetter loading true 1`] = `
+<div>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-reminder-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Reminder Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-reminder-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <div>
+        <Skeleton
+          height={60}
+          variant="rect"
+          width={160}
+        />
+        <Skeleton
+          height={8}
+          variant="rect"
+          width="100%"
+        />
+        <Skeleton
+          height={204}
+          variant="rect"
+          width="100%"
+        />
+      </div>
+    </div>
+  </Box>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-thanks-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Thanks Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-thanks-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <React.Fragment>
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            Total Thanks Letter
+          </Typography>
+          <div
+            id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtotal"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h3"
+              weight="small"
+            >
+              100
+            </Typography>
+            <Maximize />
+          </div>
+        </div>
+        <SingleStackedBarChart
+          all={100}
+          data="test"
+        />
+        <React.Fragment>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-thanks-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+        </React.Fragment>
+      </React.Fragment>
+    </div>
+  </Box>
+</div>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/SummaryLetter/index render thanksLetter loading true 1`] = `
+<div>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-reminder-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Reminder Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-reminder-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <React.Fragment>
+        <div>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            Total Billing Reminder
+          </Typography>
+          <div
+            id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtotal"
+          >
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="h3"
+              weight="small"
+            >
+              100
+            </Typography>
+            <Maximize />
+          </div>
+        </div>
+        <SingleStackedBarChart
+          all={100}
+          data="test"
+        />
+        <Box>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+          <div>
+            <div
+              id="bill-and-payment-dashboard-sections-summary-reminder-letter-open-detailtest"
+            >
+              <div
+                style={
+                  Object {
+                    "background": "test",
+                  }
+                }
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                style={
+                  Object {
+                    "flexGrow": 1,
+                  }
+                }
+                variant="subtitle2"
+                weight="medium"
+              >
+                test
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                style={
+                  Object {
+                    "paddingRight": 4,
+                  }
+                }
+                variant="subtitle1"
+                weight="bold"
+              >
+                NaN
+              </Typography>
+              <Maximize />
+            </div>
+          </div>
+        </Box>
+      </React.Fragment>
+    </div>
+  </Box>
+  <Box
+    background="white"
+    id="bill-and-payment-dashboard-sections-summary-thanks-letter"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+    width="100%"
+  >
+    <div>
+      <div>
+        <Text
+          color="secondary500"
+          size="h6"
+          weight="700"
+        >
+          Summary Thanks Letter
+        </Text>
+        <div>
+          <DatePicker
+            format="MMMM YYYY"
+            id="bill-and-payment-dashboard-sections-summary-thanks-letter-period"
+            label="Invoice Period"
+            minDate="2020/01/01"
+            onChange={[MockFunction]}
+            openTo="month"
+            value="test"
+            views={
+              Array [
+                "year",
+                "month",
+              ]
+            }
+          />
+        </div>
+      </div>
+      <div>
+        <Skeleton
+          height={60}
+          variant="rect"
+          width={160}
+        />
+        <Skeleton
+          height={8}
+          variant="rect"
+          width="100%"
+        />
+        <Skeleton
+          height={204}
+          variant="rect"
+          width="100%"
+        />
+      </div>
+    </div>
+  </Box>
+</div>
+`;

@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation/lib/SelectWithLevel/lib/ListItem render 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": false,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Non Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": false,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation/lib/SelectWithLevel/lib/ListItem render level 1 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": false,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Non Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": false,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation/lib/SelectWithLevel/lib/ListItem render level another 1 1`] = `
+Array [
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": 32,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Non Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+  <WithStyles(ForwardRef(List))
+    aria-labelledby="nested-list"
+    component="nav"
+    style={
+      Object {
+        "paddingLeft": 32,
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(ListItemIcon))
+          style={
+            Object {
+              "marginRight": 9,
+              "minWidth": "0px",
+            }
+          }
+        >
+          <Memo />
+        </WithStyles(ForwardRef(ListItemIcon))>
+        <WithStyles(ForwardRef(ListItemText))
+          primary="Teknikal"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+      <WithStyles(ForwardRef(Collapse))
+        timeout="auto"
+        unmountOnExit={true}
+      />
+    </React.Fragment>
+  </WithStyles(ForwardRef(List))>,
+]
+`;

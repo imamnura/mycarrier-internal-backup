@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/RundownItem render 1`] = `
+<div>
+  <span>
+    <Order />
+  </span>
+  <div>
+    <div />
+  </div>
+  <Styled(MuiBox)
+    flexGrow={1}
+    ml={2}
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <TimeRangePicker
+        baseDate="test"
+        endTimeRundown="test"
+        initialEndTime=""
+        initialOpen={false}
+        initialStartTime=""
+        minTime="test"
+        onChange={[Function]}
+        setValue={[MockFunction]}
+        tab="id"
+        type=""
+        value={
+          Object {
+            "endTime": "test",
+            "startTime": "test",
+          }
+        }
+      />
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          WIB
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <div>
+      <WithStyles(ForwardRef(InputBase))
+        classes={
+          Object {
+            "input": undefined,
+          }
+        }
+        fullWidth={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Ketik nama acara.."
+        value="test"
+      />
+    </div>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    pr={2}
+  >
+    <ButtonMinimal
+      label="delete rundown"
+      loading={false}
+      onClick={[MockFunction]}
+      type="ghost"
+      variant="delete"
+    />
+  </Styled(MuiBox)>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/RundownItem render tab en 1`] = `
+<div>
+  <span>
+    <Order />
+  </span>
+  <div>
+    <div />
+  </div>
+  <Styled(MuiBox)
+    flexGrow={1}
+    ml={2}
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <TimeRangePicker
+        baseDate="test"
+        endTimeRundown="test"
+        initialEndTime=""
+        initialOpen={false}
+        initialStartTime=""
+        minTime="test"
+        onChange={[Function]}
+        setValue={[MockFunction]}
+        tab="en"
+        type=""
+        value={
+          Object {
+            "endTime": "test",
+            "startTime": "test",
+          }
+        }
+      />
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          WIB
+        </Typography>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <div>
+      <WithStyles(ForwardRef(InputBase))
+        classes={
+          Object {
+            "input": undefined,
+          }
+        }
+        fullWidth={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Type the name of the event.."
+        value="test"
+      />
+    </div>
+  </Styled(MuiBox)>
+</div>
+`;

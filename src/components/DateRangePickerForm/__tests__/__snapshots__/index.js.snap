@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/DateRangePickerForm render 1`] = `
+<Unknown
+  dateAdapter={[Function]}
+  locale="en-US"
+>
+  <ForwardRef
+    calendars={2}
+    inputFormat="DD/MM/YYYY"
+    onChange={[Function]}
+    renderInput={[Function]}
+    value={
+      Array [
+        null,
+        null,
+      ]
+    }
+  />
+</Unknown>
+`;
+
+exports[`src/components-v2/DateRangePickerForm render/mobile 1`] = `
+<Unknown
+  dateAdapter={[Function]}
+  locale="en-US"
+>
+  <ForwardRef
+    calendars={1}
+    inputFormat="DD/MM/YYYY"
+    onChange={[Function]}
+    renderInput={[Function]}
+    value={
+      Array [
+        null,
+        null,
+      ]
+    }
+  />
+</Unknown>
+`;

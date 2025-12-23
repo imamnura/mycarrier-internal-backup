@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/SendOTP/index Snapshots for index page with otpCounter 1`] = `ReactWrapper {}`;
+
+exports[`src/components/fragments/SendOTP/index Snapshots for index page without otpCounter 1`] = `ReactWrapper {}`;

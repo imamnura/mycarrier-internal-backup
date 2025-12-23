@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly as antares iot 1`] = `
+<Solutions
+  feature={Array []}
+/>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly as gameqoo 1`] = `
+<GameQoo
+  feature={Array []}
+/>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly as ip transit 1`] = `<General />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly as msight 1`] = `<Msight />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly as neucentrix cndc 1`] = `
+<Neucentrix
+  feature={Array []}
+/>
+`;

@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Detail/lib/forms/ChooseCategoryForm render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={null}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isLoading={false}
+          label="Salesforce Category"
+          maxWidth="100%"
+          menuWidth="100%"
+          name="category"
+          options={Array []}
+          placeholder="Choose Salesforce Category"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isDisabled={true}
+          isLoading={false}
+          label="Salesforce Subcategory"
+          maxWidth="100%"
+          menuWidth="100%"
+          name="subcategory"
+          options={Array []}
+          placeholder="Choose Salesforce Subcategory"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Detail/lib/forms/ChooseCategoryForm render other condition 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={
+    Object {
+      "caption": "caption",
+      "textInfo": "info",
+      "title": "title",
+    }
+  }
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          title
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          info
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isLoading={false}
+          label="Salesforce Category"
+          maxWidth="100%"
+          menuWidth="100%"
+          name="category"
+          options={Array []}
+          placeholder="Choose Salesforce Category"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isDisabled={true}
+          isLoading={false}
+          label="Salesforce Subcategory"
+          maxWidth="100%"
+          menuWidth="100%"
+          name="subcategory"
+          options={Array []}
+          placeholder="Choose Salesforce Subcategory"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          caption
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

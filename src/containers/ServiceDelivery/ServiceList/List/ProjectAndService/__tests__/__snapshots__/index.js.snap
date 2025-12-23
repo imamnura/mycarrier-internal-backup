@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly 1`] = `
+<WithStyles(ForwardRef(Grid))>
+  <Styled(MuiBox)>
+    <Memo(ServiceList) />
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly with tab project 1`] = `
+<WithStyles(ForwardRef(Grid))>
+  <React.Fragment>
+    <Tabs
+      isCustom={false}
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Non Project",
+            "value": "serviceList",
+          },
+          Object {
+            "label": "Project",
+            "value": "project",
+          },
+        ]
+      }
+      value="serviceList"
+      variant="default"
+    />
+  </React.Fragment>
+  <Styled(MuiBox)>
+    <Memo(ServiceList) />
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render properly with tab serviceList 1`] = `
+<WithStyles(ForwardRef(Grid))>
+  <React.Fragment>
+    <Tabs
+      isCustom={false}
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Non Project",
+            "value": "serviceList",
+          },
+          Object {
+            "label": "Project",
+            "value": "project",
+          },
+        ]
+      }
+      value="serviceList"
+      variant="default"
+    />
+  </React.Fragment>
+  <Styled(MuiBox)>
+    <Memo(ServiceList) />
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall render when isReady false 1`] = `false`;

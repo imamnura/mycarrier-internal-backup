@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Article/Create/Preview render 1`] = `
+<React.Fragment>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Thumbnail Preview"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justifyContent="center"
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={6}
+        sm={6}
+        xs={12}
+      >
+        <div>
+          <Skeleton
+            height="160px"
+            variant="rect"
+            width="100%"
+          />
+          <Styled(MuiBox)>
+            <Styled(MuiBox)
+              className={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                mb={12}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": "9px",
+                  }
+                }
+                variant="caption"
+                weight="normal"
+              >
+                10 November 2010
+              </Typography>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              mb={1}
+            >
+              <Skeleton
+                height="16px"
+                variant="rect"
+                width="100%"
+              />
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Detail Preview"
+  >
+    <Styled(MuiBox)>
+      <div
+        style={
+          Object {
+            "boxShadow": "none",
+          }
+        }
+      >
+        <Skeleton
+          height="160px"
+          variant="rect"
+          width="100%"
+        />
+        <Styled(MuiBox)
+          mb={1}
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <Memo
+            fontSize="small"
+            style={
+              Object {
+                "color": "#78858B",
+              }
+            }
+          />
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            style={
+              Object {
+                "marginLeft": "5px",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            10 November 2010
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <Skeleton
+            height="16px"
+            variant="rect"
+            width="100%"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <ForwardRef(LoadableComponent)
+            model=""
+          />
+        </Styled(MuiBox)>
+      </div>
+    </Styled(MuiBox)>
+  </Card>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create/Preview render another state 1`] = `
+<React.Fragment>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Thumbnail Preview"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justifyContent="center"
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={6}
+        sm={6}
+        xs={12}
+      >
+        <div>
+          <WithStyles(ForwardRef(CardMedia))
+            alt="image"
+            component="img"
+          />
+          <Styled(MuiBox)>
+            <Styled(MuiBox)
+              className={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                mb={12}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": "9px",
+                  }
+                }
+                variant="caption"
+                weight="normal"
+              >
+                -
+              </Typography>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              mb={1}
+            >
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="subtitle1"
+                weight="medium"
+              >
+                test
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Detail Preview"
+  >
+    <Styled(MuiBox)>
+      <div
+        style={
+          Object {
+            "boxShadow": "none",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(CardMedia))
+          alt="image"
+          component="img"
+          height="160"
+        />
+        <Styled(MuiBox)
+          mb={1}
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <Memo
+            fontSize="small"
+            style={
+              Object {
+                "color": "#78858B",
+              }
+            }
+          />
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            style={
+              Object {
+                "marginLeft": "5px",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="h3"
+            weight="medium"
+          >
+            test
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <ForwardRef(LoadableComponent)
+            model="test"
+          />
+        </Styled(MuiBox)>
+      </div>
+    </Styled(MuiBox)>
+  </Card>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create/Preview render another state story en 1`] = `
+<React.Fragment>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Thumbnail Preview"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justifyContent="center"
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={6}
+        sm={6}
+        xs={12}
+      >
+        <div>
+          <Skeleton
+            height="160px"
+            variant="rect"
+            width="100%"
+          />
+          <Styled(MuiBox)>
+            <Styled(MuiBox)
+              className={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                mb={12}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": "9px",
+                  }
+                }
+                variant="caption"
+                weight="normal"
+              >
+                10 November 2010
+              </Typography>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              mb={1}
+            >
+              <Skeleton
+                height="16px"
+                variant="rect"
+                width="100%"
+              />
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Detail Preview"
+  >
+    <Styled(MuiBox)>
+      <div
+        style={
+          Object {
+            "boxShadow": "none",
+          }
+        }
+      >
+        <Skeleton
+          height="160px"
+          variant="rect"
+          width="100%"
+        />
+        <Styled(MuiBox)
+          mb={1}
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <Memo
+            fontSize="small"
+            style={
+              Object {
+                "color": "#78858B",
+              }
+            }
+          />
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            style={
+              Object {
+                "marginLeft": "5px",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            10 November 2010
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <Skeleton
+            height="16px"
+            variant="rect"
+            width="100%"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <React.Fragment>
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              variant="rect"
+              width="50%"
+            />
+          </React.Fragment>
+        </Styled(MuiBox)>
+      </div>
+    </Styled(MuiBox)>
+  </Card>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Article/Create/Preview render another state story id 1`] = `
+<React.Fragment>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Thumbnail Preview"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="row"
+      justifyContent="center"
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={6}
+        sm={6}
+        xs={12}
+      >
+        <div>
+          <Skeleton
+            height="160px"
+            variant="rect"
+            width="100%"
+          />
+          <Styled(MuiBox)>
+            <Styled(MuiBox)
+              className={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                mb={12}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": "9px",
+                  }
+                }
+                variant="caption"
+                weight="normal"
+              >
+                10 November 2010
+              </Typography>
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              mb={1}
+            >
+              <Skeleton
+                height="16px"
+                variant="rect"
+                width="100%"
+              />
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+  <Card
+    style={
+      Object {
+        "marginBottom": "24px",
+      }
+    }
+    title="Detail Preview"
+  >
+    <Styled(MuiBox)>
+      <div
+        style={
+          Object {
+            "boxShadow": "none",
+          }
+        }
+      >
+        <Skeleton
+          height="160px"
+          variant="rect"
+          width="100%"
+        />
+        <Styled(MuiBox)
+          mb={1}
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <Memo
+            fontSize="small"
+            style={
+              Object {
+                "color": "#78858B",
+              }
+            }
+          />
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            style={
+              Object {
+                "marginLeft": "5px",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            10 November 2010
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <Skeleton
+            height="16px"
+            variant="rect"
+            width="100%"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)>
+          <React.Fragment>
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              style={
+                Object {
+                  "marginBottom": "0.5rem",
+                }
+              }
+              variant="rect"
+              width="100%"
+            />
+            <Skeleton
+              height="16px"
+              variant="rect"
+              width="50%"
+            />
+          </React.Fragment>
+        </Styled(MuiBox)>
+      </div>
+    </Styled(MuiBox)>
+  </Card>
+</React.Fragment>
+`;

@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Article/List/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Article Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "id": 1,
+          "image": "https://600x400-1.png",
+          "imageUrl": "https://600x400-1.png",
+          "isDisplay": true,
+          "operations": <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "gap": 8,
+              }
+            }
+          >
+            <ShowIcon
+              displayArticle={true}
+              feature={
+                Array [
+                  "",
+                ]
+              }
+              id={1}
+              initialShowArticle={false}
+              title="MSIGHT: Telco Big Data Solution for Your Business"
+            />
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+              size="small"
+              style={
+                Object {
+                  "color": "#FAB005",
+                }
+              }
+            >
+              <Edit
+                fontSize="small"
+              />
+            </WithStyles(ForwardRef(IconButton))>
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+              size="small"
+              style={
+                Object {
+                  "color": "#DE1B1B",
+                }
+              }
+            >
+              <Trash
+                fontSize="small"
+              />
+            </WithStyles(ForwardRef(IconButton))>
+          </div>,
+          "title": "MSIGHT: Telco Big Data Solution for Your Business",
+        },
+        Object {
+          "id": 2,
+          "image": "https://600x400-1.png",
+          "imageUrl": "https://600x400-1.png",
+          "isDisplay": true,
+          "operations": <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "gap": 8,
+              }
+            }
+          >
+            <ShowIcon
+              displayArticle={true}
+              feature={
+                Array [
+                  "",
+                ]
+              }
+              id={2}
+              initialShowArticle={false}
+              title="MSIGHT: Telco Big Data Solution for Your Business"
+            />
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+              size="small"
+              style={
+                Object {
+                  "color": "#FAB005",
+                }
+              }
+            >
+              <Edit
+                fontSize="small"
+              />
+            </WithStyles(ForwardRef(IconButton))>
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+              size="small"
+              style={
+                Object {
+                  "color": "#DE1B1B",
+                }
+              }
+            >
+              <Trash
+                fontSize="small"
+              />
+            </WithStyles(ForwardRef(IconButton))>
+          </div>,
+          "title": "MSIGHT: Telco Big Data Solution for Your Business",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 30,
+            "width": 30,
+          },
+          "label": "ID",
+          "name": "id",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+            "width": 250,
+          },
+          "label": "ARTICLE NAME",
+          "name": "title",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 300,
+            "width": 300,
+          },
+          "label": "IMAGE NAME",
+          "name": "image",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "CREATED DATE",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "ACTION",
+          "name": "operations",
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Article Management"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ContentManagement/Article/List/index render case 2 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "ADD ARTICLE",
+        "id": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Article Management",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Article Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 30,
+            "width": 30,
+          },
+          "label": "ID",
+          "name": "id",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+            "width": 250,
+          },
+          "label": "ARTICLE NAME",
+          "name": "title",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 300,
+            "width": 300,
+          },
+          "label": "IMAGE NAME",
+          "name": "image",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "CREATED DATE",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "ACTION",
+          "name": "operations",
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Article Management"
+  withTopDivider={true}
+/>
+`;

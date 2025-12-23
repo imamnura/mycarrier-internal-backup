@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Company list loading true 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Company list not null 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Company list null 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Form Input Sales Team by name 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Form email 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render Form sales team by nik 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/containers/ContentManagement/InterestedList/Detail/component/formValidation render loading true 1`] = `ShallowWrapper {}`;

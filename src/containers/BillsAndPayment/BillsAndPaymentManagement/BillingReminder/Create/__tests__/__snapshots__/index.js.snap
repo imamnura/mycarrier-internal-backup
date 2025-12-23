@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/index render ApprovalData 1`] = `
+<React.Fragment>
+  <ApprovalData
+    data={Object {}}
+    onDiscard={[MockFunction]}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/index render EmailTextAndAttachment 1`] = `
+<React.Fragment>
+  <EmailTextAndAttachment
+    data={Object {}}
+    onDiscard={[MockFunction]}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/index render PickInvoice 1`] = `
+<React.Fragment>
+  <PickInvoice
+    data={Object {}}
+    loading={false}
+    onDiscard={[MockFunction]}
+    setTab={[MockFunction]}
+    tab={1}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;

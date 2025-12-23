@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/PieChart render 1`] = `
+<div
+  className="makeStyles-root-5"
+>
+  <React.Fragment>
+    <div
+      className="makeStyles-chartContainer-1"
+    >
+      <ResponsivePie
+        animate={false}
+        arcLabelsSkipAngle={12}
+        arcLabelsTextColor="#FFFFFF"
+        arcLinkLabelsColor={
+          Object {
+            "from": "color",
+          }
+        }
+        arcLinkLabelsSkipAngle={12}
+        arcLinkLabelsThickness={4}
+        colors={[Function]}
+        cornerRadius={8}
+        data={
+          Array [
+            Object {
+              "label": "Label",
+              "value": 90,
+            },
+          ]
+        }
+        enableArcLinkLabels={true}
+        id="label"
+        innerRadius={0.55}
+        isInteractive={true}
+        margin={
+          Object {
+            "bottom": 40,
+            "left": 120,
+            "right": 120,
+            "top": 40,
+          }
+        }
+        startAngle={-90}
+        theme={
+          Object {
+            "axis": Object {
+              "label": Object {
+                "text": Object {
+                  "fontSize": 10,
+                },
+              },
+            },
+            "fontFamily": "Titillium Web",
+            "fontSize": 16,
+            "textColor": "#3B525C",
+          }
+        }
+      />
+    </div>
+    <div
+      className="makeStyles-legendContainer-2"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justifyContent="center"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </React.Fragment>
+  <div
+    className="makeStyles-loadingOverlay-3"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/components/PieChart render data > 5 1`] = `
+<div
+  className="makeStyles-root-10"
+>
+  <React.Fragment>
+    <div
+      className="makeStyles-chartContainer-6"
+    >
+      <ResponsivePie
+        animate={false}
+        arcLabelsSkipAngle={12}
+        arcLabelsTextColor="#FFFFFF"
+        arcLinkLabelsColor={
+          Object {
+            "from": "color",
+          }
+        }
+        arcLinkLabelsSkipAngle={12}
+        arcLinkLabelsThickness={4}
+        colors={[Function]}
+        cornerRadius={8}
+        data={
+          Array [
+            Object {
+              "label": "Label1",
+              "value": 90,
+            },
+            Object {
+              "label": "Label2",
+              "value": 90,
+            },
+            Object {
+              "label": "Label3",
+              "value": 90,
+            },
+            Object {
+              "label": "Label4",
+              "value": 90,
+            },
+            Object {
+              "label": "Label5",
+              "value": 90,
+            },
+            Object {
+              "label": "Label6",
+              "value": 90,
+            },
+          ]
+        }
+        enableArcLinkLabels={false}
+        id="label"
+        innerRadius={0.55}
+        isInteractive={true}
+        margin={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0,
+          }
+        }
+        startAngle={-90}
+        theme={
+          Object {
+            "axis": Object {
+              "label": Object {
+                "text": Object {
+                  "fontSize": 10,
+                },
+              },
+            },
+            "fontFamily": "Titillium Web",
+            "fontSize": 16,
+            "textColor": "#3B525C",
+          }
+        }
+      />
+    </div>
+    <div
+      className="makeStyles-legendContainer-7"
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justifyContent="center"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label1
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label2
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label3
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label4
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label5
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm="auto"
+          xs={6}
+        >
+          <ChartLegend
+            color="#000"
+            labelProps={Object {}}
+            variant="bar"
+          >
+            Label6
+          </ChartLegend>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </React.Fragment>
+  <div
+    className="makeStyles-loadingOverlay-8"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/components/PieChart render empty 1`] = `
+<div
+  className="makeStyles-root-15"
+>
+  <div
+    className="makeStyles-notFoundContainer-14"
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      Chart Not Found
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-loadingOverlay-13"
+  >
+    <Loading
+      color="primary"
+      size="large"
+    />
+    <Styled(MuiBox)
+      ml={2}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Generating Chart
+      </Typography>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;

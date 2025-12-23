@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/CardSummary render/card summary 1`] = `
+<div
+  className="makeStyles-baseBox-1"
+  onClick={null}
+>
+  <div
+    className="makeStyles-title-2"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle2"
+      weight="medium"
+    >
+      
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-content-3"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h3"
+      weight="medium"
+    >
+      
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-caption-4"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</div>
+`;
+
+exports[`src/components-v2/CardSummary render/loading 1`] = `
+<Skeleton
+  className="makeStyles-baseBox-5"
+  height={96}
+  variant="rect"
+  width="100%"
+/>
+`;

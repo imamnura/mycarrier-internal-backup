@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/DetailRequestSection/lib/DetailInformation render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        title one
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        content="name"
+        label="Label"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        label="productsPO"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        content="troubleOccurs"
+        label="troubleOccurs"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        label="troubleOccursLink"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={6}
+    >
+      <WithStyles(Component)
+        content="cpNameInfo"
+        label="cpNameInfo"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        title two
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        child="child"
+        data="name"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(Component)
+        color="grey"
+        variant="h4"
+      >
+        document
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        actionButton={[MockFunction]}
+        file={true}
+        fileName="fileName"
+        label="Label"
+        type="PDF"
+        url="fileUrl"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;

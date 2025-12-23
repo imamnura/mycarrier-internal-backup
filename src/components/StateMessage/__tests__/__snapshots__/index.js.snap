@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/StateMessage render 1`] = `
+<div
+  className="makeStyles-root-2"
+>
+  <UserManagement
+    className="makeStyles-ilustration-1"
+  />
+  <Typography
+    className=""
+    color="general-dark"
+    inline={false}
+    variant="h4"
+    weight="medium"
+  >
+    msg
+  </Typography>
+  <Typography
+    className=""
+    color="general-mid"
+    inline={false}
+    variant="subtitle2"
+    weight="normal"
+  >
+    dsc
+  </Typography>
+</div>
+`;

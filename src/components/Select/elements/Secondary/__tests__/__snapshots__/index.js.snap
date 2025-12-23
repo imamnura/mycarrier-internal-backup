@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/Select/elements/Secondary render 1`] = `
+<div
+  className="makeStyles-root-7"
+>
+  <div
+    className="makeStyles-labelContainer-5"
+  >
+    <Typography
+      className="makeStyles-required-6"
+      color="primary-main"
+      inline={false}
+      variant="body2"
+      weight="medium"
+    >
+      *
+    </Typography>
+    <Typography
+      className="makeStyles-label-4"
+      color="inherit"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      label
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-dropdownContainer-1"
+  >
+    <Dropdown
+      additionalWidth={-1.5}
+      asyncProps={Object {}}
+      creatableWording={null}
+      emptyMessage={null}
+      isCreatable={false}
+      isMulti={false}
+      isOptionDisabled={[Function]}
+      isSearchable={true}
+      maxWidth={null}
+      menuStick="left"
+      menuWidth={200}
+      minWidth={200}
+      noBorder={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCreate={[Function]}
+      onFocus={[Function]}
+      onSearch={[Function]}
+      options={
+        Array [
+          Object {
+            "value": "value",
+          },
+        ]
+      }
+      placeholder="General Manager Position"
+      required={true}
+      searchable={false}
+      staticHeight={null}
+      staticWidth={null}
+      styles={
+        Object {
+          "control": Object {
+            "&:focus": Object {
+              "backgroundColor": "#FFFFFF",
+            },
+            "&:hover": Object {
+              "backgroundColor": "#FFFFFF",
+            },
+            "backgroundColor": "transparent !important",
+            "borderBottom": "1px solid #3B525C",
+            "borderRadius": 0,
+            "fontSize": 14,
+            "height": 28,
+            "minHeight": 28,
+            "padding": "0",
+            "position": "relative",
+          },
+          "placeholder": Object {
+            "fontSize": 14,
+            "visibility": "hidden",
+          },
+        }
+      }
+      value=""
+      valueFitToContent={false}
+    />
+    <div
+      className="makeStyles-helper-2"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        
+      </Typography>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`src/components-v2/Select/elements/Secondary render/others 1`] = `
+<div
+  className="makeStyles-root-28"
+>
+  <div
+    className="makeStyles-labelContainer-26"
+  >
+    <Typography
+      className="makeStyles-required-27"
+      color="primary-main"
+      inline={false}
+      variant="body2"
+      weight="medium"
+    >
+      *
+    </Typography>
+    <Typography
+      className="makeStyles-label-25"
+      color="inherit"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      label
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-dropdownContainer-22"
+  >
+    <Dropdown
+      additionalWidth={-1.5}
+      asyncProps={Object {}}
+      creatableWording={null}
+      emptyMessage={null}
+      isCreatable={false}
+      isMulti={false}
+      isOptionDisabled={[Function]}
+      isSearchable={true}
+      maxWidth={null}
+      menuStick="left"
+      menuWidth={200}
+      minWidth={200}
+      noBorder={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onCreate={[Function]}
+      onFocus={[Function]}
+      onSearch={[Function]}
+      options={
+        Array [
+          Object {
+            "value": "value",
+          },
+        ]
+      }
+      placeholder="General Manager Position"
+      required={true}
+      searchable={false}
+      staticHeight={null}
+      staticWidth={null}
+      styles={
+        Object {
+          "control": Object {
+            "&:focus": Object {
+              "backgroundColor": "#FFFFFF",
+            },
+            "&:hover": Object {
+              "backgroundColor": "#FFFFFF",
+            },
+            "backgroundColor": "transparent !important",
+            "borderBottom": "1px solid #3B525C",
+            "borderRadius": 0,
+            "fontSize": 14,
+            "height": 28,
+            "minHeight": 28,
+            "padding": "0",
+            "position": "relative",
+          },
+          "placeholder": Object {
+            "fontSize": 14,
+            "visibility": "hidden",
+          },
+        }
+      }
+      value=""
+      valueFitToContent={false}
+    />
+    <div
+      className="makeStyles-helper-23"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        
+      </Typography>
+    </div>
+  </div>
+</div>
+`;

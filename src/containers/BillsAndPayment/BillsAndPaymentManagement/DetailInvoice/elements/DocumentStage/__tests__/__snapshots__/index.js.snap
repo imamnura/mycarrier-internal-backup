@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailInvoice/elements/DocumentStage render 1`] = `
+<Styled(MuiBox)
+  mt={3}
+>
+  <Stepper
+    accessibleTab={-1}
+    active={5}
+    errors={null}
+    errorsLabel=""
+    steps={
+      Array [
+        Object {
+          "isCompleted": true,
+          "label": "status",
+          "status": "status",
+        },
+      ]
+    }
+    variant="default"
+    warnings=""
+  />
+</Styled(MuiBox)>
+`;

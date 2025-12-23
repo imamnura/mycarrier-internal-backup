@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Table render/Desktop 1`] = `
+<TableDesktop
+  customBody={null}
+  customEmptyMessage={null}
+  customItem={null}
+  customStyles={Object {}}
+  data={
+    Array [
+      Object {
+        "a": "Data A",
+        "b": "1899-12-31T00:00:00.000Z",
+        "c": 20000000,
+        "d": "Completed",
+        "e": <pre>
+          node
+        </pre>,
+      },
+      Object {
+        "a": "Data B",
+        "b": "1899-12-31T00:00:00.000Z",
+        "c": 20000000,
+        "d": "Rejected",
+      },
+    ]
+  }
+  emptyMessage="Data not found"
+  headerAlign="flex-start"
+  loading={false}
+  loadingRoot={false}
+  maxHeight={null}
+  meta={
+    Object {
+      "page": 1,
+      "totalData": 0,
+      "totalPage": 0,
+    }
+  }
+  numbering={true}
+  onBottomPage={null}
+  onClickRow={[MockFunction]}
+  onPaginationChange={null}
+  page={1}
+  pickedRow=""
+  pickedRowKey=""
+  schema={
+    Array [
+      Object {
+        "cellStyle": Object {
+          "width": "50%",
+        },
+        "label": "With Sort & Custom Width",
+        "name": "a",
+        "sort": true,
+      },
+      Object {
+        "formatDate": "date-time",
+        "label": "Date Time",
+        "name": "b",
+      },
+      Object {
+        "currency": true,
+        "label": "Currency",
+        "name": "c",
+      },
+      Object {
+        "label": "Status",
+        "name": "d",
+        "schemaStatus": Object {
+          "Completed": "success",
+          "Rejected": "danger",
+        },
+      },
+      Object {
+        "label": "Node Child",
+        "name": "e",
+      },
+    ]
+  }
+  selectWithRawData={false}
+  selectedRowKey="key"
+  selectedRowSticky={false}
+  size={10}
+  useCollapseChild={null}
+  useOrderBy={
+    Array [
+      "a",
+      [MockFunction],
+    ]
+  }
+  useOrderDirection={
+    Array [
+      "desc",
+      [MockFunction],
+    ]
+  }
+  useSelectedRow={Array []}
+/>
+`;
+
+exports[`src/components/Table render/Mobile 1`] = `
+<TableMobile
+  data={
+    Array [
+      Object {
+        "a": "Data A",
+        "b": "1899-12-31T00:00:00.000Z",
+        "c": 20000000,
+        "d": "Completed",
+        "e": <pre>
+          node
+        </pre>,
+      },
+      Object {
+        "a": "Data B",
+        "b": "1899-12-31T00:00:00.000Z",
+        "c": 20000000,
+        "d": "Rejected",
+      },
+    ]
+  }
+  emptyMessage="Data not found"
+  loading={false}
+  loadingRoot={false}
+  meta={
+    Object {
+      "page": 1,
+      "totalData": 0,
+      "totalPage": 0,
+    }
+  }
+  numbering={true}
+  onClickRow={[MockFunction]}
+  schema={
+    Array [
+      Object {
+        "cellStyle": Object {
+          "width": "50%",
+        },
+        "label": "With Sort & Custom Width",
+        "name": "a",
+        "sort": true,
+      },
+      Object {
+        "formatDate": "date-time",
+        "label": "Date Time",
+        "name": "b",
+      },
+      Object {
+        "currency": true,
+        "label": "Currency",
+        "name": "c",
+      },
+      Object {
+        "label": "Status",
+        "name": "d",
+        "schemaStatus": Object {
+          "Completed": "success",
+          "Rejected": "danger",
+        },
+      },
+      Object {
+        "label": "Node Child",
+        "name": "e",
+      },
+    ]
+  }
+  size={10}
+  useOrderBy={
+    Array [
+      "a",
+      [MockFunction],
+    ]
+  }
+  useOrderDirection={
+    Array [
+      "desc",
+      [MockFunction],
+    ]
+  }
+  useSelectedRow={Array []}
+/>
+`;

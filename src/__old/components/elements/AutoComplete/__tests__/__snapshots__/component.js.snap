@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/AutoComplete render 1`] = `
+<WithStyles(ForwardRef(Autocomplete))
+  PaperComponent={[Function]}
+  classes={
+    Object {
+      "loading": undefined,
+      "option": undefined,
+    }
+  }
+  disableClearable={true}
+  disabled={false}
+  freeSolo={true}
+  loading={false}
+  onChange={[Function]}
+  onInputChange={[Function]}
+  options={
+    Array [
+      "option1",
+      "option2",
+    ]
+  }
+  renderInput={[Function]}
+  value="value"
+/>
+`;

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/ListOfDocument render 1`] = `
+<React.Fragment>
+  <Flex
+    alignX="space-between"
+  >
+    <Text
+      color="secondary500"
+      size="20px"
+      weight="700"
+    >
+      List of Document
+    </Text>
+    <Flex
+      alignY="center"
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={12}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        update period
+      </Button>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        sm="auto"
+        xs={6}
+      >
+        <Button
+          color="success"
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={12}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          send thanks letter
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={12}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        send billing reminder
+      </Button>
+    </Flex>
+  </Flex>
+  <Box
+    mb="24px"
+    mt="24px"
+  >
+    <Tabs
+      isCustom={false}
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "id": "bill-and-payment-company-detail-sections-list-invoice-tab",
+            "label": "Invoice",
+            "value": "invoice",
+          },
+          Object {
+            "id": "bill-and-payment-company-detail-sections-list-payment-tab",
+            "label": "Payment",
+            "value": "payment",
+          },
+          Object {
+            "id": "bill-and-payment-company-detail-sections-list-claim-tab",
+            "label": "Claim",
+            "value": "claim",
+          },
+        ]
+      }
+      value=""
+      variant="default"
+    />
+  </Box>
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/ListOfDocument render ListContent 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={Array []}
+  noMargin={true}
+  noPadding={true}
+  onBottomPage={[Function]}
+  search={null}
+  table={Object {}}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={false}
+/>
+`;

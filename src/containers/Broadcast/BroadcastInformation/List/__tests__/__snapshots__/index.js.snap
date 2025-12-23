@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Broadcast/BroadcastInformastion/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Create Broadcast",
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Broadcast Information",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Preparation",
+            "value": "preparation",
+          },
+          Object {
+            "label": "Need Approval",
+            "value": "need_approval",
+          },
+          Object {
+            "label": "On Schedule",
+            "value": "on_schedule",
+          },
+          Object {
+            "label": "Finish",
+            "value": "finish",
+          },
+          Object {
+            "label": "Returned",
+            "value": "returned",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "label": "Created Date",
+        "onChange": [MockFunction],
+        "type": "date",
+        "value": null,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Campaign Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "broadcastId": 123,
+          "contactGroup": "Blasting WA RAFI MyCarrier Customer",
+          "createdDate": "",
+          "name": "Ucapan Idul Fitri 2022_Cust",
+          "status": "preparation",
+        },
+        Object {
+          "broadcastId": 123,
+          "contactGroup": "Blasting WA RAFI MyCarrier Customer",
+          "createdDate": "-",
+          "name": "Ucapan Idul Fitri 2022_Cust",
+          "status": "preparation",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "numbering": true,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "Broadcast Name",
+          "name": "broadcastName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "Contact Group",
+          "name": "contactGroup",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Created Date",
+          "name": "createdDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "finish": "success",
+            "need approval": "warning",
+            "on schedule": "warning",
+            "preparation": "primary",
+            "rejected": "danger",
+            "returned": "danger",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Broadcast Information"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/Broadcast/BroadcastInformastion/List render/others 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Broadcast Information",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Preparation",
+            "value": "preparation",
+          },
+          Object {
+            "label": "Need Approval",
+            "value": "need_approval",
+          },
+          Object {
+            "label": "On Schedule",
+            "value": "on_schedule",
+          },
+          Object {
+            "label": "Finish",
+            "value": "finish",
+          },
+          Object {
+            "label": "Returned",
+            "value": "returned",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "label": "Created Date",
+        "onChange": [MockFunction],
+        "type": "date",
+        "value": null,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Campaign Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "broadcastId": 123,
+          "contactGroup": "Blasting WA RAFI MyCarrier Customer",
+          "createdDate": "",
+          "name": "Ucapan Idul Fitri 2022_Cust",
+          "status": "preparation",
+        },
+        Object {
+          "broadcastId": 123,
+          "contactGroup": "Blasting WA RAFI MyCarrier Customer",
+          "createdDate": "-",
+          "name": "Ucapan Idul Fitri 2022_Cust",
+          "status": "preparation",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "numbering": true,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "Broadcast Name",
+          "name": "broadcastName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "Contact Group",
+          "name": "contactGroup",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Created Date",
+          "name": "createdDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "finish": "success",
+            "need approval": "warning",
+            "on schedule": "warning",
+            "preparation": "primary",
+            "rejected": "danger",
+            "returned": "danger",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Broadcast Information"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ServiceLevel/index render 1`] = `
+<Styled(MuiBox)
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Service Level Guarantee"
+  />
+  <Styled(MuiBox)
+    px={8}
+    py={4}
+    sx={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "4rem 4rem 2rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="GuaranteeTitleid"
+      noSpacing={false}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      md={12}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        item={true}
+        lg={4}
+        md={6}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={3}
+          >
+            <img
+              alt="images"
+              src="images"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={9}
+            xs={9}
+          >
+            <div
+              style={
+                Object {
+                  "marginTop": "14px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="1rem"
+                multiline={true}
+                name="GuaranteeListid[0].title"
+                noSpacing={true}
+                placeholder="Ketik judul tipe produk di sini.."
+                position="left"
+                weight="medium"
+              />
+            </div>
+            <div>
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="1.5rem"
+                multiline={true}
+                name="GuaranteeListid[0].caption"
+                noSpacing={true}
+                placeholder="Caption.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <div
+            onClick={[Function]}
+          >
+            ✖
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        lg={4}
+        md={6}
+        xs={12}
+      >
+        <Styled(MuiBox)>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={12}
+          >
+            <UploadImage
+              alt="Link gambar disini.."
+              disabled={false}
+              getUpdateItem={[MockFunction]}
+              isIcon={false}
+              isValidateByPixel={true}
+              item={Object {}}
+              maxSize={358400}
+              previewState={
+                Object {
+                  "preview": Object {},
+                  "setPreview": [MockFunction],
+                }
+              }
+              ratioPixel={
+                Array [
+                  32,
+                  32,
+                ]
+              }
+              sectionName="ServiceLevel"
+              sizeBig={false}
+              type="small"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={9}
+            style={
+              Object {
+                "width": "150px",
+              }
+            }
+            xs={12}
+          >
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              fontSize="1rem"
+              name="GuaranteeTitleCardid"
+              noSpacing={false}
+              placeholder="Ketik judul kartu.."
+              position="left"
+              weight="medium"
+            />
+            <TextField
+              colorPlaceholder="black"
+              control={Object {}}
+              fontSize="1.5rem"
+              name="GuaranteeCaptionid"
+              noSpacing={true}
+              placeholder="Caption.."
+              position="left"
+              weight="bold"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(CardActions))
+            style={
+              Object {
+                "bottom": 0,
+                "left": "50%",
+                "position": "absolute",
+                "transform": "translate(-50%, 50%)",
+              }
+            }
+          >
+            <Button
+              disabled={true}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[MockFunction]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              Add SLG
+            </Button>
+          </WithStyles(ForwardRef(CardActions))>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <div />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ServiceLevel/index render null data 1`] = `<React.Fragment />`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ServiceLevel/index render tab en 1`] = `
+<Styled(MuiBox)
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Service Level Guarantee"
+  />
+  <Styled(MuiBox)
+    px={8}
+    py={4}
+    sx={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "4rem 4rem 2rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="GuaranteeTitleen"
+      noSpacing={false}
+      placeholder="Type the content of the title here in English.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      md={12}
+      spacing={3}
+    >
+      
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        item={true}
+        lg={4}
+        md={6}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={3}
+          >
+            <img
+              alt="images"
+              src="images"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={9}
+            xs={9}
+          >
+            <div
+              style={
+                Object {
+                  "marginTop": "14px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="1rem"
+                multiline={true}
+                name="GuaranteeListen[0].title"
+                noSpacing={true}
+                placeholder="Type the product type title here.."
+                position="left"
+                weight="medium"
+              />
+            </div>
+            <div>
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="1.5rem"
+                multiline={true}
+                name="GuaranteeListen[0].caption"
+                noSpacing={true}
+                placeholder="Caption.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <div />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ServiceLevel/index render tab en 2 1`] = `
+<Styled(MuiBox)
+  className={false}
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <Styled(MuiBox)
+    px={8}
+    py={4}
+    sx={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={true}
+      fontSize="2.25rem"
+      multiline={true}
+      name="GuaranteeTitleid"
+      noSpacing={false}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      md={12}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        item={true}
+        lg={4}
+        md={6}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={3}
+            xs={3}
+          >
+            <img
+              alt="images"
+              src="images"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={9}
+            xs={9}
+          >
+            <div
+              style={
+                Object {
+                  "marginTop": "14px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="1rem"
+                multiline={true}
+                name="GuaranteeListid[0].title"
+                noSpacing={true}
+                placeholder="Ketik judul tipe produk di sini.."
+                position="left"
+                weight="medium"
+              />
+            </div>
+            <div>
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="1.5rem"
+                multiline={true}
+                name="GuaranteeListid[0].caption"
+                noSpacing={true}
+                placeholder="Caption.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <div
+    className={false}
+  />
+</Styled(MuiBox)>
+`;

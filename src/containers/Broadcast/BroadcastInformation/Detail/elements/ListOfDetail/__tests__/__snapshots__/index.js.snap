@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Broadcast/BroadcastInformation/Detail/elements/ListOfDetail render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Submitted",
+            "value": "submitted",
+          },
+          Object {
+            "label": "Delivered",
+            "value": "delivered",
+          },
+          Object {
+            "label": "Read",
+            "value": "read",
+          },
+          Object {
+            "label": "In Queue",
+            "value": "inQueue",
+          },
+          Object {
+            "label": "Failed",
+            "value": "failed",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": null,
+      },
+      Object {
+        "label": "Last Update",
+        "onChange": [MockFunction],
+        "type": "date",
+        "value": null,
+      },
+    ]
+  }
+  noMargin={true}
+  noPadding={true}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Name..",
+      "size": "large",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "lastUpdate": "",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {
+        "page": 1,
+        "totalPage": 2,
+      },
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "NAME",
+          "name": "name",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 320,
+            "width": 320,
+          },
+          "label": "COMPANY NAME",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 170,
+          },
+          "label": "PHONE NUMBER",
+          "name": "phoneNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+            "width": 180,
+          },
+          "label": "LAST UPDATE",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "STATUS",
+          "name": "status",
+          "schemaStatus": Object {
+            "delivered": "alert",
+            "failed": "danger",
+            "in queue": "warning",
+            "read": "success",
+            "rejected": "danger",
+            "submitted": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;

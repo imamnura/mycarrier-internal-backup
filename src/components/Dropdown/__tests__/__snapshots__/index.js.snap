@@ -1,0 +1,564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Dropdown comp/ClearIndicator 1`] = `
+<ClearIndicator>
+  <Cancel
+    className="cancel"
+  />
+</ClearIndicator>
+`;
+
+exports[`src/components/Dropdown comp/DropdownIndicator 1`] = `
+<DropdownIndicator>
+  <ArrowDown
+    className="arrow"
+  />
+</DropdownIndicator>
+`;
+
+exports[`src/components/Dropdown comp/ListChild 1`] = `
+<div
+  style={Object {}}
+>
+  
+</div>
+`;
+
+exports[`src/components/Dropdown comp/MenuList 1`] = `
+<MenuList
+  options={Array []}
+/>
+`;
+
+exports[`src/components/Dropdown comp/MenuList large data 1`] = `
+<List
+  direction="ltr"
+  initialScrollOffset={-40}
+  itemCount={101}
+  itemSize={40}
+  layout="vertical"
+  overscanCount={2}
+  useIsScrolling={false}
+>
+  [Function]
+</List>
+`;
+
+exports[`src/components/Dropdown comp/MenuList large data sublabel 1`] = `
+<List
+  direction="ltr"
+  initialScrollOffset={-40}
+  itemCount={101}
+  itemSize={50}
+  layout="vertical"
+  overscanCount={2}
+  useIsScrolling={false}
+>
+  [Function]
+</List>
+`;
+
+exports[`src/components/Dropdown comp/NoOptionsMessage 1`] = `[Function]`;
+
+exports[`src/components/Dropdown comp/Option 1`] = `
+<Option
+  data={
+    Object {
+      "label": "test",
+    }
+  }
+  innerProps={
+    Object {
+      "tabIndex": undefined,
+    }
+  }
+>
+  test
+  <Check
+    className="check"
+  />
+</Option>
+`;
+
+exports[`src/components/Dropdown comp/Option/custom-star 1`] = `
+<Option
+  data={
+    Object {
+      "customOption": Object {
+        "type": "star",
+      },
+      "label": "test",
+    }
+  }
+  innerProps={
+    Object {
+      "tabIndex": undefined,
+    }
+  }
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "width": "100%",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "width": "20px",
+        }
+      }
+    >
+      <Star
+        style={
+          Object {
+            "width": "14px",
+          }
+        }
+      />
+    </Styled(MuiBox)>
+    test
+  </Styled(MuiBox)>
+</Option>
+`;
+
+exports[`src/components/Dropdown comp/Option/custom-status 1`] = `
+<Option
+  data={
+    Object {
+      "customOption": Object {
+        "children": "statusName",
+        "subLabel": "sub",
+        "type": "status",
+        "variant": "warning",
+      },
+      "label": "test",
+    }
+  }
+  innerProps={
+    Object {
+      "tabIndex": undefined,
+    }
+  }
+>
+  <React.Fragment>
+    <Tooltip
+      placement="top"
+      title="test"
+    >
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": 200,
+          }
+        }
+      >
+        test
+        <div>
+          sub
+        </div>
+      </Styled(MuiBox)>
+    </Tooltip>
+  </React.Fragment>
+  <Status
+    rounded={false}
+    size="small"
+    variant="warning"
+  >
+    statusName
+  </Status>
+</Option>
+`;
+
+exports[`src/components/Dropdown comp/Option/custom-status/truncate false 1`] = `
+<Option
+  data={
+    Object {
+      "customOption": Object {
+        "children": "statusName",
+        "subLabel": "sub",
+        "type": "status",
+        "variant": "warning",
+      },
+      "label": "test",
+    }
+  }
+  innerProps={
+    Object {
+      "tabIndex": undefined,
+    }
+  }
+>
+  <React.Fragment>
+    <Tooltip
+      placement="top"
+      title=""
+    >
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "overflow": "hidden",
+            "textOverflow": "ellipsis",
+            "whiteSpace": "nowrap",
+            "width": 200,
+          }
+        }
+      >
+        test
+        <div>
+          sub
+        </div>
+      </Styled(MuiBox)>
+    </Tooltip>
+  </React.Fragment>
+  <Status
+    rounded={false}
+    size="small"
+    variant="warning"
+  >
+    statusName
+  </Status>
+</Option>
+`;
+
+exports[`src/components/Dropdown comp/Option/custom-switch 1`] = `
+<Option
+  data={
+    Object {
+      "customOption": Object {
+        "onChange": [MockFunction],
+        "type": "switch",
+        "value": false,
+      },
+      "label": "test",
+    }
+  }
+  innerProps={
+    Object {
+      "tabIndex": undefined,
+    }
+  }
+>
+  <Styled(MuiBox)
+    onClick={[Function]}
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "paddingLeft": "20px",
+        }
+      }
+    >
+      test
+    </Styled(MuiBox)>
+    <Switch
+      onChange={[MockFunction]}
+      value={false}
+    />
+  </Styled(MuiBox)>
+</Option>
+`;
+
+exports[`src/components/Dropdown comp/ValueContainer 1`] = `
+<ValueContainer
+  getValue={[Function]}
+  hasValue={false}
+  isMulti={false}
+  selectProps={
+    Object {
+      "inputValue": "",
+    }
+  }
+>
+  
+  
+</ValueContainer>
+`;
+
+exports[`src/components/Dropdown comp/ValueContainer/Multi/MultiValue 1`] = `
+<ValueContainer
+  getValue={[Function]}
+  hasValue={true}
+  isMulti={true}
+  selectProps={
+    Object {
+      "inputValue": "12",
+    }
+  }
+>
+  <SingleValue
+    getValue={[Function]}
+    hasValue={true}
+    isMulti={true}
+    selectProps={
+      Object {
+        "inputValue": "12",
+      }
+    }
+  >
+    
+  </SingleValue>
+  
+</ValueContainer>
+`;
+
+exports[`src/components/Dropdown comp/ValueContainer/Multi/SingleValue 1`] = `
+<ValueContainer
+  getValue={[Function]}
+  hasValue={true}
+  isMulti={true}
+  selectProps={
+    Object {
+      "inputValue": "",
+    }
+  }
+>
+  <SingleValue
+    getValue={[Function]}
+    hasValue={true}
+    isMulti={true}
+    selectProps={
+      Object {
+        "inputValue": "",
+      }
+    }
+  >
+    Test
+  </SingleValue>
+  
+</ValueContainer>
+`;
+
+exports[`src/components/Dropdown comp/ValueContainer/Status 1`] = `
+<ValueContainer
+  getValue={[Function]}
+  hasValue={true}
+  isMulti={false}
+  selectProps={
+    Object {
+      "inputValue": "",
+    }
+  }
+>
+  <React.Fragment>
+    <React.Fragment>
+      <SingleValue
+        getValue={[Function]}
+        hasValue={true}
+        isMulti={false}
+        selectProps={
+          Object {
+            "inputValue": "",
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+              }
+            }
+          >
+            Testss
+          </Styled(MuiBox)>
+          <Status
+            rounded={false}
+            size="small"
+            variant="warning"
+          >
+            sssss
+          </Status>
+        </Styled(MuiBox)>
+      </SingleValue>
+    </React.Fragment>
+  </React.Fragment>
+  <div>
+    ss
+  </div>
+</ValueContainer>
+`;
+
+exports[`src/components/Dropdown comp/ValueContainer/Status/displayLabel-false 1`] = `
+<ValueContainer
+  getValue={[Function]}
+  hasValue={true}
+  isMulti={false}
+  selectProps={
+    Object {
+      "inputValue": "test",
+    }
+  }
+>
+  <React.Fragment>
+    <React.Fragment>
+      <SingleValue
+        getValue={[Function]}
+        hasValue={true}
+        isMulti={false}
+        selectProps={
+          Object {
+            "inputValue": "test",
+          }
+        }
+      >
+        
+      </SingleValue>
+    </React.Fragment>
+  </React.Fragment>
+  <div>
+    ss
+  </div>
+</ValueContainer>
+`;
+
+exports[`src/components/Dropdown render 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <ForwardRef
+    components={
+      Object {
+        "ClearIndicator": [Function],
+        "DropdownIndicator": [Function],
+        "MenuList": [Function],
+        "NoOptionsMessage": [Function],
+        "Option": [Function],
+        "ValueContainer": [Function],
+      }
+    }
+    hideSelectedOptions={false}
+    instanceId="dropdown"
+    isOptionDisabled={[Function]}
+    isSearchable={false}
+    onInputChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Test 1",
+          "value": "test1",
+        },
+      ]
+    }
+    placeholder="Choose Option"
+    styles={
+      Object {
+        "clearIndicator": [Function],
+        "container": [Function],
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "indicatorSeparator": [Function],
+        "menu": [Function],
+        "menuList": [Function],
+        "menuPortal": [Function],
+        "option": [Function],
+        "placeholder": [Function],
+        "singleValue": [Function],
+        "valueContainer": [Function],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`src/components/Dropdown render/required 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <WithAsyncPaginate
+    components={
+      Object {
+        "ClearIndicator": [Function],
+        "DropdownIndicator": [Function],
+        "MenuList": [Function],
+        "NoOptionsMessage": [Function],
+        "Option": [Function],
+        "ValueContainer": [Function],
+      }
+    }
+    hideSelectedOptions={false}
+    instanceId="dropdown"
+    isOptionDisabled={[Function]}
+    isSearchable={false}
+    loadOptions={[MockFunction]}
+    onInputChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Test 1",
+          "value": "test1",
+        },
+      ]
+    }
+    placeholder={
+      <React.Fragment>
+        <Typography
+          className=""
+          color="primary-main"
+          inline={false}
+          style={
+            Object {
+              "marginRight": 2,
+            }
+          }
+          variant="subtitle2"
+          weight="medium"
+        >
+          *
+        </Typography>
+        ssss
+      </React.Fragment>
+    }
+    styles={
+      Object {
+        "clearIndicator": [Function],
+        "container": [Function],
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "indicatorSeparator": [Function],
+        "menu": [Function],
+        "menuList": [Function],
+        "menuPortal": [Function],
+        "option": [Function],
+        "placeholder": [Function],
+        "singleValue": [Function],
+        "valueContainer": [Function],
+      }
+    }
+  />
+</div>
+`;

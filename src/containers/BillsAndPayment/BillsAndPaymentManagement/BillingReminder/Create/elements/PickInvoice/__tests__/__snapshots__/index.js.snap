@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/PickInvoice/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Discard",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Cancel",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "hideDivider": true,
+        "loading": false,
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "label": "test",
+        "url": "/bills-and-payment-management/detail/test",
+      },
+      Object {
+        "label": "Billing Reminder Letter 1",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <StepperForm
+      active={1}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <List
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    noMargin={true}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "noBorder": true,
+        "onChange": [MockFunction],
+        "placeholder": "Search Invoice..",
+        "value": "test",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "document": <Typography
+              className=""
+              color="blue-main"
+              inline={false}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+              variant="subtitle2"
+              weight="normal"
+            >
+              test
+            </Typography>,
+            "invoiceInternalFile": Object {
+              "fileName": "test",
+              "fileUrl": "test",
+            },
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": undefined,
+        "numbering": false,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 240,
+              "width": 240,
+            },
+            "label": "Invoice",
+            "name": "invoiceNumberFormat",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+              "width": 100,
+            },
+            "formatDate": "date",
+            "label": "Invoice Date",
+            "name": "invoiceDate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Total Bills",
+            "name": "invoiceBill",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Already Paid",
+            "name": "invoicePaid",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Outstanding Balance",
+            "name": "invoiceOsBalance",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+              "width": 100,
+            },
+            "formatDate": "date",
+            "label": "Due Dates",
+            "name": "invoiceDueDate",
+          },
+        ],
+        "selectedRowKey": "invoiceNumber",
+        "useSelectedRow": [MockFunction],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Pick Invoice"
+    withTopDivider={false}
+  />
+</Create>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/PickInvoice/index render invoiceInternalFile null 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Discard",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Cancel",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "hideDivider": true,
+        "loading": false,
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "label": "test",
+        "url": "/bills-and-payment-management/detail/test",
+      },
+      Object {
+        "label": "Billing Reminder Letter 1",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <StepperForm
+      active={1}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <List
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    noMargin={true}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "noBorder": true,
+        "onChange": [MockFunction],
+        "placeholder": "Search Invoice..",
+        "value": "test",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "document": <React.Fragment>
+              -
+            </React.Fragment>,
+          },
+          Object {
+            "document": <React.Fragment>
+              -
+            </React.Fragment>,
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": undefined,
+        "numbering": false,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 240,
+              "width": 240,
+            },
+            "label": "Invoice",
+            "name": "invoiceNumberFormat",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+              "width": 100,
+            },
+            "formatDate": "date",
+            "label": "Invoice Date",
+            "name": "invoiceDate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Total Bills",
+            "name": "invoiceBill",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Already Paid",
+            "name": "invoicePaid",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+              "width": 160,
+            },
+            "currency": true,
+            "label": "Outstanding Balance",
+            "name": "invoiceOsBalance",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+              "width": 100,
+            },
+            "formatDate": "date",
+            "label": "Due Dates",
+            "name": "invoiceDueDate",
+          },
+        ],
+        "selectedRowKey": "invoiceNumber",
+        "useSelectedRow": [MockFunction],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Pick Invoice"
+    withTopDivider={false}
+  />
+</Create>
+`;

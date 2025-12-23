@@ -1,0 +1,2073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/Users render 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Generate Settlement",
+          "disabled": true,
+          "onClick": [MockFunction],
+          "tooltip": "Settlement can’t be generated because the VM usage was zero (0)",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+          "url": "/settlement",
+        },
+        Object {
+          "label": "id",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "User Id",
+                    "name": "userId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Billing Email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Full Name",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "label": "email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Mobile Phone",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "label": "Created Date",
+                    "name": "createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Address",
+                    "name": "address",
+                  },
+                  Object {
+                    "label": "City",
+                    "name": "city",
+                  },
+                  Object {
+                    "label": "State",
+                    "name": "state",
+                  },
+                  Object {
+                    "label": "Country",
+                    "name": "country",
+                  },
+                  Object {
+                    "label": "Postal Code",
+                    "name": "postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Action
+                data={Object {}}
+                handlePeriod={[MockFunction]}
+                onDownload={[MockFunction]}
+                period=""
+              />,
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <VirtualMachine
+                  classes={
+                    Object {
+                      "circle": "makeStyles-circle-2",
+                      "divider": "makeStyles-divider-3",
+                      "greenCircle": "makeStyles-greenCircle-4",
+                      "redCircle": "makeStyles-redCircle-5",
+                    }
+                  }
+                />
+              </Styled(MuiBox)>,
+              "title": "Virtual Machines",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Size",
+                        "name": "size",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Volume Cost",
+                        "name": "volumeCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Volume",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Public IP",
+                        "name": "publicIp",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Ip Cost",
+                        "name": "ipCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Public IP",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Attach Type",
+                        "name": "attachType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "License Cost",
+                        "name": "licenseCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "License",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Service Cost",
+                        "name": "serviceCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Service",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bucket Size",
+                        "name": "bucketSize",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bucket Cost",
+                        "name": "bucketCost",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bandwidth Usage",
+                        "name": "bandwidthUsage",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bandwdith Cost",
+                        "name": "bandwidthCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Object Storage",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/Users render/empty tooltip 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+          "url": "/settlement",
+        },
+        Object {
+          "label": "id",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "User Id",
+                    "name": "userId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Billing Email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Full Name",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "label": "email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Mobile Phone",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "label": "Created Date",
+                    "name": "createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Address",
+                    "name": "address",
+                  },
+                  Object {
+                    "label": "City",
+                    "name": "city",
+                  },
+                  Object {
+                    "label": "State",
+                    "name": "state",
+                  },
+                  Object {
+                    "label": "Country",
+                    "name": "country",
+                  },
+                  Object {
+                    "label": "Postal Code",
+                    "name": "postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Action
+                data={
+                  Object {
+                    "totalUsage": "-",
+                  }
+                }
+                handlePeriod={[MockFunction]}
+                onDownload={[MockFunction]}
+                period="-"
+              />,
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <VirtualMachine
+                  classes={
+                    Object {
+                      "circle": "makeStyles-circle-12",
+                      "divider": "makeStyles-divider-13",
+                      "greenCircle": "makeStyles-greenCircle-14",
+                      "redCircle": "makeStyles-redCircle-15",
+                    }
+                  }
+                />
+              </Styled(MuiBox)>,
+              "title": "Virtual Machines",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Size",
+                        "name": "size",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Volume Cost",
+                        "name": "volumeCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Volume",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Public IP",
+                        "name": "publicIp",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Ip Cost",
+                        "name": "ipCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Public IP",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Attach Type",
+                        "name": "attachType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "License Cost",
+                        "name": "licenseCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "License",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Service Cost",
+                        "name": "serviceCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Service",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bucket Size",
+                        "name": "bucketSize",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bucket Cost",
+                        "name": "bucketCost",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bandwidth Usage",
+                        "name": "bandwidthUsage",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bandwdith Cost",
+                        "name": "bandwidthCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Object Storage",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/Users render/period tooltip 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Generate Settlement",
+          "disabled": true,
+          "onClick": [MockFunction],
+          "tooltip": "Settlement can’t be generated because the period not selected",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "back": true,
+          "label": "Settlement",
+          "url": "/settlement",
+        },
+        Object {
+          "label": "id",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "User Id",
+                    "name": "userId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Billing Email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Full Name",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "label": "email",
+                    "name": "billingEmail",
+                  },
+                  Object {
+                    "label": "Mobile Phone",
+                    "name": "phoneNumber",
+                  },
+                  Object {
+                    "label": "Created Date",
+                    "name": "createdDate",
+                  },
+                ],
+              },
+              "title": "User Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Address",
+                    "name": "address",
+                  },
+                  Object {
+                    "label": "City",
+                    "name": "city",
+                  },
+                  Object {
+                    "label": "State",
+                    "name": "state",
+                  },
+                  Object {
+                    "label": "Country",
+                    "name": "country",
+                  },
+                  Object {
+                    "label": "Postal Code",
+                    "name": "postalCode",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Action
+                data={
+                  Object {
+                    "totalUsage": "-",
+                  }
+                }
+                handlePeriod={[MockFunction]}
+                onDownload={[MockFunction]}
+                period=""
+              />,
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <VirtualMachine
+                  classes={
+                    Object {
+                      "circle": "makeStyles-circle-7",
+                      "divider": "makeStyles-divider-8",
+                      "greenCircle": "makeStyles-greenCircle-9",
+                      "redCircle": "makeStyles-redCircle-10",
+                    }
+                  }
+                />
+              </Styled(MuiBox)>,
+              "title": "Virtual Machines",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Size",
+                        "name": "size",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Volume Cost",
+                        "name": "volumeCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Volume",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Public IP",
+                        "name": "publicIp",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Ip Cost",
+                        "name": "ipCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Additional Public IP",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Type",
+                        "name": "type",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Attach Type",
+                        "name": "attachType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "License Cost",
+                        "name": "licenseCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "License",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 80,
+                          "width": 80,
+                        },
+                        "label": "Id",
+                        "name": "id",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 200,
+                          "width": 200,
+                        },
+                        "label": "Name",
+                        "name": "name",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Billing Type",
+                        "name": "billingType",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Service Cost",
+                        "name": "serviceCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Service",
+              "type": "custom",
+            },
+            Object {
+              "render": <Styled(MuiBox)
+                mt={3}
+              >
+                <TableDesktop
+                  customBody={null}
+                  customEmptyMessage={null}
+                  customItem={null}
+                  customStyles={Object {}}
+                  data={Array []}
+                  emptyMessage="Data not found"
+                  headerAlign="flex-start"
+                  loading={false}
+                  loadingRoot={false}
+                  maxHeight={null}
+                  meta={
+                    Object {
+                      "page": undefined,
+                      "size": 1,
+                      "totalData": undefined,
+                      "totalPages": 1,
+                    }
+                  }
+                  numbering={false}
+                  onBottomPage={null}
+                  onClickRow={null}
+                  onPaginationChange={null}
+                  page={1}
+                  pickedRow=""
+                  pickedRowKey=""
+                  schema={
+                    Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "formatDate": "date-time",
+                        "label": "Created Date",
+                        "name": "createdDate",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bucket Size",
+                        "name": "bucketSize",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bucket Cost",
+                        "name": "bucketCost",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "label": "Bandwidth Usage",
+                        "name": "bandwidthUsage",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 120,
+                          "width": 120,
+                        },
+                        "currency": true,
+                        "label": "Bandwdith Cost",
+                        "name": "bandwidthCost",
+                      },
+                    ]
+                  }
+                  selectWithRawData={false}
+                  selectedRowKey="key"
+                  selectedRowSticky={false}
+                  size={10}
+                  useCollapseChild={null}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </Styled(MuiBox)>,
+              "title": "Object Storage",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

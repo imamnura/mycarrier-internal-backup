@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Speakers/index render default 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Speakers"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Pembicara
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-cardsContainer-2"
+        container={true}
+        spacing={1}
+      >
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-6"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item="test"
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Speaker0"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-7"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakers[0].name"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakers[0].position"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-8"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-6"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item="test 2"
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Speaker1"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-7"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakers[1].name"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakers[1].position"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-8"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-addCardContainer-11 makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3 makeStyles-dashedBorder-5"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-6"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[MockFunction]}
+                    initialPreview=""
+                    isValidateByPixel={true}
+                    item={Object {}}
+                    maxSize={307200}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        214,
+                        169,
+                      ]
+                    }
+                    sectionName="Speaker"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-7"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakerName"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakerPosition"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <WithStyles(ForwardRef(CardActions))
+                className="makeStyles-addCardButton-12"
+              >
+                <Button
+                  disabled={true}
+                  leftIcon={null}
+                  loading={false}
+                  ml={0}
+                  mr={0}
+                  onClick={[MockFunction]}
+                  rightIcon={null}
+                  rounded="normal"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  textTransform="uppercase"
+                  variant="filled"
+                >
+                  add speaker
+                </Button>
+              </WithStyles(ForwardRef(CardActions))>
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+        </React.Fragment>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className="makeStyles-disabledSection-9"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Speakers/index render isDisplaySpeakers false 1`] = `
+<div
+  className="makeStyles-root-13"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Speakers"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Pembicara
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-cardsContainer-14"
+        container={true}
+        spacing={1}
+      >
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-18"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item="test"
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Speaker0"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-19"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakers[0].name"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakers[0].position"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-20"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-18"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item="test 2"
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Speaker1"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-19"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakers[1].name"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakers[1].position"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-20"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-addCardContainer-23 makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15 makeStyles-dashedBorder-17"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-18"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                >
+                  <UploadImage
+                    alt=""
+                    disabled={false}
+                    getUpdateItem={[MockFunction]}
+                    initialPreview=""
+                    isValidateByPixel={true}
+                    item={Object {}}
+                    maxSize={307200}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        214,
+                        169,
+                      ]
+                    }
+                    sectionName="Speaker"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 214 x 169 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+                <div
+                  className="makeStyles-cardFields-19"
+                >
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize="1rem"
+                      multiline={true}
+                      name="speakerName"
+                      noSpacing={true}
+                      placeholder="Ketik nama speaker"
+                      position="left"
+                      weight="medium"
+                    />
+                  </div>
+                  <div>
+                    <TextField
+                      colorInput="#2E434D"
+                      colorPlaceholder="black"
+                      control={Object {}}
+                      fontSize={14}
+                      multiline={true}
+                      name="speakerPosition"
+                      noSpacing={true}
+                      placeholder="Ketik jabatan speaker"
+                      position="left"
+                      weight="normal"
+                    />
+                  </div>
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <WithStyles(ForwardRef(CardActions))
+                className="makeStyles-addCardButton-24"
+              >
+                <Button
+                  disabled={false}
+                  leftIcon={null}
+                  loading={false}
+                  ml={0}
+                  mr={0}
+                  onClick={[MockFunction]}
+                  rightIcon={null}
+                  rounded="normal"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  textTransform="uppercase"
+                  variant="filled"
+                >
+                  add speaker
+                </Button>
+              </WithStyles(ForwardRef(CardActions))>
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+        </React.Fragment>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className={false}
+  />
+</div>
+`;

@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/List render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={
+      Array [
+        Object {
+          "children": "btn",
+        },
+        Object {
+          "children": "btn2",
+        },
+      ]
+    }
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "x",
+            "value": "x",
+          },
+        ],
+        "value": "x",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Box
+    background="white"
+    id="list-section"
+    margin="0px 40px 20px 40px"
+    padding="24px 32px"
+    radius="8px"
+  >
+    <Text
+      as="h6"
+      color="secondary500"
+      mb="16px"
+    >
+      x
+    </Text>
+    <Box
+      mb="10px"
+    >
+      <Filter
+        filter={
+          Array [
+            Object {
+              "type": "dropdown",
+            },
+            Object {
+              "onChange": [MockFunction],
+              "type": "dateRange",
+            },
+            Object {
+              "type": "other",
+            },
+          ]
+        }
+        search={null}
+      />
+    </Box>
+    <TableDesktop
+      customBody={null}
+      customEmptyMessage={null}
+      customItem={null}
+      customStyles={Object {}}
+      data={Array []}
+      emptyMessage="Data not found"
+      headerAlign="flex-start"
+      loading={false}
+      loadingRoot={false}
+      maxHeight={null}
+      meta={
+        Object {
+          "page": 1,
+          "totalData": 0,
+          "totalPage": 0,
+        }
+      }
+      numbering={true}
+      onBottomPage={null}
+      onClickRow={null}
+      onPaginationChange={null}
+      page={1}
+      pickedRow=""
+      pickedRowKey=""
+      schema={Array []}
+      selectWithRawData={false}
+      selectedRowKey="key"
+      selectedRowSticky={false}
+      size={10}
+      useCollapseChild={null}
+      useOrderBy={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useOrderDirection={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useSelectedRow={Array []}
+    />
+  </Box>
+</React.Fragment>
+`;
+
+exports[`src/fragments/List render/other 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={
+      Array [
+        Object {
+          "children": "btn",
+        },
+        Object {
+          "children": "btn2",
+        },
+      ]
+    }
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Box
+    background="white"
+    id="list-section"
+    margin="20px 40px"
+    padding="24px 32px"
+    radius="8px"
+  >
+    <Box
+      mb="10px"
+    >
+      <Filter
+        filter={
+          Array [
+            Object {
+              "type": "dropdown",
+            },
+            Object {
+              "onChange": [MockFunction],
+              "type": "dateRange",
+            },
+            Object {
+              "type": "other",
+            },
+          ]
+        }
+        search={null}
+      />
+    </Box>
+    <TableDesktop
+      customBody={null}
+      customEmptyMessage={null}
+      customItem={null}
+      customStyles={Object {}}
+      data={Array []}
+      emptyMessage="Data not found"
+      headerAlign="flex-start"
+      loading={false}
+      loadingRoot={false}
+      maxHeight={null}
+      meta={
+        Object {
+          "page": 1,
+          "totalData": 0,
+          "totalPage": 0,
+        }
+      }
+      numbering={true}
+      onBottomPage={null}
+      onClickRow={null}
+      onPaginationChange={null}
+      page={1}
+      pickedRow=""
+      pickedRowKey=""
+      schema={Array []}
+      selectWithRawData={false}
+      selectedRowKey="key"
+      selectedRowSticky={false}
+      size={10}
+      useCollapseChild={null}
+      useOrderBy={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useOrderDirection={
+        Array [
+          null,
+          [Function],
+        ]
+      }
+      useSelectedRow={Array []}
+    />
+  </Box>
+</React.Fragment>
+`;

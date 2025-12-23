@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/ReportNeucentrix/Create/ToggleButton render 1`] = `
+<WithStyles(ForwardRef(ToggleButton))
+  exclusive={true}
+  onChange={[Function]}
+  style={
+    Object {
+      "heigth": 40,
+    }
+  }
+  value={null}
+>
+  <WithStyles(ForwardRef(ToggleButton))
+    className="makeStyles-buttonItem-1"
+    classes={
+      Object {
+        "selected": "makeStyles-selected-2",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": "10px 0 0 10px",
+      }
+    }
+    value={true}
+  >
+    YES
+  </WithStyles(ForwardRef(ToggleButton))>
+  <WithStyles(ForwardRef(ToggleButton))
+    className="makeStyles-buttonItem-1"
+    classes={
+      Object {
+        "selected": "makeStyles-selected-2",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": "0 10px 10px 0",
+      }
+    }
+    value={false}
+  >
+    NO
+  </WithStyles(ForwardRef(ToggleButton))>
+</WithStyles(ForwardRef(ToggleButton))>
+`;

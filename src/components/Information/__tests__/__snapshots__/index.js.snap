@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Information render 1`] = `
+<Flex
+  direction="column"
+>
+  <Text
+    color="secondary500"
+    size="12px"
+    weight="700"
+  >
+    LABEL
+  </Text>
+  <Styled(MuiBox)
+    width="100%"
+  >
+    <Text
+      inline={true}
+      style={
+        Object {
+          "overflowWrap": "anywhere",
+        }
+      }
+      weight="normal"
+    >
+      Value
+    </Text>
+  </Styled(MuiBox)>
+</Flex>
+`;
+
+exports[`src/components/Information render/array others 1`] = `
+<Flex
+  direction="column"
+>
+  <Text
+    color="secondary500"
+    size="12px"
+    weight="700"
+  >
+    LABEL
+  </Text>
+  <Styled(MuiBox)
+    width="100%"
+  >
+    <React.Fragment>
+      <span>
+        test
+      </span>
+    </React.Fragment>
+  </Styled(MuiBox)>
+</Flex>
+`;
+
+exports[`src/components/Information render/array string 1`] = `
+<Flex
+  direction="column"
+>
+  <Text
+    color="secondary500"
+    size="12px"
+    weight="700"
+  >
+    LABEL
+  </Text>
+  <Styled(MuiBox)
+    width="100%"
+  >
+    <React.Fragment>
+      <Text
+        style={
+          Object {
+            "overflowWrap": "anywhere",
+          }
+        }
+      >
+        1
+        2
+      </Text>
+      <Text
+        style={
+          Object {
+            "overflowWrap": "anywhere",
+          }
+        }
+      >
+        1
+        2
+      </Text>
+    </React.Fragment>
+  </Styled(MuiBox)>
+</Flex>
+`;
+
+exports[`src/components/Information render/others 1`] = `
+<Flex
+  direction="column"
+>
+  <Text
+    color="secondary500"
+    size="12px"
+    weight="700"
+  >
+    LABEL
+  </Text>
+  <Styled(MuiBox)
+    width="100%"
+  >
+    <span>
+      test
+    </span>
+  </Styled(MuiBox)>
+</Flex>
+`;

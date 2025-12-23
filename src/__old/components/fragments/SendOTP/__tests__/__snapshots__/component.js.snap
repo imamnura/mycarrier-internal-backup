@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/SendOTP render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+  style={
+    Object {
+      "padding": "8px 24px 16px 24px",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      variant="subtitle2"
+    >
+      Please input your OTP code
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "padding": 8,
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="caption"
+    >
+      You will get Peruri Digital Sign OTP code, please input for approval
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      input={
+        Object {
+          "onChange": [Function],
+          "value": "",
+        }
+      }
+      label="OTP Code"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "paddingTop": 32,
+      }
+    }
+    xs={12}
+  >
+    <React.Fragment>
+      <WithStyles(Component)
+        variant="caption"
+      >
+        Didn’t get OTP Code? 
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        color="primary"
+        onClick={[Function]}
+        variant="caption"
+      >
+        Resend code.
+      </WithStyles(Component)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "paddingTop": 32,
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Component)
+      onClick={[MockFunction]}
+      variant="ghost"
+    >
+      Cancel
+    </WithStyles(Component)>
+        
+    <WithStyles(Component)
+      disabled={true}
+      isLoading=""
+      onClick={[Function]}
+    >
+      Submit
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/fragments/SendOTP render loading send 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+  style={
+    Object {
+      "padding": "8px 24px 16px 24px",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      variant="subtitle2"
+    >
+      Please input your OTP code
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "padding": 8,
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="caption"
+    >
+      You will get Peruri Digital Sign OTP code, please input for approval
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    xs={12}
+  >
+    <WithStyles(Component)
+      input={
+        Object {
+          "onChange": [Function],
+          "value": "",
+        }
+      }
+      label="OTP Code"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "paddingTop": 32,
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Component)
+      variant="caption"
+    >
+      Please Wait...
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    style={
+      Object {
+        "paddingTop": 32,
+      }
+    }
+    xs={12}
+  >
+    <WithStyles(Component)
+      onClick={[MockFunction]}
+      variant="ghost"
+    >
+      Cancel
+    </WithStyles(Component)>
+        
+    <WithStyles(Component)
+      disabled={true}
+      isLoading=""
+      onClick={[Function]}
+    >
+      Submit
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

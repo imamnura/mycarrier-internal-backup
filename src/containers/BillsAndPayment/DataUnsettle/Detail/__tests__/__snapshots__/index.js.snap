@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/DataUnsettle/Detail render 1`] = `
+<Detail
+  action={
+    Array [
+      Object {
+        "children": "Download",
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "back": true,
+        "label": "Data Unsettle",
+      },
+      Object {
+        "label": "BMS",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={true}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {
+                "invoiceGroup": "SARTL",
+                "segment": "BMS",
+              },
+              "schema": Array [
+                Object {
+                  "grid": 3,
+                  "label": "SEGMENT",
+                  "name": "segment",
+                },
+                Object {
+                  "grid": 3,
+                  "label": "INVOICE GROUP",
+                  "name": "invoiceGroup",
+                },
+              ],
+            },
+            "title": "Segment Information",
+            "type": "information",
+          },
+        ],
+        "gridProps": Object {
+          "md": 12,
+          "xs": 12,
+        },
+      },
+      Object {
+        "content": Array [
+          Object {
+            "render": <ListOfDetail
+              feature={Array []}
+            />,
+            "title": "List of Detail",
+            "type": "custom",
+          },
+        ],
+        "gridProps": Object {
+          "md": 12,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;

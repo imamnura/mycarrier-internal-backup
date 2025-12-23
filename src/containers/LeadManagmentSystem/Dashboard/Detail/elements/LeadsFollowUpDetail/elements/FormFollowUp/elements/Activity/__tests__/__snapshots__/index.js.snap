@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/FormFollowUp/elements/Activity/index render properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isSearchable={true}
+          label="Type"
+          name="type"
+          options={
+            Array [
+              Object {
+                "label": "Check feasibility to network",
+                "value": "Check feasibility to network",
+              },
+              Object {
+                "label": "Identity customer requirement",
+                "value": "Identity customer requirement",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Description"
+          maxLength={160}
+          minRows={4}
+          multiline={true}
+          name="description"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <DateTimePicker
+          control={Object {}}
+          error={false}
+          helperText=""
+          label="Date"
+          name="due_date"
+          required={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          isSearchable={true}
+          label="Status"
+          menuPosition="fixed"
+          name="status"
+          options={
+            Array [
+              Object {
+                "label": "Done",
+                "value": "Done",
+              },
+              Object {
+                "label": "In Progress",
+                "value": "In Progress",
+              },
+              Object {
+                "label": "Open",
+                "value": "Open",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          label="Priority"
+          menuPosition="fixed"
+          name="priority"
+          options={
+            Array [
+              Object {
+                "label": "1-ASAP",
+                "value": "1-ASAP",
+              },
+              Object {
+                "label": "2-High",
+                "value": "2-High",
+              },
+              Object {
+                "label": "3-Medium",
+                "value": "3-Medium",
+              },
+              Object {
+                "label": "4-Low",
+                "value": "4-Low",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Select
+          control={Object {}}
+          error={false}
+          helperText=""
+          label="Duration"
+          menuPosition="fixed"
+          name="duration"
+          options={
+            Array [
+              Object {
+                "label": "15",
+                "value": "15",
+              },
+              Object {
+                "label": "30",
+                "value": "30",
+              },
+              Object {
+                "label": "45",
+                "value": "45",
+              },
+              Object {
+                "label": "60",
+                "value": "60",
+              },
+              Object {
+                "label": "90",
+                "value": "90",
+              },
+              Object {
+                "label": "120",
+                "value": "120",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={16}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

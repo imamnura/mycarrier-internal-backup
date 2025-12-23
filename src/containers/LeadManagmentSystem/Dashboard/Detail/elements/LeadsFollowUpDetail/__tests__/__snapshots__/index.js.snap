@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail run properly 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mt": -8,
+      }
+    }
+  >
+    <Text
+      color="secondary500"
+      size="20px"
+      weight="700"
+    >
+      Leads Follow Up Detail
+    </Text>
+    <List
+      action={
+        Array [
+          Object {
+            "children": "add follow up",
+            "onClick": [MockFunction],
+            "variant": "ghost",
+          },
+          Object {
+            "children": "Add product to quote",
+            "disabled": true,
+            "onClick": undefined,
+          },
+        ]
+      }
+      breadcrumb={Array []}
+      filter={Array []}
+      noMargin={true}
+      noPadding={true}
+      onBottomPage={[Function]}
+      search={null}
+      table={
+        Object {
+          "data": Array [],
+          "emptyMessage": Object {
+            "description": "Product list is not currently created by the Account Manager",
+            "icon": [Function],
+            "message": "Product list doesn't exist yet",
+          },
+          "loadingRoot": false,
+          "meta": Object {
+            "totalPage": 0,
+          },
+          "numbering": false,
+          "schema": Array [
+            Object {
+              "cellStyle": Object {
+                "minWidth": 148,
+              },
+              "label": "AUTO QUOTE",
+              "name": "autoQuote",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 252,
+              },
+              "label": "PRODUCT",
+              "name": "product",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 148,
+              },
+              "label": "PRODUCT LINE",
+              "name": "productLine",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 148,
+              },
+              "label": "QUANTITY",
+              "name": "quantity",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 148,
+              },
+              "currency": true,
+              "label": "NET PRICE",
+              "name": "netPrice",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 148,
+              },
+              "currency": true,
+              "label": "REVENUE",
+              "name": "revenue",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 152,
+              },
+              "label": "PROBABILITY (%)",
+              "name": "probability",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 316,
+              },
+              "label": "SALES REP",
+              "name": "salesRep",
+            },
+            Object {
+              "label": "",
+              "name": "action",
+            },
+          ],
+          "size": 5,
+        }
+      }
+      tabs={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "Activities",
+              "value": "activities",
+            },
+            Object {
+              "label": "Notes",
+              "value": "notes",
+            },
+            Object {
+              "label": "Attachments",
+              "value": "attachments",
+            },
+            Object {
+              "label": "Product",
+              "value": "product",
+            },
+            Object {
+              "label": "Contact",
+              "value": "contact",
+            },
+          ],
+          "value": "product",
+        }
+      }
+      title=""
+      withTopDivider={true}
+    />
+  </Styled(MuiBox)>
+  <FormFollowUp
+    categoryForm={Object {}}
+    dashboardId="123"
+    fetchDetail={[MockFunction]}
+    followUpForm={Object {}}
+    onCloseCategory={[MockFunction]}
+    setFollowUpForm={[MockFunction]}
+    status="Quote"
+    tab="product"
+    variant="opportunity"
+  />
+</React.Fragment>
+`;

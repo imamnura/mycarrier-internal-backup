@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render 1`] = `
+<General
+  builder={Object {}}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render ASTINET 1`] = `
+<Astinet
+  builder={Object {}}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render CNDC 1`] = `
+<Neucentrix
+  builder={Object {}}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render IP TRANSIT 1`] = `
+<IpTransit
+  builder={Object {}}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render METRO E 1`] = `
+<MetroEthernet
+  builder={Object {}}
+/>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/index render VPN IP 1`] = `
+<VpnIp
+  builder={Object {}}
+/>
+`;

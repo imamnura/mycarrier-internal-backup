@@ -1,0 +1,1019 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Neucentrix render properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Purchase Order",
+          "url": "/dashboard/purchase-order",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={Object {}}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "hidden": true,
+                    "label": "NCX ORDER NUMBER",
+                    "name": "ncxNumber",
+                  },
+                  Object {
+                    "label": "ORDER ID",
+                    "name": "orderId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PURCHASE DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "label": "PO NUMBER (ON DOCUMENT)",
+                    "name": "purchaseOrderNumber",
+                  },
+                  Object {
+                    "label": "BAKES NUMBER",
+                    "name": "bakesNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PO DATE (ON DOCUMENT)",
+                    "name": "purchaseOrderDate",
+                  },
+                  Object {
+                    "label": "TTD BAKES DAYS",
+                    "name": "ttdBakesDays",
+                  },
+                  Object {
+                    "label": "MASTER AGREEMENT NUMBER",
+                    "name": "agreementMasterNumber.agreeNumber",
+                  },
+                  Object {
+                    "label": "BAKES DURATION",
+                    "name": "bakesDuration",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "BAKES START DATE",
+                    "name": "bakesStartDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "BAKES END DATE",
+                    "name": "bakesEndDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "EXPECTED DELIVERY DATE",
+                    "name": "expectedDeliveryDate",
+                  },
+                  Object {
+                    "label": "ORDER TYPE",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "label": "Product Category",
+                    "name": "categoryName",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "PO SIGNER NAME",
+                    "name": "purchaseOrderSignerName",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CA NUMBER",
+                    "name": "custAccntNum",
+                  },
+                  Object {
+                    "label": "COMPANY",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "BILLING ACCOUNT",
+                    "name": "billingAccount",
+                  },
+                  Object {
+                    "label": "SERVICE ACCOUNT",
+                    "name": "serviceAccount",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "label": "JOB TITLE",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE",
+                    "name": "phone",
+                  },
+                  Object {
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                ],
+              },
+              "title": "Customer Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "render": <List
+                action={Array []}
+                breadcrumb={Array []}
+                filter={Array []}
+                noMargin={true}
+                noPadding={true}
+                onBottomPage={[Function]}
+                search={null}
+                table={
+                  Object {
+                    "customBody": Object {
+                      "verticalAlign": "text-top",
+                    },
+                    "customItem": Object {
+                      "alignItems": "top",
+                      "padding": "20px 12px",
+                    },
+                    "data": Array [
+                      Object {
+                        "mrc": "-",
+                        "otc": "Rp 10.000",
+                      },
+                    ],
+                    "loading": undefined,
+                    "meta": Object {
+                      "page": 0,
+                    },
+                    "schema": Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 160,
+                        },
+                        "label": "ITEM",
+                        "name": "item",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 280,
+                        },
+                        "label": "DESCRIPTION",
+                        "name": "description",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "label": "OTC PRICE",
+                        "name": "otc",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "label": "MRC PRICE",
+                        "name": "mrc",
+                      },
+                    ],
+                  }
+                }
+                tabs={
+                  Object {
+                    "onChange": [Function],
+                    "options": Array [],
+                    "value": "",
+                  }
+                }
+                title=""
+                withTopDivider={false}
+              />,
+              "title": "Order Item",
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [Function],
+                    "label": "ONE TIME CHARGE",
+                    "name": "otc",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "MONTHLY RECURRING PRICE",
+                    "name": "mrc",
+                  },
+                ],
+              },
+              "title": "Total Price",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "render": <React.Fragment>
+                <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  justifyContent="space-between"
+                  spacing={2}
+                  style={
+                    Object {
+                      "marginBottom": 32,
+                    }
+                  }
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={true}
+                  >
+                    <Numbering
+                      alignItems="flex-start"
+                      data={
+                        Object {
+                          "name": "Ayu Prihatini Novianingrum",
+                          "nik": "954785",
+                        }
+                      }
+                      number={1}
+                      schema={
+                        Array [
+                          Object {
+                            "label": "NAME",
+                            "name": "name",
+                          },
+                          Object {
+                            "label": "NIK",
+                            "name": "nik",
+                          },
+                          Object {
+                            "label": "SEGMENT",
+                            "name": "segment",
+                          },
+                          Object {
+                            "label": "ROLE",
+                            "name": "role",
+                          },
+                          Object {
+                            "label": "POSITION",
+                            "name": "position",
+                          },
+                          Object {
+                            "label": "CONTACT NUMBER",
+                            "name": "phone",
+                          },
+                        ]
+                      }
+                      size="default"
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>
+              </React.Fragment>,
+              "title": "Account Manager",
+              "type": "custom",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "NAME",
+                    "name": "segmentManager.name",
+                  },
+                  Object {
+                    "label": "NIK",
+                    "name": "segmentManager.nik",
+                  },
+                  Object {
+                    "label": "TITLE",
+                    "name": "segmentManager.title",
+                  },
+                  Object {
+                    "label": "CONTACT NUMBER",
+                    "name": "segmentManager.phone",
+                  },
+                ],
+              },
+              "title": "Manager Segment",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Purchase Order",
+                    "name": "documentPO",
+                  },
+                  Object {
+                    "label": "BAKES",
+                    "name": "bakesFile",
+                  },
+                  Object {
+                    "label": "BASO",
+                    "name": "activationDoc",
+                  },
+                  Object {
+                    "label": "SIUP",
+                    "name": "siup",
+                  },
+                  Object {
+                    "label": "Company Deed",
+                    "name": "companyDeed",
+                  },
+                  Object {
+                    "label": "NPWP",
+                    "name": "npwp",
+                  },
+                  Object {
+                    "label": "Onboarding File",
+                    "name": "onboardingFile",
+                  },
+                  Object {
+                    "label": "Data Consent File",
+                    "name": "dataConsentFile",
+                  },
+                  Object {
+                    "label": "Additional File",
+                    "name": "additionalFile",
+                  },
+                  Object {
+                    "label": "Agreement",
+                    "name": "agreementDocument",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "AM Approval",
+                  "Segment Approval",
+                  "Delay Order",
+                  "Completed",
+                ],
+                "warnings": undefined,
+              },
+              "title": "Purchase Order Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    content={null}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Neucentrix render properly with other status label 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Purchase Order",
+          "url": "/dashboard/purchase-order",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={
+      Object {
+        "children": "draft",
+        "variant": "primary",
+      }
+    }
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "label": "draft",
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "hidden": true,
+                    "label": "NCX ORDER NUMBER",
+                    "name": "ncxNumber",
+                  },
+                  Object {
+                    "label": "ORDER ID",
+                    "name": "orderId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PURCHASE DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "label": "PO NUMBER (ON DOCUMENT)",
+                    "name": "purchaseOrderNumber",
+                  },
+                  Object {
+                    "label": "BAKES NUMBER",
+                    "name": "bakesNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "PO DATE (ON DOCUMENT)",
+                    "name": "purchaseOrderDate",
+                  },
+                  Object {
+                    "label": "TTD BAKES DAYS",
+                    "name": "ttdBakesDays",
+                  },
+                  Object {
+                    "label": "MASTER AGREEMENT NUMBER",
+                    "name": "agreementMasterNumber.agreeNumber",
+                  },
+                  Object {
+                    "label": "BAKES DURATION",
+                    "name": "bakesDuration",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "BAKES START DATE",
+                    "name": "bakesStartDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "BAKES END DATE",
+                    "name": "bakesEndDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "EXPECTED DELIVERY DATE",
+                    "name": "expectedDeliveryDate",
+                  },
+                  Object {
+                    "label": "ORDER TYPE",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "label": "Product Category",
+                    "name": "categoryName",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "PO SIGNER NAME",
+                    "name": "purchaseOrderSignerName",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "label": "draft",
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CA NUMBER",
+                    "name": "custAccntNum",
+                  },
+                  Object {
+                    "label": "COMPANY",
+                    "name": "custAccntName",
+                  },
+                  Object {
+                    "label": "BILLING ACCOUNT",
+                    "name": "billingAccount",
+                  },
+                  Object {
+                    "label": "SERVICE ACCOUNT",
+                    "name": "serviceAccount",
+                  },
+                  Object {
+                    "label": "FULL NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "label": "JOB TITLE",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "label": "MOBILE PHONE",
+                    "name": "phone",
+                  },
+                  Object {
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                ],
+              },
+              "title": "Customer Information",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "render": <List
+                action={Array []}
+                breadcrumb={Array []}
+                filter={Array []}
+                noMargin={true}
+                noPadding={true}
+                onBottomPage={[Function]}
+                search={null}
+                table={
+                  Object {
+                    "customBody": Object {
+                      "verticalAlign": "text-top",
+                    },
+                    "customItem": Object {
+                      "alignItems": "top",
+                      "padding": "20px 12px",
+                    },
+                    "data": Array [
+                      Object {
+                        "mrc": "-",
+                        "otc": "Rp 10.000",
+                      },
+                    ],
+                    "loading": undefined,
+                    "meta": Object {
+                      "page": 0,
+                    },
+                    "schema": Array [
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 160,
+                        },
+                        "label": "ITEM",
+                        "name": "item",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 280,
+                        },
+                        "label": "DESCRIPTION",
+                        "name": "description",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "label": "OTC PRICE",
+                        "name": "otc",
+                      },
+                      Object {
+                        "cellStyle": Object {
+                          "minWidth": 180,
+                        },
+                        "label": "MRC PRICE",
+                        "name": "mrc",
+                      },
+                    ],
+                  }
+                }
+                tabs={
+                  Object {
+                    "onChange": [Function],
+                    "options": Array [],
+                    "value": "",
+                  }
+                }
+                title=""
+                withTopDivider={false}
+              />,
+              "title": "Order Item",
+              "type": "custom",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "label": "draft",
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [Function],
+                    "label": "ONE TIME CHARGE",
+                    "name": "otc",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "MONTHLY RECURRING PRICE",
+                    "name": "mrc",
+                  },
+                ],
+              },
+              "title": "Total Price",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "render": <React.Fragment>
+                <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  justifyContent="space-between"
+                  spacing={2}
+                  style={
+                    Object {
+                      "marginBottom": 32,
+                    }
+                  }
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={true}
+                  >
+                    <Numbering
+                      alignItems="flex-start"
+                      data={
+                        Object {
+                          "name": "Ayu Prihatini Novianingrum",
+                          "nik": "954785",
+                        }
+                      }
+                      number={1}
+                      schema={
+                        Array [
+                          Object {
+                            "label": "NAME",
+                            "name": "name",
+                          },
+                          Object {
+                            "label": "NIK",
+                            "name": "nik",
+                          },
+                          Object {
+                            "label": "SEGMENT",
+                            "name": "segment",
+                          },
+                          Object {
+                            "label": "ROLE",
+                            "name": "role",
+                          },
+                          Object {
+                            "label": "POSITION",
+                            "name": "position",
+                          },
+                          Object {
+                            "label": "CONTACT NUMBER",
+                            "name": "phone",
+                          },
+                        ]
+                      }
+                      size="default"
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>
+              </React.Fragment>,
+              "title": "Account Manager",
+              "type": "custom",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "label": "draft",
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "NAME",
+                    "name": "segmentManager.name",
+                  },
+                  Object {
+                    "label": "NIK",
+                    "name": "segmentManager.nik",
+                  },
+                  Object {
+                    "label": "TITLE",
+                    "name": "segmentManager.title",
+                  },
+                  Object {
+                    "label": "CONTACT NUMBER",
+                    "name": "segmentManager.phone",
+                  },
+                ],
+              },
+              "title": "Manager Segment",
+              "type": "information",
+            },
+            Object {
+              "hidden": false,
+              "properties": Object {
+                "data": Object {
+                  "accountManager": Array [
+                    Object {
+                      "name": "Ayu Prihatini Novianingrum",
+                      "nik": "954785",
+                    },
+                  ],
+                  "label": "draft",
+                  "orderItem": Array [
+                    Object {
+                      "otc": 10000,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Purchase Order",
+                    "name": "documentPO",
+                  },
+                  Object {
+                    "label": "BAKES",
+                    "name": "bakesFile",
+                  },
+                  Object {
+                    "label": "BASO",
+                    "name": "activationDoc",
+                  },
+                  Object {
+                    "label": "SIUP",
+                    "name": "siup",
+                  },
+                  Object {
+                    "label": "Company Deed",
+                    "name": "companyDeed",
+                  },
+                  Object {
+                    "label": "NPWP",
+                    "name": "npwp",
+                  },
+                  Object {
+                    "label": "Onboarding File",
+                    "name": "onboardingFile",
+                  },
+                  Object {
+                    "label": "Data Consent File",
+                    "name": "dataConsentFile",
+                  },
+                  Object {
+                    "label": "Additional File",
+                    "name": "additionalFile",
+                  },
+                  Object {
+                    "label": "Agreement",
+                    "name": "agreementDocument",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "AM Approval",
+                  "Segment Approval",
+                  "Delay Order",
+                  "Completed",
+                ],
+                "warnings": undefined,
+              },
+              "title": "Purchase Order Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    content={null}
+  />
+</React.Fragment>
+`;

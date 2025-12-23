@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/DateRangePicker render/primary 1`] = `
+<DateRangePickerPrimary
+  error={false}
+  inputFormat="DD/MM/YYYY"
+  label={
+    Array [
+      "Start Date",
+      "End Date",
+    ]
+  }
+  labelText={null}
+  onChange={[MockFunction]}
+  required={false}
+  value={
+    Array [
+      null,
+      null,
+    ]
+  }
+  withIcon={false}
+/>
+`;
+
+exports[`src/components/DateRangePicker render/secondary 1`] = `
+<DateRangePickerSecondary
+  format="DD/MM/YYYY"
+  label={
+    Array [
+      "Start Date",
+      "End Date",
+    ]
+  }
+  onChange={[MockFunction]}
+  useRangeMonth={false}
+  value={
+    Array [
+      null,
+      null,
+    ]
+  }
+  views={
+    Array [
+      "date",
+    ]
+  }
+/>
+`;

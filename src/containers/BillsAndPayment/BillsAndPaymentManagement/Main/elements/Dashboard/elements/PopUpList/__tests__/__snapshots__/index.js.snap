@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/PopUpList/index render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  PaperProps={
+    Object {
+      "id": undefined,
+    }
+  }
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  keepMounted={false}
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Summary Invoice Document Status
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <List
+      action={Array []}
+      breadcrumb={Array []}
+      filter={
+        Array [
+          Object {
+            "label": "",
+            "onChange": [MockFunction],
+            "options": Array [
+              Object {
+                "label": "All Status",
+                "value": "",
+              },
+              Object {
+                "label": "Requested",
+                "value": "INITIAL",
+              },
+              Object {
+                "label": "In Progress",
+                "value": "INPROGRESS",
+              },
+              Object {
+                "label": "Completed",
+                "value": "FINISH",
+              },
+            ],
+            "type": "dropdown",
+            "value": Object {},
+          },
+        ]
+      }
+      noMargin={true}
+      noPadding={true}
+      onBottomPage={[Function]}
+      search={
+        Object {
+          "id": undefined,
+          "noBorder": true,
+          "onChange": [MockFunction],
+          "placeholder": "Search Invoice..",
+          "value": "test",
+        }
+      }
+      table={
+        Object {
+          "data": Array [
+            Object {
+              "status": undefined,
+            },
+            Object {
+              "status": undefined,
+            },
+          ],
+          "id": undefined,
+          "loading": false,
+          "loadingRoot": undefined,
+          "maxHeight": 330,
+          "meta": undefined,
+          "onPaginationChange": undefined,
+          "page": undefined,
+          "schema": Array [
+            Object {
+              "cellStyle": Object {
+                "minWidth": 200,
+                "width": 200,
+              },
+              "label": "COMPANY NAME",
+              "name": "companyName",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "BP NUMBER",
+              "name": "bpNumber",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "PERIOD",
+              "name": "periode",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 160,
+                "width": 160,
+              },
+              "label": "INVOICE NUMBER",
+              "name": "invoiceNumber",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 200,
+                "width": 200,
+              },
+              "currency": true,
+              "label": "INVOICE BILLS",
+              "name": "invoiceBill",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 140,
+                "width": 140,
+              },
+              "formatDate": "date-time",
+              "label": "REQUESTED TIME",
+              "name": "requestedTime",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 140,
+                "width": 140,
+              },
+              "label": "Description",
+              "name": "description",
+            },
+            Object {
+              "label": "STATUS",
+              "name": "status",
+              "schemaStatus": Object {
+                "Attachment Created": "warning",
+                "COMPLETED": "success",
+                "E-Materai Completed": "warning",
+                "IN PROGRESS": "warning",
+                "INVOICE COMPLETED": "success",
+                "Invoice Completed": "success",
+                "Invoice Created": "warning",
+                "REQUESTED": "primary",
+                "Requested": "primary",
+                "Tax Invoice Created": "warning",
+              },
+            },
+          ],
+        }
+      }
+      tabs={
+        Object {
+          "onChange": [Function],
+          "options": Array [],
+          "value": "",
+        }
+      }
+      title=""
+      withTopDivider={false}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CLOSE
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      DOWNLOAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/PopUpList/index render type billingReminder 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  PaperProps={
+    Object {
+      "id": undefined,
+    }
+  }
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  keepMounted={false}
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Summary Billing Reminder
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <List
+      action={Array []}
+      breadcrumb={Array []}
+      filter={
+        Array [
+          Object {
+            "label": "",
+            "onChange": [MockFunction],
+            "options": Array [
+              Object {
+                "label": "All Status",
+                "value": "",
+              },
+              Object {
+                "label": "Draft",
+                "value": "Draft",
+              },
+              Object {
+                "label": "Approval",
+                "value": "Approval",
+              },
+              Object {
+                "label": "In Progress",
+                "value": "In Progress",
+              },
+              Object {
+                "label": "Sent",
+                "value": "Sent",
+              },
+              Object {
+                "label": "Failed",
+                "value": "Failed",
+              },
+              Object {
+                "label": "Reject",
+                "value": "Reject",
+              },
+            ],
+            "type": "dropdown",
+            "value": Object {},
+          },
+        ]
+      }
+      noMargin={true}
+      noPadding={true}
+      onBottomPage={[Function]}
+      search={
+        Object {
+          "id": undefined,
+          "noBorder": true,
+          "onChange": [MockFunction],
+          "placeholder": "Search Invoice..",
+          "value": "test",
+        }
+      }
+      table={
+        Object {
+          "data": Array [
+            Object {},
+            Object {},
+          ],
+          "id": undefined,
+          "loading": false,
+          "loadingRoot": undefined,
+          "maxHeight": 330,
+          "meta": undefined,
+          "onPaginationChange": undefined,
+          "page": undefined,
+          "schema": Array [
+            Object {
+              "cellStyle": Object {
+                "minWidth": 260,
+                "width": 260,
+              },
+              "label": "COMPANY NAME",
+              "name": "companyName",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "BP NUMBER",
+              "name": "bpNumber",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "PERIOD",
+              "name": "period",
+            },
+            Object {
+              "converter": [Function],
+              "label": "LOG SENT",
+              "name": "logSent",
+            },
+            Object {
+              "cellStyle": Object {
+                "width": 100,
+              },
+              "label": "STATUS",
+              "name": "status",
+              "schemaStatus": Object {
+                "Approval": "alert",
+                "Draft": "primary",
+                "Failed": "danger",
+                "In Progress": "warning",
+                "Need Approval": "alert",
+                "Reject": "danger",
+                "Sent": "success",
+              },
+            },
+          ],
+        }
+      }
+      tabs={
+        Object {
+          "onChange": [Function],
+          "options": Array [],
+          "value": "",
+        }
+      }
+      title=""
+      withTopDivider={false}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CLOSE
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      DOWNLOAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/elements/PopUpList/index render type thanksLetter 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  PaperProps={
+    Object {
+      "id": undefined,
+    }
+  }
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  keepMounted={false}
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Summary Thanks Letter - In Progress
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <List
+      action={Array []}
+      breadcrumb={Array []}
+      filter={Array []}
+      noMargin={true}
+      noPadding={true}
+      onBottomPage={[Function]}
+      search={
+        Object {
+          "id": undefined,
+          "noBorder": true,
+          "onChange": [MockFunction],
+          "placeholder": "Search Invoice..",
+          "value": "test",
+        }
+      }
+      table={
+        Object {
+          "data": Array [
+            Object {},
+            Object {},
+          ],
+          "id": undefined,
+          "loading": false,
+          "loadingRoot": undefined,
+          "maxHeight": 330,
+          "meta": undefined,
+          "onPaginationChange": undefined,
+          "page": undefined,
+          "schema": Array [
+            Object {
+              "cellStyle": Object {
+                "minWidth": 260,
+                "width": 260,
+              },
+              "label": "COMPANY NAME",
+              "name": "companyName",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "BP NUMBER",
+              "name": "bpNumber",
+            },
+            Object {
+              "cellStyle": Object {
+                "minWidth": 120,
+                "width": 120,
+              },
+              "label": "PERIOD",
+              "name": "period",
+            },
+            Object {
+              "converter": [Function],
+              "label": "LOG SENT",
+              "name": "logSent",
+            },
+            Object {
+              "cellStyle": Object {
+                "width": 100,
+              },
+              "label": "STATUS",
+              "name": "status",
+              "schemaStatus": Object {
+                "Approval": "alert",
+                "Draft": "primary",
+                "Failed": "danger",
+                "In Progress": "warning",
+                "Need Approval": "alert",
+                "Reject": "danger",
+                "Sent": "success",
+              },
+            },
+          ],
+        }
+      }
+      tabs={
+        Object {
+          "onChange": [Function],
+          "options": Array [],
+          "value": "",
+        }
+      }
+      title=""
+      withTopDivider={false}
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "center",
+        "mt": 4,
+      }
+    }
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CLOSE
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      DOWNLOAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

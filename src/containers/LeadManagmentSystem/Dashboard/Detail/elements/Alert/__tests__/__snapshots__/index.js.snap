@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/DetailPhase2/elements/AlertWDM render 1`] = `
+<WithStyles(ForwardRef(Alert))
+  className="makeStyles-alert-1"
+  icon={
+    <Information
+      className="makeStyles-alertIcon-2"
+    />
+  }
+>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={false}
+    variant="subtitle1"
+    weight="normal"
+  >
+    <span
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+  </Typography>
+</WithStyles(ForwardRef(Alert))>
+`;

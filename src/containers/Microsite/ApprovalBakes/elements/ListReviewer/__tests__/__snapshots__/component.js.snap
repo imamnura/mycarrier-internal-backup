@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Microsite/ApprovalBakes/element/ListReviewer render 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    color="grey"
+    variant="body1"
+  >
+    Note From Telkom
+  </WithStyles(Component)>
+  <WithStyles(Component)
+    child={[Function]}
+    classes={Object {}}
+    data={
+      Array [
+        Object {
+          "note": "note",
+        },
+        Object {
+          "note": "note",
+        },
+      ]
+    }
+    hide={[Function]}
+  />
+</React.Fragment>
+`;

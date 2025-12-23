@@ -1,0 +1,121 @@
+export const statusLabel = {
+  actived: 'completed',
+  'am approval': 'am approval',
+  'am returned': 'returned',
+  approved: 'completed',
+  'baso signed': 'baso signed',
+  checking: 'am approval',
+  completed: 'completed',
+  confirmation: 'confirmation',
+  'customer agreement': 'customer agreement',
+  'customer returned': 'returned',
+  'customer signed baso': 'customer signed',
+  'delivery approval': 'delivery approval',
+  'delivery approved': 'completed',
+  'delivery returned': 'returned',
+  'delay order': 'delay order',
+  draft: 'draft',
+  provisioning: 'provisioning',
+  returned: 'returned',
+  'segment approval': 'segment approval',
+  'segment returned': 'returned',
+  'telkom approval': 'telkom approval',
+  'wds approval': 'wds approval',
+  'wds approved': 'completed',
+  'operator approval': 'operator approval',
+  'operator checking': 'operator checking',
+  'operator returned': 'returned',
+  rejected: 'rejected',
+  failed: 'failed',
+  'order created': 'order created',
+  'creating order in NCX': 'creating order in NCX',
+};
+
+export const statusVariant = {
+  'am approval': 'primary',
+  approved: 'success',
+  'baso signed': 'warning',
+  completed: 'success',
+  confirmation: 'warning',
+  'customer agreement': 'warning',
+  'customer signed': 'warning',
+  'delivery approval': 'warning',
+  'delay order': 'warning',
+  provisioning: 'warning',
+  'operator approval': 'warning',
+  'operator checking': 'warning',
+  returned: 'danger',
+  rejected: 'danger',
+  'segment approval': 'warning',
+  'telkom approval': 'warning',
+  'wds approval': 'warning',
+  draft: 'primary',
+  failed: 'danger',
+  'order created': 'success',
+  'creating order in NCX': 'warning',
+};
+
+export const schema = [
+  {
+    cellStyle: {
+      minWidth: 130,
+      width: 130,
+    },
+    label: 'Order ID',
+    name: 'orderNumber',
+  },
+  {
+    cellStyle: {
+      minWidth: 120,
+      width: 120,
+    },
+    label: 'Order Type',
+    name: 'orderType',
+  },
+  {
+    cellStyle: {
+      minWidth: 240,
+    },
+    label: 'Customer',
+    name: 'custAccntName',
+  },
+  {
+    cellStyle: {
+      minWidth: 180,
+      width: 180,
+    },
+    label: 'Product Name',
+    name: 'productName',
+  },
+  {
+    cellStyle: {
+      minWidth: 120,
+    },
+    label: 'Service / Product ID',
+    name: 'sid',
+  },
+  {
+    cellStyle: {
+      minWidth: 150,
+      width: 150,
+    },
+    label: 'Purchase Date',
+    name: 'createdAt',
+    formatDate: 'date-time',
+  },
+  {
+    cellStyle: {
+      minWidth: 150,
+      width: 150,
+    },
+    label: 'Last Update',
+    name: 'updatedAt',
+    formatDate: 'date-time',
+    sort: true,
+  },
+  {
+    label: 'Status',
+    name: 'status',
+    schemaStatus: statusVariant,
+  },
+];

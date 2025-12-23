@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/Detail/PopUp run properly 1`] = `
+<Detail
+  action={
+    Array [
+      Object {
+        "custom": <SwitchStatusPopUp
+          data={Object {}}
+          label="Set to active"
+          onClickUpdateStatus={[Function]}
+        />,
+      },
+      Object {
+        "children": "Delete",
+        "disabled": false,
+        "hideDivider": true,
+        "leftIcon": [Function],
+        "ml": 16,
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Edit",
+        "hideDivider": true,
+        "leftIcon": [Function],
+        "ml": 16,
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+    ]
+  }
+  breadcrumb={Array []}
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "label": "POP UP NAME",
+                  "name": "name",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "CREATED DATE",
+                  "name": "createdAt",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "PERIOD",
+                  "name": "period",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "ACTION BUTTON LINK",
+                  "name": "link",
+                },
+              ],
+            },
+            "title": "Pop Up Details",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "imageType": true,
+                  "name": "imageUrl",
+                },
+              ],
+            },
+            "title": "Pop Up Image",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/Detail/PopUp run properly with no privilege access 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={Array []}
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "label": "POP UP NAME",
+                  "name": "name",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "CREATED DATE",
+                  "name": "createdAt",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "PERIOD",
+                  "name": "period",
+                },
+                Object {
+                  "grid": 12,
+                  "label": "ACTION BUTTON LINK",
+                  "name": "link",
+                },
+              ],
+            },
+            "title": "Pop Up Details",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "imageType": true,
+                  "name": "imageUrl",
+                },
+              ],
+            },
+            "title": "Pop Up Image",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;

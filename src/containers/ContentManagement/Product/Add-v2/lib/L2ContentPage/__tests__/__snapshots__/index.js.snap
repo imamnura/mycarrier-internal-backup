@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/L2ContentPage/index render 1`] = `
+<React.Fragment>
+  <Tabs
+    isCustom={false}
+    onChange={[MockFunction]}
+    options={Array []}
+    value="id"
+    variant="default"
+  />
+  <div
+    style={
+      Object {
+        "paddingTop": 64,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "borderRadius": "5px",
+            "position": "absolute",
+            "right": "0",
+            "top": "58%",
+            "zIndex": "3",
+          }
+        }
+      >
+        <Dropdown
+          additionalWidth={0}
+          asyncProps={Object {}}
+          creatableWording={null}
+          emptyMessage={null}
+          isCreatable={false}
+          isOptionDisabled={[Function]}
+          maxWidth={null}
+          menuStick="left"
+          menuWidth={200}
+          minWidth={null}
+          noBorder={false}
+          onCreate={[Function]}
+          onSearch={[Function]}
+          placeholder="Choose Option"
+          required={false}
+          searchable={false}
+          staticHeight={null}
+          staticWidth={300}
+          styles={Object {}}
+          valueFitToContent={false}
+        />
+      </div>
+    </div>
+    <Hero
+      file={Object {}}
+      formType=""
+      level=""
+      previewMode={false}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductOverview
+      level=""
+      previewMode={false}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductDescription
+      formType=""
+      level=""
+      previewMode={false}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductTypes
+      formType=""
+      isDisplayProductType={true}
+      level=""
+      previewMode={false}
+      setIsDisplayProductType={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductBenefits
+      formType=""
+      isDisplayProductBenefits={true}
+      level=""
+      previewMode={false}
+      setIsDisplayProductBenefits={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductSpesifications
+      formType=""
+      isDisplayProductSpesifications={true}
+      level=""
+      previewMode={false}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <QualityService
+      formType=""
+      isDisplayProductQuality={true}
+      level=""
+      previewMode={false}
+      setIsDisplayProductQuality={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ServiceLevel
+      formType=""
+      isDisplayProductGuarantee={true}
+      level=""
+      previewMode={false}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <MarketingToolKit
+      formType=""
+      isDisplayProductMarketingToolkit={true}
+      l2DocumentState={Object {}}
+      level=""
+      previewMode={false}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <TalkToUs
+      formType=""
+      level=""
+      previewMode={false}
+      productName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/L2ContentPage/index render previewMode true 1`] = `
+<React.Fragment>
+  <div
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Hero
+      file={Object {}}
+      formType=""
+      level=""
+      previewMode={true}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductOverview
+      level=""
+      previewMode={true}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductDescription
+      formType=""
+      level=""
+      previewMode={true}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductTypes
+      formType=""
+      isDisplayProductType={true}
+      level=""
+      previewMode={true}
+      setIsDisplayProductType={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductBenefits
+      formType=""
+      isDisplayProductBenefits={true}
+      level=""
+      previewMode={true}
+      setIsDisplayProductBenefits={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductSpesifications
+      formType=""
+      isDisplayProductSpesifications={true}
+      level=""
+      previewMode={true}
+      setIsDisplayProductSpesifications={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <QualityService
+      formType=""
+      isDisplayProductQuality={true}
+      level=""
+      previewMode={true}
+      setIsDisplayProductQuality={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ServiceLevel
+      formType=""
+      isDisplayProductGuarantee={true}
+      level=""
+      previewMode={true}
+      setIsDisplayProductGuarantee={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <MarketingToolKit
+      formType=""
+      isDisplayProductMarketingToolkit={true}
+      l2DocumentState={Object {}}
+      level=""
+      previewMode={true}
+      setIsDisplayProductMarketingToolkit={[MockFunction]}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <TalkToUs
+      formType=""
+      level=""
+      previewMode={true}
+      productName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </div>
+</React.Fragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/Components/LoadingBar render 1`] = `
+<WithStyles(ForwardRef(LinearProgress))
+  classes={
+    Object {
+      "bar": "makeStyles-bar-2",
+      "root": "makeStyles-progress-1",
+    }
+  }
+  value={50}
+/>
+`;
+
+exports[`src/Components/LoadingBar render/finished 1`] = `null`;

@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/MessagePreview render 1`] = `
+<WithStyles(Component)
+  maxWidth="md"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Chat History
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "end",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className=""
+          >
+            <div
+              className=""
+            />
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={2}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                >
+                  <Profile />
+                  <div>
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={true}
+                      variant="subtitle2"
+                      weight="bold"
+                    >
+                      test
+                    </Typography>
+                    <Typography
+                      className=""
+                      color="general-light"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      staff
+                       • 
+                      test
+                    </Typography>
+                  </div>
+                </div>
+                <div>
+                  <Typography
+                    className=""
+                    color="general-light"
+                    inline={false}
+                    variant="overline"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={1}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <Attachment
+                  fileName=""
+                  fileUrl=""
+                  hidePreviewDownload={false}
+                  previewCentered={false}
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <Attachment
+                  fileName=""
+                  fileUrl=""
+                  hidePreviewDownload={false}
+                  previewCentered={false}
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </div>
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/MessagePreview render title not staff 1`] = `
+<WithStyles(Component)
+  maxWidth="md"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Chat History
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "start",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className=""
+          >
+            <div
+              className=""
+            />
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={2}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                >
+                  <Profile />
+                  <div>
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={true}
+                      variant="subtitle2"
+                      weight="bold"
+                    >
+                      test
+                    </Typography>
+                    <Typography
+                      className=""
+                      color="general-light"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      test
+                       • 
+                      test
+                    </Typography>
+                  </div>
+                </div>
+                <div>
+                  <Typography
+                    className=""
+                    color="general-light"
+                    inline={false}
+                    variant="overline"
+                    weight="normal"
+                  >
+                    -
+                  </Typography>
+                </div>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="inherit"
+                  inline={false}
+                  variant="subtitle2"
+                  weight="normal"
+                >
+                  test
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={1}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <Attachment
+                  fileName=""
+                  fileUrl=""
+                  hidePreviewDownload={false}
+                  previewCentered={false}
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <Attachment
+                  fileName=""
+                  fileUrl=""
+                  hidePreviewDownload={false}
+                  previewCentered={false}
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </div>
+        </div>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/MessagePreview render title not staff 2 1`] = `
+<WithStyles(Component)
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Chat History
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Loading
+        color="primary"
+        size="small"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

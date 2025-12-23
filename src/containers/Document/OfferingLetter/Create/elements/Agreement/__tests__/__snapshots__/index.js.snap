@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/Agreement/index render 1`] = `
+<React.Fragment>
+  <Create
+    action={
+      Array [
+        Object {
+          "children": "Save as Draft",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Previous Step",
+          "loading": false,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "review & submit",
+          "loading": false,
+          "ml": 16,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Offering Letter",
+          "url": "/dashboard/offering-letter",
+        },
+        Object {
+          "label": "New Offering Letter",
+        },
+      ]
+    }
+    loading={false}
+    stepperTab={
+      <StepperForm
+        active={4}
+        data={Object {}}
+        onStepperClick={[MockFunction]}
+      />
+    }
+  >
+    <Card
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+      title="Telkom Approval"
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                1
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.0.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.0.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.0.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.0.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                2
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.1.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.1.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.1.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.1.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </Card>
+  </Create>
+  <Otp
+    caption=""
+    description="You will get Peruri Digital Sign OTP code, please input for approval"
+    id="test"
+    open={false}
+    title="Please input your OTP code"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/Agreement/index render signatureType am_approval 1`] = `
+<React.Fragment>
+  <Create
+    action={
+      Array [
+        Object {
+          "children": "Save as Draft",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Previous Step",
+          "loading": false,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "review & submit",
+          "loading": false,
+          "ml": 16,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Offering Letter",
+          "url": "/dashboard/offering-letter",
+        },
+        Object {
+          "label": "New Offering Letter",
+        },
+      ]
+    }
+    loading={false}
+    stepperTab={
+      <StepperForm
+        active={4}
+        data={Object {}}
+        onStepperClick={[MockFunction]}
+      />
+    }
+  >
+    <Card
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+      title="Telkom Approval"
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                1
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.0.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.0.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.0.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.0.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                2
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.1.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.1.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.1.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.1.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </Card>
+  </Create>
+  <Otp
+    caption=""
+    description="You will get Peruri Digital Sign OTP code, please input for approval"
+    id="test"
+    open={false}
+    title="Please input your OTP code"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/Agreement/index render signatureType multiple_approval 1`] = `
+<React.Fragment>
+  <Create
+    action={
+      Array [
+        Object {
+          "children": "Save as Draft",
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Previous Step",
+          "loading": false,
+          "onClick": undefined,
+        },
+        Object {
+          "children": "review & submit",
+          "loading": false,
+          "ml": 16,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Offering Letter",
+          "url": "/dashboard/offering-letter",
+        },
+        Object {
+          "label": "New Offering Letter",
+        },
+      ]
+    }
+    loading={false}
+    stepperTab={
+      <StepperForm
+        active={4}
+        data={Object {}}
+        onStepperClick={[MockFunction]}
+      />
+    }
+  >
+    <Card
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+      title="Telkom Approval"
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                1
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.0.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.0.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.0.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.0.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Telkom Reviewer 
+                2
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="agreement.1.name"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="agreement.1.phoneNumber"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Title"
+              maxLength={60}
+              name="agreement.1.position"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="agreement.1.email"
+              required={true}
+              shouldUnregister={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </Card>
+  </Create>
+  <Otp
+    caption=""
+    description="You will get Peruri Digital Sign OTP code, please input for approval"
+    id="test"
+    open={false}
+    title="Please input your OTP code"
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,928 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Description"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row-reverse"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={false}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description0"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionid[0].title"
+                noSpacing={true}
+                placeholder="Ketik konten judul di sini dalam Bahasa.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={false}
+                tab="id"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+    <div>
+      <LineButton
+        classes={Object {}}
+        handleClick={[Function]}
+        label="DELETE SECTION"
+        variant="primary"
+      />
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={false}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description1"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginLeft": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionid[1].title"
+                noSpacing={true}
+                placeholder="Ketik konten judul di sini dalam Bahasa.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={false}
+                tab="id"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+    <LineButton
+      classes={Object {}}
+      handleClick={[MockFunction]}
+      label="ADD SECTION"
+      variant="default"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/index render null data 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Description"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <LineButton
+      classes={Object {}}
+      handleClick={[MockFunction]}
+      label="ADD SECTION"
+      variant="default"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/index render tab en 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Description"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row-reverse"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={false}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description0"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionen[0].title"
+                noSpacing={true}
+                placeholder="Type the content of the title here in English.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={false}
+                tab="en"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={false}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description1"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginLeft": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={false}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionen[1].title"
+                noSpacing={true}
+                placeholder="Type the content of the title here in English.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={false}
+                tab="en"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/index render tab en previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row-reverse"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={true}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description0"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionen[0].title"
+                noSpacing={true}
+                placeholder="Type the content of the title here in English.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={true}
+                tab="en"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={true}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description1"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginLeft": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionen[1].title"
+                noSpacing={true}
+                placeholder="Type the content of the title here in English.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={true}
+                tab="en"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductDescription/index render tab id previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row-reverse"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={true}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description0"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginRight": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionid[0].title"
+                noSpacing={true}
+                placeholder="Ketik konten judul di sini dalam Bahasa.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={true}
+                tab="id"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+    <div>
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        direction="row"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <UploadImage
+                alt="Link gambar disini.."
+                disabled={true}
+                getUpdateItem={[Function]}
+                isIcon={false}
+                isValidateByPixel={false}
+                item="test"
+                maxSize={358400}
+                previewState={Object {}}
+                ratioPixel={
+                  Array [
+                    32,
+                    32,
+                  ]
+                }
+                sectionName="Description1"
+                sizeBig={false}
+                type="large"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={7}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginLeft": "2.5rem",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                disabled={true}
+                fontSize="2.25rem"
+                multiline={true}
+                name="ProductDescriptionid[1].title"
+                noSpacing={true}
+                placeholder="Ketik konten judul di sini dalam Bahasa.."
+                position="left"
+                weight="bold"
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              <TextEditorComp
+                editableDescInitialValue={false}
+                onChange={[Function]}
+                previewMode={true}
+                tab="id"
+                value="test"
+              />
+            </div>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </div>
+  </div>
+</div>
+`;

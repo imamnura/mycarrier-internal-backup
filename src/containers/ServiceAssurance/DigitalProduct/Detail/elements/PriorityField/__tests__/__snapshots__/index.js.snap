@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/PriorityField render 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#3BA064",
+        "borderRadius": "50%",
+        "height": "12px",
+        "marginRight": 4,
+        "width": "12px",
+      }
+    }
+  />
+  <Typography
+    className=""
+    color="inherit"
+    inline={true}
+    variant="subtitle1"
+    weight="normal"
+  >
+    low
+  </Typography>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/PriorityField render null 1`] = `"-"`;

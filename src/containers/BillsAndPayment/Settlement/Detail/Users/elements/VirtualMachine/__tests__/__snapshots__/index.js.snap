@@ -1,0 +1,749 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/Users/elements/VirtualMachine render 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    mb={2}
+  >
+    <SearchBox
+      onChange={[MockFunction]}
+      placeholder="Search ID..."
+      size="default"
+      value=""
+    />
+  </Styled(MuiBox)>
+  <TableDesktop
+    customBody={null}
+    customEmptyMessage={null}
+    customItem={null}
+    customStyles={Object {}}
+    data={
+      Array [
+        Object {
+          "vmDetail": <Styled(MuiBox)
+            sx={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "8px",
+                "pb": 2,
+              }
+            }
+          >
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                OS
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                Package
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                CPU
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                RAM
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <Styled(MuiBox) />
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                IP
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                -
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                Volume
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+          </Styled(MuiBox)>,
+          "vmHostname": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Typography
+              className=""
+              color="general-light"
+              inline={true}
+              variant="caption"
+              weight="normal"
+            >
+              Time on:
+            </Typography>
+            <Typography
+              className=""
+              color="green-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              
+            </Typography>
+          </Styled(MuiBox)>,
+          "vmStatus": <Styled(MuiBox)
+            alignItems="center"
+            display="flex"
+          >
+            <Styled(MuiBox)
+              className=""
+            />
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              
+            </Typography>
+          </Styled(MuiBox)>,
+        },
+        Object {
+          "currentStatus": "Running",
+          "vmDetail": <Styled(MuiBox)
+            sx={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "8px",
+                "pb": 2,
+              }
+            }
+          >
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                OS
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                Package
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                CPU
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                RAM
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+            <Styled(MuiBox) />
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                IP
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                -
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className=""
+                color="general-light"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                Volume
+              </Typography>
+              <Typography
+                className=""
+                color="general-main"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                
+              </Typography>
+            </div>
+          </Styled(MuiBox)>,
+          "vmHostname": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Typography
+              className=""
+              color="general-light"
+              inline={true}
+              variant="caption"
+              weight="normal"
+            >
+              Time on:
+            </Typography>
+            <Typography
+              className=""
+              color="green-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              
+            </Typography>
+          </Styled(MuiBox)>,
+          "vmStatus": <Styled(MuiBox)
+            alignItems="center"
+            display="flex"
+          >
+            <Styled(MuiBox)
+              className=""
+            />
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              Running
+            </Typography>
+          </Styled(MuiBox)>,
+        },
+      ]
+    }
+    emptyMessage="Data not found"
+    headerAlign="flex-start"
+    loading={false}
+    loadingRoot={false}
+    maxHeight={null}
+    meta={
+      Object {
+        "page": 0,
+        "totalPage": 0,
+      }
+    }
+    numbering={false}
+    onBottomPage={null}
+    onClickRow={null}
+    onPaginationChange={null}
+    page={1}
+    pickedRow=""
+    pickedRowKey=""
+    schema={
+      Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+            "width": 80,
+          },
+          "label": "Id",
+          "name": "id",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Hostname",
+          "name": "vmHostname",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "Detail",
+          "name": "vmDetail",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Current Status",
+          "name": "vmStatus",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Ram",
+          "name": "ramCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Cpu",
+          "name": "cpuCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Os License",
+          "name": "osLicenseCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Volume",
+          "name": "volumeCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Public Ip",
+          "name": "publicIpCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Package",
+          "name": "packageCost",
+        },
+      ]
+    }
+    selectWithRawData={false}
+    selectedRowKey="key"
+    selectedRowSticky={false}
+    size={10}
+    useCollapseChild={null}
+    useOrderBy={
+      Array [
+        null,
+        [Function],
+      ]
+    }
+    useOrderDirection={
+      Array [
+        null,
+        [Function],
+      ]
+    }
+    useSelectedRow={Array []}
+  />
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "flex-end",
+        "mt": 4,
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Showing 
+      <strong>
+        1
+         
+      </strong>
+      to
+       
+      <strong>
+        2
+         
+      </strong>
+      from 
+      <strong>
+        2
+      </strong>
+       total data
+    </Typography>
+    <WithStyles(ForwardRef(Pagination))
+      color="primary"
+      count={1}
+      onChange={[MockFunction]}
+      page={1}
+      shape="rounded"
+      variant="outlined"
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/Users/elements/VirtualMachine render/others 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    mb={2}
+  >
+    <SearchBox
+      onChange={[MockFunction]}
+      placeholder="Search ID..."
+      size="default"
+      value=""
+    />
+  </Styled(MuiBox)>
+  <TableDesktop
+    customBody={null}
+    customEmptyMessage={null}
+    customItem={null}
+    customStyles={Object {}}
+    data={Array []}
+    emptyMessage="Data not found"
+    headerAlign="flex-start"
+    loading={false}
+    loadingRoot={false}
+    maxHeight={null}
+    meta={
+      Object {
+        "page": 0,
+        "totalPage": 0,
+      }
+    }
+    numbering={false}
+    onBottomPage={null}
+    onClickRow={null}
+    onPaginationChange={null}
+    page={1}
+    pickedRow=""
+    pickedRowKey=""
+    schema={
+      Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+            "width": 80,
+          },
+          "label": "Id",
+          "name": "id",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Hostname",
+          "name": "vmHostname",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "Detail",
+          "name": "vmDetail",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Current Status",
+          "name": "vmStatus",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Ram",
+          "name": "ramCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Cpu",
+          "name": "cpuCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Os License",
+          "name": "osLicenseCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Volume",
+          "name": "volumeCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Public Ip",
+          "name": "publicIpCost",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "currency": true,
+          "label": "Package",
+          "name": "packageCost",
+        },
+      ]
+    }
+    selectWithRawData={false}
+    selectedRowKey="key"
+    selectedRowSticky={false}
+    size={10}
+    useCollapseChild={null}
+    useOrderBy={
+      Array [
+        null,
+        [Function],
+      ]
+    }
+    useOrderDirection={
+      Array [
+        null,
+        [Function],
+      ]
+    }
+    useSelectedRow={Array []}
+  />
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "gap": 16,
+        "justifyContent": "flex-end",
+        "mt": 4,
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Showing 
+      <strong>
+        1
+         
+      </strong>
+      to
+       
+      <strong>
+        0
+         
+      </strong>
+      from 
+      <strong>
+        2
+      </strong>
+       total data
+    </Typography>
+    <WithStyles(ForwardRef(Pagination))
+      color="primary"
+      count={Infinity}
+      onChange={[MockFunction]}
+      page={1}
+      shape="rounded"
+      variant="outlined"
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

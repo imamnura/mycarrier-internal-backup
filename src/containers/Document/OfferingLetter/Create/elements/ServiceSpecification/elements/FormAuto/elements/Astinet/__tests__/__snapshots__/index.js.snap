@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/elements/Astinet/index render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test2"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        name="GLOBAL"
+        rules={
+          Object {
+            "max": Object {
+              "message": "Global must be lower than or equal to 100",
+              "value": 100,
+            },
+          }
+        }
+        shouldUnregister={true}
+        type="number"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <ForwardRef
+        InputLabelProps={Object {}}
+        InputProps={Object {}}
+        changeType="default"
+        disabled={true}
+        helperText=""
+        inputProps={Object {}}
+        label="Domestik"
+        leftAdornment={null}
+        maxLength={0}
+        required={false}
+        rightAdornment={null}
+        type="number"
+        value="90"
+        valueMasking={null}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test2"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/elements/Astinet/index render MIX yes 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test2"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test2"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/FormAuto/elements/Astinet/index render textField not GLOBAL 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <DynamicOptionsSelect
+      control={Object {}}
+      name="test2"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <TextField
+      control={Object {}}
+      disabled={false}
+      error={false}
+      helperText=""
+      name="test"
+      rules={Object {}}
+      shouldUnregister={true}
+      type="number"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <RadioGroup
+      control={Object {}}
+      direction="horizontal"
+      error={false}
+      helperText=""
+      name="test2"
+      shouldUnregister={true}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

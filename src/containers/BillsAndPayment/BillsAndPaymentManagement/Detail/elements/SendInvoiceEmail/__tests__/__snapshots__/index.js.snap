@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/SendInvoiceEmail render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    <Box
+      alignX="center"
+      mb="-16px"
+      pt="16px"
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={true}
+        variant="h5"
+        weight="medium"
+      >
+        Select invoice that you want to send
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Once the invoice has been send, customer will get an email billing reminder
+      </Typography>
+    </Box>
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))
+    onScroll={[MockFunction]}
+    style={
+      Object {
+        "paddingBottom": 0,
+      }
+    }
+  >
+    <Box
+      pl="2px"
+      pr="2px"
+    >
+      <List
+        action={Array []}
+        breadcrumb={Array []}
+        filter={Array []}
+        noMargin={true}
+        noPadding={true}
+        onBottomPage={[Function]}
+        search={Object {}}
+        table={Object {}}
+        tabs={
+          Object {
+            "onChange": [Function],
+            "options": Array [],
+            "value": "",
+          }
+        }
+        title=""
+        withTopDivider={false}
+      />
+    </Box>
+  </WithStyles(ForwardRef(DialogContent))>
+  <Flex
+    alignX="center"
+    alignY="center"
+    pb="20px"
+    pt="4px"
+  >
+    <Button
+      disabled={false}
+      id="bill-and-payment-company-detail-sections-list-action-button-send-billing-reminder-popup-cancel"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={20}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <React.Fragment>
+      <Box
+        height="24px"
+        mr="20px"
+      >
+        <WithStyles(ForwardRef(Divider))
+          orientation="vertical"
+        />
+      </Box>
+      <Button
+        disabled={false}
+        id="bill-and-payment-company-detail-sections-list-action-button-send-billing-reminder-popup-previous"
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={20}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Previous
+      </Button>
+    </React.Fragment>
+    <Button
+      disabled={true}
+      id="bill-and-payment-company-detail-sections-list-action-button-send-billing-reminder-popup-preview"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      Preview
+    </Button>
+  </Flex>
+</WithStyles(ForwardRef(Dialog))>
+`;

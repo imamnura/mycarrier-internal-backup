@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/Baso/Detail-v2 render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "BASO",
+          "url": "/baso",
+        },
+        Object {
+          "label": "test123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={Array []}
+    search={null}
+    status={
+      Object {
+        "children": "baso returned",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id="test123"
+    modalUpdateStatus={null}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id="test123"
+    modalReturn={null}
+  />
+  <Component
+    modalProgressUpload={null}
+    progress={0}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/Baso/Detail-v2 render without ordernumber 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "BASO",
+          "url": "/baso",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={Array []}
+    search={null}
+    status={
+      Object {
+        "children": "baso returned",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id={null}
+    modalUpdateStatus={null}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id={null}
+    modalReturn={null}
+  />
+  <Component
+    modalProgressUpload={null}
+    progress={0}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/ListHistoryActivity render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Visiting",
+        "url": "/visit-neucentrix",
+      },
+      Object {
+        "label": undefined,
+        "url": "/visit-neucentrix/detail/undefined",
+      },
+      Object {
+        "label": "View All Activities",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "onChange": [MockFunction],
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activity": "Check In",
+          "date": "",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Object {},
+      "numbering": false,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+            "width": 180,
+          },
+          "label": "Date",
+          "name": "date",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Name",
+          "name": "name",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Activity",
+          "name": "activity",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;

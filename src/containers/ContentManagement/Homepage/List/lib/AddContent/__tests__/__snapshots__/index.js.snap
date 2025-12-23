@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/AddContent run properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 4,
+        "mt": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Choose Content Menu
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className="undefined"
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Banner Hero
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Brochure
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Brochure Upload
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Pop Up
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <Button
+      disabled={false}
+      id="btnCancelChooseContent"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CANCEL
+    </Button>
+    <Button
+      disabled={false}
+      id="btnAddContentHomepage"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      GO AHEAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/AddContent run properly on brochure 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 4,
+        "mt": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Choose Content Menu
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Banner Hero
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Brochure
+      className="undefined"
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Brochure Upload
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Pop Up
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <Button
+      disabled={false}
+      id="btnCancelChooseContent"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CANCEL
+    </Button>
+    <Button
+      disabled={false}
+      id="btnAddContentHomepage"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      GO AHEAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Homepage/List/lib/AddContent run properly on popup 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": undefined,
+    }
+  }
+  maxWidth="lg"
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 4,
+        "mt": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Choose Content Menu
+    </Typography>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Banner Hero
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Brochure
+      className=""
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Brochure Upload
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    id="btnChooseContentHomepage"
+    onClick={[Function]}
+  >
+    <Banner
+      className="undefined"
+    />
+    <p
+      style={
+        Object {
+          "marginLeft": "2em",
+        }
+      }
+    >
+      Pop Up
+    </p>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <Button
+      disabled={false}
+      id="btnCancelChooseContent"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      CANCEL
+    </Button>
+    <Button
+      disabled={false}
+      id="btnAddContentHomepage"
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      GO AHEAD
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/TextFieldMasked masked 1`] = `
+<t
+  mask={[MockFunction]}
+  render={[Function]}
+/>
+`;
+
+exports[`src/components/TextFieldMasked render 1`] = `
+<ForwardRef
+  InputLabelProps={Object {}}
+  InputProps={
+    Object {
+      "inputComponent": [Function],
+      "inputProps": Object {
+        "mask": [Function],
+      },
+    }
+  }
+  changeType="default"
+  helperText=""
+  inputProps={Object {}}
+  label=""
+  leftAdornment={null}
+  maxLength={0}
+  required={false}
+  rightAdornment={null}
+  type="text"
+  valueMasking={null}
+/>
+`;

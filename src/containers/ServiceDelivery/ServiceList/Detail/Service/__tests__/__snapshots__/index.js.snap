@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Service render properly as MRTG 1`] = `
+<MRTG
+  feature={Array []}
+  match={Object {}}
+/>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Service render properly as call-center 1`] = `
+<MRTG
+  feature={Array []}
+  match={Object {}}
+/>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Service render properly without params 1`] = `<NotFound />`;

@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/FileUpload delete 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-87"
+    color="primary-main"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-86"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <div
+    className="makeStyles-fileResult-89"
+  >
+    <Typography
+      className="makeStyles-fileLabel-90"
+      color="general-main"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      file.png
+    </Typography>
+    <WithStyles(ForwardRef(IconButton))
+      className="makeStyles-deleteButton-91"
+      disabled={false}
+      id="file-upload-delete"
+      onClick={[Function]}
+      size="medium"
+    >
+      <Trash />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+  <div
+    className="makeStyles-helper-85"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      *File in .png only. 
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/FileUpload failed upload 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-94"
+    color="primary-main"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-93"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <WithStyles(ForwardRef(ButtonBase))
+    className="makeStyles-uploader-95"
+    component="div"
+    disabled={false}
+    id="file-upload"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+    tabIndex={0}
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      <React.Fragment>
+        Drag & Drop your files here or
+         
+        <span
+          style={
+            Object {
+              "color": "#3071D9",
+              "fontWeight": "bold",
+              "textDecoration": "underline",
+            }
+          }
+        >
+          Browse files
+        </span>
+      </React.Fragment>
+    </Typography>
+    <span />
+    <input
+      accept=".png"
+      multiple={false}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "clipPath": "inset(50%)",
+          "height": "1px",
+          "margin": "0 -1px -1px 0",
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "absolute",
+          "whiteSpace": "nowrap",
+          "width": "1px",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+  </WithStyles(ForwardRef(ButtonBase))>
+  <div
+    className="makeStyles-helper-92"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      *File in .png only. 
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/FileUpload maxSize 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-38"
+    color="primary-main"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-37"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <WithStyles(ForwardRef(ButtonBase))
+    className="makeStyles-uploader-39"
+    component="div"
+    disabled={false}
+    id="file-upload"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+    tabIndex={0}
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      <React.Fragment>
+        Drag & Drop your files here or
+         
+        <span
+          style={
+            Object {
+              "color": "#3071D9",
+              "fontWeight": "bold",
+              "textDecoration": "underline",
+            }
+          }
+        >
+          Browse files
+        </span>
+      </React.Fragment>
+    </Typography>
+    <span />
+    <input
+      accept=".png"
+      multiple={false}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "clipPath": "inset(50%)",
+          "height": "1px",
+          "margin": "0 -1px -1px 0",
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "absolute",
+          "whiteSpace": "nowrap",
+          "width": "1px",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+  </WithStyles(ForwardRef(ButtonBase))>
+  <div
+    className="makeStyles-helper-36"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      *File in .png only. Max 10 Bytes. 
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/components/FileUpload render 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-3"
+    color="primary-main"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-2"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <WithStyles(ForwardRef(ButtonBase))
+    className="makeStyles-uploader-4"
+    component="div"
+    disabled={false}
+    id="file-upload"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+    tabIndex={0}
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="body2"
+      weight="normal"
+    >
+      <React.Fragment>
+        Drag & Drop your files here or
+         
+        <span
+          style={
+            Object {
+              "color": "#3071D9",
+              "fontWeight": "bold",
+              "textDecoration": "underline",
+            }
+          }
+        >
+          Browse files
+        </span>
+      </React.Fragment>
+    </Typography>
+    <span />
+    <input
+      accept=".png"
+      multiple={false}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "clipPath": "inset(50%)",
+          "height": "1px",
+          "margin": "0 -1px -1px 0",
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "absolute",
+          "whiteSpace": "nowrap",
+          "width": "1px",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+  </WithStyles(ForwardRef(ButtonBase))>
+  <div
+    className="makeStyles-helper-1"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      *File in .png only. 
+    </Typography>
+  </div>
+</React.Fragment>
+`;

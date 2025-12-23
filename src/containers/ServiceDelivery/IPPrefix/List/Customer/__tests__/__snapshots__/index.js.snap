@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/IPPrefix/List/Customer render 1`] = `
+<React.Fragment>
+  <List
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "IP Prefix",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Customer...",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "custAccntName": "GRATIKA",
+            "custAccntNum": "0003700029",
+            "isNewRequest": false,
+            "lastUpdate": "10/05/2019 01:05",
+          },
+          Object {
+            "custAccntName": "GRATIKA",
+            "custAccntNum": "0003700029",
+            "isNewRequest": <Typography
+              className=""
+              color="blue-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              <span
+                className="makeStyles-iconDot-1"
+              />
+               New update
+            </Typography>,
+            "lastUpdate": "10/05/2019 01:05",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": Object {
+          "tableRoot": false,
+          "tableRow": false,
+        },
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 660,
+            },
+            "label": "CUSTOMER",
+            "name": "custAccntName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "formatDate": "date-time",
+            "label": "LAST UPDATE",
+            "name": "lastUpdate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "name": "isNewRequest",
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="IP Prefix"
+    withTopDivider={true}
+  />
+  <Component
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceDelivery/IPPrefix/List/Customer render with no privilege & no tab 1`] = `
+<React.Fragment>
+  <List
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "IP Prefix",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Customer...",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "custAccntName": "GRATIKA",
+            "custAccntNum": "0003700029",
+            "isNewRequest": false,
+            "lastUpdate": "10/05/2019 01:05",
+          },
+          Object {
+            "custAccntName": "GRATIKA",
+            "custAccntNum": "0003700029",
+            "isNewRequest": <Typography
+              className=""
+              color="blue-main"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              <span
+                className="makeStyles-iconDot-2"
+              />
+               New update
+            </Typography>,
+            "lastUpdate": "10/05/2019 01:05",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": Object {
+          "tableRoot": false,
+          "tableRow": false,
+        },
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 660,
+            },
+            "label": "CUSTOMER",
+            "name": "custAccntName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "formatDate": "date-time",
+            "label": "LAST UPDATE",
+            "name": "lastUpdate",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 160,
+            },
+            "name": "isNewRequest",
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="IP Prefix"
+    withTopDivider={true}
+  />
+  <Component
+    open={false}
+  />
+</React.Fragment>
+`;

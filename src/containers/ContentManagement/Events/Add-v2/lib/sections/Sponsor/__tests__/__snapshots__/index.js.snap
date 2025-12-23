@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Sponsor/index render default 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Sponsor"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Sponsor
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-cardsContainer-2"
+        container={true}
+        spacing={1}
+      >
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-7 makeStyles-cardList-5"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                >
+                  <UploadImage
+                    alt="test-0"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item={
+                      Object {
+                        "mediaId": "test",
+                        "name": "test",
+                      }
+                    }
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Sponsor0"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-8"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-7 makeStyles-cardList-5"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                >
+                  <UploadImage
+                    alt="test 2-1"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item={
+                      Object {
+                        "mediaId": "test 2",
+                        "name": "test 2",
+                      }
+                    }
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Sponsor1"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-8"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-addCardContainer-11 makeStyles-cardGrid-4"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-3 makeStyles-dashedBorder-6"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-7"
+              >
+                <div
+                  className="makeStyles-imageContainer-10"
+                  style={
+                    Object {
+                      "marginBottom": "1rem",
+                    }
+                  }
+                >
+                  <UploadImage
+                    alt="sponsor"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={true}
+                    item={Object {}}
+                    maxSize={307200}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        204,
+                        120,
+                      ]
+                    }
+                    sectionName="Sponsor"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <WithStyles(ForwardRef(CardActions))
+                className="makeStyles-addCardButton-12"
+              >
+                <Button
+                  disabled={false}
+                  leftIcon={null}
+                  loading={false}
+                  ml={0}
+                  mr={0}
+                  onClick={[MockFunction]}
+                  rightIcon={null}
+                  rounded="normal"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  textTransform="uppercase"
+                  variant="filled"
+                >
+                  add sponsor
+                </Button>
+              </WithStyles(ForwardRef(CardActions))>
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+        </React.Fragment>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className="makeStyles-disabledSection-9"
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/sections/Sponsor/index render isDisplaySponsor false 1`] = `
+<div
+  className="makeStyles-root-13"
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Sponsor"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="column"
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={5}
+      xs={12}
+    >
+      <div>
+        <Typography
+          className=""
+          color="general-main"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Sponsor
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-cardsContainer-14"
+        container={true}
+        spacing={1}
+      >
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-19 makeStyles-cardList-17"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                >
+                  <UploadImage
+                    alt="test-0"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item={
+                      Object {
+                        "mediaId": "test",
+                        "name": "test",
+                      }
+                    }
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Sponsor0"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-20"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-19 makeStyles-cardList-17"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                >
+                  <UploadImage
+                    alt="test 2-1"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={false}
+                    item={
+                      Object {
+                        "mediaId": "test 2",
+                        "name": "test 2",
+                      }
+                    }
+                    maxSize={358400}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        32,
+                        32,
+                      ]
+                    }
+                    sectionName="Sponsor1"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <Memo
+                className="makeStyles-deleteIcon-20"
+                onClick={[Function]}
+              />
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            className="makeStyles-addCardContainer-23 makeStyles-cardGrid-16"
+            item={true}
+          >
+            <WithStyles(ForwardRef(Card))
+              className="makeStyles-card-15 makeStyles-dashedBorder-18"
+            >
+              <WithStyles(ForwardRef(CardContent))
+                className="makeStyles-cardContent-19"
+              >
+                <div
+                  className="makeStyles-imageContainer-22"
+                  style={
+                    Object {
+                      "marginBottom": "1rem",
+                    }
+                  }
+                >
+                  <UploadImage
+                    alt="sponsor"
+                    disabled={false}
+                    getUpdateItem={[Function]}
+                    initialPreview=""
+                    isValidateByPixel={true}
+                    item={Object {}}
+                    maxSize={307200}
+                    previewState={Object {}}
+                    ratioPixel={
+                      Array [
+                        204,
+                        120,
+                      ]
+                    }
+                    sectionName="Sponsor"
+                    sizeBig={false}
+                    type="stretch"
+                    wordingImage="Upload .png/.jpg image, max 300 KB and size 204 x 120 px"
+                    wordingVariant="caption"
+                  />
+                </div>
+              </WithStyles(ForwardRef(CardContent))>
+              <WithStyles(ForwardRef(CardActions))
+                className="makeStyles-addCardButton-24"
+              >
+                <Button
+                  disabled={false}
+                  leftIcon={null}
+                  loading={false}
+                  ml={0}
+                  mr={0}
+                  onClick={[MockFunction]}
+                  rightIcon={null}
+                  rounded="normal"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                  textTransform="uppercase"
+                  variant="filled"
+                >
+                  add sponsor
+                </Button>
+              </WithStyles(ForwardRef(CardActions))>
+            </WithStyles(ForwardRef(Card))>
+          </WithStyles(ForwardRef(Grid))>
+        </React.Fragment>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className={false}
+  />
+</div>
+`;

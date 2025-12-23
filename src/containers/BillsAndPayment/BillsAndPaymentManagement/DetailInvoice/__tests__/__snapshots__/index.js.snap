@@ -1,0 +1,829 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailInvoice render 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "back": true,
+        "label": "-",
+      },
+      Object {
+        "label": "-",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={false}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {
+                "invoiceIbssAttachment": Object {
+                  "invoice": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceAttachment": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceEfaktur": Object {
+                    "fileUrl": "url",
+                  },
+                },
+                "invoiceReceipt": Object {},
+              },
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "INVOICE NUMBER",
+                  "name": "invoiceNumberFormat",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "INVOICE DATE",
+                  "name": "releasedDate",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "DUE DATE",
+                  "name": "invoiceDueDate",
+                },
+              ],
+            },
+            "title": "Bills Information",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "invoiceIbssAttachment": Object {
+                  "invoice": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceAttachment": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceEfaktur": Object {
+                    "fileUrl": "url",
+                  },
+                },
+                "invoiceReceipt": Object {},
+              },
+              "schema": Array [
+                Object {
+                  "converter": [Function],
+                  "label": "BILLS",
+                  "name": "bill",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "PPN",
+                  "name": "ppn",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "Cash Payment",
+                  "name": "cashPayment",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "PPH23",
+                  "name": "pph23",
+                },
+                Object {
+                  "converter": [Function],
+                  "grid": 12,
+                  "label": "TOTAL BILLS",
+                  "name": "totalBills",
+                },
+                Object {
+                  "converter": [Function],
+                  "grid": 12,
+                  "label": "TOTAL PAYMENT",
+                  "name": "totalPaid",
+                },
+              ],
+            },
+            "title": "Bills Detail",
+            "type": "information",
+          },
+          Object {
+            "hidden": false,
+            "render": <div
+              style={
+                Object {
+                  "paddingTop": 24,
+                }
+              }
+            >
+              <TableDesktop
+                customBody={null}
+                customEmptyMessage={null}
+                customItem={null}
+                customStyles={Object {}}
+                data={
+                  Array [
+                    Object {},
+                  ]
+                }
+                emptyMessage="Data not found"
+                headerAlign="flex-start"
+                loading={false}
+                loadingRoot={false}
+                maxHeight={null}
+                meta={
+                  Object {
+                    "page": 0,
+                  }
+                }
+                numbering={true}
+                onBottomPage={null}
+                onClickRow={null}
+                onPaginationChange={null}
+                page={1}
+                pickedRow=""
+                pickedRowKey=""
+                schema={
+                  Array [
+                    Object {
+                      "currency": true,
+                      "label": "Paid Amount",
+                      "name": "paidAmount",
+                    },
+                    Object {
+                      "label": "Paid Date",
+                      "name": "paidDate",
+                    },
+                  ]
+                }
+                selectWithRawData={false}
+                selectedRowKey="key"
+                selectedRowSticky={false}
+                size={10}
+                useCollapseChild={null}
+                useOrderBy={
+                  Array [
+                    null,
+                    [Function],
+                  ]
+                }
+                useOrderDirection={
+                  Array [
+                    null,
+                    [Function],
+                  ]
+                }
+                useSelectedRow={Array []}
+              />
+            </div>,
+            "title": "Payment History",
+            "type": "custom",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {
+                "invoiceIbssAttachment": Object {
+                  "invoice": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceAttachment": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceEfaktur": Object {
+                    "fileUrl": "url",
+                  },
+                },
+                "invoiceReceipt": Object {},
+              },
+              "schema": Array [
+                Object {
+                  "action": Object {
+                    "children": "Refresh",
+                    "disabled": false,
+                    "onClick": undefined,
+                    "variant": "ghost",
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "desc": "Last updated on -",
+                  "label": "INVOICE",
+                  "name": "invoiceIbssAttachment.invoice",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: invoice.pdf",
+                  },
+                },
+                Object {
+                  "action": Object {
+                    "children": "Refresh",
+                    "disabled": false,
+                    "onClick": undefined,
+                    "variant": "ghost",
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "desc": "Last updated on -",
+                  "label": "TAX INVOICE",
+                  "name": "invoiceIbssAttachment.invoiceEfaktur",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: taxinvoice.pdf",
+                  },
+                },
+                Object {
+                  "action": undefined,
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "label": "INVOICE ATTACHMENT",
+                  "name": "invoiceAttachment",
+                  "switch": Object {
+                    "hidden": false,
+                    "onChange": undefined,
+                    "value": undefined,
+                  },
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: invoice.pdf",
+                  },
+                },
+                Object {
+                  "action": Object {
+                    "children": "Delete",
+                    "onClick": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    },
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                      Object {
+                        "children": "delete",
+                        "ml": 8,
+                        "onClick": undefined,
+                        "withDivider": true,
+                      },
+                    ],
+                  },
+                  "label": "OTHERS",
+                  "name": "invoiceOtherFile",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                      ".xls",
+                      ".xlsx",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf and .xls document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: others-doc.pdf",
+                  },
+                },
+                Object {
+                  "action": Object {
+                    "children": "Delete",
+                    "onClick": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    },
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                      Object {
+                        "children": "delete",
+                        "ml": 8,
+                        "onClick": undefined,
+                        "withDivider": true,
+                      },
+                    ],
+                    "previewCentered": true,
+                  },
+                  "label": "BUNDLE DOCUMENT",
+                  "name": "invoiceIbssAttachment.bundleDocument",
+                },
+              ],
+            },
+            "title": "Document Attachment",
+            "type": "attachment",
+          },
+          Object {
+            "hidden": true,
+            "properties": Object {
+              "data": Object {
+                "invoiceIbssAttachment": Object {
+                  "invoice": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceAttachment": Object {
+                    "fileUrl": "url",
+                  },
+                  "invoiceEfaktur": Object {
+                    "fileUrl": "url",
+                  },
+                },
+                "invoiceReceipt": Object {},
+              },
+              "schema": Array [
+                Object {
+                  "name": "invoiceCustomer",
+                },
+              ],
+            },
+            "title": "Document Customer Upload",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+      Object {
+        "content": Array [
+          Object {
+            "hidden": true,
+            "render": <Memo(DocumentStage) />,
+            "title": "Document Stage",
+            "type": "custom",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailInvoice render/emptyData 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "back": true,
+        "label": "-",
+      },
+      Object {
+        "label": "-",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={true}
+  otherStatus={null}
+  schema={
+    Array [
+      Object {
+        "content": Array [
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "grid": 12,
+                  "label": "INVOICE NUMBER",
+                  "name": "invoiceNumberFormat",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "INVOICE DATE",
+                  "name": "releasedDate",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "DUE DATE",
+                  "name": "invoiceDueDate",
+                },
+              ],
+            },
+            "title": "Bills Information",
+            "type": "information",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "converter": [Function],
+                  "label": "BILLS",
+                  "name": "bill",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "PPN",
+                  "name": "ppn",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "Cash Payment",
+                  "name": "cashPayment",
+                },
+                Object {
+                  "converter": [Function],
+                  "label": "PPH23",
+                  "name": "pph23",
+                },
+                Object {
+                  "converter": [Function],
+                  "grid": 12,
+                  "label": "TOTAL BILLS",
+                  "name": "totalBills",
+                },
+                Object {
+                  "converter": [Function],
+                  "grid": 12,
+                  "label": "TOTAL PAYMENT",
+                  "name": "totalPaid",
+                },
+              ],
+            },
+            "title": "Bills Detail",
+            "type": "information",
+          },
+          Object {
+            "hidden": false,
+            "render": <div
+              style={
+                Object {
+                  "paddingTop": 24,
+                }
+              }
+            >
+              <TableDesktop
+                customBody={null}
+                customEmptyMessage={null}
+                customItem={null}
+                customStyles={Object {}}
+                data={
+                  Array [
+                    Object {},
+                  ]
+                }
+                emptyMessage="Data not found"
+                headerAlign="flex-start"
+                loading={false}
+                loadingRoot={false}
+                maxHeight={null}
+                meta={
+                  Object {
+                    "page": 0,
+                  }
+                }
+                numbering={true}
+                onBottomPage={null}
+                onClickRow={null}
+                onPaginationChange={null}
+                page={1}
+                pickedRow=""
+                pickedRowKey=""
+                schema={
+                  Array [
+                    Object {
+                      "currency": true,
+                      "label": "Paid Amount",
+                      "name": "paidAmount",
+                    },
+                    Object {
+                      "label": "Paid Date",
+                      "name": "paidDate",
+                    },
+                  ]
+                }
+                selectWithRawData={false}
+                selectedRowKey="key"
+                selectedRowSticky={false}
+                size={10}
+                useCollapseChild={null}
+                useOrderBy={
+                  Array [
+                    null,
+                    [Function],
+                  ]
+                }
+                useOrderDirection={
+                  Array [
+                    null,
+                    [Function],
+                  ]
+                }
+                useSelectedRow={Array []}
+              />
+            </div>,
+            "title": "Payment History",
+            "type": "custom",
+          },
+          Object {
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "action": undefined,
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "desc": "Last updated on -",
+                  "label": "INVOICE",
+                  "name": "invoiceIbssAttachment.invoice",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: invoice.pdf",
+                  },
+                },
+                Object {
+                  "action": undefined,
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "desc": "Last updated on -",
+                  "label": "TAX INVOICE",
+                  "name": "invoiceIbssAttachment.invoiceEfaktur",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: taxinvoice.pdf",
+                  },
+                },
+                Object {
+                  "action": undefined,
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                    ],
+                  },
+                  "label": "INVOICE ATTACHMENT",
+                  "name": "invoiceAttachment",
+                  "switch": Object {
+                    "hidden": true,
+                    "onChange": undefined,
+                    "value": undefined,
+                  },
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: invoice.pdf",
+                  },
+                },
+                Object {
+                  "action": Object {
+                    "children": "Delete",
+                    "onClick": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    },
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                      Object {
+                        "children": "delete",
+                        "ml": 8,
+                        "onClick": undefined,
+                        "withDivider": true,
+                      },
+                    ],
+                  },
+                  "label": "OTHERS",
+                  "name": "invoiceOtherFile",
+                  "upload": Object {
+                    "accept": Array [
+                      ".pdf",
+                      ".xls",
+                      ".xlsx",
+                    ],
+                    "fetcher": undefined,
+                    "helperText": "Upload .pdf and .xls document, max 50 MB",
+                    "maxSize": 52428800,
+                    "onChange": [MockFunction],
+                    "placeholder": "Example: others-doc.pdf",
+                  },
+                },
+                Object {
+                  "action": Object {
+                    "children": "Delete",
+                    "onClick": [MockFunction] {
+                      "calls": Array [
+                        Array [],
+                        Array [],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    },
+                  },
+                  "attachmentProps": Object {
+                    "previewAction": Array [
+                      Object {
+                        "children": "download",
+                        "onClick": [Function],
+                      },
+                      Object {
+                        "children": "delete",
+                        "ml": 8,
+                        "onClick": undefined,
+                        "withDivider": true,
+                      },
+                    ],
+                    "previewCentered": true,
+                  },
+                  "label": "BUNDLE DOCUMENT",
+                  "name": "invoiceIbssAttachment.bundleDocument",
+                },
+              ],
+            },
+            "title": "Document Attachment",
+            "type": "attachment",
+          },
+          Object {
+            "hidden": true,
+            "properties": Object {
+              "data": Object {},
+              "schema": Array [
+                Object {
+                  "name": "invoiceCustomer",
+                },
+              ],
+            },
+            "title": "Document Customer Upload",
+            "type": "attachment",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+      Object {
+        "content": Array [
+          Object {
+            "hidden": true,
+            "render": <Memo(DocumentStage) />,
+            "title": "Document Stage",
+            "type": "custom",
+          },
+        ],
+        "gridProps": Object {
+          "md": 6,
+          "xs": 12,
+        },
+      },
+    ]
+  }
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;

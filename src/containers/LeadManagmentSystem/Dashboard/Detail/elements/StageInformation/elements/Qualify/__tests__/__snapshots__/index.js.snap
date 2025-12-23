@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Qualify run no data 1`] = `
+<Styled(MuiBox)
+  py={4}
+>
+  <StateMessage
+    description=""
+    maxWidth="100%"
+    size="large"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Qualify run properly 1`] = `
+<Styled(MuiBox)
+  pt={3}
+>
+  <Memo(LeadsFollowUpDetail)
+    variant="qualify"
+  />
+</Styled(MuiBox)>
+`;

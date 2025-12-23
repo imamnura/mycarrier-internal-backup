@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/TicketNumber/validate render error any.required 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/forms/TicketNumber/validate render error default 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/forms/TicketNumber/validate render error string.max 1`] = `ShallowWrapper {}`;

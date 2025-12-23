@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Settlement",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "AM Send MOM",
+            "value": "cdm_generate_settlement",
+          },
+          Object {
+            "label": "Customer Approval",
+            "value": "am_send_mom",
+          },
+          Object {
+            "label": "Returned",
+            "value": "customer_returned",
+          },
+          Object {
+            "label": "AM Send NDE",
+            "value": "customer_approved",
+          },
+          Object {
+            "label": "Settlement Complete",
+            "value": "am_approved",
+          },
+          Object {
+            "label": "Completed",
+            "value": "completed",
+          },
+          Object {
+            "label": "Reviewer Approval",
+            "value": "reviewer_approval",
+          },
+          Object {
+            "label": "Reviewer Approved",
+            "value": "reviewer_approved",
+          },
+          Object {
+            "label": "NDE Returned",
+            "value": "nde_returned",
+          },
+          Object {
+            "label": "NDE Rejected",
+            "value": "nde_rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "format": "MMMM YYYY",
+        "label": "All Period",
+        "onChange": [MockFunction],
+        "openTo": "month",
+        "type": "date",
+        "value": "",
+        "views": Array [
+          "year",
+          "month",
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "periodSettlement": "-",
+          "statusSettlement": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "SETTLEMENT ID",
+          "name": "settlementId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "USER ID",
+          "name": "userId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "COMPANY NAME",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "EMAIL",
+          "name": "email",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "PRODUCT",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "label": "Period",
+          "name": "periodSettlement",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "VMS USAGE",
+          "name": "vmUsage",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Status",
+          "name": "statusSettlement",
+          "schemaStatus": Object {
+            "AM SEND MOM": "warning",
+            "AM SEND NDE": "warning",
+            "COMPLETED": "success",
+            "CUSTOMER APPROVAL": "warning",
+            "NDE APPROVAL": "warning",
+            "NDE APPROVED": "primary",
+            "NDE REJECTED": "danger",
+            "NDE RETURNED": "danger",
+            "RETURNED": "danger",
+            "SETTLEMENT COMPLETED": "alert",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Users",
+          "value": "users",
+        },
+        Object {
+          "label": "Settlement List",
+          "value": "settlement",
+        },
+      ],
+      "value": "settlement",
+    }
+  }
+  title="Settlement"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/List render/others 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Settlement",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "periodSettlement": "-",
+          "statusSettlement": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "settlement",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Settlement List",
+          "value": "settlement",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="Settlement"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/List render/tab users 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Settlement",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Billing Type",
+            "value": "",
+          },
+          Object {
+            "label": "Postpaid",
+            "value": "postpaid",
+          },
+          Object {
+            "label": "Prepaid",
+            "value": "prepaid",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Billing Type",
+          "value": "",
+        },
+      },
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Active",
+            "value": "active",
+          },
+          Object {
+            "label": "Not Verified",
+            "value": "not verified",
+          },
+          Object {
+            "label": "Suspend",
+            "value": "suspend",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "periodSettlement": "-",
+          "statusSettlement": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "USER ID",
+          "name": "userId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 300,
+            "width": 300,
+          },
+          "label": "EMAIL",
+          "name": "email",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "PRODUCT",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "VMS TOTAL",
+          "name": "totalVm",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Active": "success",
+            "Not Verified": "warning",
+            "Suspend": "danger",
+          },
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "BILLING TYPE",
+          "name": "billingType",
+          "schemaStatus": Object {
+            "postpaid": "alert",
+            "prepaid": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "users",
+    }
+  }
+  title="Settlement"
+  withTopDivider={true}
+/>
+`;

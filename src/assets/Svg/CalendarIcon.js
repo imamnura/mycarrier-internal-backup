@@ -1,0 +1,45 @@
+import React from 'react';
+import { SvgIcon } from '@material-ui/core';
+
+export default function CalendarIcon(props) {
+  return (
+    <SvgIcon
+      {...props}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.8333 5.33301H6.16667C5.24619 5.33301 4.5 6.0792 4.5 6.99967V18.6663C4.5 19.5868 5.24619 20.333 6.16667 20.333H17.8333C18.7538 20.333 19.5 19.5868 19.5 18.6663V6.99967C19.5 6.0792 18.7538 5.33301 17.8333 5.33301Z"
+        fill="white"
+        stroke="#3B525C"
+        stroke-width="1.25"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M15.3333 3.66699V7.00033"
+        stroke="#3B525C"
+        stroke-width="1.25"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M8.66675 3.66699V7.00033"
+        stroke="#3B525C"
+        stroke-width="1.25"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M4.5 10.333H19.5"
+        stroke="#3B525C"
+        stroke-width="1.25"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </SvgIcon>
+  );
+}

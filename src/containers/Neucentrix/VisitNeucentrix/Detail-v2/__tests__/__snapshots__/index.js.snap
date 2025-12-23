@@ -1,0 +1,883 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/Detail-v2 render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Visiting",
+          "url": "/visit-neucentrix",
+        },
+        Object {
+          "label": "VST-9439158986",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <AlertFowarded
+                data={
+                  Array [
+                    "test",
+                    "test",
+                    "test",
+                  ]
+                }
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": undefined,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "additionalVisitor": Array [
+                    Object {
+                      "email": "aaron@gmail.com",
+                      "name": "Aaron",
+                      "qrCode": "http://10.62.164.142/visiting/checkin-detail/VlNULTk0MzkxNTg5ODYjMzIwNDI4MDUwNDkxNTQ0NA==",
+                    },
+                  ],
+                  "companyName": "PT TELEKOMUNIKASI SELULAR",
+                  "document": Array [
+                    Object {
+                      "fileName": "8808512-additional.pdf",
+                      "fileUrl": "https://storage-assurance-dev.mytens.id/tdscustomer/neucentrix_visit/8808512-additional.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=q1dx5HaUIo76Ych3nXqy%2F20220826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220826T062105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b553b552e198e1e02bfd57b3a5089a68e1c7f4a016eac80bbcdf10fd1098112e",
+                      "type": "SPK",
+                    },
+                  ],
+                  "forwardedTo": Array [
+                    "test",
+                    "test",
+                    "test",
+                  ],
+                  "historyActivity": Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ],
+                  "isAssigned": true,
+                  "isForwarded": true,
+                  "location": "Neucentrix Mattoangin",
+                  "picVisitorName": "Customer NeuCentrix",
+                  "rejectReason": "",
+                  "room": Array [
+                    Object {
+                      "locationName": "neuCentrix Semarang Candi",
+                      "roomDesc": "-",
+                      "roomId": "CND_001",
+                      "roomName": "Candi 001",
+                    },
+                  ],
+                  "status": "completed",
+                  "visitEndDate": "2022-08-02T16:00:00.000Z",
+                  "visitId": "VST-9439158986",
+                  "visitPurpose": Array [
+                    "Survey",
+                  ],
+                  "visitStartDate": "2022-08-02T11:30:00.000Z",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Visit ID",
+                    "name": "visitId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "PIC Visitor",
+                    "name": "picVisitorName",
+                  },
+                  Object {
+                    "label": "PIC VISITOR PHONE NUMBER",
+                    "name": "picPhoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Additional Visitor",
+                    "name": "additionalVisitor",
+                  },
+                  Object {
+                    "label": "Location",
+                    "name": "location",
+                  },
+                  Object {
+                    "hidden": false,
+                    "label": "Room",
+                    "name": "roomName",
+                  },
+                  Object {
+                    "label": "Visit Purpose",
+                    "name": "purpose",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "ORDER DATE",
+                    "name": "orderDate",
+                  },
+                  Object {
+                    "label": "Visit Date",
+                    "name": "visitDate",
+                  },
+                ],
+              },
+              "style": Object {
+                "marginTop": "0px !important",
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "additionalVisitor": Array [
+                    Object {
+                      "email": "aaron@gmail.com",
+                      "name": "Aaron",
+                      "qrCode": "http://10.62.164.142/visiting/checkin-detail/VlNULTk0MzkxNTg5ODYjMzIwNDI4MDUwNDkxNTQ0NA==",
+                    },
+                  ],
+                  "companyName": "PT TELEKOMUNIKASI SELULAR",
+                  "document": Array [
+                    Object {
+                      "fileName": "8808512-additional.pdf",
+                      "fileUrl": "https://storage-assurance-dev.mytens.id/tdscustomer/neucentrix_visit/8808512-additional.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=q1dx5HaUIo76Ych3nXqy%2F20220826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220826T062105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b553b552e198e1e02bfd57b3a5089a68e1c7f4a016eac80bbcdf10fd1098112e",
+                      "type": "SPK",
+                    },
+                  ],
+                  "forwardedTo": Array [
+                    "test",
+                    "test",
+                    "test",
+                  ],
+                  "historyActivity": Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ],
+                  "isAssigned": true,
+                  "isForwarded": true,
+                  "location": "Neucentrix Mattoangin",
+                  "picVisitorName": "Customer NeuCentrix",
+                  "rejectReason": "",
+                  "room": Array [
+                    Object {
+                      "locationName": "neuCentrix Semarang Candi",
+                      "roomDesc": "-",
+                      "roomId": "CND_001",
+                      "roomName": "Candi 001",
+                    },
+                  ],
+                  "status": "completed",
+                  "visitEndDate": "2022-08-02T16:00:00.000Z",
+                  "visitId": "VST-9439158986",
+                  "visitPurpose": Array [
+                    "Survey",
+                  ],
+                  "visitStartDate": "2022-08-02T11:30:00.000Z",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SPK",
+                    "name": "spk",
+                  },
+                  Object {
+                    "label": "BA",
+                    "name": "ba",
+                  },
+                  Object {
+                    "label": "NDA",
+                    "name": "nda",
+                  },
+                  Object {
+                    "label": "ADDITIONAL FILE",
+                    "name": "additionalfile",
+                  },
+                  Object {
+                    "label": "Swab/PCR",
+                    "name": "swab",
+                  },
+                  Object {
+                    "label": "Vaccine",
+                    "name": "vaccine",
+                  },
+                  Object {
+                    "label": "PHOTO KTP",
+                    "name": "ktp",
+                  },
+                  Object {
+                    "label": "PASS PHOTO",
+                    "name": "photo",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+            Object {
+              "render": <ActivityHistory
+                data={
+                  Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ]
+                }
+                schema={
+                  Array [
+                    Object {
+                      "label": "DATE",
+                      "name": "date",
+                    },
+                    Object {
+                      "label": "NAME",
+                      "name": "name",
+                    },
+                    Object {
+                      "label": "ACTIVITY",
+                      "name": "activity",
+                    },
+                  ]
+                }
+                visitId="VST-9439158986"
+              />,
+              "title": "Visit Activity History",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 4,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Checking",
+                  "Approved",
+                  "Visiting",
+                  "Visit Completed",
+                ],
+              },
+              "title": "Order Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Visit Completed",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id="VST-9439158986"
+    modalUpdateStatus={null}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/Detail-v2 render w/ other conditions 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Visiting",
+          "url": "/visit-neucentrix",
+        },
+        Object {
+          "label": "VST-9439158986",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <AlertFowarded
+                data={
+                  Array [
+                    "test",
+                    "test",
+                    "test",
+                  ]
+                }
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": undefined,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "additionalVisitor": Array [
+                    Object {
+                      "email": "aaron@gmail.com",
+                      "name": "Aaron",
+                      "qrCode": "http://10.62.164.142/visiting/checkin-detail/VlNULTk0MzkxNTg5ODYjMzIwNDI4MDUwNDkxNTQ0NA==",
+                    },
+                  ],
+                  "companyName": "PT TELEKOMUNIKASI SELULAR",
+                  "document": Array [
+                    Object {
+                      "fileName": "8808512-additional.pdf",
+                      "fileUrl": "https://storage-assurance-dev.mytens.id/tdscustomer/neucentrix_visit/8808512-additional.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=q1dx5HaUIo76Ych3nXqy%2F20220826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220826T062105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b553b552e198e1e02bfd57b3a5089a68e1c7f4a016eac80bbcdf10fd1098112e",
+                      "type": "SPK",
+                    },
+                  ],
+                  "forwardedTo": Array [
+                    "test",
+                    "test",
+                    "test",
+                  ],
+                  "historyActivity": Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ],
+                  "isAssigned": true,
+                  "isForwarded": true,
+                  "location": "Neucentrix Mattoangin",
+                  "picVisitorName": "Customer NeuCentrix",
+                  "rejectReason": "",
+                  "room": Array [
+                    Object {
+                      "locationName": "neuCentrix Semarang Candi",
+                      "roomDesc": "-",
+                      "roomId": "CND_001",
+                      "roomName": "Candi 001",
+                    },
+                  ],
+                  "status": "completed",
+                  "visitEndDate": "2022-08-02T16:00:00.000Z",
+                  "visitId": "VST-9439158986",
+                  "visitPurpose": Array [
+                    "Survey",
+                  ],
+                  "visitStartDate": "2022-08-02T11:30:00.000Z",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Visit ID",
+                    "name": "visitId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "PIC Visitor",
+                    "name": "picVisitorName",
+                  },
+                  Object {
+                    "label": "PIC VISITOR PHONE NUMBER",
+                    "name": "picPhoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Additional Visitor",
+                    "name": "additionalVisitor",
+                  },
+                  Object {
+                    "label": "Location",
+                    "name": "location",
+                  },
+                  Object {
+                    "hidden": false,
+                    "label": "Room",
+                    "name": "roomName",
+                  },
+                  Object {
+                    "label": "Visit Purpose",
+                    "name": "purpose",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "ORDER DATE",
+                    "name": "orderDate",
+                  },
+                  Object {
+                    "label": "Visit Date",
+                    "name": "visitDate",
+                  },
+                ],
+              },
+              "style": Object {
+                "marginTop": "0px !important",
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "additionalVisitor": Array [
+                    Object {
+                      "email": "aaron@gmail.com",
+                      "name": "Aaron",
+                      "qrCode": "http://10.62.164.142/visiting/checkin-detail/VlNULTk0MzkxNTg5ODYjMzIwNDI4MDUwNDkxNTQ0NA==",
+                    },
+                  ],
+                  "companyName": "PT TELEKOMUNIKASI SELULAR",
+                  "document": Array [
+                    Object {
+                      "fileName": "8808512-additional.pdf",
+                      "fileUrl": "https://storage-assurance-dev.mytens.id/tdscustomer/neucentrix_visit/8808512-additional.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=q1dx5HaUIo76Ych3nXqy%2F20220826%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220826T062105Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=b553b552e198e1e02bfd57b3a5089a68e1c7f4a016eac80bbcdf10fd1098112e",
+                      "type": "SPK",
+                    },
+                  ],
+                  "forwardedTo": Array [
+                    "test",
+                    "test",
+                    "test",
+                  ],
+                  "historyActivity": Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ],
+                  "isAssigned": true,
+                  "isForwarded": true,
+                  "location": "Neucentrix Mattoangin",
+                  "picVisitorName": "Customer NeuCentrix",
+                  "rejectReason": "",
+                  "room": Array [
+                    Object {
+                      "locationName": "neuCentrix Semarang Candi",
+                      "roomDesc": "-",
+                      "roomId": "CND_001",
+                      "roomName": "Candi 001",
+                    },
+                  ],
+                  "status": "completed",
+                  "visitEndDate": "2022-08-02T16:00:00.000Z",
+                  "visitId": "VST-9439158986",
+                  "visitPurpose": Array [
+                    "Survey",
+                  ],
+                  "visitStartDate": "2022-08-02T11:30:00.000Z",
+                  "worklog": Array [],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "SPK",
+                    "name": "spk",
+                  },
+                  Object {
+                    "label": "BA",
+                    "name": "ba",
+                  },
+                  Object {
+                    "label": "NDA",
+                    "name": "nda",
+                  },
+                  Object {
+                    "label": "ADDITIONAL FILE",
+                    "name": "additionalfile",
+                  },
+                  Object {
+                    "label": "Swab/PCR",
+                    "name": "swab",
+                  },
+                  Object {
+                    "label": "Vaccine",
+                    "name": "vaccine",
+                  },
+                  Object {
+                    "label": "PHOTO KTP",
+                    "name": "ktp",
+                  },
+                  Object {
+                    "label": "PASS PHOTO",
+                    "name": "photo",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 4,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Checking",
+                  "Approved",
+                  "Visiting",
+                  "Visit Completed",
+                ],
+              },
+              "title": "Order Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Visit Completed",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id="VST-9439158986"
+    modalUpdateStatus={null}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/Detail-v2 render/empty 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Visiting",
+          "url": "/visit-neucentrix",
+        },
+        Object {
+          "label": "VST-9439158986",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <AlertFowarded
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": undefined,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "Visit ID",
+                    "name": "visitId",
+                  },
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "PIC Visitor",
+                    "name": "picVisitorName",
+                  },
+                  Object {
+                    "label": "PIC VISITOR PHONE NUMBER",
+                    "name": "picPhoneNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Additional Visitor",
+                    "name": "additionalVisitor",
+                  },
+                  Object {
+                    "label": "Location",
+                    "name": "location",
+                  },
+                  Object {
+                    "hidden": true,
+                    "label": "Room",
+                    "name": "roomName",
+                  },
+                  Object {
+                    "label": "Visit Purpose",
+                    "name": "purpose",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "ORDER DATE",
+                    "name": "orderDate",
+                  },
+                  Object {
+                    "label": "Visit Date",
+                    "name": "visitDate",
+                  },
+                ],
+              },
+              "style": Object {
+                "marginTop": "0px !important",
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "SPK",
+                    "name": "spk",
+                  },
+                  Object {
+                    "label": "BA",
+                    "name": "ba",
+                  },
+                  Object {
+                    "label": "NDA",
+                    "name": "nda",
+                  },
+                  Object {
+                    "label": "ADDITIONAL FILE",
+                    "name": "additionalfile",
+                  },
+                  Object {
+                    "label": "Swab/PCR",
+                    "name": "swab",
+                  },
+                  Object {
+                    "label": "Vaccine",
+                    "name": "vaccine",
+                  },
+                  Object {
+                    "label": "PHOTO KTP",
+                    "name": "ktp",
+                  },
+                  Object {
+                    "label": "PASS PHOTO",
+                    "name": "photo",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+            Object {
+              "render": <ActivityHistory
+                data={
+                  Array [
+                    Object {
+                      "activity": "CHECKOUT",
+                      "name": "Aaron",
+                    },
+                    Object {
+                      "activity": "VISITING",
+                      "name": "Aaron",
+                    },
+                  ]
+                }
+                schema={
+                  Array [
+                    Object {
+                      "label": "DATE",
+                      "name": "date",
+                    },
+                    Object {
+                      "label": "NAME",
+                      "name": "name",
+                    },
+                    Object {
+                      "label": "ACTIVITY",
+                      "name": "activity",
+                    },
+                  ]
+                }
+                visitId="VST-9439158986"
+              />,
+              "title": "Visit Activity History",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "errorsLabel": undefined,
+                "steps": Array [
+                  "Checking",
+                  "Approved",
+                  "Visiting",
+                  "Visit Completed",
+                ],
+              },
+              "title": "Order Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    id="VST-9439158986"
+    modalUpdateStatus={null}
+    setModalUpdateStatus={[MockFunction]}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Visit Neucentrix",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Checking",
+            "value": "checking",
+          },
+          Object {
+            "label": "Approved",
+            "value": "approved",
+          },
+          Object {
+            "label": "Visiting",
+            "value": "visiting",
+          },
+          Object {
+            "label": "Visit Completed",
+            "value": "completed",
+          },
+          Object {
+            "label": "Not Visit",
+            "value": "not visit",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "label": "Visit Date",
+        "onChange": undefined,
+        "type": "date",
+        "value": undefined,
+      },
+      Object {
+        "label": "Order Date",
+        "onChange": undefined,
+        "type": "date",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Company Name...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "emptyMessage": undefined,
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": [Function],
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+            "width": 180,
+          },
+          "label": "Visit ID",
+          "name": "visitId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "PIC Visitor",
+          "name": "picVisitorName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Location",
+          "name": "location",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Visit Purpose",
+          "name": "purpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "label": "Visit Date",
+          "name": "period",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "primary",
+            "checking": "warning",
+            "not visit": "danger",
+            "rejected": "danger",
+            "visit completed": "success",
+            "visiting": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Visit Neucentrix"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Neucentrix/VisitNeucentrix/List render case 2 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Visit Neucentrix",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Checking",
+            "value": "checking",
+          },
+          Object {
+            "label": "Approved",
+            "value": "approved",
+          },
+          Object {
+            "label": "Visiting",
+            "value": "visiting",
+          },
+          Object {
+            "label": "Visit Completed",
+            "value": "completed",
+          },
+          Object {
+            "label": "Not Visit",
+            "value": "not visit",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "label": "Visit Date",
+        "onChange": undefined,
+        "type": "date",
+        "value": undefined,
+      },
+      Object {
+        "label": "Order Date",
+        "onChange": undefined,
+        "type": "date",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Company Name...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "customerType": "Customer Type",
+          "period": "07 October -
+        07 October 2021",
+          "status": "visit completed",
+          "visitEndDate": "2021-10-07T05:13:42.986Z",
+          "visitStartDate": "2021-10-07T05:13:42.986Z",
+        },
+        Object {
+          "customerType": undefined,
+          "period": "",
+          "status": undefined,
+        },
+      ],
+      "emptyMessage": undefined,
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": [Function],
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+            "width": 180,
+          },
+          "label": "Visit ID",
+          "name": "visitId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "PIC Visitor",
+          "name": "picVisitorName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "CUSTOMER TYPE",
+          "name": "customerType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Location",
+          "name": "location",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Visit Purpose",
+          "name": "purpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "label": "Visit Date",
+          "name": "period",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "primary",
+            "checking": "warning",
+            "not visit": "danger",
+            "rejected": "danger",
+            "visit completed": "success",
+            "visiting": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Visit Neucentrix"
+  withTopDivider={true}
+/>
+`;

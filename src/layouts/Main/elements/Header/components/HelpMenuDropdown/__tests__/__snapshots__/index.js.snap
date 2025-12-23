@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/Main/elements/Header/components/HelpMenuDropdown render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-iconOnly-3"
+    onClick={[Function]}
+  >
+    <Help
+      className="icon"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-6",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <Help
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Read user guide
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-5"
+      onClick={[Function]}
+    >
+      <Phone
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Talk to Helpdesk
+      </Typography>
+    </div>
+    <WithStyles(ForwardRef(Divider))
+      className="makeStyles-divider-8"
+    />
+    <div
+      className="makeStyles-versionItem-9"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="caption"
+        weight="normal"
+      >
+        MyCarrier Internal v5.0.0
+      </Typography>
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="caption"
+        weight="normal"
+      >
+        Updated 0 days ago
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;
+
+exports[`src/layouts/Main/elements/Header/components/HelpMenuDropdown render 2 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-root-34"
+    onClick={[Function]}
+  >
+    <Help
+      className="makeStyles-account-28"
+    />
+    <div
+      className="makeStyles-label-31"
+    >
+      Help
+    </div>
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-33",
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-menuItem-32"
+      onClick={[Function]}
+    >
+      <Help
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Read user guide
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-menuItem-32"
+      onClick={[Function]}
+    >
+      <Phone
+        className="icon"
+      />
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Talk to Helpdesk
+      </Typography>
+    </div>
+    <WithStyles(ForwardRef(Divider))
+      className="makeStyles-divider-35"
+    />
+    <div
+      className="makeStyles-versionItem-36"
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="caption"
+        weight="normal"
+      >
+        MyCarrier Internal v5.0.0
+      </Typography>
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="caption"
+        weight="normal"
+      >
+        Updated 0 days ago
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;

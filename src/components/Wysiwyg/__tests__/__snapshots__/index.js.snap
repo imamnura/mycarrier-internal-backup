@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Wysiwyg render 1`] = `
+<div
+  className="makeStyles-root-4"
+  id="wysiwyg-root"
+>
+  <ForwardRef(LoadableComponent)
+    config={
+      Object {
+        "charCounterCount": false,
+        "heightMin": 240,
+        "imagePaste": false,
+        "imageUpload": false,
+        "key": "jUA1yA4D4E4C1E1A1pZGCTRSAPJWTLPLZHTQQb1JGZxE2F2G2D1B10B2B2E6F1C1==",
+        "pastePlain": false,
+        "quickInsertTags": Array [],
+        "scrollableContainer": "#wysiwyg-root",
+        "tabSpaces": 4,
+        "tableStyles": Object {
+          "borderless": "Borderless",
+          "content-table": "Table Content",
+        },
+        "toolbarButtons": Object {
+          "moreMisc": Object {
+            "align": "right",
+            "buttons": Array [
+              "undo",
+              "redo",
+            ],
+            "buttonsVisible": 2,
+          },
+          "moreParagraph": Object {
+            "buttons": Array [
+              "alignLeft",
+              "alignCenter",
+              "alignRight",
+              "alignJustify",
+              "formatOL",
+              "formatUL",
+              "lineHeight",
+              "outdent",
+              "indent",
+            ],
+            "buttonsVisible": 10,
+          },
+          "moreRich": Object {
+            "buttons": Array [
+              "insertLink",
+              "insertTable",
+            ],
+            "buttonsVisible": 3,
+          },
+          "moreText": Object {
+            "buttons": Array [
+              "bold",
+              "italic",
+              "underline",
+              "strikeThrough",
+              "subscript",
+              "superscript",
+              "fontFamily",
+              "fontSize",
+              "textColor",
+            ],
+            "buttonsVisible": 6,
+          },
+        },
+        "toolbarButtonsXS": Object {
+          "moreMisc": Object {
+            "align": "right",
+            "buttons": Array [
+              "undo",
+              "redo",
+            ],
+            "buttonsVisible": 2,
+          },
+          "moreParagraph": Object {
+            "buttons": Array [
+              "alignLeft",
+              "alignCenter",
+              "alignRight",
+              "alignJustify",
+              "formatOL",
+              "formatUL",
+              "lineHeight",
+              "outdent",
+              "indent",
+            ],
+            "buttonsVisible": 5,
+          },
+          "moreRich": Object {
+            "buttons": Array [
+              "insertLink",
+              "insertTable",
+            ],
+            "buttonsVisible": 2,
+          },
+          "moreText": Object {
+            "buttons": Array [
+              "bold",
+              "italic",
+              "underline",
+              "strikeThrough",
+              "subscript",
+              "superscript",
+              "fontFamily",
+              "fontSize",
+              "textColor",
+            ],
+            "buttonsVisible": 6,
+          },
+        },
+        "toolbarSticky": false,
+        "wordDeniedAttrs": Array [
+          "width",
+          "height",
+        ],
+        "wordPasteKeepFormatting": false,
+        "wordPasteModal": false,
+      }
+    }
+    model=""
+    onModelChange={[MockFunction]}
+  />
+  <div
+    className="makeStyles-helper-1"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      -
+    </Typography>
+  </div>
+</div>
+`;

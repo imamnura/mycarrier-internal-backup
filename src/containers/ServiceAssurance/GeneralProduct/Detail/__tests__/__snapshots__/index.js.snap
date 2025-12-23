@@ -1,0 +1,1954 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={Array []}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={null}
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render no id 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={Array []}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={null}
+    fetchDetail={[MockFunction]}
+    referenceId=""
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status fault analysis 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "UPDATE ACTIVITY",
+          "disabled": false,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault analysis",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault analysis",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault analysis",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault analysis",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault analysis",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 2,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Fault Analysis",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "statusTicket": "fault analysis",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status fault completion 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "UPDATE ACTIVITY",
+          "disabled": false,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault completion",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault completion",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault completion",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault completion",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault completion",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 4,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Fault Completion",
+        "variant": "alert",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "statusTicket": "fault completion",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status fault handling 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "LIVE TRACKING ENGINEER",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "UPDATE ACTIVITY",
+          "disabled": false,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault handling",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault handling",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault handling",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault handling",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "fault handling",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 3,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Fault Handling",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "statusTicket": "fault handling",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status report checking 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "REJECT",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "VALIDATE",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report checking",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report checking",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report checking",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report checking",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report checking",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Report Checking",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "statusTicket": "report checking",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status report completed 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "UPDATE ACTIVITY",
+          "disabled": false,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "nps": Object {
+                    "value": 8,
+                  },
+                  "statusTicket": "report completed",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "nps": Object {
+                    "value": 8,
+                  },
+                  "statusTicket": "report completed",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "nps": Object {
+                    "value": 8,
+                  },
+                  "statusTicket": "report completed",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "nps": Object {
+                    "value": 8,
+                  },
+                  "statusTicket": "report completed",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "nps": Object {
+                    "value": 8,
+                  },
+                  "statusTicket": "report completed",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "value": 8,
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [Function],
+                    "grid": "auto",
+                    "label": "Score",
+                    "name": "rate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": "auto",
+                    "label": "Impressions",
+                    "name": "comment",
+                  },
+                ],
+              },
+              "title": "Net Promoter Score",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "active": 6,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Fault Completed",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "nps": Object {
+          "value": 8,
+        },
+        "statusTicket": "report completed",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status report issued 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report issued",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report issued",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report issued",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report issued",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusTicket": "report issued",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": null,
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Report Isssued",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "statusTicket": "report issued",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render status report rejected 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "General Product",
+          "url": "/dashboard/service-assurance/general-product",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "fileEvidence": Object {
+                    "fileUrl": "url",
+                  },
+                  "rejectReason": "reject",
+                  "statusTicket": "report rejected",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Reference ID",
+                    "name": "referenceId",
+                  },
+                  Object {
+                    "label": "Service ID",
+                    "name": "serviceId",
+                  },
+                  Object {
+                    "label": "Ticket Number",
+                    "name": "ticketNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Approval Date",
+                    "name": "approvalDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "Completion Date",
+                    "name": "completionDate",
+                  },
+                  Object {
+                    "label": "First Call Resolution",
+                    "name": "firstCall",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Address",
+                    "name": "address",
+                  },
+                ],
+              },
+              "title": "Service Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "fileEvidence": Object {
+                    "fileUrl": "url",
+                  },
+                  "rejectReason": "reject",
+                  "statusTicket": "report rejected",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber",
+                  },
+                ],
+              },
+              "title": "PIC Customer",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "fileEvidence": Object {
+                    "fileUrl": "url",
+                  },
+                  "rejectReason": "reject",
+                  "statusTicket": "report rejected",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "descriptionCustomer",
+                  },
+                ],
+              },
+              "title": "Detail Customer Report",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "fileEvidence": Object {
+                    "fileUrl": "url",
+                  },
+                  "rejectReason": "reject",
+                  "statusTicket": "report rejected",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Urgency",
+                    "name": "urgency",
+                  },
+                  Object {
+                    "label": "Hard Complain",
+                    "name": "complaint",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Symptoms",
+                    "name": "symptomName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Description",
+                    "name": "description",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "OCC's Note",
+                    "name": "occNote",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Root Cause",
+                    "name": "cause",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Action",
+                    "name": "resolution",
+                  },
+                ],
+              },
+              "title": "Fault Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "fileEvidence": Object {
+                    "fileUrl": "url",
+                  },
+                  "rejectReason": "reject",
+                  "statusTicket": "report rejected",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "PIC Name",
+                    "name": "picName2",
+                  },
+                  Object {
+                    "label": "PIC Contact",
+                    "name": "picNumber2",
+                  },
+                ],
+              },
+              "title": "PIC Internal",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [
+                  <Evidence
+                    data={
+                      Object {
+                        "fileEvidence": Object {
+                          "fileUrl": "url",
+                        },
+                        "rejectReason": "reject",
+                      }
+                    }
+                  />,
+                ],
+                "schema": true,
+              },
+              "title": "Evidence",
+              "type": "numbering",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": "rejected",
+                "steps": Array [
+                  "Report Checking",
+                  "Report Issued",
+                  "Fault Analysis",
+                  "Fault Handling",
+                  "Fault Completion",
+                  "Report Completed",
+                ],
+              },
+              "title": "General Product Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Rejected",
+        "variant": "danger",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    fetchDetail={[MockFunction]}
+    modalReturn={null}
+    setModalReturn={[MockFunction]}
+  />
+  <Component
+    modalLiveTracking={false}
+    setModalLiveTracking={[MockFunction]}
+  />
+  <ModalUploadAgreement
+    detail={
+      Object {
+        "fileEvidence": Object {
+          "fileUrl": "url",
+        },
+        "rejectReason": "reject",
+        "statusTicket": "report rejected",
+      }
+    }
+    fetchDetail={[MockFunction]}
+    referenceId="123"
+    setVisibilityUpdateActivity={[MockFunction]}
+  />
+</React.Fragment>
+`;

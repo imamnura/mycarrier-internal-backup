@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SMSA2P Detail-Evidence render image 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={1}
+    >
+      <div>
+        <Typography
+          className=""
+          color="white"
+          inline={false}
+          variant="h6"
+          weight="normal"
+        >
+          1
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={11}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <div>
+            <Typography
+              className=""
+              color="green"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={4}
+        >
+          <WithStyles(Component)
+            fileName=""
+            url=""
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`Component SMSA2P Detail-Evidence render pdf 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={1}
+    >
+      <div>
+        <Typography
+          className=""
+          color="white"
+          inline={false}
+          variant="h6"
+          weight="normal"
+        >
+          1
+        </Typography>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={11}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <div>
+            <Typography
+              className=""
+              color="green"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <WithStyles(Component)
+            fileName=""
+            type="pdf"
+            url=""
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </React.Fragment>
+</WithStyles(ForwardRef(Grid))>
+`;

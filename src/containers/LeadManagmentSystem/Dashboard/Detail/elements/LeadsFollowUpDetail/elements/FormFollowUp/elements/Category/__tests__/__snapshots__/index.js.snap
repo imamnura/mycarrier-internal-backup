@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/FormFollowUp/elements/Category/index render properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Choose follow up category
+    </Typography>
+    <br />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <OptionList
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "Icon": [Function],
+            "label": "Product",
+            "value": "product",
+          },
+          Object {
+            "Icon": [Function],
+            "label": "Contact",
+            "value": "contact",
+          },
+        ]
+      }
+      redBorder={false}
+      value=""
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={16}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      go ahead
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/FormFollowUp/elements/Category/index render variant opportunity 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-2",
+    }
+  }
+  maxWidth="lg"
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Choose follow up category
+    </Typography>
+    <br />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <OptionList
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "Icon": [Function],
+            "label": "Activities",
+            "value": "activities",
+          },
+          Object {
+            "Icon": [Function],
+            "label": "Note",
+            "value": "notes",
+          },
+          Object {
+            "Icon": [Function],
+            "label": "Attachments",
+            "value": "attachments",
+          },
+        ]
+      }
+      redBorder={false}
+      value=""
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="center"
+    mt={4}
+  >
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="ghost"
+    >
+      Cancel
+    </Button>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={16}
+      mr={0}
+      onClick={[MockFunction]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      go ahead
+    </Button>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

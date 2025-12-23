@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/TermsAndCondition/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "loading": true,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous Step",
+        "loading": false,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Next Step",
+        "loading": false,
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Offering Letter",
+        "url": "/dashboard/offering-letter",
+      },
+      Object {
+        "label": "New Offering Letter",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <StepperForm
+      active={3}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <Card
+    title="Terms & Condition"
+  >
+    <Styled(MuiBox)
+      width={380}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={9}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Minimum of Usage Period"
+            name="toc.usage.period"
+            required={true}
+            shouldUnregister={false}
+            type="number"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={3}
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label=""
+            name="toc.usage.unit"
+            options={
+              Array [
+                Object {
+                  "label": "Year",
+                  "value": "year",
+                },
+                Object {
+                  "label": "Month",
+                  "value": "month",
+                },
+                Object {
+                  "label": "Week",
+                  "value": "week",
+                },
+              ]
+            }
+            required={false}
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={9}
+        >
+          <WithStyles(ForwardRef(Grid))
+            alignItems="center"
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={true}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="RFS (Work Days)"
+                name="toc.rfs.from"
+                required={true}
+                shouldUnregister={false}
+                type="number"
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={1}
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="subtitle2"
+                weight="normal"
+              >
+                to
+              </Typography>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={5}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                name="toc.rfs.to"
+                shouldUnregister={false}
+                type="number"
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Input the Client Details Quotation Notes or/and Terms*"
+          maxLength={1000}
+          minRows={4}
+          multiline={true}
+          name="toc.tnc_note"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "marginBottom": -16,
+              "marginTop": -16,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            <i>
+              This client details field on above is editable.
+            </i>
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Appreciation"
+          maxLength={160}
+          minRows={4}
+          multiline={true}
+          name="toc.appreciation"
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "marginBottom": -16,
+              "marginTop": -16,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            <i>
+              This appreciation field on above is editable.
+            </i>
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+</Create>
+`;

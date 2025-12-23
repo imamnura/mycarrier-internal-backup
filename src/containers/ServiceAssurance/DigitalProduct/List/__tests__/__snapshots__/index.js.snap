@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Digital Product",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Global Search..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Checking",
+        },
+        Object {
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "approval",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Approval Ticket",
+          "value": "approval",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "history",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="Digital Product"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/List render filter tab approval 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Digital Product",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": undefined,
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Global Search..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Checking",
+        },
+        Object {
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Ticket Number",
+          "name": "ticketNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Reference Id",
+          "name": "referenceId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 130,
+          },
+          "label": "Ticket Source",
+          "name": "source",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Product",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Last Updated",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "CHECKING": "primary",
+            "CLOSED": "success",
+            "FAULT ANALYSIS": "warning",
+            "FAULT COMPLETION": "warning",
+            "FAULT HANDLING": "warning",
+            "IN PROGRESS": "warning",
+            "ON HOLD": "warning",
+            "ON PROGRESS": "warning",
+            "REPORT CHECKING": "primary",
+            "REPORT COMPLETED": "success",
+            "REPORT ISSUED": "warning",
+            "REPORT REJECTED": "danger",
+            "RETURNED": "warning",
+            "SOLVED": "warning",
+            "STATUS NOT RECOGNIZED": "tag",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "approval",
+          ],
+          Array [
+            "",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Approval Ticket",
+          "value": "approval",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "history",
+        },
+      ],
+      "value": "approval",
+    }
+  }
+  title="Digital Product"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/List render filter tab history 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Digital Product",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": undefined,
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Global Search..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Checking",
+        },
+        Object {
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Ticket Number",
+          "name": "ticketNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Reference Id",
+          "name": "referenceId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 130,
+          },
+          "label": "Ticket Source",
+          "name": "source",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Product",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Last Updated",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "label": "TTR",
+          "name": "ttr",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "CHECKING": "primary",
+            "CLOSED": "success",
+            "FAULT ANALYSIS": "warning",
+            "FAULT COMPLETION": "warning",
+            "FAULT HANDLING": "warning",
+            "IN PROGRESS": "warning",
+            "ON HOLD": "warning",
+            "ON PROGRESS": "warning",
+            "REPORT CHECKING": "primary",
+            "REPORT COMPLETED": "success",
+            "REPORT ISSUED": "warning",
+            "REPORT REJECTED": "danger",
+            "RETURNED": "warning",
+            "SOLVED": "warning",
+            "STATUS NOT RECOGNIZED": "tag",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "approval",
+          ],
+          Array [
+            "",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Approval Ticket",
+          "value": "approval",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "history",
+        },
+      ],
+      "value": "history",
+    }
+  }
+  title="Digital Product"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/List render no feature 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Digital Product",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Global Search..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Checking",
+        },
+        Object {
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "approval",
+          ],
+          Array [
+            "",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Digital Product"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/List render no feature with tab 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Digital Product",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Global Search..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Checking",
+        },
+        Object {
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Ticket Number",
+          "name": "ticketNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Reference Id",
+          "name": "referenceId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 130,
+          },
+          "label": "Ticket Source",
+          "name": "source",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Product",
+          "name": "product",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "formatDate": "date-time",
+          "label": "Last Updated",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "CHECKING": "primary",
+            "CLOSED": "success",
+            "FAULT ANALYSIS": "warning",
+            "FAULT COMPLETION": "warning",
+            "FAULT HANDLING": "warning",
+            "IN PROGRESS": "warning",
+            "ON HOLD": "warning",
+            "ON PROGRESS": "warning",
+            "REPORT CHECKING": "primary",
+            "REPORT COMPLETED": "success",
+            "REPORT ISSUED": "warning",
+            "REPORT REJECTED": "danger",
+            "RETURNED": "warning",
+            "SOLVED": "warning",
+            "STATUS NOT RECOGNIZED": "tag",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "approval",
+          ],
+          Array [
+            "",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "approval",
+    }
+  }
+  title="Digital Product"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/IPPrefix/lib/DownloadForm render 1`] = `
+<WithStyles(Component)
+  customWidth={500}
+  onClose={[MockFunction]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "12px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Choose specific filtering to download data
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          More specific filtering that you’ve chosen will generate more specific data
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "16px",
+          }
+        }
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Select
+              control={Object {}}
+              defaultValue="updatedAt"
+              error={false}
+              helperText=""
+              label="Date"
+              menuWidth="100%"
+              minWidth="100%"
+              name="date"
+              options={
+                Array [
+                  Object {
+                    "label": "Last Update",
+                    "value": "updatedAt",
+                  },
+                  Object {
+                    "label": "Order Date",
+                    "value": "createdAt",
+                  },
+                ]
+              }
+              placeholder="Choose Date"
+              required={false}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isLoading={false}
+              isSearchable={true}
+              label="Customer"
+              menuWidth="100%"
+              minWidth="100%"
+              name="customer"
+              options={Array []}
+              placeholder="Choose Customer"
+              required={false}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Unknown
+              control={Object {}}
+              name="dateRange"
+              render={[Function]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "20px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            download
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceDelivery/IPPrefix/lib/DownloadForm render other conditions 1`] = `
+<WithStyles(Component)
+  customWidth={500}
+  onClose={[MockFunction]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "12px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Choose specific filtering to download data
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          More specific filtering that you’ve chosen will generate more specific data
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "16px",
+          }
+        }
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Select
+              control={Object {}}
+              defaultValue="updatedAt"
+              error={false}
+              helperText=""
+              label="Date"
+              menuWidth="100%"
+              minWidth="100%"
+              name="date"
+              options={
+                Array [
+                  Object {
+                    "label": "Last Update",
+                    "value": "updatedAt",
+                  },
+                  Object {
+                    "label": "Order Date",
+                    "value": "createdAt",
+                  },
+                ]
+              }
+              placeholder="Choose Date"
+              required={false}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isLoading={false}
+              isSearchable={true}
+              label="Customer"
+              menuWidth="100%"
+              minWidth="100%"
+              name="customer"
+              options={Array []}
+              placeholder="Choose Customer"
+              required={false}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Unknown
+              control={Object {}}
+              name="dateRange"
+              render={[Function]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "20px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            download
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

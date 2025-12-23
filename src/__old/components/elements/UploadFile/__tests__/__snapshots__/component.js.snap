@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/UploadFile render 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    color="grey"
+    variant="caption"
+  >
+    
+  </WithStyles(Component)>
+  <div>
+    <WithStyles(ForwardRef(ButtonBase))
+      className=""
+      component="label"
+      disabled={false}
+    >
+      <WithStyles(Component)
+        className=""
+      >
+        filename
+        <input
+          accept=".png"
+          disabled={false}
+          hidden={true}
+          id="inputFile"
+          input={Object {}}
+          onChange={[Function]}
+          type="file"
+        />
+      </WithStyles(Component)>
+      <Success />
+    </WithStyles(ForwardRef(ButtonBase))>
+  </div>
+  <Memo(Connect(WithStyles(Component)))
+    content=""
+    onClose={[Function]}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/Main/elements/Header render 1`] = `
+<div
+  className="css-3mwl7c"
+>
+  <img
+    alt="logo"
+    className="css-j9mif1"
+    src="/img/logo.svg"
+  />
+  <div
+    className="css-1t28lhi"
+  />
+  <HelpMenuDropdown
+    name="x"
+  />
+  <MenuDropdown
+    name="x"
+  />
+</div>
+`;
+
+exports[`src/layouts/Main/elements/Header render/xs 1`] = `
+<div
+  className="css-1ng0lrd"
+>
+  <button
+    className="css-19ehmas"
+  >
+    <Menu
+      onClick={[MockFunction]}
+    />
+  </button>
+  <img
+    alt="logo"
+    className="css-j9mif1"
+    src="/img/logo.svg"
+  />
+  <div
+    className="css-1t28lhi"
+  />
+  <HelpMenuDropdown
+    name="x"
+  />
+  <MenuDropdown
+    name="x"
+  />
+</div>
+`;

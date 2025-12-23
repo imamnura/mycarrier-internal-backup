@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Product Types"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "2rem",
+        }
+      }
+    >
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize="2.25rem"
+        multiline={true}
+        name="productDetailTypeTitleid"
+        noSpacing={true}
+        placeholder="Ketik konten judul di sini dalam Bahasa.."
+        position="center"
+        weight="bold"
+      />
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize={14}
+        multiline={true}
+        name="productDetailTypeDescid"
+        noSpacing={false}
+        placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+        position="center"
+        weight="normal"
+      />
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={5}
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                1
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={false}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListid[0].title"
+                  noSpacing={false}
+                  placeholder="Ketik judul tipe produk di sini.."
+                  position="left"
+                  weight="bold"
+                />
+              </div>
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={false}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListid[0].description"
+                  noSpacing={true}
+                  placeholder="Ketik deskripsi tipe produk di sini.."
+                  position="left"
+                  weight="medium"
+                />
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+            <div
+              onClick={[Function]}
+            >
+              ✖
+            </div>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+        
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                ...
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                fontSize={14}
+                multiline={true}
+                name="TypeTitleid"
+                noSpacing={false}
+                placeholder="Ketik judul tipe produk di sini.."
+                position="left"
+                weight="bold"
+              />
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                fontSize={14}
+                multiline={true}
+                name="TypeDescid"
+                noSpacing={true}
+                placeholder="Ketik deskripsi tipe produk di sini.."
+                position="left"
+                weight="normal"
+              />
+            </WithStyles(ForwardRef(CardContent))>
+            <WithStyles(ForwardRef(CardActions))
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": "50%",
+                  "position": "absolute",
+                  "transform": "translate(-50%, 50%)",
+                }
+              }
+            >
+              <Button
+                disabled={true}
+                leftIcon={null}
+                loading={false}
+                ml={0}
+                mr={0}
+                onClick={[MockFunction]}
+                rightIcon={null}
+                rounded="normal"
+                textTransform="uppercase"
+                variant="filled"
+              >
+                add product type
+              </Button>
+            </WithStyles(ForwardRef(CardActions))>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render null data 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Product Types"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "2rem",
+        }
+      }
+    >
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize="2.25rem"
+        multiline={true}
+        name="productDetailTypeTitleid"
+        noSpacing={true}
+        placeholder="Ketik konten judul di sini dalam Bahasa.."
+        position="center"
+        weight="bold"
+      />
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize={14}
+        multiline={true}
+        name="productDetailTypeDescid"
+        noSpacing={false}
+        placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+        position="center"
+        weight="normal"
+      />
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={5}
+    >
+      <React.Fragment>
+        
+        
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                ...
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                fontSize={14}
+                multiline={true}
+                name="TypeTitleid"
+                noSpacing={false}
+                placeholder="Ketik judul tipe produk di sini.."
+                position="left"
+                weight="bold"
+              />
+              <TextField
+                colorPlaceholder="black"
+                control={Object {}}
+                fontSize={14}
+                multiline={true}
+                name="TypeDescid"
+                noSpacing={true}
+                placeholder="Ketik deskripsi tipe produk di sini.."
+                position="left"
+                weight="normal"
+              />
+            </WithStyles(ForwardRef(CardContent))>
+            <WithStyles(ForwardRef(CardActions))
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": "50%",
+                  "position": "absolute",
+                  "transform": "translate(-50%, 50%)",
+                }
+              }
+            >
+              <Button
+                disabled={true}
+                leftIcon={null}
+                loading={false}
+                ml={0}
+                mr={0}
+                onClick={[MockFunction]}
+                rightIcon={null}
+                rounded="normal"
+                textTransform="uppercase"
+                variant="filled"
+              >
+                add product type
+              </Button>
+            </WithStyles(ForwardRef(CardActions))>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render null data previewMode true 1`] = `<React.Fragment />`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render tab en 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={false}
+    nonmandatory={true}
+    onChange={[Function]}
+    title="Product Types"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "2rem",
+        }
+      }
+    >
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize="2.25rem"
+        multiline={true}
+        name="productDetailTypeTitleen"
+        noSpacing={true}
+        placeholder="Type the content of the title here in English.."
+        position="center"
+        weight="bold"
+      />
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={false}
+        fontSize={14}
+        multiline={true}
+        name="productDetailTypeDescen"
+        noSpacing={false}
+        placeholder="Type content description here in English.."
+        position="center"
+        weight="normal"
+      />
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={5}
+    >
+      <React.Fragment>
+        
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                1
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={false}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListen[0].title"
+                  noSpacing={false}
+                  placeholder="Type the product type title here.."
+                  position="left"
+                  weight="bold"
+                />
+              </div>
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={false}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListen[0].description"
+                  noSpacing={true}
+                  placeholder="Type the product type description here.."
+                  position="left"
+                  weight="medium"
+                />
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render tab en previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "2rem",
+        }
+      }
+    >
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={true}
+        fontSize="2.25rem"
+        multiline={true}
+        name="productDetailTypeTitleen"
+        noSpacing={true}
+        placeholder="Type the content of the title here in English.."
+        position="center"
+        weight="bold"
+      />
+      
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={5}
+    >
+      <React.Fragment>
+        
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                1
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={true}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListen[0].description"
+                  noSpacing={false}
+                  placeholder="Type the product type description here.."
+                  position="left"
+                  weight="medium"
+                />
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    className={false}
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductTypes/index render tab id previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "2rem",
+        }
+      }
+    >
+      <TextField
+        colorPlaceholder="black"
+        control={Object {}}
+        disabled={true}
+        fontSize="2.25rem"
+        multiline={true}
+        name="productDetailTypeTitleid"
+        noSpacing={true}
+        placeholder="Ketik konten judul di sini dalam Bahasa.."
+        position="center"
+        weight="bold"
+      />
+      
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={5}
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={5}
+          xs={12}
+        >
+          <WithStyles(ForwardRef(Card))>
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "width": 61,
+                }
+              }
+            >
+              <div>
+                1
+              </div>
+            </div>
+            <WithStyles(ForwardRef(CardContent))
+              style={
+                Object {
+                  "paddingLeft": 0,
+                  "paddingTop": 8,
+                  "width": "calc(100% - 61px)",
+                }
+              }
+            >
+              
+              <div>
+                <TextField
+                  colorPlaceholder="black"
+                  control={Object {}}
+                  disabled={true}
+                  fontSize={14}
+                  multiline={true}
+                  name="l2TypeListid[0].description"
+                  noSpacing={false}
+                  placeholder="Ketik deskripsi tipe produk di sini.."
+                  position="left"
+                  weight="medium"
+                />
+              </div>
+            </WithStyles(ForwardRef(CardContent))>
+          </WithStyles(ForwardRef(Card))>
+        </WithStyles(ForwardRef(Grid))>
+        
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    className={false}
+  />
+</div>
+`;

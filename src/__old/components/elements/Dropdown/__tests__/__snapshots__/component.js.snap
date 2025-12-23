@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Dropdown render 1`] = `
+<div
+  style={
+    Object {
+      "minWidth": 74,
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(Component)
+    color="grey"
+    variant="caption"
+  >
+    LABEL
+  </WithStyles(Component)>
+  <ForwardRef
+    classes={Object {}}
+    components={
+      Object {
+        "DropdownIndicator": [Function],
+        "Option": [Function],
+        "ValueContainer": [Function],
+      }
+    }
+    isSearchable={false}
+    onChange={[MockFunction]}
+    options={Array []}
+    rest={
+      Object {
+        "normalLabel": true,
+      }
+    }
+    styles={
+      Object {
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "indicatorSeparator": [Function],
+        "menu": [Function],
+        "option": [Function],
+        "placeholder": [Function],
+        "singleValue": [Function],
+        "valueContainer": [Function],
+      }
+    }
+    value="value"
+  />
+  <WithStyles(Component)
+    color="primary"
+    variant="overline"
+  />
+</div>
+`;
+
+exports[`src/components/elements/Dropdown render when error 1`] = `
+<div
+  style={
+    Object {
+      "minWidth": 74,
+      "width": "100%",
+    }
+  }
+>
+  <WithStyles(Component)
+    color="primary"
+    variant="caption"
+  >
+    LABEL
+  </WithStyles(Component)>
+  <ForwardRef
+    classes={Object {}}
+    components={
+      Object {
+        "DropdownIndicator": [Function],
+        "Option": [Function],
+        "ValueContainer": [Function],
+      }
+    }
+    isSearchable={true}
+    onChange={[MockFunction]}
+    options={Array []}
+    rest={
+      Object {
+        "normalLabel": true,
+      }
+    }
+    styles={
+      Object {
+        "control": [Function],
+        "dropdownIndicator": [Function],
+        "indicatorSeparator": [Function],
+        "loadingIndicator": [Function],
+        "menu": [Function],
+        "option": [Function],
+        "singleValue": [Function],
+      }
+    }
+    value="value"
+  />
+  <WithStyles(Component)
+    color="primary"
+    variant="overline"
+  >
+    true
+  </WithStyles(Component)>
+</div>
+`;

@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "disabled": false,
+        "loading": true,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous Step",
+        "loading": false,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "loading": false,
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Offering Letter",
+        "url": "/dashboard/offering-letter",
+      },
+      Object {
+        "label": "New Offering Letter",
+      },
+    ]
+  }
+  loading={false}
+  s={true}
+  stepperTab={
+    <StepperForm
+      active={2}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <InfoSbr />
+  <Card
+    action={
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Add More Service
+      </Button>
+    }
+    style={
+      Object {
+        "marginTop": 24,
+      }
+    }
+    title="Service"
+  >
+    <Styled(MuiBox)
+      pb={4}
+      pt={1}
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </Styled(MuiBox)>
+    <ListService
+      data={
+        Array [
+          Object {},
+          Object {},
+        ]
+      }
+      onAdd={[MockFunction]}
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      totalPrice={100}
+    />
+    <ForwardRef
+      InputLabelProps={Object {}}
+      InputProps={Object {}}
+      changeType="default"
+      helperText=""
+      inputProps={Object {}}
+      label="Notes"
+      leftAdornment={null}
+      maxLength={160}
+      minRows={4}
+      multiline={true}
+      onChange={[MockFunction]}
+      required={false}
+      rightAdornment={null}
+      type="text"
+      value="test"
+      valueMasking={null}
+    />
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="overline"
+      weight="normal"
+    >
+      <i>
+        This notes field on above is editable.
+      </i>
+    </Typography>
+    <AddService
+      allData={
+        Array [
+          Object {},
+          Object {},
+        ]
+      }
+      formInfo={
+        Object {
+          "pricingIndex": null,
+          "serviceIndex": null,
+        }
+      }
+      onSubmit={[MockFunction]}
+      type=""
+    />
+  </Card>
+</Create>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/index render currentService null 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "disabled": true,
+        "loading": true,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous Step",
+        "loading": false,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": true,
+        "loading": false,
+        "ml": 16,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Offering Letter",
+        "url": "/dashboard/offering-letter",
+      },
+      Object {
+        "label": "New Offering Letter",
+      },
+    ]
+  }
+  loading={false}
+  s={true}
+  stepperTab={
+    <StepperForm
+      active={2}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <InfoSbr />
+  <Card
+    action={
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Add Service
+      </Button>
+    }
+    style={
+      Object {
+        "marginTop": 24,
+      }
+    }
+    title="Service"
+  >
+    <Styled(MuiBox)
+      pb={4}
+      pt={1}
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </Styled(MuiBox)>
+    <ListService
+      data={Array []}
+      onAdd={[MockFunction]}
+      onDelete={[MockFunction]}
+      onEdit={[MockFunction]}
+      totalPrice={100}
+    />
+    <ForwardRef
+      InputLabelProps={Object {}}
+      InputProps={Object {}}
+      changeType="default"
+      helperText=""
+      inputProps={Object {}}
+      label="Notes"
+      leftAdornment={null}
+      maxLength={160}
+      minRows={4}
+      multiline={true}
+      onChange={[MockFunction]}
+      required={false}
+      rightAdornment={null}
+      type="text"
+      value="test"
+      valueMasking={null}
+    />
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="overline"
+      weight="normal"
+    >
+      <i>
+        This notes field on above is editable.
+      </i>
+    </Typography>
+    <AddService
+      allData={Array []}
+      formInfo={
+        Object {
+          "pricingIndex": null,
+          "serviceIndex": null,
+        }
+      }
+      onSubmit={[MockFunction]}
+      type=""
+    />
+  </Card>
+</Create>
+`;

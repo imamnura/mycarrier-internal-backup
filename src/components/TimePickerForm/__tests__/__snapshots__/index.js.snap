@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/TimePickerForm render/primary 1`] = `
+<TimePickerFormPrimary
+  disabled={false}
+  error={false}
+  helperText=""
+  label="Select Date"
+  maxTime={null}
+  minTime={null}
+  onChange={[MockFunction]}
+  required={false}
+  value={null}
+/>
+`;
+
+exports[`src/components/TimePickerForm render/secondary 1`] = `
+<TimePickerFormSecondary
+  disabled={false}
+  error={false}
+  helperText=""
+  label="Select Date"
+  maxTime={null}
+  minTime={null}
+  onChange={[MockFunction]}
+  required={false}
+  value={null}
+/>
+`;

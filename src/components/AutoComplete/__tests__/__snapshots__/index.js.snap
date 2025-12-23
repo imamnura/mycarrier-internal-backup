@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/AutoComplete auto complete loading 1`] = `
+<Loading
+  color="primary"
+  size="small"
+/>
+`;
+
+exports[`src/components/AutoComplete render 1`] = `
+<WithStyles(ForwardRef(Autocomplete))
+  classes={
+    Object {
+      "option": "makeStyles-option-1",
+      "paper": "makeStyles-paper-2",
+    }
+  }
+  disableClearable={true}
+  filterOptions={[Function]}
+  freeSolo={true}
+  onChange={[Function]}
+  onInputChange={[Function]}
+  onSelect={[Function]}
+  options={
+    Array [
+      "satu",
+      "dua",
+    ]
+  }
+  renderInput={[Function]}
+  value="sa"
+/>
+`;
+
+exports[`src/components/AutoComplete render/other 1`] = `
+<WithStyles(ForwardRef(Autocomplete))
+  classes={
+    Object {
+      "option": "makeStyles-option-3",
+      "paper": "makeStyles-paper-4",
+    }
+  }
+  disableClearable={true}
+  filterOptions={[Function]}
+  freeSolo={true}
+  onChange={[Function]}
+  onInputChange={[Function]}
+  onSelect={[Function]}
+  options={
+    Array [
+      "satu",
+      "dua",
+    ]
+  }
+  renderInput={[Function]}
+  value="sa"
+/>
+`;

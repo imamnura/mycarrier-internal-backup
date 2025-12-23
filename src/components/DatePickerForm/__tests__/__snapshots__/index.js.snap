@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/DatePickerForm render 1`] = `
+<Unknown
+  dateAdapter={[Function]}
+  locale="en-US"
+>
+  <ForwardRef
+    autoOk={true}
+    disabled={false}
+    inputFormat="DD/MM/YYYY"
+    label="Select Date"
+    minDate={null}
+    onChange={[Function]}
+    openPickerIcon={
+      <Date
+        style={
+          Object {
+            "color": "#3B525C",
+            "height": 16,
+            "width": 16,
+          }
+        }
+      />
+    }
+    reduceAnimations={true}
+    renderInput={[Function]}
+    value={null}
+    views={
+      Array [
+        "year",
+        "date",
+      ]
+    }
+  />
+</Unknown>
+`;

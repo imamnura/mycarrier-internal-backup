@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/SMSA2P/NonBulk/Edit/elements/Step2 render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Card
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+      title="Campaign Order"
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <OTPInput
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText="Case sensitive, with min. 3 and max. 11 characters"
+          label="Sender ID/Masking"
+          maxLength={11}
+          name="senderId"
+          required={true}
+          value=""
+        />
+      </Styled(MuiBox)>
+    </Card>
+    <Card
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+      title="Campaign List"
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <DetailedList
+          data={
+            Array [
+              Object {},
+              Object {},
+            ]
+          }
+          schema={
+            Array [
+              Object {
+                "cellStyle": Object {
+                  "minWidth": 100,
+                },
+                "label": "Location",
+                "name": "location",
+              },
+              Object {
+                "cellStyle": Object {
+                  "minWidth": 100,
+                },
+                "label": "Quantity",
+                "name": "quantity",
+              },
+              Object {
+                "label": "CampaignDate",
+                "name": "campaignDate",
+              },
+              Object {
+                "cellStyle": Object {
+                  "maxWidth": 300,
+                },
+                "label": "Wording",
+                "name": "wording",
+              },
+              Object {
+                "cellStyle": Object {
+                  "alignItems": "center",
+                  "display": "grid",
+                  "height": "100%",
+                  "justifyContent": "flex-end",
+                  "minWidth": 124,
+                },
+                "label": "",
+                "name": "action",
+              },
+            ]
+          }
+        />
+      </Styled(MuiBox)>
+    </Card>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

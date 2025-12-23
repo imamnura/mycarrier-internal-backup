@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/EmailTextAndAttachment/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Discard",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Cancel",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous Step",
+        "hideDivider": true,
+        "loading": false,
+        "ml": 8,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "hideDivider": true,
+        "loading": false,
+        "ml": 8,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "label": "test",
+        "url": "/bills-and-payment-management/detail/test",
+      },
+      Object {
+        "label": "Billing Reminder Letter 1",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <StepperForm
+      active={2}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <Box
+    background="white"
+    mt="24px"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+  >
+    <Text
+      as="h6"
+      color="secondary500"
+      mb="16px"
+    >
+      Text Editor
+    </Text>
+    <Wysiwyg
+      config={Object {}}
+      error={false}
+      helperText=""
+      onChange={[MockFunction]}
+      value={Object {}}
+      variant="product"
+    />
+    <Text
+      as="h6"
+      color="secondary300"
+      mb="16px"
+      mt="16px"
+      weight="600"
+    >
+      Upload Attachment
+    </Text>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+    >
+      <FileUpload
+        accept={
+          Array [
+            ".pdf",
+          ]
+        }
+        customValidate={null}
+        disabled={false}
+        error={false}
+        fetcher={[Function]}
+        helperText="File in .pdf only, up to 5 files with max. 20MB/file"
+        label=""
+        maxFile={1}
+        maxSize={20971520}
+        placeholder="Example: attachment.pdf"
+        ratio={Array []}
+        ratioPixel={Array []}
+        required={false}
+        value={null}
+        withCropper={false}
+        withDelete={true}
+      />
+      <Box
+        mt="14px"
+      >
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={true}
+          >
+            <Attachment
+              fileName="test"
+              fileUrl="test"
+              hidePreviewDownload={false}
+              previewAction={
+                Array [
+                  Object {
+                    "children": "download",
+                    "onClick": [Function],
+                  },
+                  Object {
+                    "children": "delete",
+                    "ml": 8,
+                    "onClick": undefined,
+                    "withDivider": true,
+                  },
+                ]
+              }
+              previewCentered={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs="auto"
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              delete
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Box>
+    </WithStyles(ForwardRef(Grid))>
+  </Box>
+</Create>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Create/elements/EmailTextAndAttachment/index render attachment false 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as Draft",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Discard",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Cancel",
+        "loading": false,
+        "onClick": undefined,
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Previous Step",
+        "hideDivider": true,
+        "loading": false,
+        "ml": 8,
+        "onClick": undefined,
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "hideDivider": true,
+        "loading": false,
+        "ml": 8,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "label": "test",
+        "url": "/bills-and-payment-management/detail/test",
+      },
+      Object {
+        "label": "Billing Reminder Letter 1",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <StepperForm
+      active={2}
+      data={Object {}}
+      onStepperClick={[MockFunction]}
+    />
+  }
+>
+  <Box
+    background="white"
+    mt="24px"
+    padding="24px 32px"
+    radius="8px"
+    shadow="0px 6px 9px 0px rgba(46, 67, 77, 0.08)"
+  >
+    <Text
+      as="h6"
+      color="secondary500"
+      mb="16px"
+    >
+      Text Editor
+    </Text>
+    <Wysiwyg
+      config={Object {}}
+      error={false}
+      helperText=""
+      onChange={[MockFunction]}
+      value={Object {}}
+      variant="product"
+    />
+    <Text
+      as="h6"
+      color="secondary300"
+      mb="16px"
+      mt="16px"
+      weight="600"
+    >
+      Upload Attachment
+    </Text>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+    >
+      <FileUpload
+        accept={
+          Array [
+            ".pdf",
+          ]
+        }
+        customValidate={null}
+        disabled={false}
+        error={false}
+        fetcher={[Function]}
+        helperText="File in .pdf only, up to 5 files with max. 20MB/file"
+        label=""
+        maxFile={1}
+        maxSize={20971520}
+        placeholder="Example: attachment.pdf"
+        ratio={Array []}
+        ratioPixel={Array []}
+        required={false}
+        value={null}
+        withCropper={false}
+        withDelete={true}
+      />
+      <Box
+        mt="14px"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </Box>
+</Create>
+`;

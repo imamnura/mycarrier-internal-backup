@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Approval render 1`] = `
+<React.Fragment>
+  <ApprovalMicrosite
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "return",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    actionText="Will you approve the New Settlement Request with data above?"
+    description="You get request information for New Settlement with the following data:"
+    information={
+      Object {
+        "data": Object {
+          "activeReviewer": 2,
+          "reviewer": Array [
+            Object {
+              "email": "x",
+              "note": "x",
+            },
+            Object {
+              "email": "y",
+              "note": "y",
+              "status": "waiting approval",
+            },
+          ],
+        },
+        "schema": Array [
+          Object {
+            "label": "Company",
+            "name": "companyName",
+          },
+          Object {
+            "label": "Settlement ID",
+            "name": "settlementId",
+          },
+          Object {
+            "label": "Created Date",
+            "name": "createdDate",
+          },
+          Object {
+            "label": "Preview Document",
+            "name": "attachment",
+            "type": "multipleDocument",
+          },
+        ],
+      }
+    }
+    loading={false}
+    otherRender={
+      <Styled(MuiBox)
+        mt={2}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Note From Telkom
+        </Typography>
+        <Styled(MuiBox)
+          mb={2}
+          mt={1}
+        >
+          <Numbering
+            alignItems="flex-start"
+            data={
+              <React.Fragment>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  marginTop="-2px"
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Name
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Title
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Email
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    x
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Notes
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    x
+                  </Typography>
+                </Styled(MuiBox)>
+              </React.Fragment>
+            }
+            number={1}
+            schema={Array []}
+            size="small"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mb={2}
+          mt={1}
+        >
+          <Numbering
+            alignItems="flex-start"
+            data={
+              <React.Fragment>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  marginTop="-2px"
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Name
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Title
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Email
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    y
+                  </Typography>
+                </Styled(MuiBox)>
+                <Styled(MuiBox)
+                  alignItems="center"
+                  display="flex"
+                  mt={1}
+                >
+                  <Styled(MuiBox)
+                    width={60}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle2"
+                      weight="normal"
+                    >
+                      Notes
+                    </Typography>
+                  </Styled(MuiBox)>
+                  <Typography
+                    className=""
+                    color="inherit"
+                    inline={false}
+                    variant="subtitle2"
+                    weight="normal"
+                  >
+                    y
+                  </Typography>
+                </Styled(MuiBox)>
+              </React.Fragment>
+            }
+            number={2}
+            schema={Array []}
+            size="small"
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    }
+    states={null}
+    subTitle="Reviewer: -"
+    title="Settlement Approval Request"
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Approval render/empty 1`] = `
+<React.Fragment>
+  <ApprovalMicrosite
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "return",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    actionText="Will you approve the New Settlement Request with data above?"
+    description="You get request information for New Settlement with the following data:"
+    information={
+      Object {
+        "data": null,
+        "schema": Array [
+          Object {
+            "label": "Company",
+            "name": "companyName",
+          },
+          Object {
+            "label": "Settlement ID",
+            "name": "settlementId",
+          },
+          Object {
+            "label": "Created Date",
+            "name": "createdDate",
+          },
+          Object {
+            "label": "Preview Document",
+            "name": "attachment",
+            "type": "multipleDocument",
+          },
+        ],
+      }
+    }
+    loading={false}
+    otherRender={false}
+    states={
+      Object {
+        "action": Object {
+          "children": "view request",
+          "onClick": [MockFunction],
+        },
+        "message": "undefined has been -. View that request now.",
+        "type": "-",
+      }
+    }
+    subTitle="Reviewer: -"
+    title="Settlement Approval Request"
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;

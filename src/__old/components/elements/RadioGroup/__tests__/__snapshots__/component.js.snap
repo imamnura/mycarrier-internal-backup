@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/RadioGroup render 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <WithStyles(Component)
+    color="grey"
+    variant="caption"
+  >
+    
+  </WithStyles(Component)>
+  <ForwardRef(RadioGroup)
+    onChange={[Function]}
+    row={true}
+    value="value"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      classes={
+        Object {
+          "label": "",
+          "root": "",
+        }
+      }
+      control={
+        <WithStyles(ForwardRef(Radio))
+          classes={
+            Object {
+              "colorPrimary": "",
+            }
+          }
+          color="primary"
+          size="small"
+        />
+      }
+      label="label"
+      value="value1"
+    />
+  </ForwardRef(RadioGroup)>
+  <WithStyles(Component)
+    color="primary"
+    variant="overline"
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`src/components/elements/RadioGroup render when error 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={true}
+>
+  <WithStyles(Component)
+    color="primary"
+    variant="caption"
+  >
+    
+  </WithStyles(Component)>
+  <ForwardRef(RadioGroup)
+    onChange={[Function]}
+    row={true}
+    value="value"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      classes={
+        Object {
+          "label": "undefined",
+          "root": "",
+        }
+      }
+      control={
+        <WithStyles(ForwardRef(Radio))
+          classes={
+            Object {
+              "colorPrimary": "undefined",
+            }
+          }
+          color="primary"
+          size="small"
+        />
+      }
+      label={
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <WithStyles(Component)
+            color="grey"
+            variant="body2"
+          >
+            label
+          </WithStyles(Component)>
+             
+          <WithStyles(Component)
+            input={
+              Object {
+                "onChange": [Function],
+                "value": " ",
+              }
+            }
+          />
+        </div>
+      }
+      value=" "
+    />
+  </ForwardRef(RadioGroup)>
+  <WithStyles(Component)
+    color="primary"
+    variant="overline"
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`src/components/elements/RadioGroup render with custom field 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <WithStyles(Component)
+    color="grey"
+    variant="caption"
+  >
+    
+  </WithStyles(Component)>
+  <ForwardRef(RadioGroup)
+    onChange={[Function]}
+    row={true}
+    value="value"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      classes={
+        Object {
+          "label": "",
+          "root": "",
+        }
+      }
+      control={
+        <WithStyles(ForwardRef(Radio))
+          classes={
+            Object {
+              "colorPrimary": "",
+            }
+          }
+          color="primary"
+          size="small"
+        />
+      }
+      label={
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <WithStyles(Component)
+            color="default"
+            variant="body2"
+          >
+            label
+          </WithStyles(Component)>
+             
+          <WithStyles(Component)
+            input={
+              Object {
+                "onChange": [Function],
+                "value": " ",
+              }
+            }
+          />
+        </div>
+      }
+      value=" "
+    />
+  </ForwardRef(RadioGroup)>
+  <WithStyles(Component)
+    color="primary"
+    variant="overline"
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;

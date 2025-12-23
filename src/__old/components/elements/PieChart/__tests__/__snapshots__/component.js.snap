@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/PieChart render 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": 500,
+        "width": "60%",
+      }
+    }
+  >
+    <ResponsivePie
+      activeOuterRadiusOffset={8}
+      animate={true}
+      borderColor={
+        Object {
+          "from": "color",
+        }
+      }
+      borderWidth={1}
+      colors={
+        Array [
+          "color",
+        ]
+      }
+      cornerRadius={5}
+      data={
+        Array [
+          Object {
+            "color": "color",
+            "label": "label",
+          },
+        ]
+      }
+      innerRadius={0.5}
+      margin={
+        Object {
+          "bottom": 80,
+          "left": 80,
+          "right": 80,
+          "top": 80,
+        }
+      }
+      radialLabel="label"
+      radialLabelsLinkColor={
+        Object {
+          "from": "color",
+        }
+      }
+      radialLabelsLinkStrokeWidth={3}
+      slicesLabelsSkipAngle={10}
+      slicesLabelsTextColor="#FFF"
+      theme={
+        Object {
+          "fontFamily": "Titillium Web",
+          "fontSize": 14,
+          "labels": Object {
+            "text": Object {
+              "fontSize": 10,
+            },
+          },
+          "textColor": "#3B525C",
+        }
+      }
+      valueFormat={[Function]}
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "width": "40%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexFlow": "column",
+          "margin": "8px 0 8px 16px",
+          "textAlign": "left",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(Component)
+        variant="caption"
+      >
+        DATA ON
+      </WithStyles(Component)>
+      <WithStyles(Component)
+        variant="h5"
+      >
+        
+      </WithStyles(Component)>
+    </div>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      direction="column"
+      justify="left"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <div
+          style={
+            Object {
+              "backgroundColor": "color",
+            }
+          }
+        />
+        <WithStyles(Component)
+          variant="captionBold"
+        >
+          label
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</div>
+`;

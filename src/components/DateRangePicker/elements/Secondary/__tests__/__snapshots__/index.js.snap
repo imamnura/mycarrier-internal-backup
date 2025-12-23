@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/DateRangePicker/elements/Secondary render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-dropdown-3"
+    id="date-range-picker"
+  >
+    <Typography
+      className=""
+      color="general-main"
+      inline={false}
+      variant="body1"
+      weight="normal"
+    >
+      Start - End
+    </Typography>
+    <Date
+      className="arrow"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={false}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-dialogPaper-2",
+      }
+    }
+    id="popUp"
+    onClose={[MockFunction]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <Unknown
+      dateAdapter={[Function]}
+      locale="en-US"
+    >
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div>
+          <Styled(MuiBox)
+            className="makeStyles-header-4"
+          >
+            <Typography
+              className=""
+              color="white"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              Start Date
+            </Typography>
+          </Styled(MuiBox)>
+          <ForwardRef
+            autoOk={true}
+            displayStaticWrapperAs="desktop"
+            id="startPick"
+            maxDate={null}
+            onChange={[MockFunction]}
+            showDaysOutsideCurrentMonth={true}
+            value={null}
+            views={
+              Array [
+                "date",
+              ]
+            }
+          />
+        </div>
+        <div>
+          <Styled(MuiBox)
+            className="makeStyles-header-4"
+          >
+            <Typography
+              className=""
+              color="white"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              End Date
+            </Typography>
+          </Styled(MuiBox)>
+          <ForwardRef
+            autoOk={true}
+            displayStaticWrapperAs="desktop"
+            id="endPick"
+            minDate={null}
+            onChange={[MockFunction]}
+            showDaysOutsideCurrentMonth={true}
+            value={null}
+            views={
+              Array [
+                "date",
+              ]
+            }
+          />
+        </div>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="makeStyles-actionButton-1"
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Reset
+        </Button>
+        <Button
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Submit
+        </Button>
+      </Styled(MuiBox)>
+    </Unknown>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;
+
+exports[`src/components/DateRangePicker/elements/Secondary render/mobile 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-dropdown-13"
+    id="date-range-picker"
+  >
+    <Typography
+      className=""
+      color="general-main"
+      inline={false}
+      variant="body1"
+      weight="normal"
+    >
+      Start - End
+    </Typography>
+    <Date
+      className="arrow"
+    />
+  </div>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogPaper-12",
+      }
+    }
+    id="popUp"
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <Unknown
+      dateAdapter={[Function]}
+      locale="en-US"
+    >
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div>
+          <Styled(MuiBox)
+            className="makeStyles-header-14"
+          >
+            <Typography
+              className=""
+              color="white"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              Start Date
+            </Typography>
+          </Styled(MuiBox)>
+          <ForwardRef
+            autoOk={true}
+            displayStaticWrapperAs="desktop"
+            id="startPick"
+            maxDate={null}
+            onChange={[MockFunction]}
+            showDaysOutsideCurrentMonth={true}
+            value={null}
+            views={
+              Array [
+                "date",
+              ]
+            }
+          />
+        </div>
+        <div>
+          <Styled(MuiBox)
+            className="makeStyles-header-14"
+          >
+            <Typography
+              className=""
+              color="white"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              End Date
+            </Typography>
+          </Styled(MuiBox)>
+          <ForwardRef
+            autoOk={true}
+            displayStaticWrapperAs="desktop"
+            id="endPick"
+            minDate={null}
+            onChange={[MockFunction]}
+            showDaysOutsideCurrentMonth={true}
+            value={null}
+            views={
+              Array [
+                "date",
+              ]
+            }
+          />
+        </div>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="makeStyles-actionButton-11"
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Reset
+        </Button>
+        <Button
+          disabled={true}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Submit
+        </Button>
+      </Styled(MuiBox)>
+    </Unknown>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

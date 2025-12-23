@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation handle change 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation run properly 1`] = `
+<div>
+  <Tabs
+    isCustom={false}
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Lead Detail",
+          "value": "leadDetail",
+        },
+      ]
+    }
+    value="leadDetail"
+    variant="default"
+  />
+  <LoadingBar
+    loading={false}
+  />
+  <Styled(MuiBox)
+    mt={5}
+    visibility="inherit"
+  >
+    <Memo(LeadDetail) />
+  </Styled(MuiBox)>
+</div>
+`;

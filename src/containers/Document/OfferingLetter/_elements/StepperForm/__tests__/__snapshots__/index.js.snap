@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/_elements/StepperForm/index render 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "mb": 1,
+        "pb": 2,
+        "pt": 6,
+      }
+    }
+  >
+    <Stepper
+      accessibleTab={-1}
+      active={1}
+      errors={null}
+      errorsLabel=""
+      onStepClick={[MockFunction]}
+      steps={
+        Array [
+          "Company Information",
+          "Service Specification",
+          "Terms & Condition",
+          "Agreement",
+        ]
+      }
+      variant="number"
+      warnings=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/_elements/StepperForm/index render agreement 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "mb": 1,
+        "pb": 2,
+        "pt": 6,
+      }
+    }
+  >
+    <Stepper
+      accessibleTab={3}
+      active={1}
+      errors={null}
+      errorsLabel=""
+      onStepClick={[MockFunction]}
+      steps={
+        Array [
+          "Company Information",
+          "Service Specification",
+          "Terms & Condition",
+          "Agreement",
+        ]
+      }
+      variant="number"
+      warnings=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/_elements/StepperForm/index render companyName 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "mb": 1,
+        "pb": 2,
+        "pt": 6,
+      }
+    }
+  >
+    <Stepper
+      accessibleTab={0}
+      active={1}
+      errors={null}
+      errorsLabel=""
+      onStepClick={[MockFunction]}
+      steps={
+        Array [
+          "Company Information",
+          "Service Specification",
+          "Terms & Condition",
+          "Agreement",
+        ]
+      }
+      variant="number"
+      warnings=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/_elements/StepperForm/index render products 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "mb": 1,
+        "pb": 2,
+        "pt": 6,
+      }
+    }
+  >
+    <Stepper
+      accessibleTab={1}
+      active={1}
+      errors={null}
+      errorsLabel=""
+      onStepClick={[MockFunction]}
+      steps={
+        Array [
+          "Company Information",
+          "Service Specification",
+          "Terms & Condition",
+          "Agreement",
+        ]
+      }
+      variant="number"
+      warnings=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/_elements/StepperForm/index render toc 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "display": "flex",
+        "justifyContent": "center",
+        "mb": 1,
+        "pb": 2,
+        "pt": 6,
+      }
+    }
+  >
+    <Stepper
+      accessibleTab={2}
+      active={1}
+      errors={null}
+      errorsLabel=""
+      onStepClick={[MockFunction]}
+      steps={
+        Array [
+          "Company Information",
+          "Service Specification",
+          "Terms & Condition",
+          "Agreement",
+        ]
+      }
+      variant="number"
+      warnings=""
+    />
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

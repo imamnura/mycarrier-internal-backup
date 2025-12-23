@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/SectionTree/index render 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderRadius": "5px",
+      }
+    }
+  >
+    <Dropdown
+      additionalWidth={0}
+      asyncProps={Object {}}
+      creatableWording={null}
+      defaultMenuIsOpen={true}
+      emptyMessage={null}
+      isCreatable={false}
+      isOptionDisabled={[Function]}
+      maxWidth={null}
+      menuStick="left"
+      menuWidth={200}
+      minWidth={null}
+      noBorder={false}
+      onCreate={[Function]}
+      onSearch={[Function]}
+      options={Array []}
+      placeholder="Choose Option"
+      required={false}
+      searchable={false}
+      staticHeight={null}
+      staticWidth={300}
+      styles={Object {}}
+      value={Object {}}
+      valueFitToContent={false}
+    />
+  </div>
+</div>
+`;

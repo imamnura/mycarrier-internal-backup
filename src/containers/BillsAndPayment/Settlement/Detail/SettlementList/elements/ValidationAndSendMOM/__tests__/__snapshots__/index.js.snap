@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/ValidationAndSendMOM render 1 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  maxWidth="lg"
+  open={false}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    className="makeStyles-container-4"
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": 310,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="h5"
+        weight="medium"
+      >
+        Validation Signature
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        First step, please make a validation of Customer data that will mark a signature on Customer column
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "mt": 3,
+          "px": 6,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={0}
+        errors={null}
+        errorsLabel=""
+        steps={
+          Array [
+            "Signature Validation",
+            "Download & Upload MOM",
+          ]
+        }
+        variant="number"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <React.Fragment>
+    <Styled(MuiBox)
+      mt={3}
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                Customer 
+                1
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Customer Name"
+              maxLength={60}
+              name="customerSign.0.customerName"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Customer Position"
+              maxLength={60}
+              name="customerSign.0.customerPosition"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Email"
+              maxLength={60}
+              name="customerSign.0.email"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            sm={3}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="customerSign.0.phoneNumber"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <Styled(MuiBox)
+        mt={4}
+      >
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              className="makeStyles-dashed-3"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="add customer"
+              loading={false}
+              onClick={[MockFunction]}
+              type="ghost"
+              variant="add"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "mt": 4,
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+      <div
+        className="makeStyles-actionDivider-2"
+      />
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Next
+      </Button>
+    </Styled(MuiBox)>
+  </React.Fragment>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/ValidationAndSendMOM render 2 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-5",
+    }
+  }
+  maxWidth="lg"
+  open={false}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    className="makeStyles-container-8"
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": 310,
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={true}
+        variant="h5"
+        weight="medium"
+      >
+        Download MOM Document
+      </Typography>
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        Next, please download template MOM document, then mark a signature on Account Manager column
+      </Typography>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "mt": 3,
+          "px": 6,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={1}
+        errors={null}
+        errorsLabel=""
+        steps={
+          Array [
+            "Signature Validation",
+            "Download & Upload MOM",
+          ]
+        }
+        variant="number"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    className="makeStyles-container-8"
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "width": 310,
+        }
+      }
+    >
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 2,
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          leftIcon={[Function]}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          MOM-DOCUMENT.doc
+        </Button>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider)) />
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "my": 2,
+            "width": 310,
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={true}
+          variant="h5"
+          weight="medium"
+        >
+          Then Upload MOM Document
+        </Typography>
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Last step, please upload MOM document that you’ve been signed, then send it to the Customer
+        </Typography>
+      </Styled(MuiBox)>
+      <FileUpload
+        accept={
+          Array [
+            ".pdf",
+          ]
+        }
+        customValidate={null}
+        disabled={false}
+        error={false}
+        fetcher={[Function]}
+        helperText="Upload .pdf document, max 5 MB "
+        label=""
+        maxFile={1}
+        maxSize={5242880}
+        onChange={[MockFunction]}
+        placeholder="Example: mom-document.pdf"
+        ratio={Array []}
+        ratioPixel={Array []}
+        required={false}
+        value={Object {}}
+        withCropper={false}
+        withDelete={true}
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "mt": 2,
+        }
+      }
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+      <div
+        className="makeStyles-actionDivider-6"
+      />
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Previous
+      </Button>
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={16}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Send Document
+      </Button>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/Select/elements/Primary render 1`] = `
+<div>
+  <Typography
+    className="makeStyles-required-4"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-3"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <Dropdown
+    additionalWidth={0}
+    asyncProps={Object {}}
+    creatableWording={null}
+    emptyMessage={null}
+    isCreatable={false}
+    isMulti={false}
+    isOptionDisabled={[Function]}
+    maxWidth={null}
+    menuStick="left"
+    menuWidth={200}
+    minWidth={null}
+    noBorder={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onCreate={[Function]}
+    onFocus={[Function]}
+    onSearch={[Function]}
+    options={
+      Array [
+        Object {
+          "value": "value",
+        },
+      ]
+    }
+    placeholder="Choose Options"
+    required={false}
+    searchable={false}
+    staticHeight={null}
+    staticWidth={null}
+    styles={Object {}}
+    value=""
+    valueFitToContent={false}
+  />
+  <div
+    className="makeStyles-helper-1"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</div>
+`;
+
+exports[`src/components-v2/Select/elements/Primary render/other 1`] = `
+<div>
+  <Typography
+    className="makeStyles-required-16"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-15"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <Dropdown
+    additionalWidth={0}
+    asyncProps={Object {}}
+    creatableWording={null}
+    emptyMessage={null}
+    isCreatable={false}
+    isMulti={true}
+    isOptionDisabled={[Function]}
+    maxWidth={null}
+    menuStick="left"
+    menuWidth={200}
+    minWidth={null}
+    noBorder={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onCreate={[Function]}
+    onFocus={[Function]}
+    onSearch={[Function]}
+    options={
+      Array [
+        Object {
+          "value": "value",
+        },
+      ]
+    }
+    placeholder="Choose Options"
+    required={false}
+    searchable={false}
+    staticHeight={null}
+    staticWidth={null}
+    styles={Object {}}
+    value=""
+    valueFitToContent={false}
+  />
+  <div
+    className="makeStyles-helper-13"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</div>
+`;

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SMSA2P Detail-MSISDN render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        fileName=""
+        url="https://"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;
+
+exports[`Component SMSA2P Detail-MSISDN render no trouble files 1`] = `<React.Fragment />`;
+
+exports[`Component SMSA2P Detail-MSISDN render no trouble occurs 1`] = `<React.Fragment />`;
+
+exports[`Component SMSA2P Detail-MSISDN render trouble files not object 1`] = `<React.Fragment />`;
+
+exports[`Component SMSA2P Detail-MSISDN render troubleOccursFile no keys 1`] = `
+<React.Fragment>
+  <div
+    style={
+      Object {
+        "marginTop": "32px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "margin": "32px 0",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <div>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            variant="h6"
+            weight="normal"
+          >
+            1
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={11}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Information
+              label="MSISDN"
+              value="-"
+              weight="normal"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={6}
+          >
+            <Information
+              label="TIMESTAMP"
+              value="-"
+              weight="normal"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Information
+              label="LOG REQUEST"
+              value="-"
+              weight="normal"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Information
+              label="LOG Respon"
+              value="-"
+              weight="normal"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;

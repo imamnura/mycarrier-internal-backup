@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Skeleton render 1`] = `
+<WithStyles(ForwardRef(Skeleton))
+  animation="wave"
+  classes={
+    Object {
+      "rect": "makeStyles-rectangle-1",
+      "root": "makeStyles-root-2",
+    }
+  }
+  height="16px"
+  variant="rect"
+  width="100%"
+/>
+`;

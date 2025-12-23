@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/DataUnsettle/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Data Unsettle",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Year",
+            "value": "",
+          },
+          Object {
+            "label": "2025",
+            "value": "2025",
+          },
+          Object {
+            "label": "2024",
+            "value": "2024",
+          },
+          Object {
+            "label": "2023",
+            "value": "2023",
+          },
+          Object {
+            "label": "2022",
+            "value": "2022",
+          },
+          Object {
+            "label": "2021",
+            "value": "2021",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Month",
+            "value": "",
+          },
+          Object {
+            "label": "January",
+            "value": "01",
+          },
+          Object {
+            "label": "February",
+            "value": "02",
+          },
+          Object {
+            "label": "March",
+            "value": "03",
+          },
+          Object {
+            "label": "April",
+            "value": "04",
+          },
+          Object {
+            "label": "May",
+            "value": "05",
+          },
+          Object {
+            "label": "June",
+            "value": "06",
+          },
+          Object {
+            "label": "July",
+            "value": "07",
+          },
+          Object {
+            "label": "August",
+            "value": "08",
+          },
+          Object {
+            "label": "September",
+            "value": "09",
+          },
+          Object {
+            "label": "October",
+            "value": "10",
+          },
+          Object {
+            "label": "November",
+            "value": "11",
+          },
+          Object {
+            "label": "December",
+            "value": "12",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Segment",
+            "value": "",
+          },
+          Object {
+            "label": "AMS",
+            "value": "AMS",
+          },
+          Object {
+            "label": "BMS",
+            "value": "BMS",
+          },
+          Object {
+            "label": "CSOLO",
+            "value": "CSOLO",
+          },
+          Object {
+            "label": "CUG",
+            "value": "CUG",
+          },
+          Object {
+            "label": "VCS",
+            "value": "VCS",
+          },
+          Object {
+            "label": "X_NEW_CUSTOMER",
+            "value": "X_NEW_CUSTOMER",
+          },
+          Object {
+            "label": "X_UNDEFINED",
+            "value": "X_UNDEFINED",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Segment",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "invoiceGroup": "SARTL",
+          "periode1": "Rp123",
+          "periode2": "Rp123",
+          "periode3": "Rp123",
+          "periode4": "Rp123",
+          "segment": "BMS",
+          "total": "Rp123",
+        },
+      ],
+      "loadingRoot": false,
+      "meta": Object {
+        "page": 1,
+        "size": 1,
+        "totalData": 1,
+      },
+      "onClickRow": [MockFunction],
+      "onPaginationChange": [Function],
+      "page": 1,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+          },
+          "label": "SEGMENT",
+          "name": "segment",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "label": "INVOICE GROUP",
+          "name": "invoiceGroup",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "0-6 BULAN",
+          "name": "periode1",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "7-12 BULAN",
+          "name": "periode2",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "13-24 BULAN",
+          "name": "periode3",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": ">24 BULAN",
+          "name": "periode4",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "TOTAL",
+          "name": "total",
+        },
+      ],
+      "useOrderBy": undefined,
+      "useOrderDirection": undefined,
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Data Unsettle"
+  withTopDivider={true}
+/>
+`;

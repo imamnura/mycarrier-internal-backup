@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/SubDetail render 1`] = `
+<div>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "PREVIEW PAGE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "DELETE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "EDIT",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+          "url": "/product-management",
+        },
+        Object {
+          "label": "test",
+          "url": "/dashboard/product-management/detail/1",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": "11",
+                  "category": Array [
+                    Object {
+                      "title": "test",
+                    },
+                  ],
+                  "name": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Product Page Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Slug",
+                    "name": "slug",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Title",
+                    "name": "metaSeo.title",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Keyword",
+                    "name": "metaSeo.keyword",
+                    "type": "tags",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Description",
+                    "name": "metaSeo.description",
+                  },
+                ],
+              },
+              "title": "Product Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": "11",
+                  "category": Array [
+                    Object {
+                      "title": "test",
+                    },
+                  ],
+                  "name": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Page Level",
+                    "name": "level",
+                  },
+                ],
+              },
+              "title": "Level Mapping",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 5,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PreviewPage
+    data={
+      Object {
+        "catId": "11",
+        "category": Array [
+          Object {
+            "title": "test",
+          },
+        ],
+        "name": "test",
+      }
+    }
+    levelDetail=""
+    openPreviewState={
+      Object {
+        "openPreview": false,
+        "setOpenPreview": [MockFunction],
+      }
+    }
+    stepDetail={0}
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/SubDetail render catId false 1`] = `
+<div>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "PREVIEW PAGE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "DELETE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "EDIT",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+          "url": "/product-management",
+        },
+        Object {
+          "label": "test",
+          "url": "/dashboard/product-management/detail/1",
+        },
+        Object {
+          "label": "test",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": "",
+                  "category": Array [
+                    Object {
+                      "title": "test",
+                    },
+                  ],
+                  "name": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Product Page Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Slug",
+                    "name": "slug",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Title",
+                    "name": "metaSeo.title",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Keyword",
+                    "name": "metaSeo.keyword",
+                    "type": "tags",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Description",
+                    "name": "metaSeo.description",
+                  },
+                ],
+              },
+              "title": "Product Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": "",
+                  "category": Array [
+                    Object {
+                      "title": "test",
+                    },
+                  ],
+                  "name": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Page Level",
+                    "name": "level",
+                  },
+                ],
+              },
+              "title": "Level Mapping",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 5,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PreviewPage
+    data={
+      Object {
+        "catId": "",
+        "category": Array [
+          Object {
+            "title": "test",
+          },
+        ],
+        "name": "test",
+      }
+    }
+    levelDetail=""
+    openPreviewState={
+      Object {
+        "openPreview": false,
+        "setOpenPreview": [MockFunction] {
+          "calls": Array [
+            Array [
+              true,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    stepDetail={0}
+  />
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/Auth render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    className="makeStyles-centered-2"
+    item={true}
+    lg={6}
+    xs={12}
+  >
+    <div
+      className="makeStyles-mainWrapper-3"
+    >
+      <span />
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+  <Hidden
+    mdDown={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={6}
+    >
+      <div
+        className="makeStyles-banner-1"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </Hidden>
+</WithStyles(ForwardRef(Grid))>
+`;

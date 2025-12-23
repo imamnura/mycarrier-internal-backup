@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run Delay Quote 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={-1}
+        errors={null}
+        errorsLabel=""
+        steps={Array []}
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run Delay opportunity 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={-1}
+        errors={null}
+        errorsLabel=""
+        steps={Array []}
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run Opportunity 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={-1}
+        errors={null}
+        errorsLabel=""
+        steps={Array []}
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run Quote 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={-1}
+        errors={null}
+        errorsLabel=""
+        steps={Array []}
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run need_validation 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={0}
+        errors={null}
+        errorsLabel=""
+        steps={
+          Array [
+            Object {
+              "active": true,
+              "dateTime": "-",
+              "label": "Valid",
+              "status": "valid",
+            },
+          ]
+        }
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run red step Invalid 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={0}
+        errors="rejected"
+        errorsLabel="Invalid"
+        steps={
+          Array [
+            Object {
+              "active": true,
+              "dateTime": "-",
+              "label": "Invalid",
+              "status": "invalid",
+            },
+          ]
+        }
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StepperStage run valid 1`] = `
+<div>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "overflow": "auto",
+      }
+    }
+  >
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "margin": "auto",
+          "marginBottom": 24,
+          "width": 800,
+        }
+      }
+    >
+      <Stepper
+        accessibleTab={-1}
+        active={1}
+        errors={null}
+        errorsLabel=""
+        steps={
+          Array [
+            Object {
+              "dateTime": "-",
+              "label": "Need Validation",
+              "status": "need_validation",
+            },
+            Object {
+              "active": true,
+              "dateTime": null,
+              "label": "Valid",
+              "status": "valid",
+            },
+            Object {
+              "dateTime": "-",
+              "label": "Qualify",
+              "status": "qualify",
+            },
+          ]
+        }
+        variant="default"
+        warnings=""
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Divider)) />
+</div>
+`;

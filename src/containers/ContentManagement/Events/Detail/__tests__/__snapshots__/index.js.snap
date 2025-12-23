@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Detail/index render 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Preview Page",
+          "disabled": false,
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Delete",
+          "loading": false,
+          "noDivider": true,
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Edit",
+          "disabled": false,
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Events Management",
+          "url": "/events-management",
+        },
+        Object {
+          "label": null,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "attendees": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "createdAt": "2022-10-19T11:19:23+07:00",
+                  "dateHeld": "24 October 2022 07:00 - 09:00",
+                  "endDate": "2022-10-24T09:00:00+07:00",
+                  "eventId": "EV-1666153163827",
+                  "eventRegistration": "https://www.google.com/",
+                  "eventStatus": "upcoming",
+                  "id": 135,
+                  "imageBanner": Object {
+                    "mediaId": "0267fc094855665622c6629f03a5b51d",
+                    "mediaName": "Event Bann",
+                    "mediaPath": "test path",
+                  },
+                  "isDisplay": true,
+                  "localizations": Array [
+                    Object {
+                      "baseLanguage": true,
+                      "description": "<p>Desk indo</p>",
+                      "id": "9e065cf807f25f8dd30a59c387b2cd5c",
+                      "language": "id",
+                      "rundown": Object {
+                        "isDisplay": true,
+                        "items": Array [
+                          Object {
+                            "date": "2022-10-24T00:00:00+07:00",
+                            "items": Array [],
+                            "title": "24 October 2022",
+                          },
+                        ],
+                      },
+                      "slug": "acara-v1",
+                      "title": "Acara v1",
+                    },
+                    Object {
+                      "baseLanguage": false,
+                      "description": "<p>Desc english</p>",
+                      "id": "67b1b83ab109af58851aa3ef4117387a",
+                      "language": "en",
+                      "rundown": Object {
+                        "isDisplay": true,
+                        "items": Array [
+                          Object {
+                            "date": "2022-10-24T00:00:00+07:00",
+                            "items": Array [],
+                            "title": "24 October 2022",
+                          },
+                        ],
+                      },
+                      "slug": "event-v1",
+                      "title": "Event v1",
+                    },
+                  ],
+                  "location": "Jakarta",
+                  "pastLink": null,
+                  "relatedProduct": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "speakers": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "sponsors": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "startDate": "2022-10-24T07:00:00+07:00",
+                  "status": "publish",
+                  "type": "event",
+                  "typeLocation": "online",
+                  "updatedAt": "2022-10-19T11:19:23+07:00",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Event Name",
+                    "name": "eventName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Id",
+                    "name": "eventId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Content Status",
+                    "name": "status",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Date Held",
+                    "name": "dateHeld",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Location",
+                    "name": "location",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Type",
+                    "name": "typeLocation",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Event Registration",
+                    "name": "eventRegistration",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Link (For Past Event)",
+                    "name": "pastLink",
+                  },
+                ],
+              },
+              "title": "Events Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "past event",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <PageViewer
+    actionButton={null}
+    eventId="EV-1666153163827"
+    idPreviewPage=""
+    onClose={[Function]}
+    open={false}
+    tab="id"
+    title="Event - Preview Page"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Detail/index render page preview 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-12",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-7",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-8",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[Function]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        title
+      </Typography>
+      <div
+        className="makeStyles-grow-2"
+      />
+      <Button
+        autoFocus={true}
+        color="inherit"
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-11"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/id/events/id?id=id"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Detail/index render page preview another state 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "direction": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  TransitionProps={
+    Object {
+      "direction": "up",
+    }
+  }
+  classes={
+    Object {
+      "paperFullScreen": "makeStyles-root-26",
+    }
+  }
+  fullScreen={true}
+  open={true}
+>
+  <WithStyles(ForwardRef(AppBar))
+    classes={
+      Object {
+        "root": "makeStyles-mainAppBar-21",
+      }
+    }
+    color="inherit"
+    position="fixed"
+  >
+    <WithStyles(ForwardRef(Toolbar))
+      classes={
+        Object {
+          "root": "makeStyles-mainHeader-22",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[Function]}
+        size="medium"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="normal"
+      >
+        title
+      </Typography>
+      <div
+        className="makeStyles-grow-16"
+      />
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="makeStyles-pagesWrapper-25"
+  >
+    <iframe
+      height="100%"
+      loading="eager"
+      src="https://dev.mycarrier.co.id/events/preview?id=id"
+      title="Event"
+      width="100%"
+    />
+  </div>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Detail/index render/empty 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Preview Page",
+          "disabled": false,
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Delete",
+          "loading": false,
+          "noDivider": true,
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "Edit",
+          "disabled": false,
+          "loading": false,
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Events Management",
+          "url": "/events-management",
+        },
+        Object {
+          "label": null,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "attendees": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "createdAt": "2022-10-19T11:19:23+07:00",
+                  "dateHeld": "24 October 2022 07:00 - 09:00",
+                  "endDate": "2022-10-24T09:00:00+07:00",
+                  "eventId": "EV-1666153163827",
+                  "eventRegistration": "https://www.google.com/",
+                  "eventStatus": "upcoming",
+                  "id": 135,
+                  "imageBanner": Object {
+                    "mediaId": "0267fc094855665622c6629f03a5b51d",
+                    "mediaName": "Event Bann",
+                    "mediaPath": "test path",
+                  },
+                  "isDisplay": true,
+                  "localizations": Array [
+                    Object {
+                      "baseLanguage": true,
+                      "description": "<p>Desk indo</p>",
+                      "id": "9e065cf807f25f8dd30a59c387b2cd5c",
+                      "language": "id",
+                      "rundown": Object {
+                        "isDisplay": true,
+                        "items": Array [
+                          Object {
+                            "date": "2022-10-24T00:00:00+07:00",
+                            "items": Array [],
+                            "title": "24 October 2022",
+                          },
+                        ],
+                      },
+                      "slug": "acara-v1",
+                      "title": "Acara v1",
+                    },
+                    Object {
+                      "baseLanguage": false,
+                      "description": "<p>Desc english</p>",
+                      "id": "67b1b83ab109af58851aa3ef4117387a",
+                      "language": "en",
+                      "rundown": Object {
+                        "isDisplay": true,
+                        "items": Array [
+                          Object {
+                            "date": "2022-10-24T00:00:00+07:00",
+                            "items": Array [],
+                            "title": "24 October 2022",
+                          },
+                        ],
+                      },
+                      "slug": "event-v1",
+                      "title": "Event v1",
+                    },
+                  ],
+                  "location": "Jakarta",
+                  "pastLink": null,
+                  "relatedProduct": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "speakers": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "sponsors": Object {
+                    "isDisplay": false,
+                    "items": Array [],
+                  },
+                  "startDate": "2022-10-24T07:00:00+07:00",
+                  "status": "publish",
+                  "type": "event",
+                  "typeLocation": "online",
+                  "updatedAt": "2022-10-19T11:19:23+07:00",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Event Name",
+                    "name": "eventName",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Id",
+                    "name": "eventId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Content Status",
+                    "name": "status",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Date Held",
+                    "name": "dateHeld",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Location",
+                    "name": "location",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "Event Type",
+                    "name": "typeLocation",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Event Registration",
+                    "name": "eventRegistration",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Link (For Past Event)",
+                    "name": "pastLink",
+                  },
+                ],
+              },
+              "title": "Events Information",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "past event",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <PageViewer
+    actionButton={null}
+    eventId="EV-1666153163827"
+    idPreviewPage=""
+    onClose={[Function]}
+    open={false}
+    tab="id"
+    title="Event - Preview Page"
+  />
+</React.Fragment>
+`;

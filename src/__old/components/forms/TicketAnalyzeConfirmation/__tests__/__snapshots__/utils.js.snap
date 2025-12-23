@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/TicketAnalyzeConfirmation/utils render obj is an object 1`] = `ShallowWrapper {}`;
+
+exports[`src/components/forms/TicketAnalyzeConfirmation/utils render obj is not object 1`] = `ShallowWrapper {}`;

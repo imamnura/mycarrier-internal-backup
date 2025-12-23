@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Microsite/lib/Content-v2/elements/Document/index render 1`] = `
+<Styled(MuiBox)>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "paddingLeft": 0,
+      }
+    }
+  >
+    <li>
+      <Styled(MuiBox)
+        py="2px"
+      >
+        <Typography
+          className=""
+          color="blue-main"
+          inline={false}
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          variant="caption"
+          weight="normal"
+        >
+          test
+        </Typography>
+      </Styled(MuiBox)>
+    </li>
+    <li>
+      <Styled(MuiBox)
+        py="2px"
+      >
+        <Typography
+          className=""
+          color="blue-main"
+          inline={false}
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+          variant="caption"
+          weight="normal"
+        >
+          test
+        </Typography>
+      </Styled(MuiBox)>
+    </li>
+  </ul>
+  <WithStyles(ForwardRef(LoadableComponent))
+    onClose={[Function]}
+    open={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/Microsite/lib/Content-v2/elements/Document/index render fileName not found 1`] = `
+<Styled(MuiBox)>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "paddingLeft": 0,
+      }
+    }
+  >
+    -
+    -
+  </ul>
+  <WithStyles(ForwardRef(LoadableComponent))
+    onClose={[Function]}
+    open={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/Microsite/lib/Content-v2/elements/Document/index render value not array 1`] = `
+<Styled(MuiBox)>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "paddingLeft": 0,
+      }
+    }
+  >
+    -
+  </ul>
+  <WithStyles(ForwardRef(LoadableComponent))
+    onClose={[Function]}
+    open={false}
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/Microsite/lib/Content-v2/elements/Document/index render value null 1`] = `
+<Styled(MuiBox)>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "paddingLeft": 0,
+      }
+    }
+  >
+    -
+  </ul>
+  <WithStyles(ForwardRef(LoadableComponent))
+    onClose={[Function]}
+    open={false}
+  />
+</Styled(MuiBox)>
+`;

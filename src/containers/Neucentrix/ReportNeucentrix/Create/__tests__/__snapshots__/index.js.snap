@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/ReportNeucentrix/Create render 1`] = `
+<Create
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Report NeuCentrIX",
+        "url": "/report-neucentrix",
+      },
+      Object {
+        "label": "Upload Report",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <Card
+    style={
+      Object {
+        "marginBottom": 24,
+        "width": "fit-content",
+      }
+    }
+    title="Company Information"
+  >
+    <Styled(MuiBox)
+      style={
+        Object {
+          "width": 510,
+        }
+      }
+      title="Company Information"
+    >
+      <Styled(MuiBox)
+        mb={3}
+        mt={3}
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <Styled(MuiBox)
+          mr={5}
+          sx={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="body1"
+            weight="normal"
+          >
+            Do you know about company name?
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            style={
+              Object {
+                "marginTop": 8,
+                "maxWidth": "24rem",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            <i>
+              Please complete company name below, if no this report would be forwarded to WDM.
+            </i>
+          </Typography>
+        </Styled(MuiBox)>
+        <ToggleComponent
+          onChange={[MockFunction]}
+          value={true}
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        width={400}
+      >
+        <AutoComplete
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Company Name"
+          name="company"
+          options={
+            Array [
+              "Anda",
+              "Andi",
+            ]
+          }
+          required={true}
+        />
+        <span>
+          <WithStyles(ForwardRef(Chip))
+            className="makeStyles-chip-1"
+            label="PT High"
+            onDelete={[Function]}
+            variant="outlined"
+          />
+        </span>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </Card>
+  <Card
+    style={
+      Object {
+        "width": "fit-content",
+      }
+    }
+    title="Upload Document"
+  >
+    <Styled(MuiBox)
+      style={
+        Object {
+          "width": 510,
+        }
+      }
+    >
+      <Styled(MuiBox)
+        width={400}
+      >
+        <Styled(MuiBox)
+          mt={3}
+        >
+          <WithStyles(Component)
+            accept={
+              Array [
+                ".pdf",
+              ]
+            }
+            disabled={false}
+            fileName=""
+            label="Upload File here.."
+            labelInput={
+              <Styled(MuiBox)
+                mt={1}
+              >
+                <WithStyles(Component)
+                  color="primary"
+                  variant="subtitle2"
+                >
+                  *
+                   
+                </WithStyles(Component)>
+                Upload File (up to 5 files)
+              </Styled(MuiBox)>
+            }
+            maxSize={10485760}
+            multiple={true}
+            onChange={[Function]}
+            value=""
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "margin": "5px auto",
+              }
+            }
+          >
+            <WithStyles(Component)
+              file={true}
+              fileName="test"
+              readOnly={true}
+              type="PDF"
+            />
+            <Memo
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#DE1B1B",
+                  "cursor": "pointer",
+                  "marginRight": 5,
+                  "transform": "rotate(45deg)",
+                }
+              }
+            />
+          </div>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mt={3}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Note"
+            minRows={3}
+            multiline={true}
+            name="note"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </Card>
+  <WithStyles(Component) />
+</Create>
+`;

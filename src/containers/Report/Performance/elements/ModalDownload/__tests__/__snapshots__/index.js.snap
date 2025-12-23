@@ -1,0 +1,724 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Report/Performance/elements/ModalDownload render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": "16px",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={12}
+          xs={6}
+        >
+          <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+            variant="overline"
+            weight="medium"
+          >
+            *
+          </Typography>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            test
+          </Typography>
+          <Dropdown
+            additionalWidth={0}
+            asyncProps={Object {}}
+            creatableWording={null}
+            emptyMessage={null}
+            filterProps={
+              Object {
+                "onChange": [MockFunction],
+              }
+            }
+            isCreatable={false}
+            isOptionDisabled={[Function]}
+            maxWidth={null}
+            menuStick="left"
+            menuWidth={200}
+            minWidth={null}
+            noBorder={false}
+            onCreate={[Function]}
+            onSearch={[Function]}
+            placeholder="Choose Option"
+            required={false}
+            searchable={false}
+            staticHeight={null}
+            staticWidth={null}
+            styles={Object {}}
+            valueFitToContent={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      pt={2}
+      spacing={2}
+      style={
+        Object {
+          "paddingTop": "20px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          test
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Report/Performance/elements/ModalDownload render submitText null 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": "16px",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={12}
+          xs={6}
+        >
+          <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+            variant="overline"
+            weight="medium"
+          >
+            *
+          </Typography>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            test
+          </Typography>
+          <Dropdown
+            additionalWidth={0}
+            asyncProps={Object {}}
+            creatableWording={null}
+            emptyMessage={null}
+            filterProps={
+              Object {
+                "onChange": [MockFunction],
+              }
+            }
+            isCreatable={false}
+            isOptionDisabled={[Function]}
+            maxWidth={null}
+            menuStick="left"
+            menuWidth={200}
+            minWidth={null}
+            noBorder={false}
+            onCreate={[Function]}
+            onSearch={[Function]}
+            placeholder="Choose Option"
+            required={false}
+            searchable={false}
+            staticHeight={null}
+            staticWidth={null}
+            styles={Object {}}
+            valueFitToContent={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      pt={2}
+      spacing={2}
+      style={
+        Object {
+          "paddingTop": "20px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          DOWNLOAD
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Report/Performance/elements/ModalDownload render type filter date 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": "16px",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={12}
+        >
+          <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+            variant="overline"
+            weight="medium"
+          >
+            *
+          </Typography>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            test
+          </Typography>
+          <DatePicker />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      pt={2}
+      spacing={2}
+      style={
+        Object {
+          "paddingTop": "20px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          test
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Report/Performance/elements/ModalDownload render type filter dateRange 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": "16px",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          sm={12}
+        >
+          <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+            variant="overline"
+            weight="medium"
+          >
+            *
+          </Typography>
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="overline"
+            weight="normal"
+          >
+            test
+          </Typography>
+          <DateRangePicker
+            label={
+              Array [
+                "Start Date",
+                "End Date",
+              ]
+            }
+            value={
+              Array [
+                null,
+                null,
+              ]
+            }
+            variant="secondary"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      pt={2}
+      spacing={2}
+      style={
+        Object {
+          "paddingTop": "20px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          test
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Report/Performance/elements/ModalDownload render type filter others 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={false}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": "16px",
+        }
+      }
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={1}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="caption"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justifyContent="center"
+      pt={2}
+      spacing={2}
+      style={
+        Object {
+          "paddingTop": "20px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          test
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(Component)>
+`;

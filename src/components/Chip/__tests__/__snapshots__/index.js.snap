@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Chip render 1`] = `
+<WithStyles(ForwardRef(Chip))
+  className="makeStyles-root-1"
+  label="ChipLabel"
+/>
+`;

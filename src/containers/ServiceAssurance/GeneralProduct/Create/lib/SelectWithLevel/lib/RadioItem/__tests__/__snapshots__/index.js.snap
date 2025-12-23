@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/lib/RadioItem/index render 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={<WithStyles(ForwardRef(Radio)) />}
+  label="Select Date"
+  style={
+    Object {
+      "marginLeft": "6px",
+    }
+  }
+/>
+`;

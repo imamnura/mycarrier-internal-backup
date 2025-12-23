@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Msight render properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Purchase Order",
+          "url": "/dashboard/purchase-order",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            false,
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "Order ID",
+                    "name": "orderNumber",
+                  },
+                  Object {
+                    "label": "Bakes Number",
+                    "name": "bakesNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Purchase Date",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "label": "Product Category",
+                    "name": "businessField",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Order Type",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "label": "MSight Service",
+                    "name": "msightService",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Legal Company Name",
+                    "name": "legalCompanyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Business Field",
+                    "name": "businessField",
+                  },
+                  Object {
+                    "label": "City",
+                    "name": "city",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Province",
+                    "name": "province",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Company Address",
+                    "name": "address",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Postal Code",
+                    "name": "postalCode",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Website Address",
+                    "name": "websiteAddress",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "Purchase Order",
+                    "name": "documentPO",
+                  },
+                  Object {
+                    "label": "BAKES",
+                    "name": "bakesFile",
+                  },
+                  Object {
+                    "label": "BASO",
+                    "name": "activationDoc",
+                  },
+                  Object {
+                    "label": "SIUP",
+                    "name": "siup",
+                  },
+                  Object {
+                    "label": "Company Deed",
+                    "name": "companyDeed",
+                  },
+                  Object {
+                    "label": "NPWP",
+                    "name": "npwp",
+                  },
+                  Object {
+                    "label": "Onboarding File",
+                    "name": "onboardingFile",
+                  },
+                  Object {
+                    "label": "Data Consent File",
+                    "name": "dataConsentFile",
+                  },
+                  Object {
+                    "label": "Additional File",
+                    "name": "additionalFile",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "AM Approval",
+                  "Delivery Approval",
+                  "Operator Checking",
+                  "Customer Agreement",
+                  "Operator Approval",
+                  "Completed",
+                ],
+              },
+              "title": "Purchase Order Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    content={null}
+  />
+  <EmptyBakes
+    content={null}
+    useNote={true}
+  />
+  <Component
+    modalProgressUpload={null}
+    progress={0}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/NewInstall/Msight render properly as a full product & has apiKey 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Purchase Order",
+          "url": "/dashboard/purchase-order",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <KeyData
+                data={
+                  Object {
+                    "apiKey": "5hgy6",
+                    "isFullMsight": true,
+                  }
+                }
+                schema={
+                  Array [
+                    Object {
+                      "label": "API Key",
+                      "name": "apiKey",
+                    },
+                  ]
+                }
+              />,
+              "title": "Key Data",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "apiKey": "5hgy6",
+                  "isFullMsight": true,
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Order ID",
+                    "name": "orderNumber",
+                  },
+                  Object {
+                    "label": "Bakes Number",
+                    "name": "bakesNumber",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Purchase Date",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "label": "Product Category",
+                    "name": "businessField",
+                  },
+                  Object {
+                    "label": "Product",
+                    "name": "productName",
+                  },
+                  Object {
+                    "label": "Order Type",
+                    "name": "orderType",
+                  },
+                  Object {
+                    "label": "MSight Service",
+                    "name": "msightService",
+                  },
+                ],
+              },
+              "title": "Order Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "apiKey": "5hgy6",
+                  "isFullMsight": true,
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Company Name",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "label": "Legal Company Name",
+                    "name": "legalCompanyName",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Business Field",
+                    "name": "businessField",
+                  },
+                  Object {
+                    "label": "City",
+                    "name": "city",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Province",
+                    "name": "province",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Company Address",
+                    "name": "address",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Postal Code",
+                    "name": "postalCode",
+                    "type": "MsightCompanyInfo",
+                  },
+                  Object {
+                    "label": "Website Address",
+                    "name": "websiteAddress",
+                  },
+                ],
+              },
+              "title": "Company Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "apiKey": "5hgy6",
+                  "isFullMsight": true,
+                },
+                "schema": Array [
+                  Object {
+                    "label": "Purchase Order",
+                    "name": "documentPO",
+                  },
+                  Object {
+                    "label": "BAKES",
+                    "name": "bakesFile",
+                  },
+                  Object {
+                    "label": "BASO",
+                    "name": "activationDoc",
+                  },
+                  Object {
+                    "label": "SIUP",
+                    "name": "siup",
+                  },
+                  Object {
+                    "label": "Company Deed",
+                    "name": "companyDeed",
+                  },
+                  Object {
+                    "label": "NPWP",
+                    "name": "npwp",
+                  },
+                  Object {
+                    "label": "Onboarding File",
+                    "name": "onboardingFile",
+                  },
+                  Object {
+                    "label": "Data Consent File",
+                    "name": "dataConsentFile",
+                  },
+                  Object {
+                    "label": "Additional File",
+                    "name": "additionalFile",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "Delivery Approval",
+                  "Operator Checking",
+                  "Customer Agreement",
+                  "Operator Approval",
+                  "Completed",
+                ],
+              },
+              "title": "Purchase Order Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": undefined,
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    content={null}
+  />
+  <EmptyBakes
+    content={null}
+    useNote={true}
+  />
+  <Component
+    modalProgressUpload={null}
+    progress={0}
+  />
+</React.Fragment>
+`;

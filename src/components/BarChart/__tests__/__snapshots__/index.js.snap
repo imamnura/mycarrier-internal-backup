@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/BarChart null axisLeft 1`] = `
+<div
+  className="makeStyles-root-6"
+>
+  <div
+    className="makeStyles-chart-7"
+  >
+    <ResponsiveBar
+      axisBottom={
+        Object {
+          "tickPadding": 5,
+          "tickRotation": 0,
+          "tickSize": 5,
+        }
+      }
+      axisLeft={null}
+      data={Array []}
+      enableGridX={true}
+      enableGridY={false}
+      isInteractive={false}
+      labelSkipHeight={16}
+      labelSkipWidth={16}
+      labelTextColor="#FFFFFF"
+      layout="horizontal"
+      legends={Array []}
+      margin={
+        Object {
+          "bottom": 40,
+          "left": 40,
+          "right": 0,
+          "top": 40,
+        }
+      }
+      padding={0.5}
+      theme={
+        Object {
+          "fontFamily": "Titillium Web",
+          "fontSize": 14,
+          "grid": Object {
+            "line": Object {
+              "stroke": "#D2DADE",
+            },
+          },
+          "labels": Object {
+            "text": Object {
+              "fontSize": 10,
+            },
+          },
+          "textColor": "#3B525C",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`src/components/BarChart render 1`] = `
+<div
+  className="makeStyles-root-2"
+>
+  <Typography
+    className="makeStyles-leftLabel-1"
+    color="inherit"
+    inline={false}
+    variant="subtitle2"
+    weight="medium"
+  >
+    label
+  </Typography>
+  <div
+    className="makeStyles-chart-3"
+  >
+    <ResponsiveBar
+      axisBottom={
+        Object {
+          "tickPadding": 5,
+          "tickRotation": 0,
+          "tickSize": 5,
+        }
+      }
+      axisLeft={
+        Object {
+          "tickPadding": 5,
+          "tickRotation": 0,
+          "tickSize": 5,
+        }
+      }
+      data={
+        Array [
+          Object {
+            "value": 0,
+          },
+        ]
+      }
+      enableGridX={true}
+      enableGridY={false}
+      isInteractive={false}
+      labelSkipHeight={16}
+      labelSkipWidth={16}
+      labelTextColor="#FFFFFF"
+      layout="horizontal"
+      legends={Array []}
+      margin={
+        Object {
+          "bottom": 40,
+          "left": 40,
+          "right": 0,
+          "top": 40,
+        }
+      }
+      padding={0.5}
+      theme={
+        Object {
+          "fontFamily": "Titillium Web",
+          "fontSize": 14,
+          "grid": Object {
+            "line": Object {
+              "stroke": "#D2DADE",
+            },
+          },
+          "labels": Object {
+            "text": Object {
+              "fontSize": 10,
+            },
+          },
+          "textColor": "#3B525C",
+        }
+      }
+    />
+  </div>
+</div>
+`;

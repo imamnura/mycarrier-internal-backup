@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render l0 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  <L2ContentPage
+    filterSectionTree={Object {}}
+    formType="edit"
+    isDisplayProductBenefits={false}
+    isDisplayProductGuarantee={false}
+    isDisplayProductMarketingToolkit={false}
+    isDisplayProductQuality={false}
+    isDisplayProductSpesifications={false}
+    isDisplayProductType={false}
+    l2DocumentState={Object {}}
+    level="l0"
+    previewMode={false}
+    setIsDisplayProductBenefits={[MockFunction]}
+    setIsDisplayProductGuarantee={[MockFunction]}
+    setIsDisplayProductMarketingToolkit={[MockFunction]}
+    setIsDisplayProductQuality={[MockFunction]}
+    setIsDisplayProductSpesifications={[MockFunction]}
+    setIsDisplayProductType={[MockFunction]}
+    tabsProps={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ],
+        "value": "id",
+        "variant": "centered",
+      }
+    }
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "getValues": [MockFunction],
+        "resetField": [MockFunction],
+        "setValue": [MockFunction],
+        "watch": [MockFunction],
+      }
+    }
+  />
+</PageViewer>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render l0 isSingleProduct false 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  <L0ContentPage
+    level="l0"
+    previewMode={false}
+    productServicesData={
+      Object {
+        "en": Array [],
+        "id": Array [],
+      }
+    }
+    stepName=""
+    tabsProps={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ],
+        "value": "id",
+        "variant": "centered",
+      }
+    }
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "getValues": [MockFunction],
+        "resetField": [MockFunction],
+        "setValue": [MockFunction],
+        "watch": [MockFunction],
+      }
+    }
+  />
+</PageViewer>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render l1 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  <L2ContentPage
+    filterSectionTree={Object {}}
+    formType="edit"
+    isDisplayProductBenefits={false}
+    isDisplayProductGuarantee={false}
+    isDisplayProductMarketingToolkit={false}
+    isDisplayProductQuality={false}
+    isDisplayProductSpesifications={false}
+    isDisplayProductType={false}
+    l2DocumentState={Object {}}
+    level="l1"
+    previewMode={false}
+    setIsDisplayProductBenefits={[MockFunction]}
+    setIsDisplayProductGuarantee={[MockFunction]}
+    setIsDisplayProductMarketingToolkit={[MockFunction]}
+    setIsDisplayProductQuality={[MockFunction]}
+    setIsDisplayProductSpesifications={[MockFunction]}
+    setIsDisplayProductType={[MockFunction]}
+    tabsProps={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ],
+        "value": "id",
+        "variant": "centered",
+      }
+    }
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "getValues": [MockFunction],
+        "resetField": [MockFunction],
+        "setValue": [MockFunction],
+        "watch": [MockFunction],
+      }
+    }
+  />
+</PageViewer>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render l1 isSingleProduct false 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  <L1ContentPage
+    l2BenefitState={Object {}}
+    l2DocumentState={Object {}}
+    l2TypeState={Object {}}
+    level="l1"
+    previewMode={false}
+    productDetailsData={
+      Object {
+        "en": Array [],
+        "id": Array [],
+      }
+    }
+    productDetailsFields={
+      Object {
+        "en": Object {},
+        "id": Object {},
+      }
+    }
+    stepName=""
+    tabsProps={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ],
+        "value": "id",
+        "variant": "centered",
+      }
+    }
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "getValues": [MockFunction],
+        "resetField": [MockFunction],
+        "setValue": [MockFunction],
+        "watch": [MockFunction],
+      }
+    }
+  />
+</PageViewer>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render l2 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  <L2ContentPage
+    filterSectionTree={Object {}}
+    formType="edit"
+    isDisplayProductBenefits={false}
+    isDisplayProductGuarantee={false}
+    isDisplayProductMarketingToolkit={false}
+    isDisplayProductQuality={false}
+    isDisplayProductSpesifications={false}
+    isDisplayProductType={false}
+    l2DocumentState={Object {}}
+    level="l2"
+    previewMode={false}
+    setIsDisplayProductBenefits={[MockFunction]}
+    setIsDisplayProductGuarantee={[MockFunction]}
+    setIsDisplayProductMarketingToolkit={[MockFunction]}
+    setIsDisplayProductQuality={[MockFunction]}
+    setIsDisplayProductSpesifications={[MockFunction]}
+    setIsDisplayProductType={[MockFunction]}
+    tabsProps={
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "Bahasa Indonesia",
+            "value": "id",
+          },
+          Object {
+            "label": "English",
+            "value": "en",
+          },
+        ],
+        "value": "id",
+        "variant": "centered",
+      }
+    }
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "getValues": [MockFunction],
+        "resetField": [MockFunction],
+        "setValue": [MockFunction],
+        "watch": [MockFunction],
+      }
+    }
+  />
+</PageViewer>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/Elements/PreviewPage/index render null 1`] = `
+<PageViewer
+  actionButton={null}
+  onClose={[Function]}
+  open={false}
+  title="test"
+>
+  
+</PageViewer>
+`;

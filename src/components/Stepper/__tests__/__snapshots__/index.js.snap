@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Stepper numbering step 1`] = `
+<Styled(MuiBox)
+  sx={
+    Object {
+      "alignItems": "center",
+      "background": "#FFFFFF",
+      "border": "1px solid #B3C3CA",
+      "borderRadius": "100%",
+      "boxSizing": "border-box",
+      "color": "#B3C3CA",
+      "display": "flex",
+      "height": 24,
+      "justifyContent": "center",
+      "width": 24,
+    }
+  }
+>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    variant="subtitle2"
+    weight="normal"
+  >
+    2
+  </Typography>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-6"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={0}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-1",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorSuccess-15",
+            "alternativeLabel": "makeStyles-connector-11",
+            "completed": "makeStyles-connectorSuccess-15",
+            "root": "makeStyles-connectorIdle-12",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-2",
+            "label": "makeStyles-stepSuccess-7 makeStyles-label-8",
+            "root": "makeStyles-stepSuccess-7",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            1
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-2",
+            "label": "makeStyles-stepIdle-3 makeStyles-label-8",
+            "root": "makeStyles-stepIdle-3",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-2",
+            "label": "makeStyles-stepIdle-3 makeStyles-label-8",
+            "root": "makeStyles-stepIdle-3",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            3
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/drop quote 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-54"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={0}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-49",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorError-61",
+            "alternativeLabel": "makeStyles-connector-59",
+            "completed": "makeStyles-connectorSuccess-63",
+            "root": "makeStyles-connectorIdle-60",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-50",
+            "label": "makeStyles-stepError-52 makeStyles-label-56",
+            "root": "makeStyles-stepError-52",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            Drop Quote
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-50",
+            "label": "makeStyles-stepIdle-51 makeStyles-label-56",
+            "root": "makeStyles-stepIdle-51",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-50",
+            "label": "makeStyles-stepIdle-51 makeStyles-label-56",
+            "root": "makeStyles-stepIdle-51",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            3
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/other errors 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-70"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={0}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-65",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorError-77",
+            "alternativeLabel": "makeStyles-connector-75",
+            "completed": "makeStyles-connectorSuccess-79",
+            "root": "makeStyles-connectorIdle-76",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-66",
+            "label": "makeStyles-stepError-68 makeStyles-label-72",
+            "root": "makeStyles-stepError-68",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-disabledLabel-74"
+            weight="400"
+          >
+            1
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-66",
+            "label": "makeStyles-stepIdle-67 makeStyles-label-72",
+            "root": "makeStyles-stepIdle-67",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-disabledLabel-74"
+            weight="400"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-66",
+            "label": "makeStyles-stepIdle-67 makeStyles-label-72",
+            "root": "makeStyles-stepIdle-67",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-disabledLabel-74"
+            weight="400"
+          >
+            3
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/other warnings 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-102"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={2}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-97",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorWarning-110",
+            "alternativeLabel": "makeStyles-connector-107",
+            "completed": "makeStyles-connectorSuccess-111",
+            "root": "makeStyles-connectorIdle-108",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={true}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-98",
+            "label": "makeStyles-stepSuccess-103 makeStyles-label-104",
+            "root": "makeStyles-stepSuccess-103",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            onClick={[Function]}
+            weight="600"
+          >
+            1
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={true}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-98",
+            "label": "makeStyles-stepSuccess-103 makeStyles-label-104",
+            "root": "makeStyles-stepSuccess-103",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            onClick={[Function]}
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-98",
+            "label": "makeStyles-stepWarning-101 makeStyles-label-104",
+            "root": "makeStyles-stepWarning-101",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            warn
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/reject 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-22"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={0}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-17",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorError-29",
+            "alternativeLabel": "makeStyles-connector-27",
+            "completed": "makeStyles-connectorSuccess-31",
+            "root": "makeStyles-connectorIdle-28",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-18",
+            "label": "makeStyles-stepError-20 makeStyles-label-24",
+            "root": "makeStyles-stepError-20",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            Rejected
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-18",
+            "label": "makeStyles-stepIdle-19 makeStyles-label-24",
+            "root": "makeStyles-stepIdle-19",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-18",
+            "label": "makeStyles-stepIdle-19 makeStyles-label-24",
+            "root": "makeStyles-stepIdle-19",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            3
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/return 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-38"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={0}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-33",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorError-45",
+            "alternativeLabel": "makeStyles-connector-43",
+            "completed": "makeStyles-connectorSuccess-47",
+            "root": "makeStyles-connectorIdle-44",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-34",
+            "label": "makeStyles-stepError-36 makeStyles-label-40",
+            "root": "makeStyles-stepError-36",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            Returned
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-34",
+            "label": "makeStyles-stepIdle-35 makeStyles-label-40",
+            "root": "makeStyles-stepIdle-35",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-34",
+            "label": "makeStyles-stepIdle-35 makeStyles-label-40",
+            "root": "makeStyles-stepIdle-35",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className=""
+            weight="600"
+          >
+            3
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/components/Stepper render/warnings 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-stepWrapper-86"
+>
+  <WithStyles(ForwardRef(Stepper))
+    activeStep={2}
+    alternativeLabel={true}
+    classes={
+      Object {
+        "root": "makeStyles-root-81",
+      }
+    }
+    connector={
+      <WithStyles(ForwardRef(StepConnector))
+        classes={
+          Object {
+            "active": "makeStyles-connectorWarning-94",
+            "alternativeLabel": "makeStyles-connector-91",
+            "completed": "makeStyles-connectorSuccess-95",
+            "root": "makeStyles-connectorIdle-92",
+          }
+        }
+      />
+    }
+  >
+    <WithStyles(ForwardRef(Step))
+      completed={true}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-82",
+            "label": "makeStyles-stepSuccess-87 makeStyles-label-88",
+            "root": "makeStyles-stepSuccess-87",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-clickableLabel-89"
+            onClick={[Function]}
+            weight="600"
+          >
+            1
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={true}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-82",
+            "label": "makeStyles-stepSuccess-87 makeStyles-label-88",
+            "root": "makeStyles-stepSuccess-87",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-clickableLabel-89"
+            onClick={[Function]}
+            weight="600"
+          >
+            2
+          </Text>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+    <WithStyles(ForwardRef(Step))
+      completed={false}
+    >
+      <WithStyles(ForwardRef(StepLabel))
+        StepIconComponent={[Function]}
+        classes={
+          Object {
+            "iconContainer": "makeStyles-iconContainer-82",
+            "label": "makeStyles-stepWarning-85 makeStyles-label-88",
+            "root": "makeStyles-stepWarning-85",
+          }
+        }
+      >
+        <Styled(MuiBox)>
+          <Text
+            className="makeStyles-disabledLabel-90"
+            weight="600"
+          >
+            Delay Opportunity
+          </Text>
+          <Typography
+            className=""
+            color="inherit"
+            inline={true}
+            variant="caption"
+            weight="normal"
+          >
+            22/22/2222
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(StepLabel))>
+    </WithStyles(ForwardRef(Step))>
+  </WithStyles(ForwardRef(Stepper))>
+</Styled(MuiBox)>
+`;

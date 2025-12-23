@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Homepage/List/reorderBanner/component/ListItem run properly prefix active 1`] = `
+<PublicDraggable
+  draggableId="undefined-0"
+  index={0}
+>
+  [Function]
+</PublicDraggable>
+`;

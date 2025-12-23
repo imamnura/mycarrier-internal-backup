@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Detail/lib/forms/ReturnForm/index render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={Object {}}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+              ".jpg",
+              ".jpeg",
+              ".png",
+            ]
+          }
+          control={Object {}}
+          error={false}
+          helperText="Upload .jpg, .png or .pdf document, max 1 MB "
+          maxSize={1050000}
+          name="media"
+          placeholder="Example: evidence.jpg"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Reason"
+          maxLength={160}
+          minRows={3}
+          multiline={true}
+          name="note"
+          placeholder="Please describe the note.."
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Detail/lib/forms/ReturnForm/index render with formState true 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={Object {}}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+              ".jpg",
+              ".jpeg",
+              ".png",
+            ]
+          }
+          control={Object {}}
+          error={false}
+          helperText="Upload .jpg, .png or .pdf document, max 1 MB "
+          maxSize={1050000}
+          name="media"
+          placeholder="Example: evidence.jpg"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Reason"
+          maxLength={160}
+          minRows={3}
+          multiline={true}
+          name="note"
+          placeholder="Please describe the note.."
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Detail/lib/forms/ReturnForm/index render with full props 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={
+    Object {
+      "caption": "caption",
+      "textInfo": "test info",
+      "title": "title",
+    }
+  }
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          title
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          test info
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <FileUpload
+          accept={
+            Array [
+              ".pdf",
+              ".jpg",
+              ".jpeg",
+              ".png",
+            ]
+          }
+          control={Object {}}
+          error={false}
+          helperText="Upload .jpg, .png or .pdf document, max 1 MB "
+          maxSize={1050000}
+          name="media"
+          placeholder="Example: evidence.jpg"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TextField
+          control={Object {}}
+          disabled={false}
+          error={false}
+          helperText=""
+          label="Reason"
+          maxLength={160}
+          minRows={3}
+          multiline={true}
+          name="note"
+          placeholder="Please describe the note.."
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          caption
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

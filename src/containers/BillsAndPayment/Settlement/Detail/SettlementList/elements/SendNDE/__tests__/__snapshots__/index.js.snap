@@ -1,0 +1,943 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/SendNDE render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogRoot-1",
+      }
+    }
+    maxWidth="lg"
+    open={false}
+    scroll="body"
+  >
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "mb": 3,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Choose reviewer approval type
+        </Typography>
+      </Styled(MuiBox)>
+      <OptionList
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "Icon": [Function],
+              "description": "Fill reviewer data first then they will get microsite approval",
+              "label": "Including Reviewer",
+              "value": "1",
+            },
+            Object {
+              "Icon": [Function],
+              "description": "Reviewer will not get approval",
+              "label": "Without Reviewer",
+              "value": "2",
+            },
+          ]
+        }
+        redBorder={false}
+        value=""
+      />
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": 16,
+            "justifyContent": "center",
+            "mt": 4,
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Cancel
+        </Button>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          go ahead
+        </Button>
+      </Styled(MuiBox)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Dialog))>
+  <EditNDE
+    onSubmit={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/Settlement/Detail/SettlementList/elements/SendNDE render/approvalType = 1 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogRoot-4",
+      }
+    }
+    maxWidth="lg"
+    open={false}
+    scroll="body"
+  >
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": 8,
+            "textAlign": "center",
+          }
+        }
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Input NDE Data
+        </Typography>
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "maxWidth": 560,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            First step, please make a validation of Customer data that will mark a signature on Customer column, then input reviewer list
+          </Typography>
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        width="100%"
+      >
+        <Styled(MuiBox)
+          pb={4}
+          pt={5}
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Account Manager
+          </Typography>
+        </Styled(MuiBox)>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                AM Reviewer
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={4}
+            sm={6}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Name"
+              maxLength={60}
+              name="accountManager.name"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={4}
+            sm={6}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Phone Number"
+              maxLength={60}
+              name="accountManager.phoneNumber"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <Styled(MuiBox)
+          pb={4}
+          pt={5}
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            General Manager
+          </Typography>
+        </Styled(MuiBox)>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={2}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              mt={2}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body1"
+                weight="normal"
+              >
+                General Manager
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            lg={8}
+            sm={12}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              label="General Manager Position"
+              maxWidth="100%"
+              menuPosition="fixed"
+              name="generalManager"
+              options={Array []}
+              rawValue={true}
+              required={true}
+              shouldUnregister={false}
+              staticWidth={240}
+              variant="secondary"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Styled(MuiBox)>
+      <React.Fragment>
+        <Styled(MuiBox)
+          pb={4}
+          pt={5}
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Reviewer
+          </Typography>
+        </Styled(MuiBox)>
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              xs={12}
+            >
+              <Styled(MuiBox)
+                mt={2}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body1"
+                  weight="normal"
+                >
+                  Reviewer 
+                  1
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Name"
+                maxLength={60}
+                name="reviewer.0.name"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Job Title"
+                maxLength={60}
+                name="reviewer.0.position"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Phone Number"
+                maxLength={60}
+                name="reviewer.0.phoneNumber"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Email"
+                maxLength={60}
+                name="reviewer.0.email"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <Styled(MuiBox)
+            mt={4}
+          >
+            <WithStyles(ForwardRef(Grid))
+              alignItems="center"
+              container={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={10}
+              >
+                <div
+                  className="makeStyles-dashed-6"
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={2}
+              >
+                <ButtonMinimal
+                  label="delete reviewer"
+                  loading={false}
+                  onClick={[Function]}
+                  type="ghost"
+                  variant="delete"
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </Styled(MuiBox)>
+        </React.Fragment>
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              xs={12}
+            >
+              <Styled(MuiBox)
+                mt={2}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body1"
+                  weight="normal"
+                >
+                  Reviewer 
+                  2
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Name"
+                maxLength={60}
+                name="reviewer.1.name"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Job Title"
+                maxLength={60}
+                name="reviewer.1.position"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Phone Number"
+                maxLength={60}
+                name="reviewer.1.phoneNumber"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Email"
+                maxLength={60}
+                name="reviewer.1.email"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <Styled(MuiBox)
+            mt={4}
+          >
+            <WithStyles(ForwardRef(Grid))
+              alignItems="center"
+              container={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={10}
+              >
+                <div
+                  className="makeStyles-dashed-6"
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={2}
+              >
+                <ButtonMinimal
+                  label="delete reviewer"
+                  loading={false}
+                  onClick={[Function]}
+                  type="ghost"
+                  variant="delete"
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </Styled(MuiBox)>
+        </React.Fragment>
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              xs={12}
+            >
+              <Styled(MuiBox)
+                mt={2}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body1"
+                  weight="normal"
+                >
+                  Reviewer 
+                  3
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Name"
+                maxLength={60}
+                name="reviewer.2.name"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Job Title"
+                maxLength={60}
+                name="reviewer.2.position"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Phone Number"
+                maxLength={60}
+                name="reviewer.2.phoneNumber"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Email"
+                maxLength={60}
+                name="reviewer.2.email"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <Styled(MuiBox)
+            mt={4}
+          >
+            <WithStyles(ForwardRef(Grid))
+              alignItems="center"
+              container={true}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={10}
+              >
+                <div
+                  className="makeStyles-dashed-6"
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={2}
+              >
+                <ButtonMinimal
+                  label="delete reviewer"
+                  loading={false}
+                  onClick={[Function]}
+                  type="ghost"
+                  variant="delete"
+                />
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </Styled(MuiBox)>
+        </React.Fragment>
+        <React.Fragment>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+            spacing={2}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              xs={12}
+            >
+              <Styled(MuiBox)
+                mt={2}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body1"
+                  weight="normal"
+                >
+                  Reviewer 
+                  4
+                </Typography>
+              </Styled(MuiBox)>
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Name"
+                maxLength={60}
+                name="reviewer.3.name"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Job Title"
+                maxLength={60}
+                name="reviewer.3.position"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Phone Number"
+                maxLength={60}
+                name="reviewer.3.phoneNumber"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              lg={2}
+              sm={3}
+              xs={12}
+            >
+              <TextField
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label="Email"
+                maxLength={60}
+                name="reviewer.3.email"
+                required={true}
+                shouldUnregister={false}
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </React.Fragment>
+        <Styled(MuiBox)
+          mt={4}
+        >
+          <WithStyles(ForwardRef(Grid))
+            alignItems="center"
+            container={true}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={10}
+            >
+              <div
+                className="makeStyles-dashed-6"
+              />
+            </WithStyles(ForwardRef(Grid))>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              xs={2}
+            >
+              <ButtonMinimal
+                label="add reviewer"
+                loading={false}
+                onClick={[MockFunction]}
+                type="ghost"
+                variant="add"
+              />
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </Styled(MuiBox)>
+      </React.Fragment>
+      <Styled(MuiBox)
+        pb={4}
+        pt={5}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          CC
+        </Typography>
+      </Styled(MuiBox)>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="body1"
+              weight="normal"
+            >
+              CC 
+              1
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <Typography
+              className=""
+              color="general-main"
+              inline={false}
+              variant="body1"
+              weight="medium"
+            >
+              Object {}
+            </Typography>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <Styled(MuiBox)>
+        <WithStyles(ForwardRef(Grid))
+          alignItems="center"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={10}
+          >
+            <div
+              className="makeStyles-dashed-6"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={2}
+          >
+            <ButtonMinimal
+              label="add cc"
+              loading={false}
+              onClick={[Function]}
+              type="ghost"
+              variant="add"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": 16,
+            "justifyContent": "center",
+            "mt": 4,
+          }
+        }
+      >
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Cancel
+        </Button>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          generate nde
+        </Button>
+      </Styled(MuiBox)>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Dialog))>
+  <EditNDE
+    onSubmit={[MockFunction]}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/Discount render properly 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Select Approval
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Please select approval for GameQoo service
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Component
+          control={Object {}}
+          watch={[MockFunction]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Once you approved this, it will be process and data will be sent to next role approval automatically.
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          item={true}
+          justifyContent="center"
+          pt={2}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="ghost"
+            >
+              CANCEL
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={true}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              type="submit"
+              variant="filled"
+            >
+              submit
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/Discount render properly other states 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+      style={
+        Object {
+          "padding": "16px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Upload BAKES
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Please upload BAKES document below
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Stepper
+          accessibleTab={2}
+          active={0}
+          errors={null}
+          errorsLabel=""
+          onStepClick={[Function]}
+          steps={
+            Array [
+              "Upload BAKES",
+              "Select Approval",
+            ]
+          }
+          variant="number"
+          warnings=""
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Component
+          control={Object {}}
+          optionsBakesNumber={Array []}
+          watch={[MockFunction]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          item={true}
+          justifyContent="center"
+          pt={2}
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="ghost"
+            >
+              CANCEL
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              NEXT
+            </Button>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

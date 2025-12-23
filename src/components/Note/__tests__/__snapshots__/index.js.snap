@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Note render 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <Typography
+    className=""
+    color="inherit"
+    inline={false}
+    variant="subtitle2"
+    weight="medium"
+  >
+    test
+  </Typography>
+  --
+</div>
+`;

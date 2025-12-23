@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/MRTG/elements/GraphMRTG render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Filter Graphic Monitoring by Date
+      </Typography>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <DateRangePickerForm
+        disableFuture={true}
+        endLabel="End Date"
+        error={false}
+        helperText=""
+        name="filterDate"
+        onChange={[MockFunction]}
+        required={true}
+        startLabel="Start Date"
+        value={
+          Array [
+            null,
+            null,
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <LineChart
+        data={Array []}
+        enableGridX={false}
+        enablePoints={false}
+        height={540}
+        indexBy="id"
+        leftLabel="Values (Mb)"
+        legends={true}
+        loading={false}
+        noBottom={true}
+        noScroll={true}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <SectionInformation
+          data={
+            Object {
+              "data": Array [],
+            }
+          }
+          schema={Array []}
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={12}
+      sm={12}
+    >
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <Button
+          boxProps={
+            Object {
+              "justifyContent": "space-between",
+              "width": "100%",
+            }
+          }
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={[Function]}
+          rounded="normal"
+          style={
+            Object {
+              "border": "none",
+              "width": "100%",
+            }
+          }
+          textTransform="uppercase"
+          variant="secondary"
+        >
+          Fullscreen view
+        </Button>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/MRTG/elements/GraphMRTG render without data 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Filter Graphic Monitoring by Date
+      </Typography>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <DateRangePickerForm
+        disableFuture={true}
+        endLabel="End Date"
+        error={false}
+        helperText=""
+        name="filterDate"
+        onChange={[MockFunction]}
+        required={true}
+        startLabel="Start Date"
+        value={
+          Array [
+            null,
+            null,
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <div
+      className="makeStyles-notFoundContainer-18"
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Chart Not Found
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/MRTG/elements/GraphMRTG render without data when loading 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+      }
+    }
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Filter Graphic Monitoring by Date
+      </Typography>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <DateRangePickerForm
+        disableFuture={true}
+        endLabel="End Date"
+        error={false}
+        helperText=""
+        name="filterDate"
+        onChange={[MockFunction]}
+        required={true}
+        startLabel="Start Date"
+        value={
+          Array [
+            null,
+            null,
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <div
+      className="makeStyles-notFoundContainer-12"
+    >
+      <Loading
+        color="primary"
+        size="large"
+      />
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/GeneralProduct/BakesCreate/elements/Step3 Snapshots for empty index page step 3 1`] = `ReactWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesCreate/elements/Step3 Snapshots for index page step 3 1`] = `ReactWrapper {}`;

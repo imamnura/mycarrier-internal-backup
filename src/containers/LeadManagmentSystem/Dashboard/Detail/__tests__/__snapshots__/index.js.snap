@@ -1,0 +1,2588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "companyDetail": Object {
+          "statusCa": false,
+        },
+        "status": "Need Validation",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "INVALID",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "VALIDATE",
+          "ml": 24,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "statusCa": false,
+                },
+                "schema": Array [
+                  Object {
+                    "converter": [MockFunction],
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Need Validation",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Agreement 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Agreement",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "SET TO ORDER",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Agreement",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Delay Quote 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Delay Quote",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": false,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Delay Quote",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Opportunity 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Opportunity",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "RETIRE",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "SET TO QUOTE",
+          "disabled": false,
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Opportunity",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Qualify 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Qualify",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "RETIRE",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "SET TO OPPORTUNITY",
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Qualify",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Quote 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Quote",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "SET TO AGREEMENT",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": false,
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Quote",
+        "variant": "alert",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Detail/index render properly Valid 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "data": Object {
+        "status": "Valid",
+        "validBy": "amMapping",
+        "worklog": Array [
+          Object {},
+        ],
+      },
+      "feature": Array [],
+      "fetchDetail": [MockFunction],
+      "prerequisite": Object {
+        "data": Array [],
+      },
+      "setData": [MockFunction],
+    }
+  }
+>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "Log",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "RETIRE",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "SET TO QUALIFY",
+          "disabled": false,
+          "ml": 24,
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+          "url": "/lead-management-system/dashboard",
+        },
+        Object {
+          "label": "123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={true}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StepperStage) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Prerequisite
+                data={Array []}
+              />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+          "hidden": true,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "hidden": true,
+              "render": <Alert />,
+              "title": "",
+              "type": "custom",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "INTERESTED ID",
+                    "name": "interestId",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "SALES STAGE",
+                    "name": "salesStage",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST CONTACTED",
+                    "name": "lastContacted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdated",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE SUBMIT",
+                    "name": "dateSubmit",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 3,
+                    "label": "DATE ASSIGNED TO AM",
+                    "name": "dateAssignToAm",
+                  },
+                ],
+              },
+              "title": "Basic Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT PERSON NAME",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "OCCUPATION",
+                    "name": "occupation",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phone",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS MAIL",
+                    "name": "email",
+                  },
+                ],
+              },
+              "title": "Contact Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "converter": undefined,
+                    "grid": 3,
+                    "label": "CA NUMBER",
+                    "name": "caNumber",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "COMPANY NAME",
+                    "name": "companyName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "BUSINESS TYPE",
+                    "name": "businessType",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "COMPANY SIZE",
+                    "name": "companySize",
+                  },
+                  Object {
+                    "grid": 6,
+                    "label": "LOCATION",
+                    "name": "location",
+                  },
+                ],
+              },
+              "title": "Company Detail",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 6,
+                    "label": "FULL NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "EMAIL",
+                    "name": "email",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "WHATSAPP NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Other Recipient",
+              "type": "information",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Assign Lead",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "action": Object {
+                "children": "Edit Sales Team",
+                "onClick": [MockFunction],
+                "variant": "ghost",
+              },
+              "properties": Object {
+                "data": undefined,
+                "schema": Array [
+                  Object {
+                    "grid": 3,
+                    "label": "NAME",
+                    "name": "fullName",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "NIK",
+                    "name": "nik",
+                  },
+                  Object {
+                    "grid": 4,
+                    "label": "POSITION",
+                    "name": "jobTitle",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "SEGMENT",
+                    "name": "segment",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "ROLE",
+                    "name": "role",
+                  },
+                  Object {
+                    "grid": 3,
+                    "label": "CONTACT NUMBER",
+                    "name": "phoneNumber",
+                  },
+                ],
+              },
+              "title": "Sales Team",
+              "type": "numbering",
+            },
+            Object {
+              "hidden": true,
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "reason",
+                    "name": "reason",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "note",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Reason of Retired",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+          "hidden": false,
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Memo(StageInformation) />,
+              "title": "",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Valid",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalLog
+    onClose={[MockFunction]}
+  />
+  <FormValidate
+    onClose={[MockFunction]}
+  />
+  <ReassignSalesTeam
+    onClose={[MockFunction]}
+  />
+  <Approval
+    caption="Once you invalid this, it will be process and data will be sent to marketing automatically."
+    description=""
+    labelForm="Please describe the reason.."
+    labelValidate="Reason"
+    onClose={[MockFunction]}
+    open={false}
+    title="Please give reason of invalid"
+  />
+  <RetireForm
+    onClose={[MockFunction]}
+    open={false}
+  />
+  <ModalUploadAgreement
+    onClose={[MockFunction]}
+  />
+</Context.Provider>
+`;

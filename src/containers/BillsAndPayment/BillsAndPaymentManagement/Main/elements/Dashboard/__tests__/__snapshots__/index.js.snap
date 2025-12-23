@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Main/elements/Dashboard/index render dashboard 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={false}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "id": "bill-and-payment-dashboard-tab-dashboard",
+            "label": "Dashboard",
+            "value": "dashboard",
+          },
+          Object {
+            "id": "bill-and-payment-dashboard-tab-company-list",
+            "label": "Company List",
+            "value": "company-list",
+          },
+        ],
+        "value": undefined,
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Box
+    margin="0px 40px 20px 40px"
+  >
+    <section>
+      <ForwardRef
+        feature={Array []}
+        setPopUpList={[MockFunction]}
+      />
+    </section>
+    <section>
+      <ForwardRef
+        feature={Array []}
+        setPopUpList={[MockFunction]}
+      />
+    </section>
+    <PopUpList
+      onClose={[MockFunction]}
+      open={true}
+      subType="all"
+      type="invoice"
+    />
+  </Box>
+</React.Fragment>
+`;

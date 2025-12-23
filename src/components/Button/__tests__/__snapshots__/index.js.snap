@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Button render 1`] = `
+<ForwardRef
+  className="makeStyles-button-3"
+  disabled={false}
+  loading={false}
+  loadingPlacement="start"
+  loadingText={null}
+  onClick={[Function]}
+  variant="solid"
+/>
+`;
+
+exports[`src/components/Button render/icon 1`] = `
+<ForwardRef
+  className="makeStyles-button-9"
+  disabled={false}
+  iconLeft={
+    <Add
+      className="makeStyles-icon-7"
+    />
+  }
+  iconRight={
+    <Add
+      className="makeStyles-icon-7"
+    />
+  }
+  loading={false}
+  loadingPlacement="start"
+  loadingText={null}
+  onClick={[Function]}
+  variant="solid"
+/>
+`;
+
+exports[`src/components/Button render/loading 1`] = `
+<ForwardRef
+  className="makeStyles-button-6"
+  disabled={false}
+  loading={true}
+  loadingPlacement="start"
+  loadingText={null}
+  onClick={[Function]}
+  variant="solid"
+/>
+`;

@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/EmptyBakes render properly 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={Object {}}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "0.5rem 1.5rem",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          BAKES document
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Please select or upload BAKES file
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "1.5rem",
+          }
+        }
+        xs={12}
+      >
+        <RadioGroup
+          alignItems="flex-start"
+          control={Object {}}
+          error={false}
+          helperText=""
+          name="radioBakes"
+          options={
+            Array [
+              Object {
+                "label": <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  spacing={1}
+                  style={
+                    Object {
+                      "marginBottom": 16,
+                    }
+                  }
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle1"
+                      weight="normal"
+                    >
+                      Select BAKES
+                    </Typography>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <AutoComplete
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText=""
+                      label="BAKES Number"
+                      name="bakesNumberAuto"
+                      options={
+                        Array [
+                          "123",
+                        ]
+                      }
+                      required={true}
+                      rightAdornment={[Function]}
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>,
+                "value": "1",
+              },
+              Object {
+                "label": <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  spacing={1}
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle1"
+                      weight="normal"
+                    >
+                      Upload New BAKES File
+                    </Typography>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <FileUpload
+                      accept={
+                        Array [
+                          ".pdf",
+                        ]
+                      }
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText="Upload .pdf document, max 5 MB "
+                      maxSize={5242880}
+                      name="media"
+                      placeholder="Example: bakes.pdf"
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <TextField
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText=""
+                      label="BAKES Number"
+                      maxLength={27}
+                      name="bakesNumber"
+                      required={true}
+                      shouldUnregister={false}
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>,
+                "value": "2",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Please describe the note.."
+            maxLength={1000}
+            minRows={3}
+            multiline={true}
+            name="noteProgress"
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Once you approved this, it will be process and data will be sent to customer automatically.
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "1.5rem",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2/lib/form/EmptyBakes render properly other states 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={null}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "0.5rem 1.5rem",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          BAKES document
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Please select or upload BAKES file
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "1.5rem",
+          }
+        }
+        xs={12}
+      >
+        <RadioGroup
+          alignItems="flex-start"
+          control={Object {}}
+          error={false}
+          helperText=""
+          name="radioBakes"
+          options={
+            Array [
+              Object {
+                "label": <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  spacing={1}
+                  style={
+                    Object {
+                      "marginBottom": 16,
+                    }
+                  }
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle1"
+                      weight="normal"
+                    >
+                      Select BAKES
+                    </Typography>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <AutoComplete
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText=""
+                      label="BAKES Number"
+                      name="bakesNumberAuto"
+                      options={
+                        Array [
+                          "123",
+                        ]
+                      }
+                      required={true}
+                      rightAdornment={[Function]}
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>,
+                "value": "1",
+              },
+              Object {
+                "label": <WithStyles(ForwardRef(Grid))
+                  container={true}
+                  spacing={1}
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <Typography
+                      className=""
+                      color="inherit"
+                      inline={false}
+                      variant="subtitle1"
+                      weight="normal"
+                    >
+                      Upload New BAKES File
+                    </Typography>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <FileUpload
+                      accept={
+                        Array [
+                          ".pdf",
+                        ]
+                      }
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText="Upload .pdf document, max 5 MB "
+                      maxSize={5242880}
+                      name="media"
+                      placeholder="Example: bakes.pdf"
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    item={true}
+                    xs={12}
+                  >
+                    <TextField
+                      control={Object {}}
+                      disabled={true}
+                      error={false}
+                      helperText=""
+                      label="BAKES Number"
+                      maxLength={27}
+                      name="bakesNumber"
+                      required={true}
+                      shouldUnregister={false}
+                    />
+                  </WithStyles(ForwardRef(Grid))>
+                </WithStyles(ForwardRef(Grid))>,
+                "value": "2",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Please describe the note.."
+            maxLength={1000}
+            minRows={3}
+            multiline={true}
+            name="noteProgress"
+            shouldUnregister={false}
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Once you approved this, it will be process and data will be sent to customer automatically.
+          </Typography>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "1.5rem",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

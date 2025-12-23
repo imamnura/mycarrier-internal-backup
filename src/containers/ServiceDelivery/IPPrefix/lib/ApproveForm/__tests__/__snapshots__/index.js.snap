@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/IPPrefix/lib/ApproveForm render 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "12px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Test Title
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Test text info
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "16px",
+          }
+        }
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Request Name"
+              maxLength={60}
+              name="requestName"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isLoading={false}
+              isSearchable={true}
+              label="Node"
+              menuWidth="100%"
+              minWidth="100%"
+              name="node"
+              options={Array []}
+              placeholder="Choose Node"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isDisabled={true}
+              isLoading={false}
+              isSearchable={true}
+              label="Port"
+              menuWidth="100%"
+              minWidth="100%"
+              name="port"
+              options={Array []}
+              placeholder="Choose Port"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "gap": 16,
+                  "marginBottom": 12,
+                }
+              }
+            >
+              <Checkbox
+                control={Object {}}
+                disabled={true}
+                error={false}
+                helperText=""
+                label=""
+                name="createNewPort"
+                required={false}
+                shouldUnregister={false}
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                Create new port
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="New Port"
+              maxLength={20}
+              name="newPort"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="IP CE"
+              maxLength={40}
+              name="ipCe"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Please describe the note.."
+              maxLength={1000}
+              minRows={3}
+              multiline={true}
+              name="noteProgress"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Caption
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "20px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;
+
+exports[`src/containers/ServiceDelivery/IPPrefix/lib/ApproveForm render other conditions 1`] = `
+<WithStyles(Component)
+  maxWidth="xs"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      style={
+        Object {
+          "padding": "12px 24px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-dark"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Test Title
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        align="center"
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Test text info
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "paddingTop": "16px",
+          }
+        }
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Request Name"
+              maxLength={60}
+              name="requestName"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isLoading={false}
+              isSearchable={true}
+              label="Node"
+              menuWidth="100%"
+              minWidth="100%"
+              name="node"
+              options={Array []}
+              placeholder="Choose Node"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Select
+              control={Object {}}
+              error={false}
+              helperText=""
+              isDisabled={false}
+              isLoading={false}
+              isSearchable={true}
+              label="Port"
+              menuWidth="100%"
+              minWidth="100%"
+              name="port"
+              options={Array []}
+              placeholder="Choose Port"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "display": "flex",
+                  "gap": 16,
+                  "marginBottom": 12,
+                }
+              }
+            >
+              <Checkbox
+                control={Object {}}
+                disabled={false}
+                error={false}
+                helperText=""
+                label=""
+                name="createNewPort"
+                required={false}
+                shouldUnregister={false}
+              />
+              <Typography
+                className=""
+                color="general-mid"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                Create new port
+              </Typography>
+            </Styled(MuiBox)>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="IP CE"
+              maxLength={40}
+              name="ipCe"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            xs={12}
+          >
+            <TextField
+              control={Object {}}
+              disabled={false}
+              error={false}
+              helperText=""
+              label="Please describe the note.."
+              maxLength={1000}
+              minRows={3}
+              multiline={true}
+              name="noteProgress"
+              required={true}
+              shouldUnregister={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Typography
+          className=""
+          color="general-mid"
+          inline={false}
+          variant="caption"
+          weight="normal"
+        >
+          Caption
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justifyContent="center"
+        pt={2}
+        spacing={2}
+        style={
+          Object {
+            "paddingTop": "20px",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[MockFunction]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            CANCEL
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            SUBMIT
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </form>
+</WithStyles(Component)>
+`;

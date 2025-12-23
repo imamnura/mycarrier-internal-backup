@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components-v2/elements/OTPInput render 1`] = `
+<React.Fragment>
+  <Typography
+    className="makeStyles-required-7"
+    color="primary-main"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-6"
+    color="inherit"
+    inline={false}
+    variant="body2"
+    weight="normal"
+  >
+    
+  </Typography>
+  <OtpInput
+    containerStyle="makeStyles-container-1"
+    disabledStyle="makeStyles-disabled-2"
+    errorStyle="makeStyles-error-3"
+    hasErrored={false}
+    inputStyle="makeStyles-input-5"
+    isDisabled={false}
+    isInputSecure={false}
+    numInputs={11}
+    onChange={[MockFunction]}
+    shouldAutoFocus={false}
+    value=""
+  />
+  <div
+    className="makeStyles-helper-4"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</React.Fragment>
+`;

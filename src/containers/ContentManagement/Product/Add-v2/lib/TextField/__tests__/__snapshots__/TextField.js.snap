@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/TextField render 1`] = `
+<TextField
+  control={Object {}}
+  disabled={false}
+  error={false}
+  helperText=""
+  name="test"
+  placeholder="test"
+  shouldUnregister={false}
+/>
+`;

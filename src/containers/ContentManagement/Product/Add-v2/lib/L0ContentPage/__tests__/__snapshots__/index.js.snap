@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/L0ContentPage/index render 1`] = `
+<React.Fragment>
+  <Tabs
+    isCustom={false}
+    onChange={[MockFunction]}
+    options={Array []}
+    value="id"
+    variant="default"
+  />
+  <div
+    style={
+      Object {
+        "paddingTop": 64,
+      }
+    }
+  >
+    <Banner
+      file={Object {}}
+      level=""
+      previewMode={false}
+      stepName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <Headline
+      level=""
+      previewMode={false}
+      stepName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductAndServices
+      data={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      level=""
+      previewMode={false}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/L0ContentPage/index render previewMode true 1`] = `
+<React.Fragment>
+  <div
+    style={
+      Object {
+        "paddingTop": 0,
+      }
+    }
+  >
+    <Banner
+      file={Object {}}
+      level=""
+      previewMode={true}
+      stepName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <Headline
+      level=""
+      previewMode={true}
+      stepName=""
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "resetField": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+    <ProductAndServices
+      data={
+        Object {
+          "en": Array [],
+          "id": Array [],
+        }
+      }
+      level=""
+      previewMode={true}
+      tab="id"
+      useform={
+        Object {
+          "_control": Object {},
+          "_getValues": [MockFunction],
+          "setValue": [MockFunction],
+          "watch": [MockFunction],
+        }
+      }
+    />
+  </div>
+</React.Fragment>
+`;

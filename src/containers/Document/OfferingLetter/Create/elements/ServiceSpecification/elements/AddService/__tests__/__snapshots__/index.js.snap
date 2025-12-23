@@ -1,0 +1,816 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/AddService/index render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 3,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Add service
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Filling data each service
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={10}
+    >
+      <Select
+        control={Object {}}
+        error={false}
+        helperText=""
+        isDisabled={true}
+        isSearchable={true}
+        label="Service Name"
+        maxWidth="100%"
+        menuPosition="fixed"
+        name="serviceName"
+        options={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+        rawValue={true}
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="SLG (%)"
+        name="slg"
+        required={true}
+        rules={
+          Object {
+            "max": Object {
+              "message": "SLG (%) must be lower than or equal to 100",
+              "value": 100,
+            },
+            "min": Object {
+              "message": "SLG (%) must be greater than or equal to 0",
+              "value": 0,
+            },
+            "required": "SLG (%) is a required field",
+          }
+        }
+        shouldUnregister={false}
+        type="number"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FormManual
+          builder="test"
+          control={Object {}}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "alignContent": [Function],
+          "alignItems": [Function],
+          "alignSelf": [Function],
+          "bgcolor": [Function],
+          "border": [Function],
+          "borderBottom": [Function],
+          "borderColor": [Function],
+          "borderLeft": [Function],
+          "borderRadius": [Function],
+          "borderRight": [Function],
+          "borderTop": [Function],
+          "bottom": [Function],
+          "boxShadow": [Function],
+          "boxSizing": [Function],
+          "children": [Function],
+          "className": [Function],
+          "clone": [Function],
+          "color": [Function],
+          "component": [Function],
+          "css": [Function],
+          "display": [Function],
+          "displayPrint": [Function],
+          "flex": [Function],
+          "flexBasis": [Function],
+          "flexDirection": [Function],
+          "flexGrow": [Function],
+          "flexShrink": [Function],
+          "flexWrap": [Function],
+          "fontFamily": [Function],
+          "fontSize": [Function],
+          "fontStyle": [Function],
+          "fontWeight": [Function],
+          "gridArea": [Function],
+          "gridAutoColumns": [Function],
+          "gridAutoFlow": [Function],
+          "gridAutoRows": [Function],
+          "gridColumn": [Function],
+          "gridColumnGap": [Function],
+          "gridGap": [Function],
+          "gridRow": [Function],
+          "gridRowGap": [Function],
+          "gridTemplateAreas": [Function],
+          "gridTemplateColumns": [Function],
+          "gridTemplateRows": [Function],
+          "height": [Function],
+          "justifyContent": [Function],
+          "justifyItems": [Function],
+          "justifySelf": [Function],
+          "left": [Function],
+          "letterSpacing": [Function],
+          "lineHeight": [Function],
+          "m": [Function],
+          "margin": [Function],
+          "marginBottom": [Function],
+          "marginLeft": [Function],
+          "marginRight": [Function],
+          "marginTop": [Function],
+          "marginX": [Function],
+          "marginY": [Function],
+          "maxHeight": [Function],
+          "maxWidth": [Function],
+          "mb": [Function],
+          "minHeight": [Function],
+          "minWidth": [Function],
+          "ml": [Function],
+          "mr": [Function],
+          "mt": [Function],
+          "mx": [Function],
+          "my": [Function],
+          "order": [Function],
+          "overflow": [Function],
+          "p": [Function],
+          "padding": [Function],
+          "paddingBottom": [Function],
+          "paddingLeft": [Function],
+          "paddingRight": [Function],
+          "paddingTop": [Function],
+          "paddingX": [Function],
+          "paddingY": [Function],
+          "pb": [Function],
+          "pl": [Function],
+          "position": [Function],
+          "pr": [Function],
+          "pt": [Function],
+          "px": [Function],
+          "py": [Function],
+          "right": [Function],
+          "sx": [Function],
+          "textAlign": [Function],
+          "textOverflow": [Function],
+          "top": [Function],
+          "visibility": [Function],
+          "whiteSpace": [Function],
+          "width": [Function],
+          "zIndex": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    container={true}
+    justifyContent="center"
+    spacing={2}
+    sx={
+      Object {
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={false}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Submit
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/AddService/index render currentFormData proce auto 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-3",
+    }
+  }
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 3,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Add service
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Filling data each service
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={10}
+    >
+      <Select
+        control={Object {}}
+        error={false}
+        helperText=""
+        isDisabled={true}
+        isSearchable={true}
+        label="Service Name"
+        maxWidth="100%"
+        menuPosition="fixed"
+        name="serviceName"
+        options={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+        rawValue={true}
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="SLG (%)"
+        name="slg"
+        required={true}
+        rules={
+          Object {
+            "max": Object {
+              "message": "SLG (%) must be lower than or equal to 100",
+              "value": 100,
+            },
+            "min": Object {
+              "message": "SLG (%) must be greater than or equal to 0",
+              "value": 0,
+            },
+            "required": "SLG (%) is a required field",
+          }
+        }
+        shouldUnregister={false}
+        type="number"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <React.Fragment>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={10}
+      >
+        <RadioGroup
+          control={Object {}}
+          direction="horizontal"
+          error={false}
+          helperText=""
+          label="Price"
+          name="price"
+          options={
+            Array [
+              Object {
+                "label": "Auto Price",
+                "value": "auto",
+              },
+              Object {
+                "label": "Manual Price",
+                "value": "manual",
+              },
+            ]
+          }
+          required={true}
+          shouldUnregister={false}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FormAuto
+          builder="test"
+          control={Object {}}
+          serviceName={
+            Object {
+              "data": Object {
+                "epicProduct": "test",
+              },
+            }
+          }
+          setValue={[MockFunction]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </React.Fragment>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "alignContent": [Function],
+          "alignItems": [Function],
+          "alignSelf": [Function],
+          "bgcolor": [Function],
+          "border": [Function],
+          "borderBottom": [Function],
+          "borderColor": [Function],
+          "borderLeft": [Function],
+          "borderRadius": [Function],
+          "borderRight": [Function],
+          "borderTop": [Function],
+          "bottom": [Function],
+          "boxShadow": [Function],
+          "boxSizing": [Function],
+          "children": [Function],
+          "className": [Function],
+          "clone": [Function],
+          "color": [Function],
+          "component": [Function],
+          "css": [Function],
+          "display": [Function],
+          "displayPrint": [Function],
+          "flex": [Function],
+          "flexBasis": [Function],
+          "flexDirection": [Function],
+          "flexGrow": [Function],
+          "flexShrink": [Function],
+          "flexWrap": [Function],
+          "fontFamily": [Function],
+          "fontSize": [Function],
+          "fontStyle": [Function],
+          "fontWeight": [Function],
+          "gridArea": [Function],
+          "gridAutoColumns": [Function],
+          "gridAutoFlow": [Function],
+          "gridAutoRows": [Function],
+          "gridColumn": [Function],
+          "gridColumnGap": [Function],
+          "gridGap": [Function],
+          "gridRow": [Function],
+          "gridRowGap": [Function],
+          "gridTemplateAreas": [Function],
+          "gridTemplateColumns": [Function],
+          "gridTemplateRows": [Function],
+          "height": [Function],
+          "justifyContent": [Function],
+          "justifyItems": [Function],
+          "justifySelf": [Function],
+          "left": [Function],
+          "letterSpacing": [Function],
+          "lineHeight": [Function],
+          "m": [Function],
+          "margin": [Function],
+          "marginBottom": [Function],
+          "marginLeft": [Function],
+          "marginRight": [Function],
+          "marginTop": [Function],
+          "marginX": [Function],
+          "marginY": [Function],
+          "maxHeight": [Function],
+          "maxWidth": [Function],
+          "mb": [Function],
+          "minHeight": [Function],
+          "minWidth": [Function],
+          "ml": [Function],
+          "mr": [Function],
+          "mt": [Function],
+          "mx": [Function],
+          "my": [Function],
+          "order": [Function],
+          "overflow": [Function],
+          "p": [Function],
+          "padding": [Function],
+          "paddingBottom": [Function],
+          "paddingLeft": [Function],
+          "paddingRight": [Function],
+          "paddingTop": [Function],
+          "paddingX": [Function],
+          "paddingY": [Function],
+          "pb": [Function],
+          "pl": [Function],
+          "position": [Function],
+          "pr": [Function],
+          "pt": [Function],
+          "px": [Function],
+          "py": [Function],
+          "right": [Function],
+          "sx": [Function],
+          "textAlign": [Function],
+          "textOverflow": [Function],
+          "top": [Function],
+          "visibility": [Function],
+          "whiteSpace": [Function],
+          "width": [Function],
+          "zIndex": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    container={true}
+    justifyContent="center"
+    spacing={2}
+    sx={
+      Object {
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={false}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Submit
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/elements/ServiceSpecification/elements/AddService/index render loading form 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-2",
+    }
+  }
+  open={true}
+  scroll="body"
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "mb": 3,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-dark"
+      inline={true}
+      variant="h5"
+      weight="medium"
+    >
+      Add service
+    </Typography>
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      Filling data each service
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={10}
+    >
+      <Select
+        control={Object {}}
+        error={false}
+        helperText=""
+        isDisabled={true}
+        isSearchable={true}
+        label="Service Name"
+        maxWidth="100%"
+        menuPosition="fixed"
+        name="serviceName"
+        options={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+        rawValue={true}
+        required={true}
+        shouldUnregister={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <TextField
+        control={Object {}}
+        disabled={false}
+        error={false}
+        helperText=""
+        label="SLG (%)"
+        name="slg"
+        required={true}
+        rules={
+          Object {
+            "max": Object {
+              "message": "SLG (%) must be lower than or equal to 100",
+              "value": 100,
+            },
+            "min": Object {
+              "message": "SLG (%) must be greater than or equal to 0",
+              "value": 0,
+            },
+            "required": "SLG (%) is a required field",
+          }
+        }
+        shouldUnregister={false}
+        type="number"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <LoadingBar
+        loading={true}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "alignContent": [Function],
+          "alignItems": [Function],
+          "alignSelf": [Function],
+          "bgcolor": [Function],
+          "border": [Function],
+          "borderBottom": [Function],
+          "borderColor": [Function],
+          "borderLeft": [Function],
+          "borderRadius": [Function],
+          "borderRight": [Function],
+          "borderTop": [Function],
+          "bottom": [Function],
+          "boxShadow": [Function],
+          "boxSizing": [Function],
+          "children": [Function],
+          "className": [Function],
+          "clone": [Function],
+          "color": [Function],
+          "component": [Function],
+          "css": [Function],
+          "display": [Function],
+          "displayPrint": [Function],
+          "flex": [Function],
+          "flexBasis": [Function],
+          "flexDirection": [Function],
+          "flexGrow": [Function],
+          "flexShrink": [Function],
+          "flexWrap": [Function],
+          "fontFamily": [Function],
+          "fontSize": [Function],
+          "fontStyle": [Function],
+          "fontWeight": [Function],
+          "gridArea": [Function],
+          "gridAutoColumns": [Function],
+          "gridAutoFlow": [Function],
+          "gridAutoRows": [Function],
+          "gridColumn": [Function],
+          "gridColumnGap": [Function],
+          "gridGap": [Function],
+          "gridRow": [Function],
+          "gridRowGap": [Function],
+          "gridTemplateAreas": [Function],
+          "gridTemplateColumns": [Function],
+          "gridTemplateRows": [Function],
+          "height": [Function],
+          "justifyContent": [Function],
+          "justifyItems": [Function],
+          "justifySelf": [Function],
+          "left": [Function],
+          "letterSpacing": [Function],
+          "lineHeight": [Function],
+          "m": [Function],
+          "margin": [Function],
+          "marginBottom": [Function],
+          "marginLeft": [Function],
+          "marginRight": [Function],
+          "marginTop": [Function],
+          "marginX": [Function],
+          "marginY": [Function],
+          "maxHeight": [Function],
+          "maxWidth": [Function],
+          "mb": [Function],
+          "minHeight": [Function],
+          "minWidth": [Function],
+          "ml": [Function],
+          "mr": [Function],
+          "mt": [Function],
+          "mx": [Function],
+          "my": [Function],
+          "order": [Function],
+          "overflow": [Function],
+          "p": [Function],
+          "padding": [Function],
+          "paddingBottom": [Function],
+          "paddingLeft": [Function],
+          "paddingRight": [Function],
+          "paddingTop": [Function],
+          "paddingX": [Function],
+          "paddingY": [Function],
+          "pb": [Function],
+          "pl": [Function],
+          "position": [Function],
+          "pr": [Function],
+          "pt": [Function],
+          "px": [Function],
+          "py": [Function],
+          "right": [Function],
+          "sx": [Function],
+          "textAlign": [Function],
+          "textOverflow": [Function],
+          "top": [Function],
+          "visibility": [Function],
+          "whiteSpace": [Function],
+          "width": [Function],
+          "zIndex": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    container={true}
+    justifyContent="center"
+    spacing={2}
+    sx={
+      Object {
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={false}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Cancel
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <Button
+        disabled={true}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="filled"
+      >
+        Submit
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Dialog))>
+`;

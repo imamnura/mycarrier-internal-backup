@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/CheckingTelkom render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": 16,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="body1"
+      >
+        Please download this template and completed it
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        disabled={true}
+        onClick={[Function]}
+        variant="primary"
+      >
+        <span
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <Download />
+            template surat penunjukan
+        </span>
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Divider)) />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        variant="body1"
+      >
+        Please filled the data to be sent to provider
+      </WithStyles(Component)>
+      <br />
+      <WithStyles(Component)
+        color="grey"
+        variant="caption"
+      >
+        Once you send this data, it will be processed by provider
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        accept={
+          Array [
+            ".pdf",
+          ]
+        }
+        fileName=""
+        maxSize={5242880}
+        onChange={[Function]}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <WithStyles(Component)
+        onClick={[MockFunction]}
+        variant="ghost"
+      >
+        Cancel
+      </WithStyles(Component)>
+       
+      <WithStyles(Component)
+        disabled={true}
+        onClick={[Function]}
+      >
+        Send
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;

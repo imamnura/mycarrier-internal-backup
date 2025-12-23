@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/SymptompList render 1`] = `
+<WithStyles(ForwardRef(List))>
+  <WithStyles(ForwardRef(ListItem))
+    style={
+      Object {
+        "paddingLeft": 0,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(ListItemIcon))
+      style={
+        Object {
+          "marginRight": 18,
+          "minWidth": "0px",
+        }
+      }
+    >
+      <Memo />
+    </WithStyles(ForwardRef(ListItemIcon))>
+    <WithStyles(ForwardRef(ListItemText))
+      primary={
+        Object {
+          "name": "tests",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(ListItem))>
+</WithStyles(ForwardRef(List))>
+`;
+
+exports[`src/containers/ServiceAssurance/DigitalProduct/Detail/elements/SymptompList render null 1`] = `null`;

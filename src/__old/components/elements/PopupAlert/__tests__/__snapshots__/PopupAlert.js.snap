@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/PopupAlert render fail 1`] = `
+<WithStyles(Component)
+  customWidth="makeStyles-root-4"
+  maxWidth=""
+>
+  <Styled(MuiBox)
+    paddingX="24px"
+    textAlign="center"
+  >
+    <React.Fragment>
+      <Memo
+        className="makeStyles-iconFail-2"
+      />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    />
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      
+    </WithStyles(Component)>
+    <br />
+    <br />
+    <WithStyles(Component)
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </Styled(MuiBox)>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/PopupAlert render info 1`] = `
+<WithStyles(Component)
+  customWidth="makeStyles-root-4"
+  maxWidth=""
+>
+  <Styled(MuiBox)
+    paddingX="24px"
+    textAlign="center"
+  >
+    <React.Fragment>
+      <Memo
+        className="makeStyles-iconFail-2"
+      />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    />
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      
+    </WithStyles(Component)>
+    <br />
+    <br />
+    <WithStyles(Component)
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </Styled(MuiBox)>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/PopupAlert render success 1`] = `
+<WithStyles(Component)
+  customWidth="makeStyles-root-4"
+  maxWidth=""
+>
+  <Styled(MuiBox)
+    paddingX="24px"
+    textAlign="center"
+  >
+    <React.Fragment>
+      <Memo
+        className="makeStyles-iconFail-2"
+      />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    />
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      
+    </WithStyles(Component)>
+    <br />
+    <br />
+    <WithStyles(Component)
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </Styled(MuiBox)>
+</WithStyles(Component)>
+`;

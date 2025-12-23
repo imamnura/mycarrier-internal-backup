@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Project render properly 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": 123,
+          "url": "/service-list/detail-customer/123?tab=serviceList",
+        },
+        Object {
+          "label": 123,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "PROJECT ID",
+                    "name": "projectId",
+                  },
+                  Object {
+                    "label": "PROJECT NAME",
+                    "name": "projectName",
+                  },
+                ],
+              },
+              "title": "Project Information",
+              "type": "information",
+            },
+            Object {
+              "render": <Memo(ProjectAndServiceList)
+                feature={
+                  Array [
+                    "read_detail_service_list",
+                  ]
+                }
+                match={Object {}}
+                setData={[MockFunction]}
+                setLoadingRoot={[MockFunction]}
+              />,
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceDelivery/ServiceList/Detail/Project render properly without data 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Service List",
+          "url": "/service-list",
+        },
+        Object {
+          "label": 123,
+          "url": "/service-list/detail-customer/123?tab=serviceList",
+        },
+        Object {
+          "label": 123,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "PROJECT ID",
+                    "name": "projectId",
+                  },
+                  Object {
+                    "label": "PROJECT NAME",
+                    "name": "projectName",
+                  },
+                ],
+              },
+              "title": "Project Information",
+              "type": "information",
+            },
+            Object {
+              "render": <Memo(ProjectAndServiceList)
+                feature={
+                  Array [
+                    "read_detail_service_list",
+                  ]
+                }
+                match={Object {}}
+                setData={[MockFunction]}
+                setLoadingRoot={[MockFunction]}
+              />,
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

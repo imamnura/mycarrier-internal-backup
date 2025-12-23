@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component amMappingDetail-component-table render with bodyContent 1`] = `ShallowWrapper {}`;
+
+exports[`Component amMappingDetail-component-table render with bodyContent isLoading true 1`] = `ShallowWrapper {}`;
+
+exports[`Component amMappingDetail-component-table render with no bodyContent 1`] = `ShallowWrapper {}`;

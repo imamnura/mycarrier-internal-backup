@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Opportunity run no data 1`] = `
+<Styled(MuiBox)
+  py={4}
+>
+  <StateMessage
+    description=""
+    maxWidth="100%"
+    size="large"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Opportunity run properly 1`] = `
+<React.Fragment>
+  <Generator
+    data={
+      Array [
+        Object {
+          "properties": Object {
+            "data": Object {},
+            "schema": Array [
+              Object {
+                "grid": 3,
+                "label": "OPPORTUNITY ID",
+                "name": "oppId",
+              },
+              Object {
+                "grid": 3,
+                "label": "OPPORTUNITY NUMBER",
+                "name": "oppNumber",
+              },
+            ],
+          },
+          "title": "Opportunity Detail",
+          "type": "information",
+        },
+        Object {
+          "render": <Styled(MuiBox)
+            pt={2}
+          >
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="h4"
+              weight="medium"
+            >
+              
+            </Typography>
+          </Styled(MuiBox)>,
+          "title": "Revenue",
+          "type": "custom",
+        },
+        Object {
+          "render": <Memo(LeadsFollowUpDetail)
+            variant="opportunity"
+          />,
+          "type": "custom",
+        },
+      ]
+    }
+  />
+</React.Fragment>
+`;

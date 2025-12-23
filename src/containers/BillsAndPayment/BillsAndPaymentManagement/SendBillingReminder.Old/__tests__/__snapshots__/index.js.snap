@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/SendBillingReminder.Old/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Save as draft",
+        "loading": false,
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Discard",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Submit",
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+        "url": "/dashboard/bills-and-payment-management/company-list",
+      },
+      Object {
+        "label": "test",
+        "url": "/bills-and-payment-management/detail/test",
+      },
+      Object {
+        "label": "Billing Reminder Letter 100",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <Wysiwyg
+    config={Object {}}
+    error={false}
+    helperText=""
+    onChange={[MockFunction]}
+    value="test"
+    variant="document"
+  />
+</Create>
+`;

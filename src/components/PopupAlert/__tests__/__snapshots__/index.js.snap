@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/PopupAlert render 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "disableStrictModeCompat": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-root-4",
+    }
+  }
+  open={true}
+>
+  <React.Fragment>
+    <CircleCheck
+      className="makeStyles-icon-1"
+    />
+    <Styled(MuiBox)
+      py={4}
+      textAlign="center"
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </Styled(MuiBox)>
+    <Button
+      disabled={false}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      
+    </Button>
+  </React.Fragment>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/components/PopupAlert render/loading 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  TransitionComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "propTypes": Object {
+        "children": [Function],
+        "disableStrictModeCompat": [Function],
+        "in": [Function],
+        "onEnter": [Function],
+        "onEntered": [Function],
+        "onEntering": [Function],
+        "onExit": [Function],
+        "onExited": [Function],
+        "onExiting": [Function],
+        "style": [Function],
+        "timeout": [Function],
+      },
+      "render": [Function],
+    }
+  }
+  classes={
+    Object {
+      "paper": "makeStyles-root-8",
+    }
+  }
+  open={true}
+>
+  <React.Fragment>
+    <div
+      className="makeStyles-loading-7"
+    >
+      <Loading
+        color="primary"
+        size="huge"
+      />
+    </div>
+    <Styled(MuiBox)
+      py={4}
+      textAlign="center"
+    >
+      <Typography
+        className=""
+        color="general-dark"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        test
+      </Typography>
+    </Styled(MuiBox)>
+    <Button
+      disabled={true}
+      leftIcon={null}
+      loading={false}
+      ml={0}
+      mr={0}
+      onClick={[Function]}
+      rightIcon={null}
+      rounded="normal"
+      textTransform="uppercase"
+      variant="filled"
+    >
+      
+    </Button>
+  </React.Fragment>
+</WithStyles(ForwardRef(Dialog))>
+`;

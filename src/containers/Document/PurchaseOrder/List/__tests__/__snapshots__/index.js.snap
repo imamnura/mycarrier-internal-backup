@@ -1,0 +1,588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/PurchaseOrder/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Purchase Order",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Draft",
+            "value": "draft",
+          },
+          Object {
+            "label": "AM Approval",
+            "value": "am approval",
+          },
+          Object {
+            "label": "WDS Approval",
+            "value": "wds approval",
+          },
+          Object {
+            "label": "Segment Approval",
+            "value": "segment approval",
+          },
+          Object {
+            "label": "Delivery Approval",
+            "value": "delivery approval",
+          },
+          Object {
+            "label": "Delay Order",
+            "value": "delay order",
+          },
+          Object {
+            "label": "Operator Checking",
+            "value": "operator checking",
+          },
+          Object {
+            "label": "Customer Agreement",
+            "value": "customer agreement",
+          },
+          Object {
+            "label": "Operator Approval",
+            "value": "operator approval",
+          },
+          Object {
+            "label": "Provisioning",
+            "value": "provisioning",
+          },
+          Object {
+            "label": "BASO Signed",
+            "value": "baso signed",
+          },
+          Object {
+            "label": "Confirmation",
+            "value": "confirmation",
+          },
+          Object {
+            "label": "Returned",
+            "value": "returned",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+          Object {
+            "label": "Failed",
+            "value": "failed",
+          },
+          Object {
+            "label": "Completed",
+            "value": "completed",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Modify",
+            "value": "modify",
+          },
+          Object {
+            "label": "New Order",
+            "value": "New Order",
+          },
+          Object {
+            "label": "Disconnect",
+            "value": "disconnect",
+          },
+          Object {
+            "label": "Trial",
+            "value": "trial",
+          },
+          Object {
+            "label": "Subscribe",
+            "value": "subscribe",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "emptyMessage": Object {
+        "description": "The data will appear automatically if get an update",
+        "message": "Data not found",
+      },
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 130,
+            "width": 130,
+          },
+          "label": "Order ID",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Order Type",
+          "name": "orderType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Product Name",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Service / Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Purchase Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "am approval": "primary",
+            "approved": "success",
+            "baso signed": "warning",
+            "completed": "success",
+            "confirmation": "warning",
+            "customer agreement": "warning",
+            "customer signed": "warning",
+            "delay order": "warning",
+            "delivery approval": "warning",
+            "draft": "primary",
+            "failed": "danger",
+            "operator approval": "warning",
+            "operator checking": "warning",
+            "provisioning": "warning",
+            "rejected": "danger",
+            "returned": "danger",
+            "segment approval": "warning",
+            "telkom approval": "warning",
+            "wds approval": "warning",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Purchase Order"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Document/PurchaseOrder/List render case 2 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Purchase Order",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Draft",
+            "value": "draft",
+          },
+          Object {
+            "label": "AM Approval",
+            "value": "am approval",
+          },
+          Object {
+            "label": "WDS Approval",
+            "value": "wds approval",
+          },
+          Object {
+            "label": "Segment Approval",
+            "value": "segment approval",
+          },
+          Object {
+            "label": "Delivery Approval",
+            "value": "delivery approval",
+          },
+          Object {
+            "label": "Delay Order",
+            "value": "delay order",
+          },
+          Object {
+            "label": "Operator Checking",
+            "value": "operator checking",
+          },
+          Object {
+            "label": "Customer Agreement",
+            "value": "customer agreement",
+          },
+          Object {
+            "label": "Operator Approval",
+            "value": "operator approval",
+          },
+          Object {
+            "label": "Provisioning",
+            "value": "provisioning",
+          },
+          Object {
+            "label": "BASO Signed",
+            "value": "baso signed",
+          },
+          Object {
+            "label": "Confirmation",
+            "value": "confirmation",
+          },
+          Object {
+            "label": "Returned",
+            "value": "returned",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+          Object {
+            "label": "Failed",
+            "value": "failed",
+          },
+          Object {
+            "label": "Completed",
+            "value": "completed",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Modify",
+            "value": "modify",
+          },
+          Object {
+            "label": "New Order",
+            "value": "New Order",
+          },
+          Object {
+            "label": "Disconnect",
+            "value": "disconnect",
+          },
+          Object {
+            "label": "Trial",
+            "value": "trial",
+          },
+          Object {
+            "label": "Subscribe",
+            "value": "subscribe",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "documentPO": Array [
+            Object {
+              "fileName": "asd",
+              "fileUrl": "asd.pdf",
+            },
+          ],
+          "documents": <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            asd
+          </Typography>,
+          "status": undefined,
+        },
+        Object {
+          "documents": undefined,
+          "status": undefined,
+        },
+      ],
+      "emptyMessage": Object {
+        "description": "The data will appear automatically if get an update",
+        "message": "Data not found",
+      },
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 130,
+            "width": 130,
+          },
+          "label": "Order ID",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+            "width": 120,
+          },
+          "label": "Order Type",
+          "name": "orderType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Product Name",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Service / Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Purchase Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "am approval": "primary",
+            "approved": "success",
+            "baso signed": "warning",
+            "completed": "success",
+            "confirmation": "warning",
+            "customer agreement": "warning",
+            "customer signed": "warning",
+            "delay order": "warning",
+            "delivery approval": "warning",
+            "draft": "primary",
+            "failed": "danger",
+            "operator approval": "warning",
+            "operator checking": "warning",
+            "provisioning": "warning",
+            "rejected": "danger",
+            "returned": "danger",
+            "segment approval": "warning",
+            "telkom approval": "warning",
+            "wds approval": "warning",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Purchase Order"
+  withTopDivider={true}
+/>
+`;

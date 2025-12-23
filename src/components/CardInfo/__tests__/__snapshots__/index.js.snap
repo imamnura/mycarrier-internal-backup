@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/CardInfo render/card summary 1`] = `
+<div
+  className="css-edx1jl"
+>
+  <div
+    className="css-xm8l88"
+  >
+    <Text
+      color="#78858B"
+      size="14px"
+      weight="600"
+    >
+      
+    </Text>
+    <Text
+      size="34px"
+      weight={600}
+    >
+      
+    </Text>
+    <Styled(MuiBox)
+      sx={
+        Object {
+          "pt": 1,
+        }
+      }
+    >
+      <Text
+        className="css-bvjhbj"
+        color="#DE1B1B"
+        onClick={null}
+        size="12px"
+        weight={700}
+      >
+        VIEW ALL
+      </Text>
+    </Styled(MuiBox)>
+  </div>
+</div>
+`;
+
+exports[`src/components/CardInfo render/loading 1`] = `
+<Skeleton
+  className="css-edx1jl"
+  height={125}
+  variant="rect"
+  width="100%"
+/>
+`;

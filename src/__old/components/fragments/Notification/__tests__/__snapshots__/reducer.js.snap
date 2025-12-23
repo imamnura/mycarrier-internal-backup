@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/Notification/reducer initial data notification 1`] = `
+Object {
+  "listNotification": "test",
+}
+`;

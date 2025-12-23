@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/SectionMark render 1`] = `
+<div>
+  <div>
+    <div>
+      <Typography
+        className=""
+        color="white"
+        inline={false}
+        variant="h5"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </div>
+    <Typography
+      className=""
+      color="white"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      test
+    </Typography>
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/SectionMark render open 1`] = `
+<div>
+  <div>
+    <div>
+      <Typography
+        className=""
+        color="white"
+        inline={false}
+        variant="h5"
+        weight="normal"
+      >
+        test
+      </Typography>
+    </div>
+    <Typography
+      className=""
+      color="white"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      test
+    </Typography>
+  </div>
+  <div>
+    <Typography
+      className=""
+      color="primary-main"
+      inline={false}
+      style={
+        Object {
+          "marginRight": 16,
+        }
+      }
+      variant="caption"
+      weight="normal"
+    >
+      Do you want include this section?
+    </Typography>
+    <Switch
+      onChange={[MockFunction]}
+      value={false}
+    />
+  </div>
+</div>
+`;

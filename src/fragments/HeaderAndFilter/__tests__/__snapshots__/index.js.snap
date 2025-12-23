@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragment-v2/Performance/lib/HeaderAndFilter render success 1`] = `
+<React.Fragment>
+  <div
+    className="css-rxp1bl"
+  >
+    <div
+      className="css-d88w17"
+    >
+      <div>
+        <Breadcrumb
+          data={
+            Array [
+              Object {
+                "label": "Breadcrumb",
+              },
+              Object {
+                "label": "Breadcrumb 2",
+              },
+            ]
+          }
+          size="small"
+        />
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": 16,
+            }
+          }
+        >
+          <span
+            className="css-tfsxbw"
+          >
+            Breadcrumb 2
+          </span>
+          <div
+            className="css-1i27l4i"
+          >
+            <Status
+              rounded={false}
+              size="small"
+              variant="success"
+            >
+              status
+            </Status>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1tfuha3"
+    >
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          btn
+        </Button>
+      </React.Fragment>
+      <React.Fragment>
+        <div
+          className="css-1ai3kf3"
+        />
+        <Tooltip
+          title="xxxx"
+        >
+          <div>
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              btn2
+            </Button>
+          </div>
+        </Tooltip>
+      </React.Fragment>
+    </div>
+  </div>
+  <div
+    className="css-ouftxv"
+  >
+    <Styled(MuiBox)
+      mb={1}
+    >
+      <TabsMain
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "x",
+              "value": "x",
+            },
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        component={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "propTypes": Object {
+              "alignContent": [Function],
+              "alignItems": [Function],
+              "alignSelf": [Function],
+              "bgcolor": [Function],
+              "border": [Function],
+              "borderBottom": [Function],
+              "borderColor": [Function],
+              "borderLeft": [Function],
+              "borderRadius": [Function],
+              "borderRight": [Function],
+              "borderTop": [Function],
+              "bottom": [Function],
+              "boxShadow": [Function],
+              "boxSizing": [Function],
+              "children": [Function],
+              "className": [Function],
+              "clone": [Function],
+              "color": [Function],
+              "component": [Function],
+              "css": [Function],
+              "display": [Function],
+              "displayPrint": [Function],
+              "flex": [Function],
+              "flexBasis": [Function],
+              "flexDirection": [Function],
+              "flexGrow": [Function],
+              "flexShrink": [Function],
+              "flexWrap": [Function],
+              "fontFamily": [Function],
+              "fontSize": [Function],
+              "fontStyle": [Function],
+              "fontWeight": [Function],
+              "gridArea": [Function],
+              "gridAutoColumns": [Function],
+              "gridAutoFlow": [Function],
+              "gridAutoRows": [Function],
+              "gridColumn": [Function],
+              "gridColumnGap": [Function],
+              "gridGap": [Function],
+              "gridRow": [Function],
+              "gridRowGap": [Function],
+              "gridTemplateAreas": [Function],
+              "gridTemplateColumns": [Function],
+              "gridTemplateRows": [Function],
+              "height": [Function],
+              "justifyContent": [Function],
+              "justifyItems": [Function],
+              "justifySelf": [Function],
+              "left": [Function],
+              "letterSpacing": [Function],
+              "lineHeight": [Function],
+              "m": [Function],
+              "margin": [Function],
+              "marginBottom": [Function],
+              "marginLeft": [Function],
+              "marginRight": [Function],
+              "marginTop": [Function],
+              "marginX": [Function],
+              "marginY": [Function],
+              "maxHeight": [Function],
+              "maxWidth": [Function],
+              "mb": [Function],
+              "minHeight": [Function],
+              "minWidth": [Function],
+              "ml": [Function],
+              "mr": [Function],
+              "mt": [Function],
+              "mx": [Function],
+              "my": [Function],
+              "order": [Function],
+              "overflow": [Function],
+              "p": [Function],
+              "padding": [Function],
+              "paddingBottom": [Function],
+              "paddingLeft": [Function],
+              "paddingRight": [Function],
+              "paddingTop": [Function],
+              "paddingX": [Function],
+              "paddingY": [Function],
+              "pb": [Function],
+              "pl": [Function],
+              "position": [Function],
+              "pr": [Function],
+              "pt": [Function],
+              "px": [Function],
+              "py": [Function],
+              "right": [Function],
+              "sx": [Function],
+              "textAlign": [Function],
+              "textOverflow": [Function],
+              "top": [Function],
+              "visibility": [Function],
+              "whiteSpace": [Function],
+              "width": [Function],
+              "zIndex": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        item={true}
+        md="auto"
+        py={1}
+        xs={12}
+      >
+        <SearchBox
+          onChange={[MockFunction]}
+          placeholder="pl"
+          size="default"
+          value=""
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className=""
+          container={true}
+          justifyContent="flex-end"
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={12}
+          >
+            <DatePicker
+              onChange={[MockFunction]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={12}
+          >
+            <DateRangePicker
+              label={
+                Array [
+                  "Start Date",
+                  "End Date",
+                ]
+              }
+              onChange={[MockFunction]}
+              value={
+                Array [
+                  null,
+                  null,
+                ]
+              }
+              variant="secondary"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={6}
+          >
+            <Dropdown
+              additionalWidth={0}
+              asyncProps={Object {}}
+              creatableWording={null}
+              emptyMessage={null}
+              isCreatable={false}
+              isOptionDisabled={[Function]}
+              maxWidth={null}
+              menuStick="right"
+              menuWidth={200}
+              minWidth={null}
+              noBorder={false}
+              onCreate={[Function]}
+              onSearch={[Function]}
+              placeholder="Choose Option"
+              required={false}
+              searchable={false}
+              staticHeight={null}
+              staticWidth={null}
+              styles={Object {}}
+              valueFitToContent={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/fragment-v2/Performance/lib/HeaderAndFilter render without search & 1 filters 1`] = `
+<React.Fragment>
+  <div
+    className="css-rxp1bl"
+  >
+    <div
+      className="css-d88w17"
+    >
+      <div>
+        <Breadcrumb
+          data={
+            Array [
+              Object {
+                "label": "Breadcrumb",
+              },
+              Object {
+                "label": "Breadcrumb 2",
+              },
+            ]
+          }
+          size="small"
+        />
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": 16,
+            }
+          }
+        >
+          <span
+            className="css-tfsxbw"
+          >
+            Breadcrumb 2
+          </span>
+          <div
+            className="css-1i27l4i"
+          >
+            <Status
+              rounded={false}
+              size="small"
+              variant="success"
+            >
+              status
+            </Status>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1tfuha3"
+    >
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          btn
+        </Button>
+      </React.Fragment>
+      <React.Fragment>
+        <div
+          className="css-1ai3kf3"
+        />
+        <Tooltip
+          title="xxxx"
+        >
+          <div>
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              btn2
+            </Button>
+          </div>
+        </Tooltip>
+      </React.Fragment>
+    </div>
+  </div>
+  <div
+    className="css-ouftxv"
+  >
+    <Styled(MuiBox)
+      mb={1}
+    >
+      <TabsMain
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "x",
+              "value": "x",
+            },
+          ]
+        }
+      />
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="flex-end"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className=""
+          container={true}
+          justifyContent="flex-end"
+          spacing={1}
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/fragment-v2/Performance/lib/HeaderAndFilter render/other 1`] = `
+<React.Fragment>
+  <div
+    className="css-13xrc3"
+  >
+    <div
+      className="css-d88w17"
+    >
+      <div>
+        <Breadcrumb
+          data={
+            Array [
+              Object {
+                "label": "Breadcrumb",
+              },
+              Object {
+                "label": "Breadcrumb 2",
+              },
+            ]
+          }
+          size="small"
+        />
+        <div
+          style={
+            Object {
+              "alignItems": "start",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": 4,
+            }
+          }
+        >
+          <span
+            className="css-tfsxbw"
+          >
+            Breadcrumb 2
+          </span>
+          <div
+            className="css-1i27l4i"
+          >
+            <Status
+              rounded={false}
+              size="small"
+              variant="success"
+            >
+              status
+            </Status>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1fyir9t"
+    >
+      <React.Fragment>
+        <Button
+          disabled={false}
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[Function]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          btn
+        </Button>
+      </React.Fragment>
+      <React.Fragment>
+        <div
+          className="css-1ai3kf3"
+        />
+        <Tooltip
+          title="xxxx"
+        >
+          <div>
+            <Button
+              disabled={false}
+              leftIcon={null}
+              loading={false}
+              ml={0}
+              mr={0}
+              onClick={[Function]}
+              rightIcon={null}
+              rounded="normal"
+              textTransform="uppercase"
+              variant="filled"
+            >
+              btn2
+            </Button>
+          </div>
+        </Tooltip>
+      </React.Fragment>
+    </div>
+  </div>
+  <div
+    className="css-ouftxv"
+  >
+    <Styled(MuiBox)
+      mb={1}
+    >
+      <TabsMain
+        onChange={[Function]}
+        options={Array []}
+        value=""
+      />
+      <Tabs
+        isCustom={false}
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "x",
+              "value": "x",
+            },
+          ]
+        }
+        value={false}
+        variant="default"
+      />
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="space-between"
+    >
+      <WithStyles(ForwardRef(Grid))
+        component={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "propTypes": Object {
+              "alignContent": [Function],
+              "alignItems": [Function],
+              "alignSelf": [Function],
+              "bgcolor": [Function],
+              "border": [Function],
+              "borderBottom": [Function],
+              "borderColor": [Function],
+              "borderLeft": [Function],
+              "borderRadius": [Function],
+              "borderRight": [Function],
+              "borderTop": [Function],
+              "bottom": [Function],
+              "boxShadow": [Function],
+              "boxSizing": [Function],
+              "children": [Function],
+              "className": [Function],
+              "clone": [Function],
+              "color": [Function],
+              "component": [Function],
+              "css": [Function],
+              "display": [Function],
+              "displayPrint": [Function],
+              "flex": [Function],
+              "flexBasis": [Function],
+              "flexDirection": [Function],
+              "flexGrow": [Function],
+              "flexShrink": [Function],
+              "flexWrap": [Function],
+              "fontFamily": [Function],
+              "fontSize": [Function],
+              "fontStyle": [Function],
+              "fontWeight": [Function],
+              "gridArea": [Function],
+              "gridAutoColumns": [Function],
+              "gridAutoFlow": [Function],
+              "gridAutoRows": [Function],
+              "gridColumn": [Function],
+              "gridColumnGap": [Function],
+              "gridGap": [Function],
+              "gridRow": [Function],
+              "gridRowGap": [Function],
+              "gridTemplateAreas": [Function],
+              "gridTemplateColumns": [Function],
+              "gridTemplateRows": [Function],
+              "height": [Function],
+              "justifyContent": [Function],
+              "justifyItems": [Function],
+              "justifySelf": [Function],
+              "left": [Function],
+              "letterSpacing": [Function],
+              "lineHeight": [Function],
+              "m": [Function],
+              "margin": [Function],
+              "marginBottom": [Function],
+              "marginLeft": [Function],
+              "marginRight": [Function],
+              "marginTop": [Function],
+              "marginX": [Function],
+              "marginY": [Function],
+              "maxHeight": [Function],
+              "maxWidth": [Function],
+              "mb": [Function],
+              "minHeight": [Function],
+              "minWidth": [Function],
+              "ml": [Function],
+              "mr": [Function],
+              "mt": [Function],
+              "mx": [Function],
+              "my": [Function],
+              "order": [Function],
+              "overflow": [Function],
+              "p": [Function],
+              "padding": [Function],
+              "paddingBottom": [Function],
+              "paddingLeft": [Function],
+              "paddingRight": [Function],
+              "paddingTop": [Function],
+              "paddingX": [Function],
+              "paddingY": [Function],
+              "pb": [Function],
+              "pl": [Function],
+              "position": [Function],
+              "pr": [Function],
+              "pt": [Function],
+              "px": [Function],
+              "py": [Function],
+              "right": [Function],
+              "sx": [Function],
+              "textAlign": [Function],
+              "textOverflow": [Function],
+              "top": [Function],
+              "visibility": [Function],
+              "whiteSpace": [Function],
+              "width": [Function],
+              "zIndex": [Function],
+            },
+            "render": [Function],
+          }
+        }
+        item={true}
+        md="auto"
+        py={1}
+        xs={12}
+      >
+        <SearchBox
+          onChange={[MockFunction]}
+          placeholder="pl"
+          size="default"
+          value=""
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="css-lztw2a"
+          container={true}
+          justifyContent="flex-end"
+          spacing={1}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={6}
+          >
+            <Dropdown
+              additionalWidth={0}
+              asyncProps={Object {}}
+              creatableWording={null}
+              emptyMessage={null}
+              isCreatable={false}
+              isOptionDisabled={[Function]}
+              maxWidth={null}
+              menuStick="left"
+              menuWidth={200}
+              minWidth={null}
+              noBorder={false}
+              onCreate={[Function]}
+              onSearch={[Function]}
+              placeholder="Choose Option"
+              required={false}
+              searchable={false}
+              staticHeight={null}
+              staticWidth="100%"
+              styles={Object {}}
+              valueFitToContent={false}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={12}
+          >
+            <DateRangePicker
+              label={
+                Array [
+                  "Start Date",
+                  "End Date",
+                ]
+              }
+              onChange={[MockFunction]}
+              value={
+                Array [
+                  null,
+                  null,
+                ]
+              }
+              variant="secondary"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            sm="auto"
+            xs={12}
+          >
+            <DatePicker
+              onChange={[MockFunction]}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+</React.Fragment>
+`;

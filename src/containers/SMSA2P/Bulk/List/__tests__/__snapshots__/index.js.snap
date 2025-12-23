@@ -1,0 +1,2085 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/SMSA2P/Bulk/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "rejected",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-1"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-1"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Rejected",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with access feature 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "rejected",
+          "contentPurpose": Array [],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-2"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+            <p
+              className="makeStyles-tableText-2"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                , 
+              </Typography>
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "status": "Rejected",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "CP Name",
+          "name": "cp_name",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "SID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "Suspend": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Bulk Activation Requests",
+          "value": "onprogress",
+        },
+        Object {
+          "label": "Active Bulk",
+          "value": "done",
+        },
+      ],
+      "value": "done",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with no status 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "tes",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-10"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-10"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "tes",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status checking 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "checking",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-4"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-4"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Customer Request",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status checking order provider 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "checking order provider",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-6"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-6"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Checking Provider",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status checking order telkom 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "checking order telkom",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-5"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-5"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Checking Telkom",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status completed 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "completed",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-7"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-7"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Completed",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status customer request 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "customer request",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-3"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-3"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Customer Request",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status onprogress 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "onprogress",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-8"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-8"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Checking Order",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Bulk/List render with status returned 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bulk",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Operator",
+        "type": "dropdown",
+      },
+      Object {
+        "hideSelectedOptions": false,
+        "isMulti": true,
+        "maxWidth": 300,
+        "placeholder": "All Customer",
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "returned",
+          "contentPurpose": Array [
+            <p
+              className="makeStyles-tableText-9"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes2
+              </Typography>
+            </p>,
+          ],
+          "messageType": Array [
+            <p
+              className="makeStyles-tableText-9"
+            >
+              <Typography
+                className=""
+                color="inherit"
+                inline={false}
+                variant="body2"
+                weight="normal"
+              >
+                tes
+              </Typography>
+            </p>,
+          ],
+          "status": "Returned",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Sender ID",
+          "name": "senderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Operator",
+          "name": "provider",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Service Category",
+          "name": "linkCategoryTypeName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Content Purpose",
+          "name": "contentPurpose",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 80,
+          },
+          "label": "Message Type",
+          "name": "messageType",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Checking Provider": "warning",
+            "Checking Telkom": "warning",
+            "Completed": "success",
+            "Customer Request": "primary",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "input parameter": "alert",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Bulk"
+  withTopDivider={true}
+/>
+`;

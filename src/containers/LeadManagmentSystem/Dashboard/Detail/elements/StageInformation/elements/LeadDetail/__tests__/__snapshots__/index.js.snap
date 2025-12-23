@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/LeadDetail run properly 1`] = `
+<Generator
+  data={
+    Array [
+      Object {
+        "properties": Object {
+          "data": Object {},
+          "schema": Array [
+            Object {
+              "grid": 6,
+              "label": "PRODUCT",
+              "name": "productName",
+            },
+            Object {
+              "grid": 6,
+              "label": "DESCRIPTION CATEGORIES",
+              "name": "descriptionType",
+            },
+            Object {
+              "grid": 6,
+              "label": "SOURCE",
+              "name": "source",
+            },
+            Object {
+              "grid": 6,
+              "label": "SOURCE ALIAS",
+              "name": "sourceAlias",
+            },
+            Object {
+              "grid": 12,
+              "label": "DESCRIPTION",
+              "name": "description",
+            },
+          ],
+        },
+        "title": "Product Detail",
+        "type": "information",
+      },
+      Object {
+        "hidden": true,
+        "properties": Object {
+          "data": Object {},
+          "schema": Array [
+            Object {
+              "grid": 6,
+              "label": "NEUCENTRIX TYPE",
+              "name": "type",
+            },
+            Object {
+              "grid": 6,
+              "label": "NEUCENTRIX POWER",
+              "name": "power",
+            },
+            Object {
+              "grid": 6,
+              "label": "NEUCENTRIX LOCATION",
+              "name": "location",
+            },
+            Object {
+              "grid": 6,
+              "label": "NEUCENTRIX ADDRESS",
+              "name": "addressNeucentrix",
+            },
+          ],
+        },
+        "title": "NeuCentrIX Detail",
+        "type": "information",
+      },
+      Object {
+        "properties": Object {
+          "data": Object {},
+          "schema": Array [
+            Object {
+              "grid": 3,
+              "label": "CLIENT ID",
+              "name": "clientId",
+            },
+            Object {
+              "grid": 3,
+              "label": "CAMPAIGN",
+              "name": "campaign",
+            },
+            Object {
+              "grid": 3,
+              "label": "DEVICE CATEGORY",
+              "name": "deviceCategory",
+            },
+            Object {
+              "grid": 3,
+              "label": "DEVICE PLATFORM",
+              "name": "devicePlatform",
+            },
+            Object {
+              "grid": 3,
+              "label": "CHANNEL",
+              "name": "channel",
+            },
+            Object {
+              "grid": 3,
+              "label": "SOURCE / MEDIUM",
+              "name": "source",
+            },
+            Object {
+              "grid": 6,
+              "label": "PLACEMENT",
+              "name": "placement",
+            },
+          ],
+        },
+        "title": "Google Analytic Detail",
+        "type": "information",
+      },
+    ]
+  }
+/>
+`;

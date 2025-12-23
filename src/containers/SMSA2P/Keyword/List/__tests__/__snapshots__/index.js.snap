@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/SMSA2P/Keyword/List render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Keyword",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order Number...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "rejected",
+          "status": "rejected",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Customer Request": "primary",
+            "completed": "success",
+            "rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Keyword"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Keyword/List render with access feature 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Keyword",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order Number...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "checking",
+          "status": "Customer Request",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Customer Request": "primary",
+            "completed": "success",
+            "rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Keyword Activation Request",
+          "value": "progress",
+        },
+        Object {
+          "label": "Active Keyword",
+          "value": "done",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="Keyword"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/SMSA2P/Keyword/List render with status onprogress 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Keyword",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "dropdown",
+      },
+      Object {
+        "maxWidth": 300,
+        "searchable": true,
+        "type": "dropdown",
+      },
+      Object {
+        "type": "dateRange",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order Number...",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "activationStatus": "onprogress",
+          "status": "Checking Order",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccntName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Order Number",
+          "name": "orderNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Order Date",
+          "name": "orderDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Checking Order": "warning",
+            "Customer Request": "primary",
+            "completed": "success",
+            "rejected": "danger",
+          },
+        },
+      ],
+      "useOrderBy": Array [
+        undefined,
+        undefined,
+      ],
+      "useOrderDirection": Array [
+        undefined,
+        undefined,
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "progress",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "onprogress",
+    }
+  }
+  title="Keyword"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/ModificationOrder/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "MODIFICATION ORDER",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Upgrade Request",
+            "value": "Upgrade Request",
+          },
+          Object {
+            "label": "Review BAKES",
+            "value": "Review Bakes",
+          },
+          Object {
+            "label": "Service Upgrading",
+            "value": "Service Upgrading",
+          },
+          Object {
+            "label": "BASO Sign",
+            "value": "BASO Sign",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "Rejected",
+          },
+          Object {
+            "label": "Returned",
+            "value": "Returned",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Order ID",
+          "name": "orderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Customer",
+          "name": "customerName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product Name",
+          "name": "productOrServiceName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "formatDate": "date-time",
+          "label": "Modify Date",
+          "name": "modifyDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Bakes Number",
+          "name": "bakesNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Document",
+          "name": "documents",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Duration Left",
+          "name": "duration",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "BASO Sign": "warning",
+            "Downgrade Complete": "success",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "Review BAKES": "warning",
+            "Service Upgrading": "warning",
+            "Upgrade Complete": "alert",
+            "Upgrade Request": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": "ongoing",
+    }
+  }
+  title="Modification Order"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/Document/ModificationOrder/List render with access feature 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "MODIFICATION ORDER",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "documents": "-",
+          "endDate": "2021-06-29T11:47:49.249Z",
+          "period": "Jun 29th, 2021 - Jun 29th, 2021",
+          "startDate": "2021-06-29T11:47:49.249Z",
+          "status": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Order ID",
+          "name": "orderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Customer",
+          "name": "customerName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product Name",
+          "name": "productOrServiceName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "formatDate": "date-time",
+          "label": "Modify Date",
+          "name": "modifyDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Bakes Number",
+          "name": "bakesNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Document",
+          "name": "documents",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Duration Left",
+          "name": "duration",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "BASO Sign": "warning",
+            "Downgrade Complete": "success",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "Review BAKES": "warning",
+            "Service Upgrading": "warning",
+            "Upgrade Complete": "alert",
+            "Upgrade Request": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "ongoing",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "On Going Modification",
+          "value": "ongoing",
+        },
+        Object {
+          "label": "Upgrade Complete",
+          "value": "upgrade",
+        },
+        Object {
+          "label": "Downgrade Complete",
+          "value": "downgrade",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="Modification Order"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/Document/ModificationOrder/List render with documents 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "MODIFICATION ORDER",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Upgrade Request",
+            "value": "Upgrade Request",
+          },
+          Object {
+            "label": "Review BAKES",
+            "value": "Review Bakes",
+          },
+          Object {
+            "label": "Service Upgrading",
+            "value": "Service Upgrading",
+          },
+          Object {
+            "label": "BASO Sign",
+            "value": "BASO Sign",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "Rejected",
+          },
+          Object {
+            "label": "Returned",
+            "value": "Returned",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+      Object {
+        "isLoading": undefined,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": undefined,
+        "options": undefined,
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Order ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "documents": <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            test.pdf
+          </Typography>,
+          "period": "",
+          "status": undefined,
+        },
+      ],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Order ID",
+          "name": "orderId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "label": "Customer",
+          "name": "customerName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product ID",
+          "name": "sid",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Service/Product Name",
+          "name": "productOrServiceName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "formatDate": "date-time",
+          "label": "Modify Date",
+          "name": "modifyDate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Bakes Number",
+          "name": "bakesNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 90,
+          },
+          "label": "Document",
+          "name": "documents",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 45,
+          },
+          "label": "Duration Left",
+          "name": "duration",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "BASO Sign": "warning",
+            "Downgrade Complete": "success",
+            "Rejected": "danger",
+            "Returned": "danger",
+            "Review BAKES": "warning",
+            "Service Upgrading": "warning",
+            "Upgrade Complete": "alert",
+            "Upgrade Request": "primary",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "ongoing",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [],
+      "value": "ongoing",
+    }
+  }
+  title="Modification Order"
+  withTopDivider={true}
+/>
+`;

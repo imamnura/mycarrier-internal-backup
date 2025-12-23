@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/AmMappingDetail/component render 1 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/AmMappingDetail/component render 2 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,704 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ServiceAssurance/SMSA2P/List/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "SMS A2P",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Ticket Number",
+          "name": "ticketId",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Service Category",
+          "name": "category",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Provider",
+          "name": "operatorTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Sender ID",
+          "name": "senderTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR Agent (Hour)",
+          "name": "ttrAgent",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR (Hour)",
+          "name": "ttr",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Closed": "success",
+            "Customer Review": "alert",
+            "Technical Handling": "warning",
+            "Ticket Analyze": "primary",
+            "reject": "danger",
+            "rejected": "danger",
+          },
+          "sort": true,
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [],
+      "value": undefined,
+    }
+  }
+  title="SMS A2P"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/ServiceAssurance/SMSA2P/List/index render no tab 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "SMS A2P",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Ticket Number",
+          "name": "ticketId",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Service Category",
+          "name": "category",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Provider",
+          "name": "operatorTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Sender ID",
+          "name": "senderTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR Agent (Hour)",
+          "name": "ttrAgent",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR (Hour)",
+          "name": "ttr",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Closed": "success",
+            "Customer Review": "alert",
+            "Technical Handling": "warning",
+            "Ticket Analyze": "primary",
+            "reject": "danger",
+            "rejected": "danger",
+          },
+          "sort": true,
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction] {
+        "calls": Array [
+          Array [
+            "active",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "options": Array [
+        Object {
+          "label": "Active Ticket",
+          "value": "active",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "done",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="SMS A2P"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/ServiceAssurance/SMSA2P/List/index render tab active 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+      Object {
+        "children": "Download",
+        "loading": false,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "SMS A2P",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": "",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "status": "Ticket Analyze",
+        },
+        Object {
+          "status": "Technical Handling",
+        },
+        Object {
+          "status": "Customer Review",
+        },
+        Object {
+          "status": "Closed",
+        },
+        Object {
+          "status": "rejected",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Ticket Number",
+          "name": "ticketId",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Service Category",
+          "name": "category",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Provider",
+          "name": "operatorTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Sender ID",
+          "name": "senderTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR Agent (Hour)",
+          "name": "ttrAgent",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR (Hour)",
+          "name": "ttr",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Closed": "success",
+            "Customer Review": "alert",
+            "Technical Handling": "warning",
+            "Ticket Analyze": "primary",
+            "reject": "danger",
+            "rejected": "danger",
+          },
+          "sort": true,
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Active Ticket",
+          "value": "active",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "done",
+        },
+      ],
+      "value": "active",
+    }
+  }
+  title="SMS A2P"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/ServiceAssurance/SMSA2P/List/index render tab done 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+      Object {
+        "children": "Download",
+        "loading": false,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "SMS A2P",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": "",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Ticket Number",
+          "name": "ticketId",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Customer",
+          "name": "custAccName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Service Category",
+          "name": "category",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Provider",
+          "name": "operatorTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "Sender ID",
+          "name": "senderTypeName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Created Date",
+          "name": "createdAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR Agent (Hour)",
+          "name": "ttrAgent",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 100,
+          },
+          "label": "TTR (Hour)",
+          "name": "ttr",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Closed": "success",
+            "Customer Review": "alert",
+            "Technical Handling": "warning",
+            "Ticket Analyze": "primary",
+            "reject": "danger",
+            "rejected": "danger",
+          },
+          "sort": true,
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Active Ticket",
+          "value": "active",
+        },
+        Object {
+          "label": "History Ticket",
+          "value": "done",
+        },
+      ],
+      "value": "done",
+    }
+  }
+  title="SMS A2P"
+  withTopDivider={true}
+/>
+`;

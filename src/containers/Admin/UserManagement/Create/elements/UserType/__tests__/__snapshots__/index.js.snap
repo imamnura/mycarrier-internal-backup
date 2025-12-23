@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Create/elements/UserProfile/elements/UserType/index render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "Cancel",
+        "onClick": [MockFunction],
+        "variant": "ghost",
+      },
+      Object {
+        "children": "Next Step",
+        "disabled": false,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Management",
+        "url": "/user-management",
+      },
+      Object {
+        "label": "test",
+        "url": "/user-management/detail/test",
+      },
+      Object {
+        "label": "Edit User",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={
+    <React.Fragment>
+      <Styled(MuiBox)
+        sx={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "mb": 1,
+            "pb": 2,
+          }
+        }
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <Stepper
+            accessibleTab={-1}
+            active={0}
+            errors={null}
+            errorsLabel=""
+            steps={
+              Array [
+                "User Type",
+                "User Profile",
+              ]
+            }
+            variant="number"
+            warnings=""
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <WithStyles(ForwardRef(Divider))
+        style={
+          Object {
+            "marginBottom": 24,
+            "marginLeft": 40,
+            "marginRight": 40,
+          }
+        }
+      />
+    </React.Fragment>
+  }
+>
+  <Card
+    title="User Type"
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="stretch"
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        sm={6}
+        xs={12}
+      >
+        <div
+          className=""
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="bold"
+          >
+            Customer
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            User that using Customer Dashboard.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        sm={6}
+        xs={12}
+      >
+        <div
+          className="undefined"
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="bold"
+          >
+            Internal Staff
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            User that using Internal Dashboard for managing content, viewing service, creating document, trouble shooting problem and etc. For registering using identifier ID like NIK.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        sm={6}
+        xs={12}
+      >
+        <div
+          className=""
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="bold"
+          >
+            Internal Non Staff
+          </Typography>
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            User that using Internal Dashboard for managing content, viewing service, creating document, trouble shooting problem and etc, but didn’t have identifier ID.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Card>
+</Create>
+`;

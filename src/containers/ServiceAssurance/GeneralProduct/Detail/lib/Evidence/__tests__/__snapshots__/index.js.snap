@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render empty data 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={3}
+/>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render image evidence 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={3}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <EstimateValue
+      caption=""
+      loading={false}
+      value="rejected"
+      variant="success"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={4}
+  >
+    <WithStyles(Component) />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Detail render pdf evidence 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={3}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <EstimateValue
+      caption=""
+      loading={false}
+      value="rejected"
+      variant="success"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      type="pdf"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

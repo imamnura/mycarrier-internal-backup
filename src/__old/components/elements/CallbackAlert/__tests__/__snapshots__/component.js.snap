@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CallbackAlert render failed state 1`] = `
+<WithStyles(Component)
+  disableClose={false}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 24px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <React.Fragment>
+      <Memo />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    >
+      
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      label
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      variant="caption"
+    >
+      label
+      <br />
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      disabled={false}
+      onClick={[MockFunction]}
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </div>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/CallbackAlert render info state 1`] = `
+<WithStyles(Component)
+  disableClose={false}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 24px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <React.Fragment>
+      <Info />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    >
+      
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      label
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      variant="caption"
+    >
+      label
+      <br />
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      disabled={false}
+      onClick={[MockFunction]}
+      variant="primary"
+    >
+      GOT IT
+    </WithStyles(Component)>
+  </div>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/CallbackAlert render success state 1`] = `
+<WithStyles(Component)
+  disableClose={false}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 24px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <React.Fragment>
+      <Success />
+    </React.Fragment>
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    >
+      
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      label
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      variant="caption"
+    >
+      label
+      <br />
+    </WithStyles(Component)>
+    <br />
+    <WithStyles(Component)
+      disabled={false}
+      onClick={[MockFunction]}
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </div>
+</WithStyles(Component)>
+`;
+
+exports[`src/components/elements/CallbackAlert render when loading 1`] = `
+<WithStyles(Component)
+  disableClose={true}
+  maxWidth=""
+  onClose={[MockFunction]}
+  open={true}
+>
+  <div
+    style={
+      Object {
+        "padding": "0 24px",
+        "textAlign": "center",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(CircularProgress))
+      size={50}
+      style={
+        Object {
+          "color": "#DE1B1B",
+          "margin": 28,
+        }
+      }
+      thickness={4}
+    />
+    <br />
+    <WithStyles(Component)
+      component="p"
+      variant="h5"
+    >
+      
+    </WithStyles(Component)>
+    <WithStyles(Component)
+      component="p"
+      variant="body1"
+    >
+      Please Wait
+      
+    </WithStyles(Component)>
+    <br />
+    <br />
+    <WithStyles(Component)
+      disabled={true}
+      onClick={[MockFunction]}
+      variant="primary"
+    >
+      OKAY
+    </WithStyles(Component)>
+  </div>
+</WithStyles(Component)>
+`;

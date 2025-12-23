@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/LoginDataDetail render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "MRTG",
+          "url": "/approval-mrtg",
+        },
+        Object {
+          "label": "test123",
+          "url": "/approval-mrtg/detail/test123",
+        },
+        Object {
+          "label": "tes123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "createdAt": "2021-10-07T21:33:42+07:00",
+                  "customerAccountName": "",
+                  "customerAccountNumber": "0003700008",
+                  "lastUpdate": "2023-01-30T11:30:03+07:00",
+                  "loginDataId": "LD-1633617223107",
+                  "note": "gw mo akun login buat 10 user",
+                  "password": "test",
+                  "progress": Array [
+                    Object {
+                      "time": "2021-10-07T21:33:42+07:00",
+                      "title": "Submitted",
+                      "variant": "success",
+                    },
+                    Object {
+                      "time": "2021-10-07T21:33:42+07:00",
+                      "title": "On Progress",
+                      "variant": "success",
+                    },
+                    Object {
+                      "time": "2023-01-30T11:30:03+07:00",
+                      "title": "Completed",
+                      "variant": "success",
+                    },
+                  ],
+                  "status": "COMPLETED",
+                  "username": "test",
+                  "worklog": Array [
+                    Object {
+                      "dateTime": "2021-10-07T21:33:42+07:00",
+                      "note": "Your login data request has been successfully submitted.",
+                      "status": "Submitted",
+                      "step": 0,
+                    },
+                    Object {
+                      "dateTime": "2021-10-07T21:33:42+07:00",
+                      "note": "Your ticket is being processed.",
+                      "status": "On Progress",
+                      "step": 1,
+                    },
+                    Object {
+                      "dateTime": "2023-01-30T11:30:03+07:00",
+                      "note": "Your login data has been successfully added.",
+                      "status": "Completed",
+                      "step": 2,
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "REQUEST ID",
+                    "name": "loginDataId",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "USERNAME",
+                    "name": "username",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "PASSWORD",
+                    "name": "password",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "REQUEST DATE",
+                    "name": "createdAt",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "NOTES",
+                    "name": "note",
+                  },
+                ],
+              },
+              "title": "Login Data Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "Completed",
+        "variant": "success",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    id="tes123"
+    modalAddLoginData={null}
+    setModalAddLoginData={[MockFunction]}
+  />
+</React.Fragment>
+`;

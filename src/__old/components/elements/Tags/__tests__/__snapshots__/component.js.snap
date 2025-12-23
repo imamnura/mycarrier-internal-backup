@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Tags render 1`] = `
+<div>
+  <WithStyles(ForwardRef(Autocomplete))
+    disabled={false}
+    getOptionLabel={[Function]}
+    multiple={true}
+    onChange={[Function]}
+    options={Array []}
+    renderInput={[Function]}
+    renderTags={[Function]}
+    value={
+      Array [
+        "value1",
+        "value2",
+      ]
+    }
+  />
+</div>
+`;

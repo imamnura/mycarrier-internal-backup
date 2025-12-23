@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/Create/index render tab 1 1`] = `
+<React.Fragment>
+  <UserType
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Admin/UserManagement/Create/index render tab 2 1`] = `
+<React.Fragment>
+  <UserProfile
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;

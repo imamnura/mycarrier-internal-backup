@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/RequestMRTGDetail-v2 render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "MRTG",
+          "url": "/approval-mrtg",
+        },
+        Object {
+          "label": "tes123",
+          "url": "/approval-mrtg/detail/tes123",
+        },
+        Object {
+          "label": "tes123",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "activatedDate": "2022-10-20T20:07:18+07:00",
+                  "customerAccountName": "",
+                  "customerAccountNumber": "0003700029",
+                  "lastUpdate": "2022-10-20T20:07:18+07:00",
+                  "noteIntegrated": "",
+                  "noteLoginData": "",
+                  "noteRequest": "",
+                  "requestId": "MP-123",
+                  "serviceLocation": "telkom palembang centrum Jl Kapten anwar sastro sungai pangeran kec ilir timur palembang PALEMBANG Indonesia",
+                  "status": "CUSTOMER REQUEST",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "REQUEST ID",
+                    "name": "requestId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "REQUEST DATE",
+                    "name": "activatedDate",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "LAST UPDATE",
+                    "name": "lastUpdate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "NOTES",
+                    "name": "noteRequest",
+                  },
+                ],
+              },
+              "title": "Customer Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <EstimateValue
+                data={
+                  Object {
+                    "activatedDate": "2022-10-20T20:07:18+07:00",
+                    "customerAccountName": "",
+                    "customerAccountNumber": "0003700029",
+                    "lastUpdate": "2022-10-20T20:07:18+07:00",
+                    "noteIntegrated": "",
+                    "noteLoginData": "",
+                    "noteRequest": "",
+                    "requestId": "MP-123",
+                    "serviceLocation": "telkom palembang centrum Jl Kapten anwar sastro sungai pangeran kec ilir timur palembang PALEMBANG Indonesia",
+                    "status": "CUSTOMER REQUEST",
+                  }
+                }
+              />,
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <List
+                action={Array []}
+                breadcrumb={Array []}
+                filter={Array []}
+                noMargin={true}
+                noPadding={true}
+                onBottomPage={[Function]}
+                search={
+                  Object {
+                    "onChange": [MockFunction],
+                    "placeholder": "Search Service ID..",
+                    "value": "",
+                  }
+                }
+                table={
+                  Object {
+                    "data": Array [
+                      Object {
+                        "status": "",
+                      },
+                      Object {
+                        "status": "CUSTOMER REQUEST",
+                      },
+                      Object {
+                        "status": "INTEGRATED",
+                      },
+                    ],
+                    "loading": false,
+                    "loadingRoot": Object {
+                      "tableRoot": false,
+                      "tableRow": false,
+                    },
+                    "meta": Object {},
+                    "onPaginationChange": undefined,
+                    "page": undefined,
+                    "schema": Array [],
+                  }
+                }
+                tabs={
+                  Object {
+                    "onChange": [Function],
+                    "options": Array [],
+                    "value": "",
+                  }
+                }
+                title=""
+                withTopDivider={false}
+              />,
+              "title": "List of MRTG Service",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "CUSTOMER REQUEST",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Component
+    id="tes123"
+    modalUpdateStatus={null}
+  />
+</React.Fragment>
+`;

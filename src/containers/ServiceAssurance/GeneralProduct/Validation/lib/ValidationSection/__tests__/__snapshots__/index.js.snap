@@ -1,0 +1,1192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/ValidationSection render 1`] = `
+<form>
+  <HeaderAndFilter
+    action={null}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "24px 40px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingRight": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Servioce Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                className="makeStyles-boxContainer-1"
+                mt={3}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-inputField-5"
+                >
+                  <AutoComplete
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    label="Service ID"
+                    maxLength={160}
+                    name="serviceId"
+                    options={Array []}
+                    required={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-buttonBox-2"
+                >
+                  <Button
+                    disabled={false}
+                    leftIcon={null}
+                    loading={false}
+                    ml={0}
+                    mr={0}
+                    onClick={[MockFunction]}
+                    rightIcon={null}
+                    rounded="normal"
+                    textTransform="uppercase"
+                    variant="filled"
+                  >
+                    DUMMY SID
+                  </Button>
+                </WithStyles(ForwardRef(Grid))>
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Address"
+                  maxLength={1000}
+                  minRows={5}
+                  multiline={true}
+                  name="address"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="First Call Resolution"
+                  maxWidth={260}
+                  name="firstCallResolution"
+                  options={
+                    Array [
+                      Object {
+                        "label": "No",
+                        "value": "no",
+                      },
+                    ]
+                  }
+                  placeholder="Choose First Call Resolution"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Product"
+                  name="productId"
+                  placeholder="Choose Product"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Customer"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="picName"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="picPhone"
+                  required={true}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Fault Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Urgency"
+                  maxWidth={175}
+                  name="urgency"
+                  placeholder="Choose Urgency"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Hard Complaint"
+                  maxWidth={230}
+                  name="hardComplaint"
+                  placeholder="Choose Hard Complaint"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <SelectWithLevel
+                  data={Array []}
+                  isLoading={false}
+                  label="Symptoms"
+                  name="symptoms"
+                  onChange={[Function]}
+                  placeholder="Choose Symptom"
+                  required={true}
+                  value={null}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={true}
+                  error={false}
+                  helperText=""
+                  label="Description"
+                  minRows={5}
+                  multiline={true}
+                  name="description"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="OCC's Note"
+                  maxLength={160}
+                  minRows={5}
+                  multiline={true}
+                  name="occNote"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Internal"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="contactName"
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="contactPhone"
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": 24,
+        }
+      }
+      xs={12}
+    >
+      <Card>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+              "padding": "0 10px",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(FormControlLabel))
+            control={
+              <ForwardRef
+                checked={false}
+                onChange={[MockFunction]}
+              />
+            }
+            label="  Agree, Data cannot be changed after submitting"
+          />
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            Validate
+          </Button>
+        </div>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/ValidationSection render no check condition 1`] = `
+<form>
+  <HeaderAndFilter
+    action={null}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "24px 40px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingRight": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Servioce Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                className="makeStyles-boxContainer-11"
+                mt={3}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-inputField-15"
+                >
+                  <AutoComplete
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    label="Service ID"
+                    maxLength={160}
+                    name="serviceId"
+                    options={Array []}
+                    required={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-buttonBox-12"
+                >
+                  <Button
+                    disabled={false}
+                    leftIcon={null}
+                    loading={false}
+                    ml={0}
+                    mr={0}
+                    onClick={[MockFunction]}
+                    rightIcon={null}
+                    rounded="normal"
+                    textTransform="uppercase"
+                    variant="filled"
+                  >
+                    DUMMY SID
+                  </Button>
+                </WithStyles(ForwardRef(Grid))>
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Address"
+                  maxLength={1000}
+                  minRows={5}
+                  multiline={true}
+                  name="address"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="First Call Resolution"
+                  maxWidth={260}
+                  name="firstCallResolution"
+                  options={
+                    Array [
+                      Object {
+                        "label": "No",
+                        "value": "no",
+                      },
+                    ]
+                  }
+                  placeholder="Choose First Call Resolution"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Product"
+                  name="productId"
+                  placeholder="Choose Product"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Customer"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="picName"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="picPhone"
+                  required={true}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Fault Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Urgency"
+                  maxWidth={175}
+                  name="urgency"
+                  placeholder="Choose Urgency"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Hard Complaint"
+                  maxWidth={230}
+                  name="hardComplaint"
+                  placeholder="Choose Hard Complaint"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <SelectWithLevel
+                  data={Array []}
+                  isLoading={false}
+                  label="Symptoms"
+                  name="symptoms"
+                  onChange={[Function]}
+                  placeholder="Choose Symptom"
+                  required={true}
+                  value={null}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Description"
+                  minRows={5}
+                  multiline={true}
+                  name="description"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="OCC's Note"
+                  maxLength={160}
+                  minRows={5}
+                  multiline={true}
+                  name="occNote"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Internal"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="contactName"
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="contactPhone"
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": 24,
+        }
+      }
+      xs={12}
+    >
+      <Card>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+              "padding": "0 10px",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(FormControlLabel))
+            control={
+              <ForwardRef
+                checked={false}
+                onChange={[MockFunction]}
+              />
+            }
+            label="  Agree, Data cannot be changed after submitting"
+          />
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            Validate
+          </Button>
+        </div>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/ValidationSection render other condition 1`] = `
+<form>
+  <HeaderAndFilter
+    action={null}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={
+      Object {
+        "children": undefined,
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    style={
+      Object {
+        "padding": "24px 40px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingRight": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Servioce Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                className="makeStyles-boxContainer-6"
+                mt={3}
+              >
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-inputField-10"
+                >
+                  <AutoComplete
+                    control={Object {}}
+                    error={false}
+                    helperText=""
+                    label="Service ID"
+                    maxLength={160}
+                    name="serviceId"
+                    options={Array []}
+                    required={true}
+                  />
+                </WithStyles(ForwardRef(Grid))>
+                <WithStyles(ForwardRef(Grid))
+                  className="makeStyles-buttonBox-7"
+                >
+                  <Button
+                    disabled={false}
+                    leftIcon={null}
+                    loading={false}
+                    ml={0}
+                    mr={0}
+                    onClick={[MockFunction]}
+                    rightIcon={null}
+                    rounded="normal"
+                    textTransform="uppercase"
+                    variant="filled"
+                  >
+                    DUMMY SID
+                  </Button>
+                </WithStyles(ForwardRef(Grid))>
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Address"
+                  maxLength={1000}
+                  minRows={5}
+                  multiline={true}
+                  name="address"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="First Call Resolution"
+                  maxWidth={260}
+                  name="firstCallResolution"
+                  options={
+                    Array [
+                      Object {
+                        "label": "No",
+                        "value": "no",
+                      },
+                    ]
+                  }
+                  placeholder="Choose First Call Resolution"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Product"
+                  name="productId"
+                  placeholder="Choose Product"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Customer"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="picName"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="picPhone"
+                  required={true}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      sm={12}
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="Fault Information"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Urgency"
+                  maxWidth={175}
+                  name="urgency"
+                  placeholder="Choose Urgency"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <Select
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="Hard Complaint"
+                  maxWidth={230}
+                  name="hardComplaint"
+                  placeholder="Choose Hard Complaint"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <SelectWithLevel
+                  data={Array []}
+                  isLoading={false}
+                  label="Symptoms"
+                  name="symptoms"
+                  onChange={[Function]}
+                  placeholder="Choose Symptom"
+                  required={true}
+                  value={null}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="Description"
+                  minRows={5}
+                  multiline={true}
+                  name="description"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="OCC's Note"
+                  maxLength={160}
+                  minRows={5}
+                  multiline={true}
+                  name="occNote"
+                  required={true}
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <Card
+            title="PIC Internal"
+          >
+            <Styled(MuiBox)
+              mb={5}
+            >
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <TextField
+                  control={Object {}}
+                  disabled={false}
+                  error={false}
+                  helperText=""
+                  label="PIC Name"
+                  maxLength={40}
+                  name="contactName"
+                  shouldUnregister={false}
+                />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                mt={3}
+              >
+                <PhoneInput
+                  control={Object {}}
+                  error={false}
+                  helperText=""
+                  label="PIC Contact"
+                  maxLength={16}
+                  name="contactPhone"
+                />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>
+          </Card>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "paddingTop": 24,
+        }
+      }
+      xs={12}
+    >
+      <Card>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+              "padding": "0 10px",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(FormControlLabel))
+            control={
+              <ForwardRef
+                checked={false}
+                onChange={[MockFunction]}
+              />
+            }
+            label="  Agree, Data cannot be changed after submitting"
+          />
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            type="submit"
+            variant="filled"
+          >
+            Validate
+          </Button>
+        </div>
+      </Card>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/RespondenChart render 1`] = `
+<div
+  className="makeStyles-root-6"
+>
+  <div
+    className="makeStyles-chartContainer-1"
+  >
+    <BarChart
+      animate={false}
+      axisLeft={
+        Object {
+          "format": [Function],
+        }
+      }
+      colors={[Function]}
+      data={
+        Array [
+          Object {
+            "color": "#DE1B1B",
+            "label": "0",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "1",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "2",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "3",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "4",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "5",
+            "value": 90,
+          },
+          Object {
+            "color": "#DE1B1B",
+            "label": "6",
+            "value": 90,
+          },
+          Object {
+            "color": "#FAB005",
+            "label": "7",
+            "value": 90,
+          },
+          Object {
+            "color": "#FAB005",
+            "label": "8",
+            "value": 90,
+          },
+          Object {
+            "color": "#3BA064",
+            "label": "9",
+            "value": 90,
+          },
+          Object {
+            "color": "#3BA064",
+            "label": "10",
+            "value": 90,
+          },
+        ]
+      }
+      indexBy="score"
+      isInteractive={true}
+      layout="vertical"
+      leftLabel="COUNT"
+      tooltipLabel={[Function]}
+    />
+    <div
+      className="makeStyles-loadingOverlay-4"
+    >
+      <Loading
+        color="primary"
+        size="large"
+      />
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="body2"
+          weight="normal"
+        >
+          Generating Chart
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </div>
+  <div
+    className="makeStyles-legendContainer-3"
+  >
+    <ChartLegend
+      color="#DE1B1B"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Detractors
+    </ChartLegend>
+    <ChartLegend
+      color="#FAB005"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Passive
+    </ChartLegend>
+    <ChartLegend
+      color="#3BA064"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Promoters
+    </ChartLegend>
+  </div>
+</div>
+`;
+
+exports[`src/components/RespondenChart render empty 1`] = `
+<div
+  className="makeStyles-root-12"
+>
+  <div
+    className="makeStyles-chartContainer-7"
+  >
+    <div
+      className="makeStyles-notFoundContainer-11"
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="body2"
+        weight="normal"
+      >
+        Chart Not Found
+      </Typography>
+    </div>
+    <div
+      className="makeStyles-loadingOverlay-10"
+    >
+      <Loading
+        color="primary"
+        size="large"
+      />
+      <Styled(MuiBox)
+        mt={1}
+      >
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="body2"
+          weight="normal"
+        >
+          Generating Chart
+        </Typography>
+      </Styled(MuiBox)>
+    </div>
+  </div>
+  <div
+    className="makeStyles-legendContainer-9"
+  >
+    <ChartLegend
+      color="#DE1B1B"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Detractors
+    </ChartLegend>
+    <ChartLegend
+      color="#FAB005"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Passive
+    </ChartLegend>
+    <ChartLegend
+      color="#3BA064"
+      labelProps={Object {}}
+      variant="bar"
+    >
+      Promoters
+    </ChartLegend>
+  </div>
+</div>
+`;

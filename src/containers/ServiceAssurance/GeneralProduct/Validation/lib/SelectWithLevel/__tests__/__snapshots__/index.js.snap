@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/index render 1`] = `
+<div>
+  <Typography
+    className="makeStyles-required-7"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-5"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    Select Date
+  </Typography>
+  <div
+    className="makeStyles-root-8"
+  >
+    <div
+      className="makeStyles-labelSelect-3"
+    >
+      Choose Symptomps
+    </div>
+    <ArrowDown
+      className="makeStyles-arrow-1"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-4",
+      }
+    }
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-scroller-9"
+    >
+      <ForwardRef(RadioGroup)
+        name="selectLevel"
+        onChange={[MockFunction]}
+        value=""
+      >
+        <ListItemLevel
+          data={Array []}
+          handleValue={[MockFunction]}
+          level={1}
+          symptompPath=""
+          value=""
+        />
+      </ForwardRef(RadioGroup)>
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/GeneralProduct/Validation/lib/SelectWithLevel/index render other condition 1`] = `
+<div>
+  <Typography
+    className="makeStyles-required-18"
+    color="primary-main"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    *
+  </Typography>
+  <Typography
+    className="makeStyles-label-16"
+    color="inherit"
+    inline={false}
+    variant="overline"
+    weight="medium"
+  >
+    Select Date
+  </Typography>
+  <div
+    className="makeStyles-root-19"
+  >
+    <div
+      className="makeStyles-labelSelect-14"
+    >
+      value
+    </div>
+    <ArrowDown
+      className="makeStyles-arrow-12"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": "makeStyles-popover-15",
+      }
+    }
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <div
+      className="makeStyles-loadingContainer-17"
+    >
+      <WithStyles(ForwardRef(CircularProgress))
+        size={28}
+      />
+    </div>
+  </WithStyles(ForwardRef(Popover))>
+</div>
+`;

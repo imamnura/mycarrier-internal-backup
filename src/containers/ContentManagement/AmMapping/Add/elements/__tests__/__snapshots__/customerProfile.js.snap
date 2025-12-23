@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/customerProfile render 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/customerProfile render customer custAccntName empty 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/customerProfile render customer custAccntName not null 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/customerProfile render typeCustomer Account Number 1`] = `ShallowWrapper {}`;

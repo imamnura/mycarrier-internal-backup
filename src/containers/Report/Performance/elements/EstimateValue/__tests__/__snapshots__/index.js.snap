@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragment-v2/Performance/lib/EstimateValue render empty 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-2"
+>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={true}
+    variant="h2"
+    weight="medium"
+  />
+  <Styled(MuiBox)
+    mt={1}
+  >
+    <Typography
+      className=""
+      color="general-main"
+      inline={false}
+      variant="h4"
+      weight="normal"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;
+
+exports[`src/fragment-v2/Performance/lib/EstimateValue render loading 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-3"
+>
+  <Skeleton
+    height={56}
+    variant="rect"
+    width="100%"
+  />
+  <Styled(MuiBox)
+    mt={1}
+  >
+    <Skeleton
+      height={27}
+      variant="rect"
+      width={108}
+    />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;
+
+exports[`src/fragment-v2/Performance/lib/EstimateValue render success 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-docValue-1"
+>
+  <Typography
+    className=""
+    color="primary-main"
+    inline={true}
+    variant="h2"
+    weight="medium"
+  >
+    123
+  </Typography>
+  <Styled(MuiBox)
+    mt={1}
+  >
+    <Typography
+      className=""
+      color="general-main"
+      inline={false}
+      variant="h4"
+      weight="normal"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

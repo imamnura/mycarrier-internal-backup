@@ -1,0 +1,536 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/CustomerMRTGDetail-v2 render 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "MRTG",
+          "url": "/approval-mrtg",
+        },
+        Object {
+          "label": "PT TELEKOMUNIKASI",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "activatedDate": "2022-11-21T16:41:26+07:00",
+                  "customerAccountName": "PT TELEKOMUNIKASI",
+                  "customerAccountNumber": "tes123",
+                  "isNewRequest": false,
+                  "lastUpdate": "2023-01-30T22:26:59+07:00",
+                  "loginData": Array [],
+                  "noteIntegrated": "test",
+                  "noteLoginData": "",
+                  "status": "",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Customer",
+                    "name": "customerAccountName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Last Update",
+                    "name": "lastUpdate",
+                  },
+                ],
+              },
+              "title": "Customer Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <React.Fragment>
+                <Tabs
+                  isCustom={false}
+                  onChange={[MockFunction]}
+                  options={
+                    Array [
+                      Object {
+                        "label": "MRTG Request",
+                        "value": "request-mrtg",
+                      },
+                      Object {
+                        "label": "Login Data",
+                        "value": "login-data",
+                      },
+                    ]
+                  }
+                  value="request-mrtg"
+                  variant="default"
+                />
+                <Box
+                  pb="8px"
+                  pt="8px"
+                >
+                  <Filter
+                    filter={
+                      Array [
+                        Object {
+                          "maxWidth": 300,
+                          "type": "dropdown",
+                        },
+                      ]
+                    }
+                    search={
+                      Object {
+                        "onChange": [MockFunction],
+                        "placeholder": "Search Request ID..",
+                        "value": "",
+                      }
+                    }
+                  />
+                </Box>
+                <Table
+                  data={
+                    Array [
+                      Object {
+                        "status": "",
+                      },
+                      Object {
+                        "status": "ON PROGRESS",
+                      },
+                      Object {
+                        "status": "COMPLETED",
+                      },
+                      Object {
+                        "status": "CUSTOMER REQUEST",
+                      },
+                      Object {
+                        "status": "INTEGRATED",
+                      },
+                    ]
+                  }
+                  loading={false}
+                  loadingRoot={
+                    Object {
+                      "tableRoot": false,
+                      "tableRow": false,
+                    }
+                  }
+                  meta={Object {}}
+                  numbering={true}
+                  onClickRow={[MockFunction]}
+                  schema={Array []}
+                  size={10}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </React.Fragment>,
+              "title": "MRTG",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/CustomerMRTGDetail-v2 render with no privilege & no tab 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "MRTG",
+          "url": "/approval-mrtg",
+        },
+        Object {
+          "label": "PT TELEKOMUNIKASI",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "activatedDate": "2022-11-21T16:41:26+07:00",
+                  "customerAccountName": "PT TELEKOMUNIKASI",
+                  "customerAccountNumber": "tes123",
+                  "isNewRequest": false,
+                  "lastUpdate": "2023-01-30T22:26:59+07:00",
+                  "loginData": Array [],
+                  "noteIntegrated": "test",
+                  "noteLoginData": "",
+                  "status": "",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Customer",
+                    "name": "customerAccountName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Last Update",
+                    "name": "lastUpdate",
+                  },
+                ],
+              },
+              "title": "Customer Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <React.Fragment>
+                <Tabs
+                  isCustom={false}
+                  onChange={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [
+                          undefined,
+                        ],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
+                  options={Array []}
+                  value=""
+                  variant="default"
+                />
+                <Box
+                  pb="8px"
+                  pt="8px"
+                >
+                  <Filter
+                    filter={Array []}
+                    search={
+                      Object {
+                        "onChange": [MockFunction],
+                        "placeholder": "Search Request ID..",
+                        "value": "",
+                      }
+                    }
+                  />
+                </Box>
+                <Table
+                  data={
+                    Array [
+                      Object {
+                        "status": "",
+                      },
+                      Object {
+                        "status": "ON PROGRESS",
+                      },
+                      Object {
+                        "status": "COMPLETED",
+                      },
+                      Object {
+                        "status": "CUSTOMER REQUEST",
+                      },
+                      Object {
+                        "status": "INTEGRATED",
+                      },
+                    ]
+                  }
+                  loading={false}
+                  loadingRoot={
+                    Object {
+                      "tableRoot": false,
+                      "tableRow": false,
+                    }
+                  }
+                  meta={Object {}}
+                  numbering={true}
+                  onClickRow={[MockFunction]}
+                  schema={Array []}
+                  size={10}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </React.Fragment>,
+              "title": "MRTG",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/CustomerMRTGDetail-v2 render with tab done 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "MRTG",
+          "url": "/approval-mrtg",
+        },
+        Object {
+          "label": "PT TELEKOMUNIKASI",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "activatedDate": "2022-11-21T16:41:26+07:00",
+                  "customerAccountName": "PT TELEKOMUNIKASI",
+                  "customerAccountNumber": "tes123",
+                  "isNewRequest": false,
+                  "lastUpdate": "2023-01-30T22:26:59+07:00",
+                  "loginData": Array [],
+                  "noteIntegrated": "test",
+                  "noteLoginData": "",
+                  "status": "",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Customer",
+                    "name": "customerAccountName",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "grid": 12,
+                    "label": "Last Update",
+                    "name": "lastUpdate",
+                  },
+                ],
+              },
+              "title": "Customer Detail",
+              "type": "information",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <React.Fragment>
+                <Tabs
+                  isCustom={false}
+                  onChange={
+                    [MockFunction] {
+                      "calls": Array [
+                        Array [
+                          undefined,
+                        ],
+                      ],
+                      "results": Array [
+                        Object {
+                          "type": "return",
+                          "value": undefined,
+                        },
+                      ],
+                    }
+                  }
+                  options={
+                    Array [
+                      Object {
+                        "label": "MRTG Request",
+                        "value": "request-mrtg",
+                      },
+                      Object {
+                        "label": "Login Data",
+                        "value": "login-data",
+                      },
+                    ]
+                  }
+                  value="login-data"
+                  variant="default"
+                />
+                <Box
+                  pb="8px"
+                  pt="8px"
+                >
+                  <Filter
+                    filter={
+                      Array [
+                        Object {
+                          "maxWidth": 300,
+                          "type": "dropdown",
+                        },
+                      ]
+                    }
+                    search={
+                      Object {
+                        "onChange": [MockFunction],
+                        "placeholder": "Search Request ID..",
+                        "value": "",
+                      }
+                    }
+                  />
+                </Box>
+                <Table
+                  data={
+                    Array [
+                      Object {
+                        "status": "",
+                      },
+                      Object {
+                        "status": "ON PROGRESS",
+                      },
+                      Object {
+                        "status": "COMPLETED",
+                      },
+                      Object {
+                        "status": "CUSTOMER REQUEST",
+                      },
+                      Object {
+                        "status": "INTEGRATED",
+                      },
+                    ]
+                  }
+                  loading={false}
+                  loadingRoot={
+                    Object {
+                      "tableRoot": false,
+                      "tableRow": false,
+                    }
+                  }
+                  meta={Object {}}
+                  numbering={true}
+                  onClickRow={[MockFunction]}
+                  schema={Array []}
+                  size={10}
+                  useOrderBy={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useOrderDirection={
+                    Array [
+                      null,
+                      [Function],
+                    ]
+                  }
+                  useSelectedRow={Array []}
+                />
+              </React.Fragment>,
+              "title": "MRTG",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 12,
+            "xs": 12,
+          },
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+</React.Fragment>
+`;

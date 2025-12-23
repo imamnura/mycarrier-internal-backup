@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ImageAttachment render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  alignItems="center"
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="body2"
+    >
+      label
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="file"
+      container={true}
+      onClick={[Function]}
+      spacing={1}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <ForwardRef
+          alt=""
+          height={160}
+          src=""
+          unoptimized={true}
+          width={160}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "wordBreak": "break-all",
+          }
+        }
+        xs={10}
+      >
+        <WithStyles(Component)
+          variant="subtitle1"
+        >
+          -
+        </WithStyles(Component)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={2}
+      >
+        <div>
+          <Download />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

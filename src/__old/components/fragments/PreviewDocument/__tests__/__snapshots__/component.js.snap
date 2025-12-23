@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/PreviewDocument render 1`] = `
+<WithStyles(ForwardRef(LoadableComponent))
+  actionButton={
+    <div>
+      <WithStyles(Component)
+        disabled={true}
+        onClick={[MockFunction]}
+      >
+        Submit
+      </WithStyles(Component)>
+    </div>
+  }
+  file={null}
+  loading={true}
+  onClose={[MockFunction]}
+  open={false}
+  title="Review Document"
+/>
+`;
+
+exports[`src/components/fragments/PreviewDocument render open 1`] = `
+<WithStyles(ForwardRef(LoadableComponent))
+  actionButton={
+    <div>
+      <WithStyles(Component)
+        disabled={true}
+        onClick={[MockFunction]}
+      >
+        Submit
+      </WithStyles(Component)>
+    </div>
+  }
+  file={null}
+  loading={true}
+  onClose={[MockFunction]}
+  open={true}
+  title="Review Document"
+/>
+`;
+
+exports[`src/components/fragments/PreviewDocument render preview 1`] = `
+<WithStyles(ForwardRef(LoadableComponent))
+  actionButton={<div />}
+  file={null}
+  loading={true}
+  onClose={[MockFunction]}
+  open={true}
+  title="Review Document"
+/>
+`;

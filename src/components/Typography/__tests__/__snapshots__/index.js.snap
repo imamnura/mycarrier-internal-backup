@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Typography render 1`] = `
+<span
+  className="makeStyles-root-1"
+>
+  
+</span>
+`;

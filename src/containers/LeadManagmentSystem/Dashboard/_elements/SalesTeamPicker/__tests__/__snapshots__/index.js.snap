@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/_elements/SalesTeamPicker/index render 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <SearchBox
+      fullWidth={true}
+      onChange={[MockFunction]}
+      placeholder="Type Sales’s name or NIK.."
+      size="default"
+      value="test"
+    />
+  </Styled(MuiBox)>
+  <div>
+    <span />
+    <React.Fragment>
+      <React.Fragment>
+        <div
+          className=""
+        >
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+          <Styled(MuiBox)
+            my={2}
+          >
+            <WithStyles(ForwardRef(Divider)) />
+          </Styled(MuiBox)>
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+        </div>
+        <div
+          className=""
+        >
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+          <Styled(MuiBox)
+            my={2}
+          >
+            <WithStyles(ForwardRef(Divider)) />
+          </Styled(MuiBox)>
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+        </div>
+      </React.Fragment>
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/_elements/SalesTeamPicker/index render isPopup true 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": "calc(100% - 20px)",
+      }
+    }
+  >
+    <SearchBox
+      fullWidth={true}
+      onChange={[MockFunction]}
+      placeholder="Type Sales’s name or NIK.."
+      size="default"
+      value="test"
+    />
+  </Styled(MuiBox)>
+  <div>
+    <span />
+    <React.Fragment>
+      <React.Fragment>
+        <div
+          className=""
+        >
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+          <Styled(MuiBox)
+            my={2}
+          >
+            <WithStyles(ForwardRef(Divider)) />
+          </Styled(MuiBox)>
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+        </div>
+        <div
+          className=""
+        >
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+          <Styled(MuiBox)
+            my={2}
+          >
+            <WithStyles(ForwardRef(Divider)) />
+          </Styled(MuiBox)>
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              test
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              test
+            </Typography>
+          </Styled(MuiBox)>
+        </div>
+      </React.Fragment>
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/_elements/SalesTeamPicker/index render loading 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <SearchBox
+      fullWidth={true}
+      onChange={[MockFunction]}
+      placeholder="Type Sales’s name or NIK.."
+      size="default"
+      value="test"
+    />
+  </Styled(MuiBox)>
+  <div>
+    <span />
+    <React.Fragment>
+      <Skeleton
+        height={163}
+        variant="rect"
+        width="100%"
+      />
+      <Skeleton
+        height={163}
+        variant="rect"
+        width="100%"
+      />
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/_elements/SalesTeamPicker/index render option false 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <SearchBox
+      fullWidth={true}
+      onChange={[MockFunction]}
+      placeholder="Type Sales’s name or NIK.."
+      size="default"
+      value="test"
+    />
+  </Styled(MuiBox)>
+  <div>
+    <span />
+    <React.Fragment>
+      <React.Fragment>
+        <div
+          className=""
+        >
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              -
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              -
+            </Typography>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="body2"
+              weight="normal"
+            >
+              -
+            </Typography>
+          </Styled(MuiBox)>
+          <Styled(MuiBox)
+            my={2}
+          >
+            <WithStyles(ForwardRef(Divider)) />
+          </Styled(MuiBox)>
+          <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle1"
+              weight="bold"
+            >
+              -
+            </Typography>
+            <Typography
+              className=""
+              color="general-mid"
+              inline={false}
+              variant="caption"
+              weight="normal"
+            >
+              -
+            </Typography>
+          </Styled(MuiBox)>
+        </div>
+      </React.Fragment>
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/_elements/SalesTeamPicker/index render option null 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <SearchBox
+      fullWidth={true}
+      onChange={[MockFunction]}
+      placeholder="Type Sales’s name or NIK.."
+      size="default"
+      value="test"
+    />
+  </Styled(MuiBox)>
+  <div>
+    <span />
+    <React.Fragment>
+      <div>
+        <SearchArticle />
+        <Typography
+          className=""
+          color="inherit"
+          inline={false}
+          variant="h5"
+          weight="medium"
+        >
+          Sales’s name not found
+        </Typography>
+      </div>
+    </React.Fragment>
+  </div>
+</React.Fragment>
+`;

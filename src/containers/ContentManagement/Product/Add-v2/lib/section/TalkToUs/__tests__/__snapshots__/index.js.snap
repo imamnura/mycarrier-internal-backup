@@ -1,0 +1,2886 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType create 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType create isSingleProduct true 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType edit 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType edit isSingleProduct level l0 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType edit level l1 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType edit level l2 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType full 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType half 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render formType single 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Tertarik dengan 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            Kami siap membantu Anda.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Temukan solusi bisnis Anda.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        MARI BERDISKUSI
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render tab en 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Talk To Us"
+  />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Interested in 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            We are ready to help you.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Find your business solution.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        LET'S DISCUSSION
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/TalkToUs/index render tab id previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={12}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "background": "center center rgb(59, 82, 92)",
+            "borderRadius": "14px",
+            "bottom": 0,
+            "inset": "0px",
+            "left": 0,
+            "mixBlendMode": "multiply",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={7}
+        sm={7}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "fontWeight": "bold",
+                "marginBottom": 4,
+                "position": "relative",
+              }
+            }
+            variant="h4"
+            weight="normal"
+          >
+            Interested in 
+          </Typography>
+          <Typography
+            className=""
+            color="white"
+            inline={false}
+            style={
+              Object {
+                "display": "block",
+                "marginTop": "10px",
+                "position": "relative",
+              }
+            }
+            variant="subtitle2"
+            weight="normal"
+          >
+            We are ready to help you.
+          </Typography>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={5}
+        sm={5}
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "zIndex": "2",
+          }
+        }
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            REQUEST A CALL BACK
+          </Button>
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            style={
+              Object {
+                "background": "transparent",
+                "border": "1px solid white",
+                "marginRight": "10px",
+              }
+            }
+            textTransform="uppercase"
+            variant="filled"
+          >
+            <span
+              style={
+                Object {
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <img
+                alt="Whatsapp"
+                area-hidden="true"
+                focusable="false"
+                src="/ewz-mytens-pub-dev/catalogpublic/v2/icon-whatsapp.svg"
+                style={
+                  Object {
+                    "height": "16px",
+                    "width": "16px",
+                  }
+                }
+              />
+            </span>
+            <span>
+              TALK TO US
+            </span>
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "position": "absolute",
+            "right": "20%",
+            "top": "0",
+            "width": "170px",
+          }
+        }
+      >
+        <img
+          alt="phone"
+          area-hidden="true"
+          focusable="false"
+          src="/ewz-mytens-pub-dev/catalogpublic/v2/phone-call.png"
+          style={
+            Object {
+              "height": "100%",
+            }
+          }
+        />
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "marginTop": "10px",
+        }
+      }
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        style={
+          Object {
+            "marginRight": "10px",
+          }
+        }
+        variant="subtitle2"
+        weight="light"
+      >
+        Find your business solution.
+      </Typography>
+      <Typography
+        className=""
+        color="primary-main"
+        inline={false}
+        style={
+          Object {
+            "fontSize": "16px",
+            "fontWeight": "700",
+          }
+        }
+        variant="subtitle2"
+        weight="normal"
+      >
+        LET'S DISCUSSION
+      </Typography>
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

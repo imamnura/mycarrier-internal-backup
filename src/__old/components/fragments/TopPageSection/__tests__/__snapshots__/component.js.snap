@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fragments/TopPageSection render within tab 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={4}
+    xs={12}
+  >
+    <WithStyles(Component)
+      data={
+        Array [
+          "title",
+          "subtitle",
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="right"
+    item={true}
+    md={8}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justify="flex-end"
+      spacing={3}
+    >
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <WithStyles(Component)
+            child="Button"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          style={
+            Object {
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Divider))
+            orientation="vertical"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <WithStyles(Component)
+            child="Button2"
+          />
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          style={
+            Object {
+              "paddingBottom": 16,
+              "paddingTop": 16,
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Divider))
+            orientation="vertical"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+      <React.Fragment>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <WithStyles(Component)
+            child="Button3"
+          />
+        </WithStyles(ForwardRef(Grid))>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(Component)
+      isPositionCenter={false}
+    />
+    <div>
+      <SearchBox
+        onChange={[Function]}
+        placeholder="Search..."
+        size="default"
+        value=""
+      />
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          justify="flex-end"
+          spacing={1}
+        >
+          <Hidden
+            mdUp={true}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            />
+          </Hidden>
+          <WithStyles(ForwardRef(Grid))
+            data-testid="dropdownTest"
+            item={true}
+          >
+            <WithStyles(Component)
+              type="dropdown"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <WithStyles(Component)
+              type="rangeDate"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <div />
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </div>
+    <div />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/components/fragments/TopPageSection render without tab 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={4}
+    xs={5}
+  >
+    <WithStyles(Component)
+      variant="h4"
+    >
+      
+    </WithStyles(Component)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="right"
+    item={true}
+    md={8}
+    xs={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      justify="flex-end"
+      spacing={3}
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <div>
+      <SearchBox
+        onChange={[Function]}
+        placeholder="Search..."
+        size="default"
+        value=""
+      />
+      <div>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          justify="flex-end"
+          spacing={1}
+        >
+          <Hidden
+            mdUp={true}
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+            />
+          </Hidden>
+          <WithStyles(ForwardRef(Grid))
+            data-testid="dropdownTest"
+            item={true}
+          >
+            <WithStyles(Component)
+              type="dropdown"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+          >
+            <WithStyles(Component)
+              type="rangeDate"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <div />
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </div>
+    <div />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

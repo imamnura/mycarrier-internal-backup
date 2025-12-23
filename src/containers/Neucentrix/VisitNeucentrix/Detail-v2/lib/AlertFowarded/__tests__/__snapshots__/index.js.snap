@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/VisitNeucentrix/Detail-v2/lib/AlertFowarded render success 1`] = `
+<WithStyles(ForwardRef(Alert))
+  className="makeStyles-alert-1"
+  icon={
+    <Information
+      className="makeStyles-alertIcon-2"
+    />
+  }
+>
+  <Typography
+    className=""
+    color="yellow-main"
+    inline={false}
+    variant="subtitle1"
+    weight="normal"
+  >
+    You are already forwarded visit request to 
+    . Please contact
+     and wait approval from them then QR Code will generated automatically.
+  </Typography>
+</WithStyles(ForwardRef(Alert))>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/LeadsFollowUpDetail/elements/FormFollowUpDetail run properly 1`] = `
+<React.Fragment>
+  <Category
+    feature={Array []}
+    followUpForm={
+      Object {
+        "type": "activities",
+      }
+    }
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    status="Valid"
+  />
+  <mockConstructor
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    status="Valid"
+  />
+</React.Fragment>
+`;

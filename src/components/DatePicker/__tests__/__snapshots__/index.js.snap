@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/DatePicker render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-dropdown-3"
+    id="dropdown-pick"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="body1"
+      weight="normal"
+    />
+    <ArrowDown
+      className="arrow"
+    />
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={false}
+    anchorOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "bottom",
+      }
+    }
+    id="popUp"
+    onClose={[MockFunction]}
+    open={false}
+    transformOrigin={
+      Object {
+        "horizontal": "left",
+        "vertical": "top",
+      }
+    }
+  >
+    <Unknown
+      dateAdapter={[Function]}
+      locale="en-US"
+    >
+      <ForwardRef
+        allowKeyboardControl={false}
+        displayStaticWrapperAs="desktop"
+        inputFormat="DD/MM/YYYY"
+        onChange={[Function]}
+        renderInput={[Function]}
+        toolbarPlaceholder="Select Date"
+        value={null}
+      />
+      <div
+        className="makeStyles-actionButton-1"
+      >
+        <Button
+          disabled={false}
+          id="btn-reset"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Reset
+        </Button>
+        <Button
+          disabled={false}
+          id="btn-submit"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Submit
+        </Button>
+      </div>
+    </Unknown>
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;
+
+exports[`src/components/DatePicker render/KeyboardInput 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    endProps={Object {}}
+    size="small"
+    startProps={Object {}}
+    variant="standard"
+  />
+</React.Fragment>
+`;
+
+exports[`src/components/DatePicker render/Mobile 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-dropdown-8"
+    id="dropdown-pick"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="body1"
+      weight="normal"
+    />
+    <ArrowDown
+      className="arrow"
+    />
+  </div>
+  <WithStyles(ForwardRef(Dialog))
+    classes={
+      Object {
+        "paper": "makeStyles-dialogPaper-7",
+      }
+    }
+    id="popUp"
+    onClose={[MockFunction]}
+    open={false}
+  >
+    <Unknown
+      dateAdapter={[Function]}
+      locale="en-US"
+    >
+      <ForwardRef
+        allowKeyboardControl={false}
+        displayStaticWrapperAs="mobile"
+        inputFormat="DD/MM/YYYY"
+        onChange={[Function]}
+        renderInput={[Function]}
+        toolbarPlaceholder="Select Date"
+        value={null}
+      />
+      <div
+        className="makeStyles-actionButton-6"
+      >
+        <Button
+          disabled={false}
+          id="btn-reset"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="ghost"
+        >
+          Reset
+        </Button>
+        <Button
+          disabled={false}
+          id="btn-submit"
+          leftIcon={null}
+          loading={false}
+          ml={0}
+          mr={0}
+          onClick={[MockFunction]}
+          rightIcon={null}
+          rounded="normal"
+          textTransform="uppercase"
+          variant="filled"
+        >
+          Submit
+        </Button>
+      </div>
+    </Unknown>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/NavIcon render 1`] = `
+<Link
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types accountNav 1`] = `
+<AccountNav
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types article 1`] = `
+<Article
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types bakes 1`] = `
+<Bakes
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types banner 1`] = `
+<Banner
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types baso 1`] = `
+<Baso
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types help 1`] = `
+<Help
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types interestedList 1`] = `
+<InterestedList
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types keyword 1`] = `
+<Keywrod
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types lba 1`] = `
+<Location
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types link 1`] = `
+<Link
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types logout 1`] = `
+<Logout
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types mrtg 1`] = `
+<Mrtg
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types product 1`] = `
+<Product
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types purchaseOrder 1`] = `
+<PurchaseOrder
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types quotation 1`] = `
+<Quotation
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types sender 1`] = `
+<Sender
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types site 1`] = `
+<Site
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types smsc 1`] = `
+<Sender
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types ticket 1`] = `
+<Ticket
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types umb 1`] = `
+<UMB
+  className=""
+/>
+`;
+
+exports[`src/components/elements/NavIcon render with types userManagement 1`] = `
+<User
+  className=""
+/>
+`;

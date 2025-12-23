@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/Detail render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={true}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "calc(100vh - 146px)",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Spinner />
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/fragments/Detail render/others 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={Array []}
+    breadcrumb={Array []}
+    filter={Array []}
+    loading={true}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "calc(100vh - 146px)",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Spinner />
+  </div>
+</React.Fragment>
+`;

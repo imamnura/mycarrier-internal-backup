@@ -1,0 +1,182 @@
+.fr-toolbar .fr-command.fr-btn.fr-dropdown:after,
+.fr-popup .fr-command.fr-btn.fr-dropdown:after,
+.fr-modal .fr-command.fr-btn.fr-dropdown:after {
+  right: 8px !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+.fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+.fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover {
+  background: #faf0f0 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,
+.fr-popup .fr-command.fr-btn.fr-dropdown.fr-active,
+.fr-modal .fr-command.fr-btn.fr-dropdown.fr-active {
+  background: #faf0f0 !important;
+}
+
+.fr-desktop .fr-command:hover:not(.fr-table-cell),
+.fr-desktop .fr-command:focus:not(.fr-table-cell),
+.fr-desktop .fr-command.fr-btn-hover:not(.fr-table-cell),
+.fr-desktop .fr-command.fr-expanded:not(.fr-table-cell) {
+  background: #faf0f0 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-modal .fr-command.fr-btn {
+  margin: 4px 0px 4px 8px !important;
+  border: none !important;
+  padding: 0px 4px !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-options,
+.fr-popup .fr-command.fr-btn.fr-dropdown.fr-options,
+.fr-modal .fr-command.fr-btn.fr-dropdown.fr-options {
+  margin: 4px -1px 4px 0px !important;
+  width: 24px !important;
+}
+
+.fr-toolbar.fr-top {
+  border-radius: 0px !important;
+  border: 1px solid #e4e7e9;
+  box-sizing: border-box;
+}
+.fr-box.fr-basic .fr-wrapper {
+  border: none !important;
+}
+
+.fr-toolbar .fr-btn-grp .fr-command.fr-btn.fr-active:not(.fr-dropdown) svg path,
+.fr-toolbar
+  .fr-more-toolbar
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path,
+.fr-toolbar
+  .fr-buttons:not(.fr-tabs)
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path,
+.fr-popup .fr-btn-grp .fr-command.fr-btn.fr-active:not(.fr-dropdown) svg path,
+.fr-popup
+  .fr-more-toolbar
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path,
+.fr-popup
+  .fr-buttons:not(.fr-tabs)
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path,
+.fr-modal .fr-btn-grp .fr-command.fr-btn.fr-active:not(.fr-dropdown) svg path,
+.fr-modal
+  .fr-more-toolbar
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path,
+.fr-modal
+  .fr-buttons:not(.fr-tabs)
+  .fr-command.fr-btn.fr-active:not(.fr-dropdown)
+  svg
+  path {
+  fill: #de1b1b !important;
+}
+
+.fr-element table td.fr-selected-cell,
+.fr-element table th.fr-selected-cell {
+  border: 1px double #de1b1b !important;
+}
+
+.fr-second-toolbar {
+  display: none;
+}
+
+.fr-toolbar .fr-btn-grp {
+  margin: 0px !important;
+}
+
+.fr-toolbar .fr-newline {
+  margin: 0px !important;
+}
+
+.fr-box.fr-basic .fr-element {
+  border: 1px solid #e4e7e9;
+  margin-top: -1px;
+  background-color: white !important;
+  font-family: 'Titillium Web' !important;
+  color: #3b525c !important;
+}
+
+.fr-box.fr-document .fr-wrapper {
+  background-color: #e4e7e9 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown i,
+.fr-toolbar .fr-command.fr-btn.fr-dropdown span,
+.fr-toolbar .fr-command.fr-btn.fr-dropdown img,
+.fr-toolbar .fr-command.fr-btn.fr-dropdown svg,
+.fr-popup .fr-command.fr-btn.fr-dropdown i,
+.fr-popup .fr-command.fr-btn.fr-dropdown span,
+.fr-popup .fr-command.fr-btn.fr-dropdown img,
+.fr-popup .fr-command.fr-btn.fr-dropdown svg,
+.fr-modal .fr-command.fr-btn.fr-dropdown i,
+.fr-modal .fr-command.fr-btn.fr-dropdown span,
+.fr-modal .fr-command.fr-btn.fr-dropdown img,
+.fr-modal .fr-command.fr-btn.fr-dropdown svg {
+  margin-right: 20px !important;
+}
+
+.fr-box.fr-document .fr-wrapper .fr-element {
+  width: 743px !important;
+}
+
+/* Document Style */
+
+.fr-view {
+  font-size: 18px;
+}
+
+.fr-view ol {
+  margin-left: 14px;
+}
+
+.fr-view ol:not([style]) {
+  list-style-type: decimal !important;
+}
+
+.fr-view table td,
+.fr-view table th {
+  padding: 4px 8px;
+}
+
+.fr-view ol,
+.fr-view ul {
+  padding: 16px;
+  list-style: auto;
+}
+
+.borderless td {
+  border: none !important;
+  padding: 0px !important;
+  min-width: 0px !important;
+}
+
+.content-table thead tr th,
+.content-table tbody tr td {
+  padding: 4px 8px;
+  border-color: black;
+}
+
+.content-table thead tr th {
+  background-color: #b4c6e7;
+  padding: 8px 8px;
+}
+
+.fr-sticky-on {
+  top: 0px !important;
+}
+
+.fr-sticky-dummy {
+  height: 0px !important;
+}

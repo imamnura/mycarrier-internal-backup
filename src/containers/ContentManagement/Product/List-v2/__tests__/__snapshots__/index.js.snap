@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/List-v2/index render 1`] = `
+<React.Fragment>
+  <List
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Draft",
+              "value": "draft",
+            },
+            Object {
+              "label": "Publish",
+              "value": "publish",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+        Object {
+          "label": "Created Date",
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product Category..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "catId": "a9642e7",
+            "id": 229,
+            "isDisplay": true,
+            "isSpecialCase": Object {},
+            "level": "0",
+            "name": "Cloud & Data Center",
+            "operations": <Styled(MuiBox)
+              sx={
+                Object {
+                  "& svg": Object {
+                    "color": "#2E434D",
+                    "cursor": "pointer",
+                    "marginLeft": "12px",
+                  },
+                  "alignItems": "center",
+                  "display": "flex",
+                }
+              }
+            >
+              <ShowIcon
+                displayProduct={true}
+                feature={
+                  Array [
+                    "",
+                  ]
+                }
+                id="a9642e7"
+                initialShowProduct={false}
+              />
+              <Styled(MuiBox)
+                id="updateProduct"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "lineHeight": 0,
+                  }
+                }
+              >
+                <Pencil />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                id="deleteProduct"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "lineHeight": 0,
+                  }
+                }
+              >
+                <Delete />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>,
+            "parentId": null,
+            "status": "publish",
+            "type": "full",
+          },
+          Object {
+            "catId": "a9642e7a-31b1-4120-85ff-9e0b1",
+            "id": 229,
+            "isDisplay": true,
+            "isSpecialCase": Object {},
+            "level": "0",
+            "name": "Cloud & Data Center",
+            "operations": <Styled(MuiBox)
+              sx={
+                Object {
+                  "& svg": Object {
+                    "color": "#2E434D",
+                    "cursor": "pointer",
+                    "marginLeft": "12px",
+                  },
+                  "alignItems": "center",
+                  "display": "flex",
+                }
+              }
+            >
+              <ShowIcon
+                displayProduct={true}
+                feature={
+                  Array [
+                    "",
+                  ]
+                }
+                id="a9642e7a-31b1-4120-85ff-9e0b1"
+                initialShowProduct={false}
+              />
+              <Styled(MuiBox)
+                id="updateProduct"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "lineHeight": 0,
+                  }
+                }
+              >
+                <Pencil />
+              </Styled(MuiBox)>
+              <Styled(MuiBox)
+                id="deleteProduct"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "lineHeight": 0,
+                  }
+                }
+              >
+                <Delete />
+              </Styled(MuiBox)>
+            </Styled(MuiBox)>,
+            "parentId": null,
+            "status": "publish",
+            "type": "full",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 70,
+            },
+            "label": "PRODUCT ID",
+            "name": "id",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 180,
+            },
+            "label": "PRODUCT CATEGORY",
+            "name": "name",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "LAST UPDATE",
+            "name": "updatedAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "draft": "primary",
+              "publish": "success",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+              "width": 200,
+            },
+            "label": "ACTION",
+            "name": "operations",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "newest",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Product Management"
+    withTopDivider={true}
+  />
+  <ModalChooseProduct
+    choosedContent={0}
+    data={Array []}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Product/List-v2/index render case 2 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "ADD PRODUCT",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxWidth": 300,
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Draft",
+              "value": "draft",
+            },
+            Object {
+              "label": "Publish",
+              "value": "publish",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status",
+            "value": "",
+          },
+        },
+        Object {
+          "label": "Created Date",
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product Category..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "onClickRow": undefined,
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 70,
+            },
+            "label": "PRODUCT ID",
+            "name": "id",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 180,
+            },
+            "label": "PRODUCT CATEGORY",
+            "name": "name",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "LAST UPDATE",
+            "name": "updatedAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "label": "Status",
+            "name": "status",
+            "schemaStatus": Object {
+              "draft": "primary",
+              "publish": "success",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+              "width": 200,
+            },
+            "label": "ACTION",
+            "name": "operations",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "newest",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="Product Management"
+    withTopDivider={true}
+  />
+  <ModalChooseProduct
+    choosedContent={0}
+    data={Array []}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+</React.Fragment>
+`;

@@ -1,0 +1,704 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailClaim render/approved 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "complete",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "-",
+          "url": "/bills-and-payment-management/detail/undefined?type=claim",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "approved",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CLAIM ID",
+                    "name": "claimId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CLAIM DATE",
+                    "name": "claimDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM CATEGORY",
+                    "name": "claimCategory",
+                  },
+                  Object {
+                    "label": "INVOICE NUMBER",
+                    "name": "invoiceNumberFormatted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "INVOICE DATE",
+                    "name": "invoiceDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "SID",
+                    "name": "sid",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM DESCRIPTION",
+                    "name": "customerNote",
+                  },
+                ],
+              },
+              "title": "Claim Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "approved",
+                },
+                "schema": Array [
+                  Object {
+                    "name": "documents",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 3,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "Checking by CDM",
+                  "Checking by AM",
+                  "Approved",
+                  "Completed",
+                ],
+              },
+              "title": "Claim Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "APPROVED",
+        "variant": "primary",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+  <FormComplete
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailClaim render/cdm_checked 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "return",
+          "ml": 24,
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "ml": 24,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "-",
+          "url": "/bills-and-payment-management/detail/undefined?type=claim",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "cdm_checked",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CLAIM ID",
+                    "name": "claimId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CLAIM DATE",
+                    "name": "claimDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM CATEGORY",
+                    "name": "claimCategory",
+                  },
+                  Object {
+                    "label": "INVOICE NUMBER",
+                    "name": "invoiceNumberFormatted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "INVOICE DATE",
+                    "name": "invoiceDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "SID",
+                    "name": "sid",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM DESCRIPTION",
+                    "name": "customerNote",
+                  },
+                ],
+              },
+              "title": "Claim Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "cdm_checked",
+                },
+                "schema": Array [
+                  Object {
+                    "name": "documents",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 2,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "Checking by CDM",
+                  "Checking by AM",
+                  "Approved",
+                  "Completed",
+                ],
+              },
+              "title": "Claim Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "CHECKING BY AM",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+  <FormComplete
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailClaim render/emptyData 1`] = `
+<React.Fragment>
+  <Detail
+    action={Array []}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "-",
+          "url": "/bills-and-payment-management/detail/undefined?type=claim",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "label": "CLAIM ID",
+                    "name": "claimId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CLAIM DATE",
+                    "name": "claimDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM CATEGORY",
+                    "name": "claimCategory",
+                  },
+                  Object {
+                    "label": "INVOICE NUMBER",
+                    "name": "invoiceNumberFormatted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "INVOICE DATE",
+                    "name": "invoiceDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "SID",
+                    "name": "sid",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM DESCRIPTION",
+                    "name": "customerNote",
+                  },
+                ],
+              },
+              "title": "Claim Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {},
+                "schema": Array [
+                  Object {
+                    "name": "documents",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 0,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "Checking by CDM",
+                  "Checking by AM",
+                  "Approved",
+                  "Completed",
+                ],
+              },
+              "title": "Claim Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": undefined,
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+  <FormComplete
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/DetailClaim render/submitted 1`] = `
+<React.Fragment>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "return",
+          "ml": 24,
+          "onClick": [MockFunction],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "ml": 24,
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Bills & Payment Management",
+          "url": "/dashboard/bills-and-payment-management/company-list",
+        },
+        Object {
+          "label": "-",
+          "url": "/bills-and-payment-management/detail/undefined?type=claim",
+        },
+        Object {
+          "label": "-",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "submitted",
+                  "worklog": Array [
+                    Object {
+                      "dateTime": 2010-11-10T00:00:00.000Z,
+                      "note": "--",
+                      "subStatus": "submitted",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "label": "CLAIM ID",
+                    "name": "claimId",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "CLAIM DATE",
+                    "name": "claimDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM CATEGORY",
+                    "name": "claimCategory",
+                  },
+                  Object {
+                    "label": "INVOICE NUMBER",
+                    "name": "invoiceNumberFormatted",
+                  },
+                  Object {
+                    "converter": [Function],
+                    "label": "INVOICE DATE",
+                    "name": "invoiceDate",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "SID",
+                    "name": "sid",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "CLAIM DESCRIPTION",
+                    "name": "customerNote",
+                  },
+                ],
+              },
+              "title": "Claim Detail",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "subStatus": "submitted",
+                  "worklog": Array [
+                    Object {
+                      "dateTime": 2010-11-10T00:00:00.000Z,
+                      "note": "--",
+                      "subStatus": "submitted",
+                    },
+                  ],
+                },
+                "schema": Array [
+                  Object {
+                    "name": "documents",
+                  },
+                ],
+              },
+              "title": "Document Attachment",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "active": 1,
+                "errors": undefined,
+                "steps": Array [
+                  "Submitted",
+                  "Checking by CDM",
+                  "Checking by AM",
+                  "Approved",
+                  "Completed",
+                ],
+              },
+              "title": "Claim Approval Step",
+              "type": "stepper",
+            },
+            Object {
+              "properties": Object {
+                "data": Array [
+                  Object {
+                    "date": "10/11/2010 00:00:00",
+                    "note": <React.Fragment>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={false}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Customer has been submitted claim.
+                      </Typography>
+                      <Typography
+                        className=""
+                        color="general-mid"
+                        inline={true}
+                        variant="caption"
+                        weight="normal"
+                      >
+                        Note: "--"
+                      </Typography>
+                    </React.Fragment>,
+                    "status": "CUSTOMER | SUBMIT CLAIM",
+                  },
+                ],
+              },
+              "title": "History Work Log",
+              "type": "worklog",
+            },
+          ],
+          "gridProps": Object {
+            "md": 6,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={
+      Object {
+        "children": "CHECKING BY CDM",
+        "variant": "warning",
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Approval
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+  <FormComplete
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+  />
+</React.Fragment>
+`;

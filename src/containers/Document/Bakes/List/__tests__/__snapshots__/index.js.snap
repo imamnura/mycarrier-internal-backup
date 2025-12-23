@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/Bakes/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "BAKES",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Draft",
+            "value": "draft",
+          },
+          Object {
+            "label": "Customer Approval",
+            "value": "customer approval",
+          },
+          Object {
+            "label": "Telkom Approval",
+            "value": "telkom approval",
+          },
+          Object {
+            "label": "Returned",
+            "value": "returned",
+          },
+          Object {
+            "label": "Rejected",
+            "value": "rejected",
+          },
+          Object {
+            "label": "Approved",
+            "value": "approved",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, BAKES ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Bakes ID",
+          "name": "bakesId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 252,
+            "width": 252,
+          },
+          "label": "Period (Start Date - End Date)",
+          "name": "period",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Ceated Date",
+          "name": "createdAt",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "success",
+            "customer approval": "warning",
+            "draft": "primary",
+            "rejected": "danger",
+            "returned": "danger",
+            "telkom approval": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="BAKES"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Document/Bakes/List render case 2 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "NEW BAKES",
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "BAKES",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "isLoading": false,
+        "isSearchable": true,
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Company",
+          "value": "",
+        },
+      },
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, BAKES ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "endDate": "2021-10-07T05:13:42.986Z",
+          "period": "Oct 7th, 2021 - Oct 7th, 2021",
+          "startDate": "2021-10-07T05:13:42.986Z",
+        },
+        Object {
+          "period": "",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Bakes ID",
+          "name": "bakesId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 252,
+            "width": 252,
+          },
+          "label": "Period (Start Date - End Date)",
+          "name": "period",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Ceated Date",
+          "name": "createdAt",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "approved": "success",
+            "customer approval": "warning",
+            "draft": "primary",
+            "rejected": "danger",
+            "returned": "danger",
+            "telkom approval": "warning",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="BAKES"
+  withTopDivider={true}
+/>
+`;

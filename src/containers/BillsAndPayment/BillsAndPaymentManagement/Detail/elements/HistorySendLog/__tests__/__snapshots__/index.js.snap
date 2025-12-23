@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/HistorySendLog render 1`] = `
+<WithStyles(ForwardRef(Drawer))
+  anchor="right"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "padding": 40,
+        "width": 462,
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      History Send Log
+    </Typography>
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <Worklog
+        data={
+          Array [
+            Object {},
+            Object {},
+          ]
+        }
+        firstItemActive={false}
+      />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Drawer))>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/elements/HistorySendLog render/empty 1`] = `
+<WithStyles(ForwardRef(Drawer))
+  anchor="right"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "padding": 40,
+        "width": 462,
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      History Send Log
+    </Typography>
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <Typography
+        className=""
+        color="general-mid"
+        inline={false}
+        variant="subtitle2"
+        weight="normal"
+      >
+        You haven’t send any nofitication yet.
+      </Typography>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Drawer))>
+`;

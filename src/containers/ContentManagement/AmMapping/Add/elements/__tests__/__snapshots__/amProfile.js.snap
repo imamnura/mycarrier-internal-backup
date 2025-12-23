@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/amProfile render 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/amProfile render profile metadata 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/amProfile render profile metadata empty 1`] = `ShallowWrapper {}`;
+
+exports[`src/containers/ContentManagement/AmMapping/Add/elements/amProfile render typeProfil nik 1`] = `ShallowWrapper {}`;

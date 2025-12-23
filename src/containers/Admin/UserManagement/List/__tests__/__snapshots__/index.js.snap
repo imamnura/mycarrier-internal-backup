@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Admin/UserManagement/List/index render 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "ADD USER",
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "DOWNLOAD",
+          "onClick": undefined,
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "User Management",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Status",
+              "value": "",
+            },
+            Object {
+              "label": "Checking",
+              "value": "Checking",
+            },
+            Object {
+              "label": "Requested",
+              "value": "Requested",
+            },
+            Object {
+              "label": "Registered",
+              "value": "Registered",
+            },
+            Object {
+              "label": "Active",
+              "value": "Active",
+            },
+            Object {
+              "label": "Disabled",
+              "value": "Non_active",
+            },
+            Object {
+              "label": "Returned",
+              "value": "Returned",
+            },
+            Object {
+              "label": "Rejected",
+              "value": "Rejected",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {},
+        },
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Segment",
+              "value": "",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {},
+        },
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All Role Type",
+              "value": "",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {},
+        },
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "label": "All User Type",
+              "value": "",
+            },
+            Object {
+              "label": "Customer",
+              "value": "customer",
+            },
+            Object {
+              "label": "Internal Staff",
+              "value": "internal_staff",
+            },
+            Object {
+              "label": "Internal Non Staff",
+              "value": "internal_non_staff",
+            },
+          ],
+          "type": "dropdown",
+          "value": Object {},
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[Function]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Company Name, Name..",
+        "value": "test",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "metaData": Object {
+              "status": undefined,
+            },
+          },
+          Object {
+            "metaData": Object {
+              "status": undefined,
+            },
+          },
+        ],
+        "loading": false,
+        "loadingRoot": undefined,
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "onPaginationChange": undefined,
+        "page": undefined,
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 170,
+            },
+            "label": "ID USER",
+            "name": "userId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 240,
+            },
+            "label": "NAME",
+            "name": "metaData.fullName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 130,
+            },
+            "label": "EMAIL",
+            "name": "email",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 240,
+            },
+            "label": "COMPANY",
+            "name": "metaData.customerAccountName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 180,
+            },
+            "converter": [Function],
+            "label": "USER TYPE",
+            "name": "metaData.userType",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "ROLE TYPE",
+            "name": "metaData.role.roleName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 140,
+            },
+            "label": "STATUS",
+            "name": "metaData.status",
+            "schemaStatus": Object {
+              "Active": "success",
+              "Checking": "primary",
+              "Disabled": "orange",
+              "Registered": "success",
+              "Rejected": "danger",
+              "Requested": "warning",
+              "Returned": "danger",
+            },
+            "tooltip": Object {
+              "Active": "Account has been Active",
+              "Checking": "Account has been checking by Account Manager",
+              "Disabled": "Account has deactivated by WDM",
+              "Registered": "Account created successfully, customer has receive activation link via email",
+              "Rejected": "Request has rejected by WDM, customer will receive this notification",
+              "Requested": "Account has forwarded to WDM",
+              "Returned": "Account has been returned",
+            },
+          },
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title="User Management"
+    withTopDivider={true}
+  />
+  <DownloadForm
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onSubmit={[MockFunction]}
+    open={false}
+    title=""
+  />
+</React.Fragment>
+`;

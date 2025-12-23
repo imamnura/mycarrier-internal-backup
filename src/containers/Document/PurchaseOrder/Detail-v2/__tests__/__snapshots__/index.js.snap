@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly 1`] = `
+<Detail
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Purchase Order",
+        "url": "/dashboard/purchase-order",
+      },
+      Object {
+        "label": "-",
+      },
+    ]
+  }
+  filter={Array []}
+  loading={false}
+  notFound={true}
+  otherStatus={null}
+  schema={Array []}
+  search={null}
+  status={null}
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly at Disconnect 1`] = `<ModifyDisconnect />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly at Modify 1`] = `<ModifyDisconnect />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly at New Install 1`] = `<NewInstall />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly at Subscribe 1`] = `<Subscribe />`;
+
+exports[`src/containers/Document/PurchaseOrder/Detail-v2 render properly at Trial 1`] = `<Trial />`;

@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/Main/elements/CompanyList render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Bills & Payment Management",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "id": "bill-and-payment-company-list-filters-last-update",
+        "label": "Last Update",
+        "onChange": undefined,
+        "type": "dateRange",
+        "value": undefined,
+      },
+      Object {
+        "id": "bill-and-payment-company-list-filters-profile",
+        "maxWidth": 250,
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Profile by Assessment",
+            "value": "",
+          },
+          Object {
+            "label": "Low Risk",
+            "value": "Low Risk",
+          },
+          Object {
+            "label": "Medium Risk",
+            "value": "Medium Risk",
+          },
+          Object {
+            "label": "High Risk",
+            "value": "High Risk",
+          },
+        ],
+        "type": "dropdown",
+        "value": undefined,
+      },
+    ]
+  }
+  id="bill-and-payment-company-list-root-id"
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "id": "bill-and-payment-company-list-search",
+      "onChange": undefined,
+      "placeholder": "Search BP Number..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "bpNumber": 123,
+          "companyAddress": "abc",
+          "companyId": "123",
+          "companyName": "abc",
+          "invoiceClaimOnProgress": <Styled(MuiBox)
+            className="makeStyles-numberCircle-2"
+          >
+            <Typography
+              className="makeStyles-number-1"
+              color="white"
+              inline={false}
+              variant="h5"
+              weight="medium"
+            >
+              5
+            </Typography>
+          </Styled(MuiBox)>,
+          "lastFetchInvoice": "undefined/1/test",
+          "profByAssessment": "",
+        },
+        Object {
+          "bpNumber": 123,
+          "companyAddress": "abc",
+          "companyId": "123",
+          "companyName": "abc",
+          "invoiceClaimOnProgress": <div />,
+          "lastFetchInvoice": "",
+          "profByAssessment": <Styled(MuiBox)>
+            <ArrowKeyboardDown
+              className="makeStyles-arrowDown-3"
+            />
+            <Typography
+              className=""
+              color="green-main"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              Low Risk
+            </Typography>
+          </Styled(MuiBox)>,
+        },
+        Object {
+          "bpNumber": 123,
+          "companyAddress": "abc",
+          "companyId": "123",
+          "companyName": "abc",
+          "invoiceClaimOnProgress": <div />,
+          "lastFetchInvoice": "",
+          "profByAssessment": <Styled(MuiBox)>
+            <Order
+              className="makeStyles-iconOrder-5"
+            />
+            <Typography
+              className=""
+              color="yellow-main"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              Medium Risk
+            </Typography>
+          </Styled(MuiBox)>,
+        },
+        Object {
+          "bpNumber": 123,
+          "companyAddress": "abc",
+          "companyId": "123",
+          "companyName": "abc",
+          "invoiceClaimOnProgress": <div />,
+          "lastFetchInvoice": "",
+          "profByAssessment": <Styled(MuiBox)>
+            <ArrowKeyboardUp
+              className="makeStyles-arrowUp-4"
+            />
+            <Typography
+              className=""
+              color="primary-main"
+              inline={false}
+              variant="subtitle2"
+              weight="medium"
+            >
+              High Risk
+            </Typography>
+          </Styled(MuiBox)>,
+        },
+      ],
+      "id": "bill-and-payment-company-list-table",
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "numbering": false,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "left": 0,
+            "maxWidth": 64,
+            "minWidth": 64,
+            "position": "sticky",
+            "width": 64,
+          },
+          "label": "No",
+          "name": "number",
+        },
+        Object {
+          "cellStyle": Object {
+            "left": 64,
+            "minWidth": 278,
+            "position": "sticky",
+            "width": 278,
+          },
+          "label": "Customer",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "borderRight": "4px solid #B3C3CA",
+            "left": 342,
+            "minWidth": 130,
+            "position": "sticky",
+            "width": 130,
+          },
+          "label": "BP Number",
+          "name": "bpNumber",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 450,
+            "width": 450,
+          },
+          "label": "Address",
+          "name": "companyAddress",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 50,
+            "width": 50,
+          },
+          "label": "AGING",
+          "name": "aging",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+            "width": 250,
+          },
+          "label": "PROFILLING BY ASSESSMENT",
+          "name": "profByAssessment",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+            "width": 200,
+          },
+          "label": "COMMIT STATUS",
+          "name": "commitStatus",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+            "width": 200,
+          },
+          "label": "CUSTOMER TYPE BY ASSESSMENT",
+          "name": "typeByAsessment",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Last Update",
+          "name": "lastFetchInvoice",
+        },
+        Object {
+          "label": "",
+          "name": "invoiceClaimOnProgress",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": undefined,
+      "options": Array [
+        Object {
+          "id": "bill-and-payment-company-list-tab-dashboard",
+          "label": "Dashboard",
+          "value": "dashboard",
+        },
+        Object {
+          "id": "bill-and-payment-company-list-tab-company-list",
+          "label": "Company List",
+          "value": "company-list",
+        },
+      ],
+      "value": undefined,
+    }
+  }
+  title="Company List"
+  withTopDivider={true}
+/>
+`;

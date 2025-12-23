@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/DateRangePickers render 1`] = `
+<React.Fragment>
+  <div
+    style={
+      Object {
+        "minWidth": 74,
+        "width": "100%",
+      }
+    }
+  >
+    <WithStyles(Component)
+      color="grey"
+      variant="caption"
+    >
+      LABEL
+    </WithStyles(Component)>
+    <div
+      onClick={[Function]}
+    >
+      <Filter />
+      <WithStyles(Component)
+        variant="body2"
+      >
+        Start Date
+         - 
+        End Date
+      </WithStyles(Component)>
+      <ArrowDownFilter />
+    </div>
+  </div>
+  <WithStyles(ForwardRef(Popover))
+    anchorEl={null}
+    anchorOrigin={
+      Object {
+        "vertical": "bottom",
+      }
+    }
+    classes={
+      Object {
+        "paper": undefined,
+      }
+    }
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(Component)
+      fullDate={false}
+      onClose={[Function]}
+      value={Array []}
+    />
+  </WithStyles(ForwardRef(Popover))>
+</React.Fragment>
+`;

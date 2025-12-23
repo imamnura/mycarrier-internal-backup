@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Document/OfferingLetter/Create/index render 1`] = `
+<React.Fragment>
+  <CompanyInformation
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/index render ServiceSpecification 1`] = `
+<React.Fragment>
+  <ServiceSpecification
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/index render TermsAndCondition 1`] = `
+<React.Fragment>
+  <TermsAndCondition
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/Document/OfferingLetter/Create/index render TermsAndCondition 2 1`] = `
+<React.Fragment>
+  <Agreement
+    data={Object {}}
+    loading={false}
+    setTab={[MockFunction]}
+    updateData={[MockFunction]}
+  />
+</React.Fragment>
+`;

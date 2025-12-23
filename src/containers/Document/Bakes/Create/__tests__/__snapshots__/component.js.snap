@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/GeneralProduct/BakesDetail/component handle change tab 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component handle change tab failed 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component handle close alert 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component handle close confirmation 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component handle preview docs 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render loading 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render not draft 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step 1 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step 2 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step 3 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step 4 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step 5 1`] = `ShallowWrapper {}`;
+
+exports[`src/pages/GeneralProduct/BakesDetail/component render step other 1`] = `ShallowWrapper {}`;

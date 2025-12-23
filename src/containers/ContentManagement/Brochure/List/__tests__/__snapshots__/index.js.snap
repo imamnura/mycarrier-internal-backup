@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Brochure/List/index render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Refresh",
+        "leftIcon": [Function],
+        "loading": false,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "User Download Brochure",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+        "variant": "secondary",
+      },
+      Object {
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Newsletter Status",
+          "value": "",
+        },
+      },
+      Object {
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Type of Login",
+          "value": "",
+        },
+      },
+      Object {
+        "isLoading": undefined,
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [
+          null,
+          null,
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Product",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "afterLogin": "Before Login",
+          "allowNewsletter": "No",
+          "brochureDownloadId": "BD-51253881",
+          "dateDownload": "2023-02-21T03:47:33.881Z",
+          "email": "test-developer@gmail.com",
+          "name": "arham",
+          "product": "Homepage",
+          "source": "https://dev.mycarrier.co.id/",
+        },
+        Object {
+          "afterLogin": "After Login",
+          "allowNewsletter": "Yes",
+          "brochureDownloadId": "BD-31306495",
+          "dateDownload": "2022-10-13T03:21:46.495Z",
+          "email": "laras@getnada.com",
+          "name": "Tytan",
+          "product": "Homepage",
+          "source": "https://mycarrier-dev.telkomdigitalsolution.co/",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="User Download Brochure"
+  withTopDivider={true}
+/>
+`;

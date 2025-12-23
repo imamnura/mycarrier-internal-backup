@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/SMSA2P/NonBulk/Detail/lib/MessageInfo render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-docValue-1"
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      Email automatically sended to CSDA and Network Delivery
+    </Typography>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      Please follow up the email to CSDA and Network Delivery directory by offline communication using WhatsApp and if get latest information about system has been integrated, please click button
+       
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="subtitle1"
+        weight="bold"
+      >
+        Integrate
+      </Typography>
+       
+      and contact the relevant Customer.
+    </Typography>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`src/containers/SMSA2P/NonBulk/Detail/lib/MessageInfo render other conditions 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-docValue-2"
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      MRTG succesfully integrated
+    </Typography>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      Please follow up this information to Customer. Leave this message if already following up.
+    </Typography>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    align="center"
+    item={true}
+    xs={12}
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="normal"
+    >
+      Note: “
+      -
+      ”
+    </Typography>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

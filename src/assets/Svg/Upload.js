@@ -1,0 +1,35 @@
+import React from 'react';
+import { SvgIcon } from '@material-ui/core';
+
+export default function Upload(props) {
+  return (
+    <SvgIcon
+      style={{ color: 'white' }}
+      {...props}
+      viewBox="0 0 40 40"
+      fill="none"
+    >
+      <path
+        d="M35 25V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H8.33333C7.44928 35 6.60143 34.6488 5.97631 34.0237C5.35119 33.3986 5 32.5507 5 31.6667V25"
+        stroke={props.fill || '#2F424A'}
+        stroke-width="3.33"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M28.3337 13.3333L20.0003 5L11.667 13.3333"
+        stroke={props.fill || '#2F424A'}
+        stroke-width="3.33"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M20 5V25"
+        stroke={props.fill || '#2F424A'}
+        stroke-width="3.33"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </SvgIcon>
+  );
+}

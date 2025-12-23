@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Document/ReportNeucentrix/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Report Neucentrix",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Forward to WDM",
+            "value": "Forwarded to WDM",
+          },
+          Object {
+            "label": "Send to Customer",
+            "value": "Send to Customer",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, Report ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": [Function],
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Report ID",
+          "name": "reportId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Upload Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Forwarded to WDM": "primary",
+            "Send to Customer": "success",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Report Neucentrix"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/pages/Document/ReportNeucentrix/List render with access to add new report 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "Upload Report",
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Report Neucentrix",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "onChange": undefined,
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Forward to WDM",
+            "value": "Forwarded to WDM",
+          },
+          Object {
+            "label": "Send to Customer",
+            "value": "Send to Customer",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Company, Report ID..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": [Function],
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "Report ID",
+          "name": "reportId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 278,
+          },
+          "label": "Company Name",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Upload Date",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "Last Update",
+          "name": "updatedAt",
+        },
+        Object {
+          "label": "Status",
+          "name": "status",
+          "schemaStatus": Object {
+            "Forwarded to WDM": "primary",
+            "Send to Customer": "success",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Report Neucentrix"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Switch custom switch 1`] = `
+<WithStyles(ForwardRef(Switch))
+  classes={
+    Object {
+      "checked": "WithStyles(ForwardRef(Switch))-checked-5",
+      "root": "WithStyles(ForwardRef(Switch))-root-1",
+      "switchBase": "WithStyles(ForwardRef(Switch))-switchBase-2",
+      "thumb": "WithStyles(ForwardRef(Switch))-thumb-3",
+      "track": "WithStyles(ForwardRef(Switch))-track-4",
+    }
+  }
+/>
+`;
+
+exports[`src/components/Switch render 1`] = `
+<WithStyles(WithStyles(ForwardRef(Switch)))
+  checked={false}
+  onChange={[Function]}
+/>
+`;

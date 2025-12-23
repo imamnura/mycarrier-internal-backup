@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Approval/index render 1`] = `
+<React.Fragment>
+  <ApprovalMicrosite
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "onClick": undefined,
+        },
+      ]
+    }
+    actionText="Will you approve the New Billing Reminder Approval with data above?"
+    description="You get request information for New Billing Reminder with the following data:"
+    information={
+      Object {
+        "data": Object {
+          "billReminderPdf": Object {
+            "fileName": "test",
+            "fileUrl": "test",
+          },
+          "reviewer": Array [
+            Object {
+              "createdAt": "2023-08-03T09:03:12.903Z",
+              "email": "denacoba@mailinator.com",
+              "name": "Reviewer 1 ",
+              "reason": "ok",
+              "status": "waiting approval",
+            },
+            Object {
+              "createdAt": "2023-08-03T09:03:12.903Z",
+              "email": "denacoba@mailinator.com",
+              "name": "Reviewer 2 ",
+              "reason": "ok",
+              "status": "waiting approval",
+            },
+          ],
+        },
+        "schema": Array [
+          Object {
+            "label": "Customer",
+            "name": "customerInformation.custAccntName",
+          },
+          Object {
+            "label": "BP Number",
+            "name": "customerInformation.bpNumber",
+          },
+          Object {
+            "label": "Address",
+            "name": "customerInformation.address",
+          },
+        ],
+        "title": "Customer Information",
+      }
+    }
+    loading={false}
+    otherRender={
+      <React.Fragment>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Document
+          </Typography>
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "mt": 2,
+              }
+            }
+          >
+            <Attachment
+              fileName="test"
+              fileUrl="test"
+              hidePreviewDownload={false}
+              previewAction={
+                Array [
+                  Object {
+                    "children": "download",
+                    "onClick": [Function],
+                  },
+                  Object {
+                    "children": "edit document",
+                    "onClick": undefined,
+                    "variant": "ghost",
+                    "withDivider": true,
+                  },
+                  Object {
+                    "children": "approve",
+                    "ml": 12,
+                    "onClick": [Function],
+                    "withDivider": false,
+                  },
+                ]
+              }
+              previewCentered={false}
+            />
+          </Styled(MuiBox)>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Approver
+          </Typography>
+          <Styled(MuiBox)
+            mt={2}
+          >
+            <React.Fragment>
+              <div
+                className="makeStyles-worklogItem-1"
+              >
+                <div
+                  className="makeStyles-node-2 makeStyles-waitingNode-5"
+                />
+                <div
+                  className="makeStyles-content-6"
+                >
+                  <Typography
+                    className=""
+                    color="general-general"
+                    inline={true}
+                    style={
+                      Object {
+                        "lineHeight": 1,
+                        "marginBottom": "4px",
+                      }
+                    }
+                    variant="subtitle-2"
+                    weight="medium"
+                  >
+                    Reviewer 1 
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={true}
+                    variant="caption"
+                    weight="normal"
+                  >
+                    denacoba@mailinator.com
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="caption"
+                    weight="bold"
+                  >
+                    waiting approval
+                  </Typography>
+                </div>
+              </div>
+            </React.Fragment>
+            <React.Fragment>
+              <div
+                className="makeStyles-worklogItem-1"
+              >
+                <div
+                  className="makeStyles-node-2 makeStyles-waitingNode-5"
+                />
+                <div
+                  className="makeStyles-content-6 makeStyles-lastChild-9"
+                >
+                  <Typography
+                    className=""
+                    color="general-general"
+                    inline={true}
+                    style={
+                      Object {
+                        "lineHeight": 1,
+                        "marginBottom": "4px",
+                      }
+                    }
+                    variant="subtitle-2"
+                    weight="medium"
+                  >
+                    Reviewer 2 
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={true}
+                    variant="caption"
+                    weight="normal"
+                  >
+                    denacoba@mailinator.com
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="caption"
+                    weight="bold"
+                  >
+                    waiting approval
+                  </Typography>
+                </div>
+              </div>
+            </React.Fragment>
+          </Styled(MuiBox)>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    }
+    states={
+      Object {
+        "action": Object {
+          "children": "view request",
+          "onClick": [MockFunction],
+        },
+        "message": "undefined has been approved. View that request now.",
+        "type": "approved",
+      }
+    }
+    subTitle="OSM: -"
+    title="Billing Reminder Approval"
+  />
+  <Approval
+    caption="test"
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    open={false}
+    title="test"
+  />
+  <EditDocument
+    open={false}
+    template="test"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Approval/index render status reviewer null 1`] = `
+<React.Fragment>
+  <ApprovalMicrosite
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "onClick": undefined,
+        },
+      ]
+    }
+    actionText="Will you approve the New Billing Reminder Approval with data above?"
+    description="You get request information for New Billing Reminder with the following data:"
+    information={
+      Object {
+        "data": Object {
+          "billReminderPdf": Object {
+            "fileName": "test",
+            "fileUrl": "test",
+          },
+          "reviewer": Array [
+            Object {
+              "email": "denacoba@mailinator.com",
+              "name": "Reviewer 1 ",
+              "reason": "ok",
+              "status": "waiting approval",
+            },
+            Object {
+              "email": "denacoba@mailinator.com",
+              "name": "Reviewer 2 ",
+              "reason": "ok",
+              "status": "waiting approval",
+            },
+          ],
+        },
+        "schema": Array [
+          Object {
+            "label": "Customer",
+            "name": "customerInformation.custAccntName",
+          },
+          Object {
+            "label": "BP Number",
+            "name": "customerInformation.bpNumber",
+          },
+          Object {
+            "label": "Address",
+            "name": "customerInformation.address",
+          },
+        ],
+        "title": "Customer Information",
+      }
+    }
+    loading={false}
+    otherRender={
+      <React.Fragment>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Document
+          </Typography>
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "mt": 2,
+              }
+            }
+          >
+            <Attachment
+              fileName="test"
+              fileUrl="test"
+              hidePreviewDownload={false}
+              previewAction={
+                Array [
+                  Object {
+                    "children": "download",
+                    "onClick": [Function],
+                  },
+                  Object {
+                    "children": "edit document",
+                    "onClick": undefined,
+                    "variant": "ghost",
+                    "withDivider": true,
+                  },
+                  Object {
+                    "children": "approve",
+                    "ml": 12,
+                    "onClick": [Function],
+                    "withDivider": false,
+                  },
+                ]
+              }
+              previewCentered={false}
+            />
+          </Styled(MuiBox)>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Approver
+          </Typography>
+          <Styled(MuiBox)
+            mt={2}
+          >
+            <React.Fragment>
+              <div
+                className="makeStyles-worklogItem-19"
+              >
+                <div
+                  className="makeStyles-node-20 makeStyles-waitingNode-23"
+                />
+                <div
+                  className="makeStyles-content-24"
+                >
+                  <Typography
+                    className=""
+                    color="general-general"
+                    inline={true}
+                    style={
+                      Object {
+                        "lineHeight": 1,
+                        "marginBottom": "4px",
+                      }
+                    }
+                    variant="subtitle-2"
+                    weight="medium"
+                  >
+                    Reviewer 1 
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={true}
+                    variant="caption"
+                    weight="normal"
+                  >
+                    denacoba@mailinator.com
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="caption"
+                    weight="bold"
+                  >
+                    waiting approval
+                  </Typography>
+                </div>
+              </div>
+            </React.Fragment>
+            <React.Fragment>
+              <div
+                className="makeStyles-worklogItem-19"
+              >
+                <div
+                  className="makeStyles-node-20 makeStyles-waitingNode-23"
+                />
+                <div
+                  className="makeStyles-content-24 makeStyles-lastChild-27"
+                >
+                  <Typography
+                    className=""
+                    color="general-general"
+                    inline={true}
+                    style={
+                      Object {
+                        "lineHeight": 1,
+                        "marginBottom": "4px",
+                      }
+                    }
+                    variant="subtitle-2"
+                    weight="medium"
+                  >
+                    Reviewer 2 
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={true}
+                    variant="caption"
+                    weight="normal"
+                  >
+                    denacoba@mailinator.com
+                  </Typography>
+                  <Typography
+                    className=""
+                    color="general-mid"
+                    inline={false}
+                    variant="caption"
+                    weight="bold"
+                  >
+                    waiting approval
+                  </Typography>
+                </div>
+              </div>
+            </React.Fragment>
+          </Styled(MuiBox)>
+        </Styled(MuiBox)>
+      </React.Fragment>
+    }
+    states={null}
+    subTitle="OSM: -"
+    title="Billing Reminder Approval"
+  />
+  <Approval
+    caption="test"
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    open={false}
+    title="test"
+  />
+  <EditDocument
+    open={false}
+    template="test"
+  />
+</React.Fragment>
+`;
+
+exports[`src/containers/BillsAndPayment/BillsAndPaymentManagement/BillingReminder/Approval/index render/empty 1`] = `
+<React.Fragment>
+  <ApprovalMicrosite
+    action={
+      Array [
+        Object {
+          "children": "reject",
+          "onClick": undefined,
+          "variant": "ghost",
+        },
+        Object {
+          "children": "approve",
+          "onClick": undefined,
+        },
+      ]
+    }
+    actionText="Will you approve the New Billing Reminder Approval with data above?"
+    description="You get request information for New Billing Reminder with the following data:"
+    information={
+      Object {
+        "data": null,
+        "schema": Array [
+          Object {
+            "label": "Customer",
+            "name": "customerInformation.custAccntName",
+          },
+          Object {
+            "label": "BP Number",
+            "name": "customerInformation.bpNumber",
+          },
+          Object {
+            "label": "Address",
+            "name": "customerInformation.address",
+          },
+        ],
+        "title": "Customer Information",
+      }
+    }
+    loading={false}
+    otherRender={
+      <React.Fragment>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Document
+          </Typography>
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "mt": 2,
+              }
+            }
+          >
+            <Attachment
+              fileName=""
+              fileUrl=""
+              hidePreviewDownload={false}
+              previewAction={
+                Array [
+                  Object {
+                    "children": "download",
+                    "onClick": [Function],
+                  },
+                  Object {
+                    "children": "edit document",
+                    "onClick": undefined,
+                    "variant": "ghost",
+                    "withDivider": true,
+                  },
+                  Object {
+                    "children": "approve",
+                    "ml": 12,
+                    "onClick": [Function],
+                    "withDivider": false,
+                  },
+                ]
+              }
+              previewCentered={false}
+            />
+          </Styled(MuiBox)>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mt={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle1"
+            weight="normal"
+          >
+            Approver
+          </Typography>
+          <Styled(MuiBox)
+            mt={2}
+          />
+        </Styled(MuiBox)>
+      </React.Fragment>
+    }
+    states={
+      Object {
+        "action": Object {
+          "children": "view request",
+          "onClick": [MockFunction],
+        },
+        "message": "undefined has been approved. View that request now.",
+        "type": "approved",
+      }
+    }
+    subTitle="OSM: -"
+    title="Billing Reminder Approval"
+  />
+  <Approval
+    caption="test"
+    description=""
+    labelForm="Please describe the note.."
+    onClose={[MockFunction]}
+    open={false}
+    title="test"
+  />
+  <EditDocument
+    open={false}
+    template="test"
+  />
+</React.Fragment>
+`;

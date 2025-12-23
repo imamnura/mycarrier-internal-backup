@@ -1,0 +1,668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Detail/index render 1`] = `
+<div>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "PREVIEW PAGE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "DELETE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "EDIT",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+          "url": "/product-management",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Product ID",
+                    "name": "id",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Category",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Page Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Slug",
+                    "name": "slug",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Title",
+                    "name": "metaSeo.title",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Keyword",
+                    "name": "metaSeo.keyword",
+                    "type": "tags",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Description",
+                    "name": "metaSeo.description",
+                  },
+                ],
+              },
+              "title": "Product Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Page Level",
+                    "name": "level",
+                  },
+                ],
+              },
+              "title": "Level Mapping",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "",
+                    "name": "iconUrl",
+                  },
+                ],
+              },
+              "title": "Icon Assets",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 5,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Component
+                data={
+                  Object {
+                    "id": "test",
+                  }
+                }
+                handleOpenSubDetail={[MockFunction]}
+                handleSpecialPage={[MockFunction]}
+                initialAction={Object {}}
+                initialData={Object {}}
+                onAddPage={[MockFunction]}
+                onChangeDisplay={[MockFunction]}
+                onDelete={[MockFunction]}
+              />,
+              "title": "Product Tree",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 7,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalChooseProduct
+    choosedContent={0}
+    data={
+      Array [
+        Object {
+          "desc": "Just add Level 1 using Product Detail Page template",
+          "id": 1,
+          "label": "Single Parent Level",
+        },
+        Object {
+          "desc": "Add Level 1, Level 2 Category & Product Detail page",
+          "id": 2,
+          "label": "With Child Level",
+        },
+      ]
+    }
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PreviewPage
+    data={
+      Object {
+        "id": "test",
+      }
+    }
+    levelDetail="l0"
+    openPreviewState={
+      Object {
+        "openPreview": false,
+        "setOpenPreview": [MockFunction],
+      }
+    }
+    stepDetail={1}
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/index render notFound catId 1`] = `
+<div>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "PREVIEW PAGE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "DELETE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+        Object {
+          "children": "EDIT",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+          "url": "/product-management",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={false}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": 1,
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Product ID",
+                    "name": "id",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Category",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Page Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Slug",
+                    "name": "slug",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Title",
+                    "name": "metaSeo.title",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Keyword",
+                    "name": "metaSeo.keyword",
+                    "type": "tags",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Description",
+                    "name": "metaSeo.description",
+                  },
+                ],
+              },
+              "title": "Product Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": 1,
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Page Level",
+                    "name": "level",
+                  },
+                ],
+              },
+              "title": "Level Mapping",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "catId": 1,
+                },
+                "schema": Array [
+                  Object {
+                    "label": "",
+                    "name": "iconUrl",
+                  },
+                ],
+              },
+              "title": "Icon Assets",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 5,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Component
+                data={
+                  Object {
+                    "catId": 1,
+                  }
+                }
+                handleOpenSubDetail={[MockFunction]}
+                handleSpecialPage={[MockFunction]}
+                initialAction={Object {}}
+                initialData={Object {}}
+                onAddPage={[MockFunction]}
+                onChangeDisplay={[MockFunction]}
+                onDelete={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "id": "test",
+                        },
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
+              />,
+              "title": "Product Tree",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 7,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalChooseProduct
+    choosedContent={0}
+    data={
+      Array [
+        Object {
+          "desc": "Just add Level 1 using Product Detail Page template",
+          "id": 1,
+          "label": "Single Parent Level",
+        },
+        Object {
+          "desc": "Add Level 1, Level 2 Category & Product Detail page",
+          "id": 2,
+          "label": "With Child Level",
+        },
+      ]
+    }
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PreviewPage
+    data={
+      Object {
+        "catId": 1,
+      }
+    }
+    levelDetail="l0"
+    openPreviewState={
+      Object {
+        "openPreview": false,
+        "setOpenPreview": [MockFunction] {
+          "calls": Array [
+            Array [
+              true,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    stepDetail={1}
+  />
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Detail/index render without feature 1`] = `
+<div>
+  <Detail
+    action={
+      Array [
+        Object {
+          "children": "PREVIEW PAGE",
+          "onClick": [Function],
+          "variant": "ghost",
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Product Management",
+          "url": "/product-management",
+        },
+        Object {
+          "label": undefined,
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    notFound={true}
+    otherStatus={null}
+    schema={
+      Array [
+        Object {
+          "content": Array [
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Product ID",
+                    "name": "id",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Category",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Page Name",
+                    "name": "name",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Product Slug",
+                    "name": "slug",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Title",
+                    "name": "metaSeo.title",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Keyword",
+                    "name": "metaSeo.keyword",
+                    "type": "tags",
+                  },
+                  Object {
+                    "grid": 12,
+                    "label": "Meta Description",
+                    "name": "metaSeo.description",
+                  },
+                ],
+              },
+              "title": "Product Information",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "grid": 12,
+                    "label": "Page Level",
+                    "name": "level",
+                  },
+                ],
+              },
+              "title": "Level Mapping",
+              "type": "information",
+            },
+            Object {
+              "properties": Object {
+                "data": Object {
+                  "id": "test",
+                },
+                "schema": Array [
+                  Object {
+                    "label": "",
+                    "name": "iconUrl",
+                  },
+                ],
+              },
+              "title": "Icon Assets",
+              "type": "attachment",
+            },
+          ],
+          "gridProps": Object {
+            "md": 5,
+            "xs": 12,
+          },
+        },
+        Object {
+          "content": Array [
+            Object {
+              "render": <Component
+                data={
+                  Object {
+                    "id": "test",
+                  }
+                }
+                handleOpenSubDetail={[MockFunction]}
+                handleSpecialPage={[MockFunction]}
+                initialAction={Object {}}
+                initialData={Object {}}
+                onAddPage={[MockFunction]}
+                onChangeDisplay={[MockFunction]}
+                onDelete={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "id": "test",
+                        },
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  }
+                }
+              />,
+              "title": "Product Tree",
+              "type": "custom",
+            },
+          ],
+          "gridProps": Object {
+            "md": 7,
+            "xs": 12,
+          },
+          "stickRight": true,
+        },
+      ]
+    }
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <ModalChooseProduct
+    choosedContent={0}
+    data={
+      Array [
+        Object {
+          "desc": "Just add Level 1 using Product Detail Page template",
+          "id": 1,
+          "label": "Single Parent Level",
+        },
+        Object {
+          "desc": "Add Level 1, Level 2 Category & Product Detail page",
+          "id": 2,
+          "label": "With Child Level",
+        },
+      ]
+    }
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    open={false}
+    setChoosedContent={[MockFunction]}
+  />
+  <WithStyles(Component)
+    onClose={[Function]}
+  />
+  <PreviewPage
+    data={
+      Object {
+        "id": "test",
+      }
+    }
+    levelDetail="l0"
+    openPreviewState={
+      Object {
+        "openPreview": false,
+        "setOpenPreview": [MockFunction] {
+          "calls": Array [
+            Array [
+              true,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    stepDetail={1}
+  />
+</div>
+`;

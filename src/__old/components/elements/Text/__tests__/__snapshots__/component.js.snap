@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Text render 1`] = `
+<WithStyles(ForwardRef(Typography))
+  className=""
+  component="span"
+>
+  Text
+</WithStyles(ForwardRef(Typography))>
+`;

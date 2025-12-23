@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/DetailPhase2/elements/FormValidate render step 0 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  open={true}
+>
+  <CompanyValidation
+    control={Object {}}
+    formState={Object {}}
+    handleSubmit={[MockFunction]}
+    isOtherCustomer={false}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    setActiveStep={[MockFunction]}
+  />
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/DetailPhase2/elements/FormValidate render step 1 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-3",
+    }
+  }
+  open={true}
+>
+  <ChooseOption
+    control={Object {}}
+    formState={Object {}}
+    handleSubmit={[MockFunction]}
+    isOtherCustomer={false}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    setActiveStep={[MockFunction]}
+  />
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/DetailPhase2/elements/FormValidate render step 2 case other recepient 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-7",
+    }
+  }
+  open={true}
+>
+  <OtherRecepient
+    control={Object {}}
+    formState={Object {}}
+    handleSubmit={[MockFunction]}
+    isEdit={false}
+    isOtherCustomer={false}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    setActiveStep={[MockFunction]}
+  />
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/DetailPhase2/elements/FormValidate render step 2 case sales team 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-5",
+    }
+  }
+  open={true}
+>
+  <PickSalesTeam
+    control={Object {}}
+    formState={Object {}}
+    handleSubmit={[MockFunction]}
+    isEdit={false}
+    isOtherCustomer={false}
+    onClose={[MockFunction]}
+    onSubmit={[MockFunction]}
+    setActiveStep={[MockFunction]}
+    setActiveTab={[Function]}
+  />
+</WithStyles(ForwardRef(Dialog))>
+`;

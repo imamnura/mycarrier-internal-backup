@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Agreement run no data 1`] = `
+<Styled(MuiBox)
+  py={4}
+>
+  <StateMessage
+    description=""
+    maxWidth="100%"
+    size="large"
+  />
+</Styled(MuiBox)>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/StageInformation/elements/Agreement run properly 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "color": "general-mid",
+        "label": "Agreement List",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={null}
+  table={
+    Object {
+      "data": Array [],
+      "emptyMessage": Object {
+        "description": "Agreement list is not currently created by the Account Manager",
+        "icon": [Function],
+        "message": "Agreement list doesn't exist yet",
+      },
+      "loading": false,
+      "loadingRoot": false,
+      "meta": Object {
+        "totalPage": 0,
+      },
+      "numbering": false,
+      "onClickRow": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "SC QUOTE ID",
+          "name": "scQuoteId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "QUOTE",
+          "name": "quoteId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 252,
+          },
+          "label": "QUOTE NAME",
+          "name": "quoteName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "REVISION",
+          "name": "revision",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "CREATED BY",
+          "name": "createdBy",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 252,
+          },
+          "label": "CUSTOMER ACCOUNT",
+          "name": "customerAccount",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 252,
+          },
+          "label": "LAST NAME",
+          "name": "lastName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "STATUS",
+          "name": "status",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "label": "CHILD AGREEMENT",
+          "name": "childAgreement",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 148,
+          },
+          "label": "ACCOUNT TEAM",
+          "name": "accountTeam",
+        },
+      ],
+      "size": 5,
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title=""
+  withTopDivider={true}
+/>
+`;

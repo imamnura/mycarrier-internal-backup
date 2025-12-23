@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Loading render 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  classes={
+    Object {
+      "root": "makeStyles-root-1",
+    }
+  }
+  color="inherit"
+  size={14}
+  thickness={4}
+/>
+`;

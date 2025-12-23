@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/States/elements/States render 1`] = `
+<React.Fragment>
+  <img
+    className="makeStyles-icon-1"
+    src="/img/mail-approved.svg"
+  />
+  <Styled(MuiBox)
+    maxWidth={320}
+    my={4}
+    textAlign="center"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h5"
+      weight="medium"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+  <Button
+    disabled={false}
+    leftIcon={null}
+    loading={false}
+    ml={0}
+    mr={0}
+    onClick={[Function]}
+    rightIcon={null}
+    rounded="normal"
+    textTransform="uppercase"
+    variant="filled"
+  >
+    btn
+  </Button>
+</React.Fragment>
+`;
+
+exports[`src/fragments/States/elements/States render/mobile 1`] = `
+<React.Fragment>
+  <img
+    className="makeStyles-icon-2"
+    src="/img/mail-returned.svg"
+  />
+  <Styled(MuiBox)
+    maxWidth={240}
+    my={3}
+    textAlign="center"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle1"
+      weight="bold"
+    >
+      
+    </Typography>
+  </Styled(MuiBox)>
+</React.Fragment>
+`;

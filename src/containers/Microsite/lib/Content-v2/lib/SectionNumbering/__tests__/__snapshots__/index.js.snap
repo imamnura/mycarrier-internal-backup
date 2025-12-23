@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/fragments/Detail/elements/SectionNumbering render 1`] = `
+<Styled(MuiBox)
+  mb={3}
+>
+  <Styled(MuiBox)>
+    <Numbering
+      alignItems="flex-start"
+      data={
+        Object {
+          "name": "name",
+        }
+      }
+      number={1}
+      schema={
+        Array [
+          Object {
+            "label": "satu",
+            "name": "name",
+          },
+          Object {
+            "label": "empty",
+            "name": "empty",
+          },
+        ]
+      }
+      size="small"
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <Numbering
+      alignItems="flex-start"
+      data={
+        Object {
+          "x": "",
+        }
+      }
+      number={2}
+      schema={
+        Array [
+          Object {
+            "label": "satu",
+            "name": "name",
+          },
+          Object {
+            "label": "empty",
+            "name": "empty",
+          },
+        ]
+      }
+      size="small"
+    />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;
+
+exports[`src/fragments/Detail/elements/SectionNumbering render/others 1`] = `
+<Styled(MuiBox)
+  mb={3}
+>
+  <Styled(MuiBox)>
+    <Numbering
+      alignItems="center"
+      data="name"
+      number={1}
+      schema={null}
+      size="small"
+    />
+  </Styled(MuiBox)>
+  <Styled(MuiBox)>
+    <Numbering
+      alignItems="center"
+      data="-"
+      number={2}
+      schema={null}
+      size="small"
+    />
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;

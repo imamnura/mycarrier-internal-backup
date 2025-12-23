@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Neucentrix/VisitNeucentrix/Detail-v2/lib/ActivityHistory render 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+    sm={12}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={2}
+    >
+      <TableDesktop
+        customBody={null}
+        customEmptyMessage={null}
+        customItem={null}
+        customStyles={Object {}}
+        data={
+          Array [
+            Object {
+              "name": "Justin",
+            },
+          ]
+        }
+        emptyMessage="Data not found"
+        headerAlign="flex-start"
+        loading={false}
+        loadingRoot={false}
+        maxHeight={null}
+        meta={
+          Object {
+            "page": 0,
+          }
+        }
+        numbering={false}
+        onBottomPage={null}
+        onClickRow={null}
+        onPaginationChange={null}
+        page={1}
+        pickedRow=""
+        pickedRowKey=""
+        schema={
+          Array [
+            Object {
+              "label": "Name",
+              "name": "name",
+            },
+          ]
+        }
+        selectWithRawData={false}
+        selectedRowKey="key"
+        selectedRowSticky={false}
+        size={10}
+        useCollapseChild={null}
+        useOrderBy={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useOrderDirection={
+          Array [
+            null,
+            [Function],
+          ]
+        }
+        useSelectedRow={Array []}
+      />
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+    sm={12}
+    xs={12}
+  >
+    <Styled(MuiBox)
+      mt={1}
+    >
+      <Button
+        boxProps={
+          Object {
+            "justifyContent": "space-between",
+            "width": "100%",
+          }
+        }
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[Function]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        View All Activities
+      </Button>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

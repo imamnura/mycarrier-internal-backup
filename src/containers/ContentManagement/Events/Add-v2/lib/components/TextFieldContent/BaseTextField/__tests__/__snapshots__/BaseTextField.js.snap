@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField adornment 1`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="start"
+>
+  <Typography
+    className=""
+    color="general-main"
+    inline={false}
+    variant="subtitle2"
+    weight="normal"
+  >
+    X
+  </Typography>
+</WithStyles(ForwardRef(InputAdornment))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField adornment 2`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="start"
+>
+  <Lba />
+</WithStyles(ForwardRef(InputAdornment))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField adornment 3`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="start"
+>
+  <span />
+</WithStyles(ForwardRef(InputAdornment))>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField counter 1`] = `
+Array [
+  <div
+    className="MuiFormControl-root MuiTextField-root makeStyles-root-142 MuiFormControl-fullWidth"
+  >
+    <div
+      className="MuiInputBase-root MuiInput-root makeStyles-inputRoot-135 MuiInput-underline makeStyles-underline-144 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiInput-input makeStyles-input-133"
+        disabled={false}
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="text"
+      />
+    </div>
+  </div>,
+  <div
+    className="makeStyles-helper-131"
+  >
+    <span
+      className="makeStyles-root-145"
+    />
+  </div>,
+]
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField counter 2`] = `
+Array [
+  <div
+    className="MuiFormControl-root MuiTextField-root makeStyles-root-159 MuiFormControl-fullWidth"
+  >
+    <div
+      className="MuiInputBase-root MuiInput-root makeStyles-inputRoot-152 MuiInput-underline makeStyles-underline-161 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiInput-input makeStyles-input-150"
+        disabled={false}
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="text"
+        value="xxxx"
+      />
+    </div>
+  </div>,
+  <div
+    className="makeStyles-helper-148"
+  >
+    <span
+      className="makeStyles-root-162"
+    />
+    <span
+      className="makeStyles-root-163"
+    >
+      0/2
+    </span>
+  </div>,
+]
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField counter 3`] = `
+Array [
+  <div
+    className="MuiFormControl-root MuiTextField-root makeStyles-root-177 MuiFormControl-fullWidth"
+  >
+    <div
+      className="MuiInputBase-root MuiInput-root makeStyles-inputRoot-170 MuiInput-underline makeStyles-underline-179 MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiInput-input makeStyles-input-168"
+        disabled={false}
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+  <div
+    className="makeStyles-helper-166"
+  >
+    <span
+      className="makeStyles-root-180"
+    />
+    <span
+      className="makeStyles-root-181"
+    >
+      0/2
+    </span>
+  </div>,
+]
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField onChange 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-90",
+          "error": "makeStyles-labelError-92",
+          "focused": "makeStyles-labelFocused-91",
+          "root": "makeStyles-label-88",
+          "shrink": "makeStyles-labelShrink-93",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-86",
+          "input": "makeStyles-input-85",
+          "root": "makeStyles-inputRoot-87",
+          "underline": "makeStyles-underline-96",
+        },
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-94",
+      }
+    }
+    fullWidth={true}
+    inputProps={Object {}}
+    label=""
+    onChange={[Function]}
+    type="text"
+    valueMasking={[Function]}
+  />
+  <div
+    className="makeStyles-helper-83"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      0/10
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField onChange 2`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-106",
+          "error": "makeStyles-labelError-108",
+          "focused": "makeStyles-labelFocused-107",
+          "root": "makeStyles-label-104",
+          "shrink": "makeStyles-labelShrink-109",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-102",
+          "input": "makeStyles-input-101",
+          "root": "makeStyles-inputRoot-103",
+          "underline": "makeStyles-underline-112",
+        },
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-110",
+      }
+    }
+    fullWidth={true}
+    inputProps={
+      Object {
+        "onChange": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "target": Object {
+                  "value": "short",
+                },
+              },
+              "short",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    label=""
+    onChange={[Function]}
+    type="text"
+  />
+  <div
+    className="makeStyles-helper-99"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      0/10
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField onChange 3`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-122",
+          "error": "makeStyles-labelError-124",
+          "focused": "makeStyles-labelFocused-123",
+          "root": "makeStyles-label-120",
+          "shrink": "makeStyles-labelShrink-125",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-118",
+          "input": "makeStyles-input-117",
+          "root": "makeStyles-inputRoot-119",
+          "underline": "makeStyles-underline-128",
+        },
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-126",
+      }
+    }
+    fullWidth={true}
+    inputProps={Object {}}
+    label=""
+    onChange={[Function]}
+    type="text"
+  />
+  <div
+    className="makeStyles-helper-115"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      0/10
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField render 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-10",
+          "error": "makeStyles-labelError-12",
+          "focused": "makeStyles-labelFocused-11",
+          "root": "makeStyles-label-8",
+          "shrink": "makeStyles-labelShrink-13",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-6",
+          "input": "makeStyles-input-5",
+          "root": "makeStyles-inputRoot-7",
+          "underline": "makeStyles-underline-16",
+        },
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-14",
+      }
+    }
+    fullWidth={true}
+    inputProps={Object {}}
+    label=""
+    onChange={[Function]}
+    type="text"
+  />
+  <div
+    className="makeStyles-helper-3"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField render max length and adornment 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-26",
+          "error": "makeStyles-labelError-28",
+          "focused": "makeStyles-labelFocused-27",
+          "root": "makeStyles-label-24",
+          "shrink": "makeStyles-labelShrink-29",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-22",
+          "input": "makeStyles-input-21",
+          "root": "makeStyles-inputRoot-23",
+          "underline": "makeStyles-underline-32",
+        },
+        "endAdornment": <Adornment
+          classes={
+            Object {
+              "adornmentIcon": "makeStyles-adornmentIcon-17",
+              "adornmentText": "makeStyles-adornmentText-18",
+              "helper": "makeStyles-helper-19",
+              "helperError": "makeStyles-helperError-20",
+              "input": "makeStyles-input-21",
+              "inputDisabled": "makeStyles-inputDisabled-22",
+              "inputRoot": "makeStyles-inputRoot-23",
+              "label": "makeStyles-label-24",
+              "labelAsterisk": "makeStyles-labelAsterisk-25",
+              "labelDisabled": "makeStyles-labelDisabled-26",
+              "labelError": "makeStyles-labelError-28",
+              "labelFocused": "makeStyles-labelFocused-27",
+              "labelShrink": "makeStyles-labelShrink-29",
+              "root": "makeStyles-root-30",
+              "showHidePassword": "makeStyles-showHidePassword-31",
+              "underline": "makeStyles-underline-32",
+            }
+          }
+          position="end"
+        >
+          R
+        </Adornment>,
+        "startAdornment": <Adornment
+          classes={
+            Object {
+              "adornmentIcon": "makeStyles-adornmentIcon-17",
+              "adornmentText": "makeStyles-adornmentText-18",
+              "helper": "makeStyles-helper-19",
+              "helperError": "makeStyles-helperError-20",
+              "input": "makeStyles-input-21",
+              "inputDisabled": "makeStyles-inputDisabled-22",
+              "inputRoot": "makeStyles-inputRoot-23",
+              "label": "makeStyles-label-24",
+              "labelAsterisk": "makeStyles-labelAsterisk-25",
+              "labelDisabled": "makeStyles-labelDisabled-26",
+              "labelError": "makeStyles-labelError-28",
+              "labelFocused": "makeStyles-labelFocused-27",
+              "labelShrink": "makeStyles-labelShrink-29",
+              "root": "makeStyles-root-30",
+              "showHidePassword": "makeStyles-showHidePassword-31",
+              "underline": "makeStyles-underline-32",
+            }
+          }
+          position="start"
+        >
+          L
+        </Adornment>,
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-30",
+      }
+    }
+    fullWidth={true}
+    inputProps={Object {}}
+    label={
+      <span>
+        <span
+          className="makeStyles-labelAsterisk-25"
+        >
+          *
+        </span>
+        
+      </span>
+    }
+    onChange={[Function]}
+    type="text"
+  />
+  <div
+    className="makeStyles-helper-19"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      0/10
+    </Typography>
+  </div>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/TextFieldContent/BaseTextField render type password 1`] = `
+<React.Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-labelDisabled-42",
+          "error": "makeStyles-labelError-44",
+          "focused": "makeStyles-labelFocused-43",
+          "root": "makeStyles-label-40",
+          "shrink": "makeStyles-labelShrink-45",
+        },
+      }
+    }
+    InputProps={
+      Object {
+        "classes": Object {
+          "disabled": "makeStyles-inputDisabled-38",
+          "input": "makeStyles-input-37",
+          "root": "makeStyles-inputRoot-39",
+          "underline": "makeStyles-underline-48",
+        },
+        "endAdornment": <Adornment
+          classes={
+            Object {
+              "adornmentIcon": "makeStyles-adornmentIcon-33",
+              "adornmentText": "makeStyles-adornmentText-34",
+              "helper": "makeStyles-helper-35",
+              "helperError": "makeStyles-helperError-36",
+              "input": "makeStyles-input-37",
+              "inputDisabled": "makeStyles-inputDisabled-38",
+              "inputRoot": "makeStyles-inputRoot-39",
+              "label": "makeStyles-label-40",
+              "labelAsterisk": "makeStyles-labelAsterisk-41",
+              "labelDisabled": "makeStyles-labelDisabled-42",
+              "labelError": "makeStyles-labelError-44",
+              "labelFocused": "makeStyles-labelFocused-43",
+              "labelShrink": "makeStyles-labelShrink-45",
+              "root": "makeStyles-root-46",
+              "showHidePassword": "makeStyles-showHidePassword-47",
+              "underline": "makeStyles-underline-48",
+            }
+          }
+          position="end"
+        >
+          <Eye
+            className="makeStyles-showHidePassword-47"
+            onClick={[Function]}
+          />
+        </Adornment>,
+      }
+    }
+    classes={
+      Object {
+        "root": "makeStyles-root-46",
+      }
+    }
+    fullWidth={true}
+    inputProps={Object {}}
+    label=""
+    onChange={[Function]}
+    type="password"
+  />
+  <div
+    className="makeStyles-helper-35"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="caption"
+      weight="normal"
+    >
+      
+    </Typography>
+  </div>
+</React.Fragment>
+`;

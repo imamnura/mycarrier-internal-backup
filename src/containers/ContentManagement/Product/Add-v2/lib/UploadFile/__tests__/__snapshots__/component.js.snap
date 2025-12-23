@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/UploadFile render 1`] = `
+<React.Fragment>
+  <div>
+    <WithStyles(ForwardRef(ButtonBase))
+      className="undefined"
+      component="label"
+      disabled={false}
+    >
+      <div>
+        <Memo />
+        <div>
+          <Typography
+            className=""
+            color="primary-main"
+            inline={false}
+            variant="h4"
+            weight="medium"
+          >
+            Upload File here..
+          </Typography>
+        </div>
+        <div>
+          <Typography
+            className=""
+            color="general-main"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Upload 
+            .png
+             document, max 
+            4.88 MB
+          </Typography>
+        </div>
+        <input
+          accept=".png"
+          disabled={false}
+          handleDelete={[Function]}
+          hidden={true}
+          id="inputFile"
+          input={Object {}}
+          isLabelInputTop={true}
+          label="document here"
+          onChange={[Function]}
+          type="file"
+          withDelete={false}
+        />
+      </div>
+    </WithStyles(ForwardRef(ButtonBase))>
+  </div>
+  <Memo(Connect(WithStyles(Component)))
+    content=""
+    onClose={[Function]}
+  />
+</React.Fragment>
+`;

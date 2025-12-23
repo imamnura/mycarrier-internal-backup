@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Admin/Privilege/List/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Privilege Management",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All User Type",
+            "value": "",
+          },
+          Object {
+            "label": "Customer",
+            "value": "customer",
+          },
+          Object {
+            "label": "Internal",
+            "value": "internal",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All User Type",
+          "value": "",
+        },
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Privilege Name...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Array [],
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+          },
+          "label": "ID PRIVILEGE",
+          "name": "journeyId",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 200,
+          },
+          "label": "PRIVILEGE NAME",
+          "name": "journey",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "USER TYPE",
+          "name": "type",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 250,
+          },
+          "label": "CATEGORY",
+          "name": "category",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 150,
+            "width": 150,
+          },
+          "formatDate": "date-time",
+          "label": "LAST UPDATE",
+          "name": "updatedAt",
+          "sort": true,
+        },
+      ],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Privilege Management"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/Broadcast/BroadcastInformation/Detail/elements/StatusInformation render 1`] = `
+<Styled(MuiBox)
+  mt={-4}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="Submitted"
+        variant="info"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="Delivered"
+        variant="alert"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="Read"
+        variant="success"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="In Queue"
+        variant="warning"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="Failed"
+        variant="danger"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
+    >
+      <CardStatus
+        content="0"
+        title="Rejected"
+        variant="danger"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Styled(MuiBox)>
+`;
+
+exports[`src/containers/Broadcast/BroadcastInformation/Detail/elements/StatusInformation render/card status 1`] = `
+<div
+  className="makeStyles-baseBox-1"
+>
+  <div
+    className="makeStyles-title-2"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="subtitle2"
+      weight="medium"
+    >
+      
+    </Typography>
+  </div>
+  <div
+    className="makeStyles-content-3"
+  >
+    <Typography
+      className=""
+      color="inherit"
+      inline={false}
+      variant="h3"
+      weight="medium"
+    >
+      
+    </Typography>
+  </div>
+</div>
+`;

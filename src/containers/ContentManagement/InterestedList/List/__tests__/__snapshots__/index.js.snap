@@ -1,0 +1,837 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ContentManagement/InterestedList/List/index render 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Interested List",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status By Starclick",
+            "value": "",
+          },
+        },
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status On MyCarrier",
+            "value": "",
+          },
+        },
+        Object {
+          "isLoading": false,
+          "maxwidth": 900,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Source",
+            "value": "",
+          },
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+          "variant": "secondary",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product, Company Name..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "businessType": "Content Providers",
+            "companyName": "CREATE  CA TEST 3",
+            "description": "Test",
+            "interestId": 4242,
+            "name": "dc3450c4c936257f178aeda7fe94602f737a12474838a628f5f49d9273339419",
+            "productName": "Managed Service (Network Connectivity)",
+            "source": "https://mycarrier.telkom.co.id",
+            "starclickStatus": null,
+            "status": "Valid",
+            "updatedAt": "2023-02-13T02:57:53.322Z",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Array [],
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "INTERESTED ID",
+            "name": "interestId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "PRODUCT",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "SOURCE",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "label": "STATUS ON MYCARRIER",
+            "name": "status",
+            "schemaStatus": Object {
+              "Invalid": "danger",
+              "Valid": "success",
+              "Waiting": "warning",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "hasTooltipHeader": true,
+            "label": "STATUS BY STARCLICK",
+            "name": "starclickStatus",
+            "schemaStatus": Object {
+              "Auto Quote": "success",
+              "Convert": "success",
+              "Delay Convert": "warning",
+              "Drop Quote": "danger",
+              "Opportunity": "primary",
+              "Qualify": "warning",
+              "Retire": "danger",
+            },
+            "tooltipHeader": "Status by Starclick only appears for Connectivity Product",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <Component
+    feature={
+      Array [
+        "",
+      ]
+    }
+    filterParams={Object {}}
+    modalDownload={false}
+    setLoadingDownload={false}
+    setModalDownload={[MockFunction]}
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/ContentManagement/InterestedList/List/index render filter 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Interested List",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxwidth": 200,
+          "type": "dropdown",
+        },
+        Object {
+          "maxwidth": 200,
+          "type": "dropdown",
+        },
+        Object {
+          "isLoading": false,
+          "maxwidth": 900,
+          "type": "dropdown",
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            "2021-10-07T05:13:42.986Z",
+            "2021-10-07T05:13:42.986Z",
+          ],
+          "variant": "secondary",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product, Company Name..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "starclickStatus": undefined,
+            "status": "Waiting",
+          },
+          Object {
+            "starclickStatus": undefined,
+            "status": "Invalid",
+          },
+          Object {
+            "starclickStatus": undefined,
+            "status": "Valid",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": Object {},
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "INTERESTED ID",
+            "name": "interestId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "PRODUCT",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "SOURCE",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "label": "STATUS ON MYCARRIER",
+            "name": "status",
+            "schemaStatus": Object {
+              "Invalid": "danger",
+              "Valid": "success",
+              "Waiting": "warning",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "hasTooltipHeader": true,
+            "label": "STATUS BY STARCLICK",
+            "name": "starclickStatus",
+            "schemaStatus": Object {
+              "Auto Quote": "success",
+              "Convert": "success",
+              "Delay Convert": "warning",
+              "Drop Quote": "danger",
+              "Opportunity": "primary",
+              "Qualify": "warning",
+              "Retire": "danger",
+            },
+            "tooltipHeader": "Status by Starclick only appears for Connectivity Product",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <Component
+    feature={
+      Array [
+        "",
+      ]
+    }
+    filterParams={Object {}}
+    modalDownload={false}
+    setLoadingDownload={false}
+    setModalDownload={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            true,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/ContentManagement/InterestedList/List/index render starclickStatus Create_Opportunity 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Interested List",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status By Starclick",
+            "value": "",
+          },
+        },
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status On MyCarrier",
+            "value": "",
+          },
+        },
+        Object {
+          "isLoading": false,
+          "maxwidth": 900,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Source",
+            "value": "",
+          },
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+          "variant": "secondary",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product, Company Name..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "businessType": "Content Providers",
+            "companyName": "CREATE  CA TEST 3",
+            "description": "Test",
+            "interestId": 4242,
+            "name": "dc3450c4c936257f178aeda7fe94602f737a12474838a628f5f49d9273339419",
+            "productName": "Managed Service (Network Connectivity)",
+            "source": "https://mycarrier.telkom.co.id",
+            "starclickStatus": "Opportunity",
+            "status": "Valid",
+            "updatedAt": "2023-02-13T02:57:53.322Z",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": undefined,
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "INTERESTED ID",
+            "name": "interestId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "PRODUCT",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "SOURCE",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "label": "STATUS ON MYCARRIER",
+            "name": "status",
+            "schemaStatus": Object {
+              "Invalid": "danger",
+              "Valid": "success",
+              "Waiting": "warning",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "hasTooltipHeader": true,
+            "label": "STATUS BY STARCLICK",
+            "name": "starclickStatus",
+            "schemaStatus": Object {
+              "Auto Quote": "success",
+              "Convert": "success",
+              "Delay Convert": "warning",
+              "Drop Quote": "danger",
+              "Opportunity": "primary",
+              "Qualify": "warning",
+              "Retire": "danger",
+            },
+            "tooltipHeader": "Status by Starclick only appears for Connectivity Product",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <Component
+    feature={
+      Array [
+        "",
+      ]
+    }
+    filterParams={Object {}}
+    modalDownload={false}
+    setLoadingDownload={false}
+    setModalDownload={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            true,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`src/pages/ContentManagement/InterestedList/List/index render starclickStatus Delayed_Convert 1`] = `
+<React.Fragment>
+  <List
+    action={
+      Array [
+        Object {
+          "children": "Refresh",
+          "leftIcon": [Function],
+          "loading": false,
+          "onClick": [MockFunction],
+        },
+        Object {
+          "children": "Download",
+          "loading": false,
+          "onClick": [Function],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Interested List",
+        },
+      ]
+    }
+    filter={
+      Array [
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status By Starclick",
+            "value": "",
+          },
+        },
+        Object {
+          "maxwidth": 200,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Status On MyCarrier",
+            "value": "",
+          },
+        },
+        Object {
+          "isLoading": false,
+          "maxwidth": 900,
+          "onChange": [MockFunction],
+          "options": Array [],
+          "type": "dropdown",
+          "value": Object {
+            "label": "All Source",
+            "value": "",
+          },
+        },
+        Object {
+          "onChange": [MockFunction],
+          "type": "dateRange",
+          "value": Array [
+            null,
+            null,
+          ],
+          "variant": "secondary",
+        },
+      ]
+    }
+    noMargin={false}
+    noPadding={false}
+    onBottomPage={[MockFunction]}
+    search={
+      Object {
+        "onChange": [MockFunction],
+        "placeholder": "Search Product, Company Name..",
+        "value": "",
+      }
+    }
+    table={
+      Object {
+        "data": Array [
+          Object {
+            "businessType": "Content Providers",
+            "companyName": "CREATE  CA TEST 3",
+            "description": "Test",
+            "interestId": 4242,
+            "name": "dc3450c4c936257f178aeda7fe94602f737a12474838a628f5f49d9273339419",
+            "productName": "Managed Service (Network Connectivity)",
+            "source": "https://mycarrier.telkom.co.id",
+            "starclickStatus": "Delay Convert",
+            "status": "Valid",
+            "updatedAt": "2023-02-13T02:57:53.322Z",
+          },
+        ],
+        "loading": false,
+        "loadingRoot": false,
+        "meta": undefined,
+        "onClickRow": [MockFunction],
+        "schema": Array [
+          Object {
+            "cellStyle": Object {
+              "minWidth": 100,
+            },
+            "label": "INTERESTED ID",
+            "name": "interestId",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+              "width": 150,
+            },
+            "formatDate": "date-time",
+            "label": "CREATED DATE",
+            "name": "createdAt",
+            "sort": true,
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "PRODUCT",
+            "name": "productName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 200,
+            },
+            "label": "COMPANY NAME",
+            "name": "companyName",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 150,
+            },
+            "label": "SOURCE",
+            "name": "source",
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "label": "STATUS ON MYCARRIER",
+            "name": "status",
+            "schemaStatus": Object {
+              "Invalid": "danger",
+              "Valid": "success",
+              "Waiting": "warning",
+            },
+          },
+          Object {
+            "cellStyle": Object {
+              "minWidth": 120,
+            },
+            "hasTooltipHeader": true,
+            "label": "STATUS BY STARCLICK",
+            "name": "starclickStatus",
+            "schemaStatus": Object {
+              "Auto Quote": "success",
+              "Convert": "success",
+              "Delay Convert": "warning",
+              "Drop Quote": "danger",
+              "Opportunity": "primary",
+              "Qualify": "warning",
+              "Retire": "danger",
+            },
+            "tooltipHeader": "Status by Starclick only appears for Connectivity Product",
+          },
+        ],
+        "useOrderBy": Array [
+          "",
+          [MockFunction],
+        ],
+        "useOrderDirection": Array [
+          "asc",
+          [MockFunction],
+        ],
+      }
+    }
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    title=""
+    withTopDivider={true}
+  />
+  <Component
+    feature={
+      Array [
+        "",
+      ]
+    }
+    filterParams={Object {}}
+    modalDownload={false}
+    setLoadingDownload={false}
+    setModalDownload={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            true,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</React.Fragment>
+`;

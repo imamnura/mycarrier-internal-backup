@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/CustomerMRTGList render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "MRTG",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Customer...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "customerAccountName": "PT TELEKOMUNIKASI",
+          "isNewRequest": false,
+          "lastUpdate": "2022-11-21T16:41:26+07:00",
+        },
+        Object {
+          "customerAccountName": "PT TELEKOMUNIKASI",
+          "isNewRequest": <Typography
+            className=""
+            color="blue-main"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            <span
+              className="makeStyles-iconDot-1"
+            />
+             New update
+          </Typography>,
+          "lastUpdate": "2022-11-21T16:41:26+07:00",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": false,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 660,
+          },
+          "label": "CUSTOMER",
+          "name": "customerAccountName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "formatDate": "date-time",
+          "label": "LAST UPDATE",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "name": "isNewRequest",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="MRTG"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceDelivery/ApprovalMRTG/CustomerMRTGList render with no privilege & no tab 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "MRTG",
+      },
+    ]
+  }
+  filter={Array []}
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Customer...",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "customerAccountName": "PT TELEKOMUNIKASI",
+          "isNewRequest": false,
+          "lastUpdate": "2022-11-21T16:41:26+07:00",
+        },
+        Object {
+          "customerAccountName": "PT TELEKOMUNIKASI",
+          "isNewRequest": <Typography
+            className=""
+            color="blue-main"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            <span
+              className="makeStyles-iconDot-2"
+            />
+             New update
+          </Typography>,
+          "lastUpdate": "2022-11-21T16:41:26+07:00",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": false,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 660,
+          },
+          "label": "CUSTOMER",
+          "name": "customerAccountName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "formatDate": "date-time",
+          "label": "LAST UPDATE",
+          "name": "lastUpdate",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+          },
+          "name": "isNewRequest",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="MRTG"
+  withTopDivider={true}
+/>
+`;

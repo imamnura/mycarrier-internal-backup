@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/ModalLog run properly 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-1",
+    }
+  }
+  open={true}
+  scroll="body"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Log
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <Tabs
+          isCustom={false}
+          onChange={[MockFunction]}
+          options={
+            Array [
+              Object {
+                "label": "History Work Log",
+                "value": "history",
+              },
+              Object {
+                "label": "Time To Respond",
+                "value": "ttr",
+              },
+            ]
+          }
+          value="history"
+          variant="default"
+        />
+        <Styled(MuiBox)
+          className="makeStyles-scroller-3"
+          pr={2}
+          pt={4}
+        >
+          <Worklog
+            data={Array []}
+            firstItemActive={true}
+          />
+        </Styled(MuiBox)>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`src/pages/LeadManagementSystem/Dashboard/Detail/elements/ModalLog run ttr tab 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  classes={
+    Object {
+      "paper": "makeStyles-dialogRoot-4",
+    }
+  }
+  open={true}
+  scroll="body"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+    style={
+      Object {
+        "padding": "16px 24px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Log
+      </Typography>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <div>
+        <Tabs
+          isCustom={false}
+          onChange={[MockFunction]}
+          options={
+            Array [
+              Object {
+                "label": "History Work Log",
+                "value": "history",
+              },
+              Object {
+                "label": "Time To Respond",
+                "value": "ttr",
+              },
+            ]
+          }
+          value="ttr"
+          variant="default"
+        />
+        <Styled(MuiBox)
+          className="makeStyles-scroller-6"
+        >
+          <TableDesktop
+            customBody={null}
+            customEmptyMessage={null}
+            customItem={null}
+            customStyles={Object {}}
+            data={Array []}
+            emptyMessage={
+              Object {
+                "description": "The data will appear if the status move to another status",
+                "message": "There is no log Time To Respond",
+              }
+            }
+            headerAlign="flex-start"
+            loading={false}
+            loadingRoot={false}
+            maxHeight={null}
+            meta={
+              Object {
+                "page": 0,
+              }
+            }
+            numbering={false}
+            onBottomPage={null}
+            onClickRow={null}
+            onPaginationChange={null}
+            page={1}
+            pickedRow=""
+            pickedRowKey=""
+            schema={
+              Array [
+                Object {
+                  "cellStyle": Object {
+                    "minWidth": 240,
+                  },
+                  "label": "STATUS",
+                  "name": "status",
+                },
+                Object {
+                  "label": "TTR (decimal)",
+                  "name": "decimal",
+                },
+                Object {
+                  "label": "TTR (date)",
+                  "name": "date",
+                },
+              ]
+            }
+            selectWithRawData={false}
+            selectedRowKey="key"
+            selectedRowSticky={false}
+            size={10}
+            useCollapseChild={null}
+            useOrderBy={
+              Array [
+                null,
+                [Function],
+              ]
+            }
+            useOrderDirection={
+              Array [
+                null,
+                [Function],
+              ]
+            }
+            useSelectedRow={Array []}
+          />
+        </Styled(MuiBox)>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      align="center"
+      item={true}
+      xs={12}
+    >
+      <Button
+        disabled={false}
+        leftIcon={null}
+        loading={false}
+        ml={0}
+        mr={0}
+        onClick={[MockFunction]}
+        rightIcon={null}
+        rounded="normal"
+        textTransform="uppercase"
+        variant="ghost"
+      >
+        Close
+      </Button>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Dialog))>
+`;

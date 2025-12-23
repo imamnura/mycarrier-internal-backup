@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/List/index render 1`] = `
+<List
+  action={
+    Array [
+      Object {
+        "children": "ADD CONTENT",
+        "loading": undefined,
+        "onClick": [MockFunction],
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Events Management",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Event Status",
+          "value": "",
+        },
+      },
+      Object {
+        "maxwidth": 200,
+        "onChange": [MockFunction],
+        "options": Array [],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Content Status",
+          "value": "",
+        },
+      },
+      Object {
+        "label": "Date Held",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [
+          null,
+          null,
+        ],
+        "variant": "secondary",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Events Name..",
+      "value": "",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "dateHeld": "20 September 2022 07:00 - 10:00",
+          "endDate": "2022-09-20T10:00:00+07:00",
+          "eventId": "EV-1663573335182",
+          "eventStatus": undefined,
+          "id": 418,
+          "operations": <Styled(MuiBox)
+            sx={
+              Object {
+                "& svg": Object {
+                  "color": "#2E434D",
+                  "cursor": "pointer",
+                },
+                "alignItems": "center",
+                "display": "flex",
+              }
+            }
+          >
+            <Styled(MuiBox)
+              id="updateEvents"
+              onClick={[Function]}
+            >
+              <Pencil />
+            </Styled(MuiBox)>
+            <Styled(MuiBox)
+              id="deleteEvents"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "12px",
+                }
+              }
+            >
+              <Delete />
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>,
+          "startDate": "2022-09-20T07:00:00+07:00",
+          "status": undefined,
+          "title": "Acara v4",
+        },
+      ],
+      "hovering": true,
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": Object {
+        "page": 1,
+        "size": 10,
+        "totalData": 2,
+        "totalPages": 1,
+      },
+      "numbering": true,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [],
+      "useOrderBy": Array [
+        "",
+        [MockFunction],
+      ],
+      "useOrderDirection": Array [
+        "asc",
+        [MockFunction],
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Events Management"
+  withTopDivider={true}
+/>
+`;

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductOverview/index render 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Overview"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="l2OverviewTitleid"
+      noSpacing={true}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize={14}
+      multiline={true}
+      name="l2OverviewDescid"
+      noSpacing={true}
+      placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+      position="center"
+      weight="normal"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductOverview/index render tab en 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px dashed #E4E7E9",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <SectionMark
+    description=""
+    isDisplay={true}
+    nonmandatory={false}
+    onChange={[Function]}
+    title="Product Overview"
+  />
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 4rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize="2.25rem"
+      multiline={true}
+      name="l2OverviewTitleen"
+      noSpacing={true}
+      placeholder="Type the content of the title here in English.."
+      position="center"
+      weight="bold"
+    />
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={false}
+      fontSize={14}
+      multiline={true}
+      name="l2OverviewDescen"
+      noSpacing={true}
+      placeholder="Type content description here in English.."
+      position="center"
+      weight="normal"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductOverview/index render tab en previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={true}
+      fontSize="2.25rem"
+      multiline={true}
+      name="l2OverviewTitleen"
+      noSpacing={true}
+      placeholder="Type the content of the title here in English.."
+      position="center"
+      weight="bold"
+    />
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={true}
+      fontSize={14}
+      multiline={true}
+      name="l2OverviewDescen"
+      noSpacing={true}
+      placeholder="Type content description here in English.."
+      position="center"
+      weight="normal"
+    />
+  </div>
+</div>
+`;
+
+exports[`src/containers/ContentManagement/Product/Add-v2/lib/section/ProductOverview/index render tab id previewMode true 1`] = `
+<div
+  style={
+    Object {
+      "border": "none",
+      "borderTop": "none",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginInline": "auto",
+        "maxWidth": "1280px",
+        "padding": "5rem 1rem",
+        "width": "100%",
+      }
+    }
+  >
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={true}
+      fontSize="2.25rem"
+      multiline={true}
+      name="l2OverviewTitleid"
+      noSpacing={true}
+      placeholder="Ketik konten judul di sini dalam Bahasa.."
+      position="center"
+      weight="bold"
+    />
+    <TextField
+      colorPlaceholder="black"
+      control={Object {}}
+      disabled={true}
+      fontSize={14}
+      multiline={true}
+      name="l2OverviewDescid"
+      noSpacing={true}
+      placeholder="Ketik deskripsi konten di sini dalam Bahasa.."
+      position="center"
+      weight="normal"
+    />
+  </div>
+</div>
+`;

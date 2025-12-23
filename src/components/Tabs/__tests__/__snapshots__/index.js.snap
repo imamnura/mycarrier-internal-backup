@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Tabs render 1`] = `
+<div
+  className="makeStyles-root-4"
+>
+  <WithStyles(ForwardRef(Tabs))
+    centered={false}
+    classes={
+      Object {
+        "flexContainer": "",
+        "indicator": "makeStyles-indicator-3",
+        "root": "makeStyles-root-4",
+      }
+    }
+    id="tabs"
+    onChange={[Function]}
+    scrollButtons="auto"
+    value="1"
+    variant="scrollable"
+  >
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "makeStyles-tab-6",
+          "selected": "makeStyles-tabSelected-7",
+        }
+      }
+      disableRipple={true}
+      label="Tab Name"
+      value="1"
+    />
+  </WithStyles(ForwardRef(Tabs))>
+  <WithStyles(ForwardRef(Divider))
+    className="makeStyles-divider-1"
+  />
+</div>
+`;
+
+exports[`src/components/Tabs render/centered 1`] = `
+<div
+  className="makeStyles-root-13"
+>
+  <WithStyles(ForwardRef(Tabs))
+    centered={true}
+    classes={
+      Object {
+        "flexContainer": "",
+        "indicator": "makeStyles-indicator-12",
+        "root": "makeStyles-root-13",
+      }
+    }
+    id="tabs"
+    onChange={[Function]}
+    scrollButtons="auto"
+    value="1"
+    variant="standard"
+  >
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "makeStyles-tab-15",
+          "selected": "makeStyles-tabSelected-16",
+        }
+      }
+      disableRipple={true}
+      label="Tab Name"
+      value="1"
+    />
+  </WithStyles(ForwardRef(Tabs))>
+  <WithStyles(ForwardRef(Divider))
+    className="makeStyles-divider-10"
+  />
+</div>
+`;
+
+exports[`src/components/Tabs render/others 1`] = `
+<div
+  className="makeStyles-root-22"
+>
+  <WithStyles(ForwardRef(Tabs))
+    centered={false}
+    classes={
+      Object {
+        "flexContainer": "makeStyles-flexContainerWithSwap-20",
+        "indicator": "makeStyles-indicator-21",
+        "root": "makeStyles-root-22",
+      }
+    }
+    id="tabs"
+    onChange={[Function]}
+    scrollButtons="auto"
+    value="1"
+    variant="scrollable"
+  >
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "makeStyles-tab-24",
+          "selected": "makeStyles-tabSelected-25",
+        }
+      }
+      disableRipple={true}
+      label="Tab Name 1"
+      value="1"
+    />
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "makeStyles-tab-24 makeStyles-tabSpacing-27",
+          "selected": "makeStyles-tabSelected-25",
+        }
+      }
+      disableRipple={true}
+      label="Tab Name 2"
+      value="2"
+    />
+  </WithStyles(ForwardRef(Tabs))>
+  <WithStyles(ForwardRef(IconButton))
+    className="makeStyles-swap-23"
+    onClick={[MockFunction]}
+  >
+    <Swap />
+  </WithStyles(ForwardRef(IconButton))>
+  <WithStyles(ForwardRef(Divider))
+    className="makeStyles-divider-19"
+  />
+</div>
+`;

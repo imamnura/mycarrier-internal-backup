@@ -1,0 +1,494 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/List/elements/List/index render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "label": "Date Submit",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [],
+        "variant": "secondary",
+      },
+      Object {
+        "label": "Last Update",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [],
+        "variant": "secondary",
+      },
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {
+            "label": "All Status",
+            "value": "",
+          },
+          Object {
+            "label": "Qualify",
+            "value": "qualified",
+          },
+          Object {
+            "label": "Delay Opportunity",
+            "value": "delayOpportunity",
+          },
+          Object {
+            "label": "Retired",
+            "value": "retired",
+          },
+          Object {
+            "label": "Opportunity",
+            "value": "opportunity",
+          },
+          Object {
+            "label": "Quote",
+            "value": "quote",
+          },
+          Object {
+            "label": "Drop Quote",
+            "value": "dropQuote",
+          },
+          Object {
+            "label": "Agreement",
+            "value": "agreement",
+          },
+          Object {
+            "label": "Order",
+            "value": "order",
+          },
+          Object {
+            "label": "Provisioning",
+            "value": "provisioning",
+          },
+        ],
+        "type": "dropdown",
+        "value": Object {
+          "label": "All Status",
+          "value": "",
+        },
+      },
+      Object {
+        "label": "Last Contacted",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [],
+        "variant": "secondary",
+      },
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {},
+        ],
+        "type": "dropdown",
+        "value": Object {},
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Company Name..",
+      "value": "test",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "companyName": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={1}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                #
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>,
+          "source": <Styled(MuiBox)
+            sx={
+              Object {
+                "wordBreak": "break-all",
+              }
+            }
+          >
+            -
+          </Styled(MuiBox)>,
+          "statusSalesStage": "Status Not Recognized",
+        },
+        Object {
+          "companyName": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={1}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                #
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>,
+          "source": <Styled(MuiBox)
+            sx={
+              Object {
+                "wordBreak": "break-all",
+              }
+            }
+          >
+            -
+          </Styled(MuiBox)>,
+          "statusSalesStage": "Status Not Recognized",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "COMPANY NAME",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "CONTACT PERSON",
+          "name": "contactPerson",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "label": "PRODUCT",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+            "width": 240,
+          },
+          "label": "SOURCE",
+          "name": "source",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "full-string-date",
+          "label": "LAST CONTACTED",
+          "name": "lastContacted",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "full-string-date",
+          "label": "LAST UPDATE",
+          "name": "updatedAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "full-string-date",
+          "label": "DATE SUBMIT",
+          "name": "createdAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "STATUS SALES STAGE",
+          "name": "statusSalesStage",
+          "schemaStatus": Object {
+            "Agreement": "primary",
+            "Cancel Quote": "danger",
+            "Check Feasibility": "warning",
+            "Delay Opportunity": "warning",
+            "Delay Quote": "warning",
+            "Dispatch Lead": "success",
+            "Drop Quote": "danger",
+            "Invalid": "danger",
+            "Need Validation": "warning",
+            "Opportunity": "primary",
+            "Order": "alert",
+            "Provisioning": "success",
+            "Qualify": "primary",
+            "Quote": "alert",
+            "Retired": "danger",
+            "Valid": "success",
+          },
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Need Validation",
+          "value": "needValidation",
+        },
+        Object {
+          "label": "Lead Valid",
+          "value": "leadValid",
+        },
+        Object {
+          "label": "Lead Invalid",
+          "value": "leadInvalid",
+        },
+        Object {
+          "label": "Dispatch Lead",
+          "value": "dispatchLead",
+        },
+      ],
+      "value": "leadValid",
+    }
+  }
+  title="Lead Management System"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/LeadManagmentSystem/Dashboard/List/elements/List/index render tab null 1`] = `
+<List
+  action={Array []}
+  breadcrumb={Array []}
+  filter={
+    Array [
+      Object {
+        "label": "Date Submit",
+        "onChange": [MockFunction],
+        "type": "dateRange",
+        "value": Array [],
+        "variant": "secondary",
+      },
+      Object {
+        "onChange": [MockFunction],
+        "options": Array [
+          Object {},
+        ],
+        "type": "dropdown",
+        "value": Object {},
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": [MockFunction],
+      "placeholder": "Search Company Name..",
+      "value": "test",
+    }
+  }
+  table={
+    Object {
+      "data": Array [
+        Object {
+          "companyName": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={1}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                #
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>,
+          "source": <Styled(MuiBox)
+            sx={
+              Object {
+                "wordBreak": "break-all",
+              }
+            }
+          >
+            -
+          </Styled(MuiBox)>,
+          "statusSalesStage": "Status Not Recognized",
+        },
+        Object {
+          "companyName": <Styled(MuiBox)>
+            <Typography
+              className=""
+              color="inherit"
+              inline={false}
+              variant="subtitle2"
+              weight="normal"
+            >
+              
+            </Typography>
+            <Styled(MuiBox)
+              mt={1}
+            >
+              <Typography
+                className=""
+                color="general-mid"
+                inline={true}
+                variant="caption"
+                weight="normal"
+              >
+                #
+              </Typography>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>,
+          "source": <Styled(MuiBox)
+            sx={
+              Object {
+                "wordBreak": "break-all",
+              }
+            }
+          >
+            -
+          </Styled(MuiBox)>,
+          "statusSalesStage": "Status Not Recognized",
+        },
+      ],
+      "loading": false,
+      "loadingRoot": undefined,
+      "meta": undefined,
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "COMPANY NAME",
+          "name": "companyName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "label": "CONTACT PERSON",
+          "name": "contactPerson",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 160,
+            "width": 160,
+          },
+          "label": "PRODUCT",
+          "name": "productName",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+            "width": 240,
+          },
+          "label": "SOURCE",
+          "name": "source",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "full-string-date",
+          "label": "LAST UPDATE",
+          "name": "updatedAt",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+            "width": 180,
+          },
+          "formatDate": "full-string-date",
+          "label": "DATE SUBMIT",
+          "name": "createdAt",
+        },
+      ],
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [MockFunction],
+      "options": Array [
+        Object {
+          "label": "Need Validation",
+          "value": "needValidation",
+        },
+        Object {
+          "label": "Lead Valid",
+          "value": "leadValid",
+        },
+        Object {
+          "label": "Lead Invalid",
+          "value": "leadInvalid",
+        },
+        Object {
+          "label": "Dispatch Lead",
+          "value": "dispatchLead",
+        },
+      ],
+      "value": "",
+    }
+  }
+  title="Lead Management System"
+  withTopDivider={true}
+/>
+`;

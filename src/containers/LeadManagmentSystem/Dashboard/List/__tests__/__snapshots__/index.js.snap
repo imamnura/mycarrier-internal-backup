@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/List render 1`] = `
+<React.Fragment>
+  <HeaderAndFilter
+    action={
+      Array [
+        Object {
+          "children": "download",
+          "onClick": undefined,
+        },
+        Object {
+          "children": "add new lead",
+          "onClick": [MockFunction],
+        },
+      ]
+    }
+    breadcrumb={
+      Array [
+        Object {
+          "label": "Dashboard",
+        },
+      ]
+    }
+    filter={Array []}
+    loading={false}
+    otherStatus={null}
+    search={null}
+    status={null}
+    tabs={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    tabsL2={
+      Object {
+        "onChange": [Function],
+        "options": Array [],
+        "value": "",
+      }
+    }
+    withTopDivider={true}
+  />
+  <Styled(MuiBox)
+    mt={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={4}
+      style={
+        Object {
+          "padding": "24px 32px",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={6}
+        xs={12}
+      >
+        <Summary />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={6}
+        xs={12}
+      >
+        <LeadValidSummary />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(MuiBox)>
+  <ListLead />
+  <DownloadForm
+    caption=""
+    description=""
+    labelForm="Please describe the note.."
+    onSubmit={[MockFunction]}
+    open={true}
+    title=""
+  />
+</React.Fragment>
+`;

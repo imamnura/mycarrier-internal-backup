@@ -1,0 +1,740 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/TimeRangePicker render 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      onClick={[Function]}
+      variant="caption"
+      weight="normal"
+    >
+      Invalid date - Invalid date
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Dialog))
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogTitle))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Select Time
+      </Typography>
+    </WithStyles(ForwardRef(DialogTitle))>
+    <WithStyles(ForwardRef(DialogContent))>
+      <Styled(MuiBox)
+        alignItems="center"
+        display="flex"
+      >
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Start Time"
+            maxTime={null}
+            minTime="test"
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mx={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="End Time"
+            maxTime={null}
+            minTime={null}
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(DialogContent))>
+    <Styled(MuiBox)
+      display="flex"
+      p={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        justifyContent="flex-end"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            Cancel
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="filled"
+          >
+            Submit
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/TimeRangePicker render minTime now 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      onClick={[Function]}
+      variant="caption"
+      weight="normal"
+    >
+      Invalid date - Invalid date
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Dialog))
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogTitle))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Select Time
+      </Typography>
+    </WithStyles(ForwardRef(DialogTitle))>
+    <WithStyles(ForwardRef(DialogContent))>
+      <Styled(MuiBox)
+        alignItems="center"
+        display="flex"
+      >
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Start Time"
+            maxTime={null}
+            minTime={null}
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    true,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mx={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="End Time"
+            maxTime={null}
+            minTime={null}
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    true,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(DialogContent))>
+    <Styled(MuiBox)
+      display="flex"
+      p={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        justifyContent="flex-end"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            Cancel
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="filled"
+          >
+            Submit
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;
+
+exports[`src/containers/ContentManagement/Events/Add-v2/lib/components/Rundown/elements/TimeRangePicker render tab en 1`] = `
+<React.Fragment>
+  <Styled(MuiBox)
+    sx={
+      Object {
+        "cursor": "pointer",
+      }
+    }
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      onClick={[Function]}
+      variant="caption"
+      weight="normal"
+    >
+      Invalid date - Invalid date
+    </Typography>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(Dialog))
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogTitle))>
+      <Typography
+        className=""
+        color="inherit"
+        inline={false}
+        variant="h5"
+        weight="medium"
+      >
+        Select Time
+      </Typography>
+    </WithStyles(ForwardRef(DialogTitle))>
+    <WithStyles(ForwardRef(DialogContent))>
+      <Styled(MuiBox)
+        alignItems="center"
+        display="flex"
+      >
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Start Time"
+            maxTime={null}
+            minTime="test"
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    true,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    false,
+                  ],
+                  Array [
+                    false,
+                  ],
+                  Array [
+                    null,
+                  ],
+                  Array [
+                    null,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          mx={2}
+        >
+          <Typography
+            className=""
+            color="inherit"
+            inline={false}
+            variant="subtitle2"
+            weight="normal"
+          >
+            -
+          </Typography>
+        </Styled(MuiBox)>
+        <Styled(MuiBox)
+          maxWidth={120}
+        >
+          <DateRangePicker
+            disabled={false}
+            error={false}
+            helperText=""
+            label="End Time"
+            maxTime={null}
+            minTime={null}
+            onChange={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    true,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    false,
+                  ],
+                  Array [
+                    false,
+                  ],
+                  Array [
+                    null,
+                  ],
+                  Array [
+                    null,
+                  ],
+                  Array [
+                    "test",
+                  ],
+                  Array [
+                    "test",
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            required={false}
+            setValue={[MockFunction]}
+            value="test"
+            variant="primary"
+          />
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(DialogContent))>
+    <Styled(MuiBox)
+      display="flex"
+      p={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        justifyContent="flex-end"
+        spacing={2}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={false}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="ghost"
+          >
+            Cancel
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <Button
+            disabled={true}
+            leftIcon={null}
+            loading={false}
+            ml={0}
+            mr={0}
+            onClick={[Function]}
+            rightIcon={null}
+            rounded="normal"
+            textTransform="uppercase"
+            variant="filled"
+          >
+            Submit
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Dialog))>
+</React.Fragment>
+`;

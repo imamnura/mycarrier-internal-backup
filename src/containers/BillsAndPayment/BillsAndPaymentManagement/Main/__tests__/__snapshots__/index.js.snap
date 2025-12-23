@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Main/index render tab company-list 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <BillAndPaymentCompanyList
+      action={
+        Array [
+          Object {
+            "children": "refresh",
+            "leftIcon": [Function],
+            "onClick": [MockFunction],
+          },
+        ]
+      }
+      breadcrumb={
+        Array [
+          Object {
+            "label": "Bills & Payment Manassssgement",
+          },
+        ]
+      }
+      feature={Array []}
+      tabs={
+        Object {
+          "onChange": [MockFunction],
+          "options": Array [
+            Object {
+              "id": "bill-and-payment-company-list-tab-dashboard",
+              "label": "Dashboard",
+              "value": "dashboard",
+            },
+            Object {
+              "id": "bill-and-payment-company-list-tab-company-list",
+              "label": "Company List",
+              "value": "company-list",
+            },
+          ],
+          "value": "company-list",
+        }
+      }
+    />
+  </React.Fragment>
+</React.Fragment>
+`;
+
+exports[`src/pages/BillsAndPayment/BillsAndPaymentManagement/Main/index render tab dashboard 1`] = `
+<React.Fragment>
+  <React.Fragment>
+    <React.Fragment>
+      <BillAndPaymentDashboard
+        feature={Array []}
+      />
+    </React.Fragment>
+  </React.Fragment>
+</React.Fragment>
+`;

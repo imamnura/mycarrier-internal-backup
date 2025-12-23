@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/BarChart render 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": 16,
+        "overflowX": "auto",
+        "overflowY": "hidden",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": 500,
+          "width": "100%",
+        }
+      }
+    >
+      <ResponsiveBar
+        animate={true}
+        axisLeft={
+          Object {
+            "legend": "label",
+            "legendOffset": -50,
+            "legendPosition": "middle",
+            "tickPadding": 5,
+            "tickRotation": 0,
+            "tickSize": 5,
+          }
+        }
+        colors={
+          Array [
+            "#",
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "legendLabel": 10,
+            },
+          ]
+        }
+        groupMode="grouped"
+        indexBy="name"
+        keys={
+          Array [
+            "legendLabel",
+            "legendLabel2",
+          ]
+        }
+        labelTextColor="#FFF"
+        margin={
+          Object {
+            "bottom": 48,
+            "left": 60,
+            "right": 0,
+            "top": 30,
+          }
+        }
+        motionDamping={15}
+        motionStiffness={90}
+        padding={0.3}
+        theme={
+          Object {
+            "axis": Object {
+              "legend": Object {
+                "text": Object {
+                  "fill": "#111E24",
+                  "fontFamily": "Titillium Web",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": "0.01em",
+                },
+              },
+            },
+            "fontFamily": "Titillium Web",
+            "fontSize": 14,
+            "grid": Object {
+              "line": Object {
+                "stroke": "#D2DADE",
+              },
+            },
+            "labels": Object {
+              "text": Object {
+                "fontSize": 10,
+              },
+            },
+            "textColor": "#3B525C",
+          }
+        }
+      />
+    </div>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#",
+          }
+        }
+      />
+      <WithStyles(Component)
+        variant="captionBold"
+      >
+        legendLabel
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": undefined,
+          }
+        }
+      />
+      <WithStyles(Component)
+        variant="captionBold"
+      >
+        legendLabel2
+      </WithStyles(Component)>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

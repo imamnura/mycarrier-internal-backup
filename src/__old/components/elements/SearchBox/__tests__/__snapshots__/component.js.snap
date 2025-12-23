@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/SearchBox render 1`] = `
+<WithStyles(ForwardRef(InputBase))
+  classes={
+    Object {
+      "input": "",
+    }
+  }
+  fullWidth={true}
+  onChange={[Function]}
+  placeholder="placeholder"
+  startAdornment={<Memo />}
+  value=""
+/>
+`;

@@ -1,0 +1,1241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/UserProfile/Achievement render 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-container-9"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={0}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-grid-15"
+        item={true}
+        xs={9}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Achievement
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={0.5}
+      >
+        <img
+          alt="logo"
+          className="makeStyles-logo-16"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={4}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h3"
+          weight="medium"
+        >
+          test
+        </Typography>
+        <Typography
+          className="makeStyles-label-13"
+          color="general-soft"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Need  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+             exp
+          </Typography>
+            to  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            
+          </Typography>
+        </Typography>
+        <WithStyles(WithStyles(ForwardRef(LinearProgress)))
+          value={NaN}
+          variant="determinate"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "padding": "1rem 0.625rem 0.625rem 4.063rem",
+          }
+        }
+        xs={4.5}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="caption"
+          weight="bold"
+        >
+          YOUR POINT
+        </Typography>
+        <Typography
+          className="makeStyles-title-12"
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          <img
+            alt="icon-point"
+            className="makeStyles-coin-10"
+            src="/img/icon-point.svg"
+          />
+           
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <Tabs
+        isCustom={false}
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "Mission List",
+              "value": "missionList",
+            },
+            Object {
+              "label": "Claim Reward",
+              "value": "claim",
+            },
+            Object {
+              "label": "History Point",
+              "value": "history",
+            },
+          ]
+        }
+        value="progress"
+        variant="default"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <React.Fragment>
+        <div>
+          <Styled(MuiBox)
+            mb={2}
+            mt={2}
+            sx={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="bold"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "marginBottom": "8px",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body2"
+                  weight="regular"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "marginRight": "8px",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+          <WithStyles(Component) />
+        </div>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;
+
+exports[`src/containers/UserProfile/Achievement render claim reward 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-container-25"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={0}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-grid-31"
+        item={true}
+        xs={9}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Achievement
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={0.5}
+      >
+        <img
+          alt="logo"
+          className="makeStyles-logo-32"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={4}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h3"
+          weight="medium"
+        >
+          test
+        </Typography>
+        <Typography
+          className="makeStyles-label-29"
+          color="general-soft"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Need  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+             exp
+          </Typography>
+            to  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            
+          </Typography>
+        </Typography>
+        <WithStyles(WithStyles(ForwardRef(LinearProgress)))
+          value={NaN}
+          variant="determinate"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "padding": "1rem 0.625rem 0.625rem 4.063rem",
+          }
+        }
+        xs={4.5}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="caption"
+          weight="bold"
+        >
+          YOUR POINT
+        </Typography>
+        <Typography
+          className="makeStyles-title-28"
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          <img
+            alt="icon-point"
+            className="makeStyles-coin-26"
+            src="/img/icon-point.svg"
+          />
+           
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <Tabs
+        isCustom={false}
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "Mission List",
+              "value": "missionList",
+            },
+            Object {
+              "label": "Claim Reward",
+              "value": "claim",
+            },
+            Object {
+              "label": "History Point",
+              "value": "history",
+            },
+          ]
+        }
+        value="progress"
+        variant="default"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <React.Fragment>
+        <div>
+          <Styled(MuiBox)
+            mb={2}
+            mt={2}
+            sx={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="bold"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "marginBottom": "8px",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body2"
+                  weight="regular"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "marginRight": "8px",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+          <WithStyles(Component) />
+        </div>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;
+
+exports[`src/containers/UserProfile/Achievement render content 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-container-17"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={0}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-grid-23"
+        item={true}
+        xs={9}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Achievement
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={0.5}
+      >
+        <img
+          alt="logo"
+          className="makeStyles-logo-24"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={4}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h3"
+          weight="medium"
+        >
+          test
+        </Typography>
+        <Typography
+          className="makeStyles-label-21"
+          color="general-soft"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Need  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+             exp
+          </Typography>
+            to  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            
+          </Typography>
+        </Typography>
+        <WithStyles(WithStyles(ForwardRef(LinearProgress)))
+          value={NaN}
+          variant="determinate"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "padding": "1rem 0.625rem 0.625rem 4.063rem",
+          }
+        }
+        xs={4.5}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="caption"
+          weight="bold"
+        >
+          YOUR POINT
+        </Typography>
+        <Typography
+          className="makeStyles-title-20"
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          <img
+            alt="icon-point"
+            className="makeStyles-coin-18"
+            src="/img/icon-point.svg"
+          />
+           
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <Tabs
+        isCustom={false}
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "Mission List",
+              "value": "missionList",
+            },
+            Object {
+              "label": "Claim Reward",
+              "value": "claim",
+            },
+            Object {
+              "label": "History Point",
+              "value": "history",
+            },
+          ]
+        }
+        value="progress"
+        variant="default"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <React.Fragment>
+        <div>
+          <Styled(MuiBox)
+            mb={2}
+            mt={2}
+            sx={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="bold"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "marginBottom": "8px",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body2"
+                  weight="regular"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "marginRight": "8px",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+          <WithStyles(Component) />
+        </div>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;
+
+exports[`src/containers/UserProfile/Achievement render mission list data null 1`] = `
+<React.Fragment>
+  <div
+    className="makeStyles-container-1"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={0}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-grid-7"
+        item={true}
+        xs={9}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          Achievement
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={3}
+      />
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={0.5}
+      >
+        <img
+          alt="logo"
+          className="makeStyles-logo-8"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={4}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="h3"
+          weight="medium"
+        >
+          
+        </Typography>
+        <Typography
+          className="makeStyles-label-5"
+          color="general-soft"
+          inline={false}
+          variant="subtitle2"
+          weight="normal"
+        >
+          Need  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+             exp
+          </Typography>
+            to  
+          <Typography
+            className=""
+            color="general-soft"
+            inline={false}
+            variant="subtitle2"
+            weight="medium"
+          >
+            
+          </Typography>
+        </Typography>
+        <WithStyles(WithStyles(ForwardRef(LinearProgress)))
+          value={NaN}
+          variant="determinate"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "padding": "1rem 0.625rem 0.625rem 4.063rem",
+          }
+        }
+        xs={4.5}
+      >
+        <Typography
+          className=""
+          color="general-soft"
+          inline={false}
+          variant="caption"
+          weight="bold"
+        >
+          YOUR POINT
+        </Typography>
+        <Typography
+          className="makeStyles-title-4"
+          color="general-soft"
+          inline={false}
+          variant="h4"
+          weight="medium"
+        >
+          <img
+            alt="icon-point"
+            className="makeStyles-coin-2"
+            src="/img/icon-point.svg"
+          />
+           
+        </Typography>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <Tabs
+        isCustom={false}
+        onChange={[MockFunction]}
+        options={
+          Array [
+            Object {
+              "label": "Mission List",
+              "value": "missionList",
+            },
+            Object {
+              "label": "Claim Reward",
+              "value": "claim",
+            },
+            Object {
+              "label": "History Point",
+              "value": "history",
+            },
+          ]
+        }
+        value="progress"
+        variant="default"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "22%",
+        }
+      }
+      xs={3}
+    />
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      style={
+        Object {
+          "maxWidth": "54%",
+        }
+      }
+      xs={7}
+    >
+      <React.Fragment>
+        <div>
+          <Styled(MuiBox)
+            mb={2}
+            mt={2}
+            sx={
+              Object {
+                "display": "flex",
+              }
+            }
+          >
+            <Styled(MuiBox)
+              sx={
+                Object {
+                  "width": "50%",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  variant="subtitle1"
+                  weight="bold"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "marginBottom": "8px",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general-mid"
+                  inline={false}
+                  variant="body2"
+                  weight="regular"
+                >
+                  
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                style={
+                  Object {
+                    "display": "flex",
+                  }
+                }
+                xs={12}
+              >
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "marginRight": "8px",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+                <Typography
+                  className=""
+                  color="general"
+                  inline={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                    }
+                  }
+                  variant="subtitle2"
+                  weight="medium"
+                >
+                  <img
+                    alt="icon"
+                    style={
+                      Object {
+                        "height": "20px",
+                        "width": "20px",
+                      }
+                    }
+                  />
+                </Typography>
+              </WithStyles(ForwardRef(Grid))>
+            </Styled(MuiBox)>
+          </Styled(MuiBox)>
+          <WithStyles(Component) />
+        </div>
+      </React.Fragment>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={2}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</React.Fragment>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Microsite/ApprovalLBA render 1`] = `
+<React.Fragment>
+  <WithStyles(Component)
+    completed={
+      <WithStyles(Component)
+        label="- has been approved. View that order now."
+        url="/non-bulk/detail/-"
+      />
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingTop": "30vh",
+          "textAlign": "center",
+        }
+      }
+    >
+      <WithStyles(Component)
+        variant="body2"
+      >
+        Data Not Found
+      </WithStyles(Component)>
+    </div>
+  </WithStyles(Component)>
+  <WithStyles(Component)
+    actions={
+      Array [
+        Object {
+          "action": [Function],
+          "fullWidth": true,
+          "label": "Back",
+        },
+        Object {
+          "action": [Function],
+          "fullWidth": true,
+          "label": "Approve",
+        },
+      ]
+    }
+    content={false}
+    onClose={[Function]}
+    secondaryContent="Once you approve, it will be processed and data will be sent to Provider to be check"
+  />
+  <Memo(Connect(WithStyles(Component)))
+    onClose={[Function]}
+    subContent=""
+  />
+</React.Fragment>
+`;

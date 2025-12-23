@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/LeadManagementSystem/Dashboard/List/elements/LeadValidSummary render 1`] = `
+<div
+  className="makeStyles-container-3"
+  style={
+    Object {
+      "paddingBottom": "8px",
+    }
+  }
+>
+  <div
+    className="makeStyles-title-7"
+  >
+    <Typography
+      className=""
+      color="general-mid"
+      inline={false}
+      variant="h4"
+      weight="medium"
+    >
+      Lead Valid Summary
+    </Typography>
+    <WithStyles(ForwardRef(IconButton))
+      className="makeStyles-maximize-9"
+      onClick={[MockFunction]}
+    >
+      <Maximize />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+  <div
+    className="makeStyles-filter-8"
+  >
+    <DateRangePicker
+      label="Date Submit"
+      onChange={[MockFunction]}
+      value=""
+      variant="secondary"
+    />
+  </div>
+  <WithStyles(ForwardRef(Divider)) />
+  <div
+    className="makeStyles-graph-10"
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justifyContent="center"
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        xs={12}
+      >
+        <Styled(MuiBox)
+          sx={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "minWidth": 100,
+            }
+          }
+        >
+          <Typography
+            className=""
+            color="general-mid"
+            inline={false}
+            variant="caption"
+            weight="normal"
+          >
+            Total Valid
+          </Typography>
+          <Typography
+            className=""
+            color="general-main"
+            inline={true}
+            variant="h2"
+            weight="bold"
+          >
+            10
+          </Typography>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={6}
+        xs={12}
+      >
+        <PieChart
+          arcLinkLabelsDiagonalLength={8}
+          arcLinkLabelsStraightLength={8}
+          arcLinkLabelsThickness={2}
+          data={
+            Array [
+              Object {
+                "color": "red",
+                "label": "test",
+              },
+            ]
+          }
+          height={240}
+          indexBy="label"
+          legends={false}
+          loading={false}
+          margin={
+            Object {
+              "bottom": 40,
+              "left": 64,
+              "right": 64,
+              "top": 40,
+            }
+          }
+          theme={
+            Object {
+              "axis": Object {
+                "label": Object {
+                  "text": Object {
+                    "fontSize": 10,
+                  },
+                },
+              },
+              "fontFamily": "Titillium Web",
+              "fontSize": 12,
+              "textColor": "#3B525C",
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md="auto"
+        xs={12}
+      >
+        <Styled(MuiBox)
+          mb={1}
+        >
+          <ChartLegend
+            color="red"
+            labelProps={
+              Object {
+                "weight": "normal",
+              }
+            }
+            variant="bar"
+          >
+            test
+          </ChartLegend>
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </div>
+  <div
+    className="makeStyles-dotsContainer-6"
+  >
+    <div
+      className="makeStyles-dotsActive-5"
+    />
+    <div
+      className="makeStyles-dots-4"
+    />
+  </div>
+</div>
+`;

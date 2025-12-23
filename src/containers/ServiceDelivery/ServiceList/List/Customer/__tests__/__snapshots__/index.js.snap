@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceDelivery/ProductList/List render 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Service List",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "date",
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Customer or CA Number..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": false,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "CUSTOMER",
+          "name": "custAccntName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "label": <p>
+            <b>
+              CA Number
+            </b>
+          </p>,
+          "name": "custAccntNum",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 420,
+          },
+          "label": "ADDRESS",
+          "name": "address",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "TOTAL PROJECT",
+          "name": "totalProject",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "TOTAL SERVICE",
+          "name": "totalService",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "formatDate": "date-time",
+          "label": "LAST UPDATE",
+          "name": "lastUpdate",
+          "sort": true,
+        },
+      ],
+      "useOrderBy": undefined,
+      "useOrderDirection": undefined,
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Service List"
+  withTopDivider={true}
+/>
+`;
+
+exports[`src/containers/ServiceDelivery/ProductList/List render with access feature 1`] = `
+<List
+  action={Array []}
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Service List",
+      },
+    ]
+  }
+  filter={
+    Array [
+      Object {
+        "maxWidth": 300,
+        "type": "date",
+      },
+      Object {
+        "maxWidth": 300,
+        "onChange": [MockFunction],
+        "options": Object {},
+        "type": "dropdown",
+        "value": "",
+      },
+    ]
+  }
+  noMargin={false}
+  noPadding={false}
+  onBottomPage={[Function]}
+  search={
+    Object {
+      "onChange": undefined,
+      "placeholder": "Search Customer or CA Number..",
+      "value": undefined,
+    }
+  }
+  table={
+    Object {
+      "data": Array [],
+      "loading": false,
+      "loadingRoot": Object {
+        "tableRoot": false,
+        "tableRow": false,
+      },
+      "meta": Object {},
+      "onClickRow": [MockFunction],
+      "onPaginationChange": undefined,
+      "page": undefined,
+      "schema": Array [
+        Object {
+          "cellStyle": Object {
+            "minWidth": 240,
+          },
+          "label": "CUSTOMER",
+          "name": "custAccntName",
+          "sort": true,
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 140,
+          },
+          "label": <p>
+            <b>
+              CA Number
+            </b>
+          </p>,
+          "name": "custAccntNum",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 420,
+          },
+          "label": "ADDRESS",
+          "name": "address",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "TOTAL PROJECT",
+          "name": "totalProject",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 120,
+          },
+          "label": "TOTAL SERVICE",
+          "name": "totalService",
+        },
+        Object {
+          "cellStyle": Object {
+            "minWidth": 180,
+          },
+          "formatDate": "date-time",
+          "label": "LAST UPDATE",
+          "name": "lastUpdate",
+          "sort": true,
+        },
+      ],
+      "useOrderBy": undefined,
+      "useOrderDirection": undefined,
+    }
+  }
+  tabs={
+    Object {
+      "onChange": [Function],
+      "options": Array [],
+      "value": "",
+    }
+  }
+  title="Service List"
+  withTopDivider={true}
+/>
+`;

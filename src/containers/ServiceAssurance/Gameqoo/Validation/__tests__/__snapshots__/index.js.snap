@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation render 1`] = `
+<div>
+  <ValidationSection
+    actionButton={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+          "url": "/service-assurance-gameqoo",
+        },
+        Object {
+          "label": "-",
+          "url": "/service-assurance-gameqoo/detail/",
+        },
+        Object {
+          "label": "Validate",
+        },
+      ]
+    }
+    checking={false}
+    classes={Object {}}
+    detail={Object {}}
+    dropdown={Object {}}
+    dummy={false}
+    fetch={Object {}}
+    handleCheck={[MockFunction]}
+    handleDummySid={[MockFunction]}
+    loading={Object {}}
+    status={Object {}}
+    submitValidation={[MockFunction]}
+    title=""
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "handleSubmit": [MockFunction],
+        "setValue": undefined,
+      }
+    }
+  >
+    
+  </ValidationSection>
+</div>
+`;
+
+exports[`src/containers/ServiceAssurance/Gameqoo/Validation render no feature 1`] = `
+<div>
+  <ValidationSection
+    actionButton={null}
+    breadcrumb={
+      Array [
+        Object {
+          "label": "GameQoo",
+          "url": "/service-assurance-gameqoo",
+        },
+        Object {
+          "label": "-",
+          "url": "/service-assurance-gameqoo/detail/",
+        },
+        Object {
+          "label": "Validate",
+        },
+      ]
+    }
+    checking={false}
+    classes={Object {}}
+    detail={Object {}}
+    dropdown={Object {}}
+    dummy={false}
+    fetch={Object {}}
+    handleCheck={[MockFunction]}
+    handleDummySid={[MockFunction]}
+    loading={Object {}}
+    status={Object {}}
+    submitValidation={[MockFunction]}
+    title=""
+    useform={
+      Object {
+        "control": Object {},
+        "formState": Object {},
+        "handleSubmit": [MockFunction],
+        "setValue": undefined,
+      }
+    }
+  >
+    
+  </ValidationSection>
+</div>
+`;

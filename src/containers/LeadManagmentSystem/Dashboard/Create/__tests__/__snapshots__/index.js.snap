@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/LeadManagementSystem/Dashboard/Create render 1`] = `
+<Create
+  action={
+    Array [
+      Object {
+        "children": "add lead",
+        "onClick": undefined,
+      },
+    ]
+  }
+  breadcrumb={
+    Array [
+      Object {
+        "label": "Dashboard",
+        "url": "/lead-management-system/dashboard",
+      },
+      Object {
+        "label": "Add New Lead",
+      },
+    ]
+  }
+  loading={false}
+  stepperTab={null}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={4}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={6}
+      xs={12}
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": 24,
+          }
+        }
+      >
+        <Card
+          title="Product Name"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label="Product Name"
+            maxWidth="100%"
+            name="product"
+            options={Array []}
+            placeholder="Choose Product Name"
+            rawValue={true}
+            required={true}
+            shouldUnregister={false}
+          />
+        </Card>
+        <Card
+          title="Source"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            isLoading={false}
+            isSearchable={true}
+            label="Source"
+            maxWidth="100%"
+            name="source"
+            options={Array []}
+            placeholder="Choose Source"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Card>
+        <Card
+          title="Company Profile"
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": 0,
+              }
+            }
+          >
+            <Select
+              cacheOptions={true}
+              control={Object {}}
+              defaultOptions={true}
+              error={false}
+              helperText=""
+              isDisabled={false}
+              isSearchable={true}
+              label="Company Name"
+              maxWidth="100%"
+              menuWidth={360}
+              name="companyName"
+              placeholder="Choose Company Name"
+              rawValue={true}
+              required={true}
+              shouldUnregister={false}
+            />
+            <Unknown
+              control={Object {}}
+              name="isOtherCustomer"
+              render={[Function]}
+            />
+          </Styled(MuiBox)>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Location"
+            maxLength={300}
+            minRows={4}
+            multiline={true}
+            name="location"
+            required={true}
+            shouldUnregister={false}
+          />
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Business Type"
+            maxWidth="100%"
+            name="businessType"
+            options={
+              Array [
+                Object {
+                  "label": "Content Providers",
+                  "value": "Content Providers",
+                },
+                Object {
+                  "label": "Game Publishers",
+                  "value": "Game Publishers",
+                },
+                Object {
+                  "label": "OLO (Other License Operation)",
+                  "value": "OLO (Other License Operation)",
+                },
+                Object {
+                  "label": "Enterprise",
+                  "value": "Enterprise",
+                },
+                Object {
+                  "label": "System Integration",
+                  "value": "System Integration",
+                },
+                Object {
+                  "label": "ISP/NSP/Telco",
+                  "value": "ISP/NSP/Telco",
+                },
+                Object {
+                  "label": "Others",
+                  "value": "Others",
+                },
+              ]
+            }
+            placeholder="Choose Business Type"
+            required={true}
+            shouldUnregister={false}
+          />
+          <Select
+            additionalWidth={0.2}
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Company Size"
+            maxWidth="100%"
+            name="companySize"
+            options={
+              Array [
+                Object {
+                  "label": "Small enterprises: 10 to 49 employees",
+                  "value": "Small enterprises: 10 to 49 employees",
+                },
+                Object {
+                  "label": "Medium-sized enterprises: 50 to 249 employees",
+                  "value": "Medium-sized enterprises: 50 to 249 employees",
+                },
+                Object {
+                  "label": "Large enterprises: 250 employees or more",
+                  "value": "Large enterprises: 250 employees or more",
+                },
+              ]
+            }
+            placeholder="Choose Company Size"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Card>
+        <Card
+          title="Description"
+        >
+          <Select
+            control={Object {}}
+            error={false}
+            helperText=""
+            label="Description Type"
+            maxWidth="100%"
+            name="descriptionType"
+            options={
+              Array [
+                Object {
+                  "label": "Product Knowledge",
+                  "value": "Product Knowledge",
+                },
+                Object {
+                  "label": "Pricing",
+                  "value": "Pricing",
+                },
+                Object {
+                  "label": "Installation Process",
+                  "value": "Installation Process",
+                },
+                Object {
+                  "label": "AM Contact",
+                  "value": "AM Contact",
+                },
+                Object {
+                  "label": "Others",
+                  "value": "Others",
+                },
+              ]
+            }
+            placeholder="Choose Description Type"
+            required={true}
+            shouldUnregister={false}
+          />
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Please describe your requirements in more detail.."
+            maxLength={1000}
+            minRows={4}
+            multiline={true}
+            name="description"
+            required={true}
+            shouldUnregister={false}
+          />
+        </Card>
+        <Card
+          title="Contact"
+        >
+          <Styled(MuiBox)
+            sx={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": 16,
+              }
+            }
+          >
+            <Select
+              cacheOptions={true}
+              control={Object {}}
+              defaultOptions={true}
+              error={false}
+              helperText=""
+              isSearchable={true}
+              label="Full Name"
+              maxWidth="100%"
+              menuWidth={360}
+              name="name"
+              placeholder="Choose Name"
+              rawValue={true}
+              required={true}
+              shouldUnregister={false}
+            />
+            <Unknown
+              control={Object {}}
+              name="isOtherContact"
+              render={[Function]}
+            />
+          </Styled(MuiBox)>
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Occupation"
+            maxLength={40}
+            name="occupation"
+            required={true}
+            shouldUnregister={false}
+          />
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Phone Number"
+            maxLength={20}
+            name="phone"
+            required={true}
+            shouldUnregister={false}
+            valueMasking={[Function]}
+          />
+          <TextField
+            control={Object {}}
+            disabled={false}
+            error={false}
+            helperText=""
+            label="Business Email"
+            maxLength={50}
+            name="contactEmail"
+            shouldUnregister={false}
+          />
+        </Card>
+        <Card
+          title="Assign Lead"
+        >
+          <RadioGroup
+            alignItems="flex-start"
+            control={Object {}}
+            direction="vertical"
+            error={false}
+            helperText=""
+            name="validBy"
+            options={
+              Array [
+                Object {
+                  "label": <React.Fragment>
+                    <Styled(MuiBox)
+                      maxWidth="100%"
+                      mt={-0.25}
+                      width={190}
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle1"
+                        weight="bold"
+                      >
+                        Sales Team
+                      </Typography>
+                    </Styled(MuiBox)>
+                    <Styled(MuiBox)
+                      ml={-4}
+                      mt={2}
+                    >
+                      <Unknown
+                        control={Object {}}
+                        name="amMapping"
+                        render={[Function]}
+                      />
+                    </Styled(MuiBox)>
+                  </React.Fragment>,
+                  "value": "amMapping",
+                },
+                Object {
+                  "label": <React.Fragment>
+                    <Styled(MuiBox)
+                      maxWidth="100%"
+                      mt={-0.25}
+                      width={220}
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle1"
+                        weight="bold"
+                      >
+                        Other Recipient
+                      </Typography>
+                      <Styled(MuiBox)
+                        mt={0.25}
+                      >
+                        <Typography
+                          className=""
+                          color="general-mid"
+                          inline={true}
+                          variant="subtitle2"
+                          weight="normal"
+                        >
+                          Via email and WhatsApp number
+                        </Typography>
+                      </Styled(MuiBox)>
+                    </Styled(MuiBox)>
+                  </React.Fragment>,
+                  "mb": 1,
+                  "value": "sendEmail",
+                },
+                Object {
+                  "label": <React.Fragment>
+                    <Styled(MuiBox)
+                      maxWidth="100%"
+                      mt={-0.25}
+                      width={220}
+                    >
+                      <Typography
+                        className=""
+                        color="inherit"
+                        inline={false}
+                        variant="subtitle1"
+                        weight="bold"
+                      >
+                        Assigning to MyTEnS
+                      </Typography>
+                    </Styled(MuiBox)>
+                  </React.Fragment>,
+                  "value": "dispatchMyTens",
+                },
+              ]
+            }
+            shouldUnregister={false}
+          />
+        </Card>
+      </div>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Create>
+`;
